@@ -1,0 +1,69 @@
+When all applicable information is gathered, analyzed, and documented and the financial
+institution decides that a SAR is required, the information should be described in the SAR
+Narrative in a concise and chronological format. Include all elements of the five W’s (Who?
+What? When? Where? and Why?) previously discussed in Section 1 of this document, as well
+as any other information that can assist law enforcement.
+We suggest that you divide the narrative into three sections: an introduction, a body, and a
+conclusion.
+Introduction:
+The introductory paragraph can provide:
+• the purpose of the SAR and a general description of the known or alleged violation [In
+some instances, this might warrant mentioning at the outset the type of suspicious activity
+being observed, such as Informal Value Transfer System (IVTS) operations, smurfing,
+shell entities, complex layering activities, structuring, check kiting, embezzlement, etc.];
+• the date of any SAR(s) filed previously on the suspect or related suspects and the reason
+why the previous SAR(s) was filed;
+• whether the SAR is associated with the Office of Foreign Assets Control’s (OFAC)
+sanctioned countries or Specially Designated Nationals and Blocked Persons or other
+government lists for individuals or organizations;
+• any internal investigative numbers used by the financial institution which may be a point
+of reference for law enforcement should the investigators wish to contact the institution;
+and
+• a summary of the “red flags” and suspicious patterns of activity that initiated the SAR.
+(This information should be provided either in the introduction or conclusion of the
+narrative.)
+Body:
+The next paragraph or paragraphs of the narrative can provide all pertinent information −
+supporting why the SAR was filed and might include:
+• any and all relevant facts about the parties (individuals and businesses) who facilitated
+the suspicious activity or transactions. Include any unusual observations such as
+suspected shell entities; financial activities which are not commensurate with the
+expected normal business flows and types of transactions; unusual multiple party relationships; customer verbal statements; unusual and/or complex series of transactions
+indicative of layering; lack of business justification and documentation supporting the
+activity; etc.;
+• a specific description of the involved accounts and transactions, identifying if known,
+both the origination and application of funds (usually identified in chronological order by
+date and amount);
+• breaking out larger volumes of financial activity into categories of credits and debits, and
+by date and amount;
+• transactor and beneficiary information, providing as much detail as possible, including
+the name and location of any involved domestic and/or international financial
+institution(s); names, addresses, account numbers, and any other available identifiers of
+originator and beneficiary transactor(s) and/or third parties or business entities on whose
+behalf the conductor was acting; the date(s) of the transaction(s); and amount(s);
+• an explanation of any observed relationships among the transactors (e.g., shared
+accounts, addresses, employment, known or suspected business relationships and/or
+frequency of transactions occurring amongst them; appearing together at the institution
+and/or counter);
+• specific details on cash transactions that identify the branch(es) where the transaction(s)
+occurred, the type of transaction(s), and how the transaction(s) occurred (e.g., night
+deposit, on-line banking, ATM, etc.); and
+• any factual observations or incriminating statements made by the suspect.
+Conclusion:
+The final paragraph of the narrative can summarize the report and might also include:
+• information about any follow-up actions conducted by the financial institution (e.g.,
+intent to close or closure of accounts, ongoing monitoring of activity, etc.);
+• names and telephone numbers of other contacts at the financial institution if different
+from the point of contact indicated in the SAR;
+• a general description of any additional information related to the reported activity that
+may be made available to law enforcement by the institution; and
+• names of any law enforcement personnel investigating the complaint who are not already
+identified in another section of the SAR. 
+
+Important Reminder:
+Please do not include any supporting documentation with your filed report nor use the terms
+“see attached” in the Narrative Section. When SAR forms are received at the IRS Detroit
+Computing Center (DCC), only information that is in an explicit, narrative format is
+keypunched; thus, tables, spreadsheets or other attachments are not entered into the SAR System
+database. Keep any supporting documentation in your institution’s records for five years. Law
+enforcement will contact you at the appropriate time to review any additional information. 

@@ -1,0 +1,275 @@
+[
+  {
+    "content": "1 1. Internal Revenue Service’s (IRS) CI is the criminal investigation division of the IRS. For more information on CI, see IRS, About Criminal Investigation (Sept. 28, 2022). 2. 31 U.S.C. § 5312(a)(2); 31 CFR § 1010.100(t). 3. The ERC was established in Public Law 116–136 § 2301, and is occasionally referred to as the Employee Retention Tax Credit. It was further amended by the COVID-Related Tax Relief Act of 2020, the American Rescue Plan Act of 2021, and the Infrastructure Investment and Jobs Act of 2021. For more information about the Employee Retention Credit, see generally IRS, COVID-19-Related Employee Retention Credits: Overview (Jan. 31, 2023), and IRS, Employee Retention Credit (last updated Nov. 9, 2023) (“IRS Employee Retention Credit”). 4. Public Law 116–136. 5. IRS, “Employee Retention Credit available for many businesses financially impacted by COVID-19” (last updated Oct. 23, 2023) and “Employee Retention Credit - 2020 vs 2021 Comparison Chart” (Feb. 28, 2023).",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 0
+    }
+  },
+  {
+    "content": "Oct. 23, 2023) and “Employee Retention Credit - 2020 vs 2021 Comparison Chart” (Feb. 28, 2023). Employers may receive up to $26,000 per employee if they meet certain conditions. See IRS, National Taxpayer Advocate, “Objectives Report to Congress Fiscal Year 2024” (June 23, 2023), p. v. Further, over 860,000 business have claimed over $152 billion in credits as of March 3, 2023, and the IRS continues to review claims ahead of the application deadline. See also “Appendix A: COVID-19 Employer Credits Claimed, by Type of Credit” in IRS, Data Book, 2022, (Apr. 14, 2023), p. 75. 6. The general deadline for applying for the ERC for the 2020 tax year is April 15, 2024, and, for the 2021 tax year, it is April 15, 2025. “Is there a deadline to claim the ERC?” in IRS, Frequently Asked Questions about the Employee Retention Credit (last updated Nov. 7, 2023). 7. To be eligible for the ERC, employers must have: (1) sustained a full or partial suspension of operations due to orders from an",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 1
+    }
+  },
+  {
+    "content": "employers must have: (1) sustained a full or partial suspension of operations due to orders from an appropriate governmental authority limiting commerce, travel, or group meetings due to COVID-19 during 2020 or the first three quarters of 2021; (2) experienced a significant decline in gross receipts during 2020 or a decline in gross receipts during the first three quarters of 2021; or (3) qualified as a recovery startup business for the third or fourth quarters of 2021 (“ERC Eligibility Requirements”). For more information on ERC eligibility, see IRS Employee Retention Credit, supra Note 3, at p. 1. For further analysis related to IRS’ backlog and processing delays as a result of the fraudulent claims, see IRS, National Taxpayer Advocate, “Objectives Report to Congress Fiscal Year 2024” (June 23, 2023), p. v. FIN-2023-Alert007 November 22, 2023 FinCEN Alert on COVID-19 Employee Retention Credit Fraud The U.S. Department of the Treasury’s (Treasury) Financial Crimes Enforcement Network",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 2
+    }
+  },
+  {
+    "content": "Credit Fraud The U.S. Department of the Treasury’s (Treasury) Financial Crimes Enforcement Network (FinCEN), in close coordination with Internal Revenue Service Criminal Investigation (CI),1 is issuing this alert to financial institutions2 on fraud schemes related to the COVID-19 Employee Retention Credit (ERC)3 and is urging vigilance in identifying and reporting related suspicious activity. The ERC was authorized by the Coronavirus Aid, Relief, and Economic Security (CARES) Act4 as a tax credit to encourage businesses to keep employees on payroll during the COVID-19 pandemic and was subsequently extended and amended three times.5 CI has identified ongoing fraud and scams related to the ERC that, to date, have resulted in 323 investigations involving more than $2.8 billion of potentially fraudulent ERC claims throughout tax years 2020, 2021, 2022, and 2023.6 Further, these fraudulent claims added to, and disrupted, the IRS’s ERC claim review process, which created a significant",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 3
+    }
+  },
+  {
+    "content": "claims added to, and disrupted, the IRS’s ERC claim review process, which created a significant backlog and caused delays in the processing of legitimate ERC claims filed by eligible businesses.7 While portions of that backlog Suspicious Activity Report (SAR) Filing Request: FinCEN requests that financial institutions reference this alert in SAR field 2 (Filing Institution Note to FinCEN) and the narrative by including the key term “FIN-2023-ERC” and select SAR field 34(z) (Fraud – other). F I N C E N A L E R T 2 have cleared, the IRS has shifted its attention to investigating questionable ERC claims and has placed a moratorium on the filing of any new claims.8 Fraud, including financial crimes related to the COVID-19 pandemic,9 is the largest source of illicit proceeds in the United States, and represents one of the most significant money laundering threats to the United States, as highlighted in the U.S. Department of the Treasury’s most recent National Money Laundering Risk",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 4
+    }
+  },
+  {
+    "content": "as highlighted in the U.S. Department of the Treasury’s most recent National Money Laundering Risk Assessment,10 National Strategy for Combatting Terrorist and other Illicit Financing,11 and Anti-Money Laundering and Countering the Financing of Terrorism (AML/CFT) National Priorities.12 This alert provides an overview of typologies associated with ERC fraud and scams, highlights select red flags to assist financial institutions in identifying and reporting suspicious activity and reminds financial institutions of their reporting requirements under the Bank Secrecy Act (BSA). The information contained in this alert is derived from FinCEN’s analysis of BSA data, open-source reporting, and information provided by law enforcement partners. Trends and Typologies of ERC-Related Financial Crimes Individuals and businesses have fraudulently abused several COVID-19-related assistance programs intended to support eligible businesses.13 The ERC has become a popular target for such fraud as",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 5
+    }
+  },
+  {
+    "content": "intended to support eligible businesses.13 The ERC has become a popular target for such fraud as identified by CI and other law enforcement agencies. Individuals have been known to file fraudulent ERC claims using shell companies or existing but ineligible businesses and, in some cases, have abused the taxpayer-funded program to pay for lavish purchases and personal expenses upon receipt of the credit. 8. IRS Press Release, “IRS Commissioner signals new phase of Employee Retention Credit work; with backlog eliminated, additional procedures will be put in place to deal with growing fraud risk” (July 26, 2023). Further, on Sept. 14, 2023, the IRS Commissioner announced an immediate moratorium through at least Dec. 31 on processing new claims in an effort to protect honest small business owners from scams. See IRS News Release, “To protect taxpayers from scams, IRS orders immediate stop to new Employee Retention Credit processing amid surge of questionable claims; concerns from tax pros”",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 6
+    }
+  },
+  {
+    "content": "new Employee Retention Credit processing amid surge of questionable claims; concerns from tax pros” (Sept. 14, 2023). 9. For previous FinCEN advisories related to COVID-19 fraud, see FinCEN, “Advisory on Financial Crimes Targeting COVID-19 Economic Impact Payments” (Feb. 24, 2021); FinCEN, “Advisory on COVID-19 Health Insurance and Health Care-Related Fraud” (Feb. 4, 2021); FinCEN, “Advisory on Unemployment Insurance Fraud During the Coronavirus Disease 2019 (COVID-19) Pandemic” (Oct. 13, 2020); FinCEN, “Advisory on Imposter Scams and Money Mule Schemes Related to Coronavirus Disease 2019 (COVID-19)” (July 7, 2020). For a complete listing of FinCEN’s COVID-19-related publications, please visit FinCEN’s Coronavirus webpage. 10. Treasury, “National Money Laundering Risk Assessment” (Feb. 2022), pp. 6-7. 11. Treasury, “National Strategy for Combatting Terrorist and Other Illicit Financing” (May 2022), p. 27. 12. FinCEN, “Anti-Money Laundering and Countering the Financing of Terrorism",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 7
+    }
+  },
+  {
+    "content": "(May 2022), p. 27. 12. FinCEN, “Anti-Money Laundering and Countering the Financing of Terrorism National Priorities” (June 30, 2021). 13. Treasury, “National Money Laundering Risk Assessment” (Feb. 2022), pp. 8-11; see also Government Accountability Office (GAO), “COVID Relief: Fraud Schemes and Indicators in SBA Pandemic Programs” (May 18, 2023); GAO, Report to Congressional Committees, “Fraud Schemes and Indicators in SBA Pandemic Programs” (May 18, 2023); Department of Justice (DOJ), U.S. Attorney’s Office, Northern District of Georgia, Press Release, “Stonecrest man sentenced to jail for defrauding the USDA COVID-19 relief program” (Aug. 3, 2021); DOJ, U.S. Attorney’s Office, Northern District of Georgia, Press Release, “Hampton man pleads guilty to seeking fraudulent IRS COVID relief” (Dec. 16, 2021); DOJ, U.S. Attorney’s Office, Middle District of Georgia, Press Release, “Business Owner Sentenced to Prison, Ordered to Pay Restitution, for CARES Act PPP Fraud” (Mar. 17, 2022). F",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 8
+    }
+  },
+  {
+    "content": "Owner Sentenced to Prison, Ordered to Pay Restitution, for CARES Act PPP Fraud” (Mar. 17, 2022). F I N C E N A L E R T 3 Identifying the ERC The ERC is credited through a Treasuryissued check that is mailed to the business address used to apply for the credit and deposited by the recipient. The ERC is not issued via direct deposit. Financial institutions can identify the ERC on Treasury checks as the lower left of the check will reflect the tax quarter and IRS Form associated with the credit (e.g., “F-941”, “F943”, “F-944”, or “F-7200”).14 14. The tax quarter and date are reflected in the lower left of the check and appear consecutively. An example would include “12/2021 F-941” for ERC checks that reflect claims filed for the last tax quarter of 2021, using a Form 941 (“Identifying the ERC”). For more information on forms used to claim an ERC, see “How do I claim the ERC?” in IRS, Frequently Asked Questions about the Employee Retention Credit (last updated Nov. 7, 2023). 15. See",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 9
+    }
+  },
+  {
+    "content": "Frequently Asked Questions about the Employee Retention Credit (last updated Nov. 7, 2023). 15. See generally IRS News Release, “IRS opens 2023 Dirty Dozen with warning about Employee Retention Credit claims; increased scrutiny follows aggressive promoters making offers too good to be true” (May 20, 2023) (“2023 IRS Dirty Dozen”). 16. As highlighted by the IRS, filing a claim for the ERC is a complex process that requires careful review of eligibility requirements before applying. Eligible employers can claim the ERC on an original or amended employment tax return for qualified wages paid between March 13, 2020, and December 31, 2021. Businesses filing a retroactive ERC claim must file an amended employment tax return to claim the credit. The ERC is not a program for which any business can apply to see if it is eligible, and businesses that wrongfully apply may be subject to penalties. IRS, “Employee Retention Credit Eligibility Checklist: Help understanding this complex credit” (last",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 10
+    }
+  },
+  {
+    "content": "“Employee Retention Credit Eligibility Checklist: Help understanding this complex credit” (last updated Sept. 19, 2023). See also IRS, Frequently Asked Questions about the Employee Retention Credit (last updated Nov. 7, 2023). 17. IRS News Release, “IRS alerts businesses, tax-exempt groups of warning signs for misleading Employee Retention scams; simple steps can avoid improperly filing claims” (May 25, 2023) (“IRS Alert May 2023”). 18. IRS, “IRS announces withdrawal process for Employee Retention Credit claims; special initiative aimed at helping businesses concerned about an ineligible claim amid aggressive marketing, scams” (Oct. 19, 2023). See also IRS, “Withdraw an Employee Retention Credit (ERC) claim” (Oct. 19, 2023). As described further below, the IRS has also been made aware of scams related to the ERC in which many businesses have been duped into filing ERC claims by third parties.15 During the 2023 tax season, the IRS noted various scammers appeared throughout the United",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 11
+    }
+  },
+  {
+    "content": "During the 2023 tax season, the IRS noted various scammers appeared throughout the United States using the false pretense of being tax credit experts to convince businesses to file for the ERC. These third-party ERC promoters provided taxpayers with misinformation about the program and their business’ ability to meet the qualification criteria. However, these promoters did not have the basis to make such claims, as they did not evaluate the business’ eligibility and merely saw an opportunity to file additional ERC claims and turn a profit by charging fees related to those claims.16 Promoters have used witting and unwitting businesses as part of these schemes, and ERC fraud victims are at risk of having their claims denied or facing scenarios where they must repay the credit while scammers profit from the claim regardless of its outcome.17 The IRS has provided businesses that have not yet received the credit or those who have received the credit but have not cashed nor deposited their",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 12
+    }
+  },
+  {
+    "content": "received the credit or those who have received the credit but have not cashed nor deposited their refund check with the opportunity to withdraw their filed ERC claims if they assess that they were pressured or misled into filing a claim.18 F I N C E N A L E R T 4 Filing of Fraudulent Claims Use of Fabricated and Dormant Entities Some individuals have fraudulently filed ERC claims with the IRS using fabricated and dormant entities.19 For ERC schemes, CI has observed that dormant entities typically had an EIN20 but did not have any activity and then filed taxes for at least one tax period during the claim period. Case Study Hollywood Man Arrested on Indictment Alleging He Fraudulently Sought over $65 Million in COVID-19 Employment Tax Credits A Hollywood, California man was arrested and arraigned on federal charges alleging he sought more than $65 million from the IRS by falsely claiming on tax returns that his nonexistent farming business was entitled to COVID-19-related tax credits.",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 13
+    }
+  },
+  {
+    "content": "on tax returns that his nonexistent farming business was entitled to COVID-19-related tax credits. Kevin J. Gregory, 55, who is charged in a federal grand jury indictment with 17 counts of making false claims to the IRS, was arrested on May 25, 2023, by special agents with CI. According to the indictment that was returned on May 11 and unsealed on May 26, from November 2020 to April 2022, Gregory made false claims to the IRS for the payment of nearly $65.4 million in tax refunds for a purported Beverly Hills-based farming-and-transportation company named Elijah USA Farm Holdings. The IRS issued a portion of the refunds Gregory claimed, and Gregory allegedly used that portion – more than $2.7 million – for personal expenses.21 Ineligible Businesses As noted previously, there are specific requirements22 that a business must meet to qualify to receive the ERC. Still, business owners may knowingly apply for the ERC hoping that they will obtain an ERC they are not eligible to receive.23",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 14
+    }
+  },
+  {
+    "content": "knowingly apply for the ERC hoping that they will obtain an ERC they are not eligible to receive.23 For example, businesses that received a Paycheck 19. Fabricated entities, i.e., those without a physical location, and certain “shell” companies, are businesses that have been assigned an Employer Identification Number (EIN) by the IRS, but do not appear to exist; these businesses are fictitious entities established for the sole purpose of filing fraudulent returns and receiving fraudulent funds. See FinCEN, Beneficial Ownership Information Reporting Requirements, 87 Fed. Reg. 59498 (Sept. 30, 2022). Dormant entities, occasionally referred to as “shelf” entities, are businesses with minimal to no operational activity or whose financial activity or tax filings show large periods of inactivity followed by brief periods of activity, such as the filing or receipt of a claim. Illicit actors may create these entities and shelve them until an opportune time, such as to capitalize on a tax",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 15
+    }
+  },
+  {
+    "content": "may create these entities and shelve them until an opportune time, such as to capitalize on a tax program. 20. An EIN is also known as a Federal Tax Identification Number and is used by the IRS to identify a business entity. Generally, businesses require an EIN. While there are various ways businesses can apply for an EIN, those that apply online can receive an EIN immediately and at no cost. See IRS, Employer ID Numbers (Updated July 6, 2023). 21. DOJ, U.S. Attorney’s Office, Central District of California, Press Release, “Hollywood Man Arrested on Indictment Alleging He Fraudulently Sought over $65 Million in COVID-19 Employment Tax Credits” (May 26, 2023). 22. See ERC Eligibility Requirements, supra Note 7, at p. 1. 23. According to the IRS, some tax professionals have reported receiving undue pressure from clients to participate and claim the ERC, even when the tax professional believes the client is not entitled to the credit. The IRS has encouraged the tax professional community",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 16
+    }
+  },
+  {
+    "content": "the client is not entitled to the credit. The IRS has encouraged the tax professional community to continue to advise clients not to file ERC claims when the tax professional believes they do not qualify. See 2023 IRS Dirty Dozen, supra Note 15, at p. 3. F I N C E N A L E R T 5 Protection Program (PPP) loan through the IRS during the pandemic cannot use the same wages they counted in the PPP loan to apply for the ERC.24 Despite this, some businesses may file amended tax returns that misrepresent the businesses’ eligibility for the ERC, including falsifying staff wages during the pandemic or their status as a business that had operations fully or partially suspended by government orders during the pandemic.25 Third-Party Promoters Third-party promoters, known as “ERC mills,” have been deploying aggressive marketing tactics such as mail notices designed to look like official IRS communications and advertisements on radio, social media, and television to convince businesses to use the",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 17
+    }
+  },
+  {
+    "content": "and advertisements on radio, social media, and television to convince businesses to use the promoters’ services to apply for the ERC.26 Promoters may also directly contact businesses through mail, phone, or walk-ins, indicating that they are “ERC experts” or tax professionals who have determined the business is missing out on COVID relief funds they are entitled to receive.27 Promotion scams are likely to target established businesses in an attempt to avoid IRS scrutiny in the claim. After convincing the business to apply for the ERC through dishonest tactics, ERC mills will file an ERC claim on behalf of the business, neglecting to inform the business of the eligibility requirements.28 These third-party scammers may refuse to provide detailed information to business owners on how the businesses’ eligibility determination was made and the computations used to determine the ERC amount.29 As a tactic to mitigate liability, the promoters may also avoid signing the ERC return they",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 18
+    }
+  },
+  {
+    "content": "As a tactic to mitigate liability, the promoters may also avoid signing the ERC return they prepared for the business. Promoters typically charge a business a large upfront fee, sometimes upwards of 30-40 percent of the expected ERC, or a fee that is contingent on the amount of the credit.30 Since these promoters are profit-driven, businesses for whom they file may receive an extremely large ERC that is not commensurate with the size of the business. Promoters may also submit claims on behalf of businesses without their knowledge or using stolen information.31 ERC mills may also steal the taxpayer’s personal information from an ERC claim to use in other identity theft schemes.32 24. Wages reported as payroll costs for PPP loan forgiveness or certain other tax credits cannot be claimed for the ERC in any tax period. See Sec. III(I.), “Interaction with Paycheck Protection Program (PPP) Loans” in IRS, “Notice 2021-20” (Mar. 1, 2021), pp. 73-80. 25. Since a business must have been in",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 19
+    }
+  },
+  {
+    "content": "Loans” in IRS, “Notice 2021-20” (Mar. 1, 2021), pp. 73-80. 25. Since a business must have been in operation during the pandemic, businesses that were established after the beginning of 2022 do not qualify for the ERC. Additionally, businesses that closed prior to the COVID-19 pandemic are not eligible to receive ERC benefits. For more information on proper government orders, see “Qualifying Orders” in IRS, Frequently Asked Questions about the Employee Retention Credit (last updated Nov. 7, 2023). 26. IRS News Release, “IRS issues renewed warning on Employee Retention Credit claims; false claims generate compliance risk for people and businesses claiming credit improperly” (Mar. 7, 2023). See also 2023 IRS Dirty Dozen, supra Note 15, at p. 3. 27. See IRS Alert May 2023, supra Note 17, at p. 3. 28. See ERC Eligibility Requirements, supra Note 7, at p. 1. 29. “ERC Scams” in IRS, Frequently Asked Questions about the Employee Retention Credit (last updated Nov. 7, 2023). 30. According to",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 20
+    }
+  },
+  {
+    "content": "Asked Questions about the Employee Retention Credit (last updated Nov. 7, 2023). 30. According to the IRS, businesses should always avoid a tax preparer basing their fee on the amount of the return. See IRS Employee Retention Credit, supra Note 3, at p. 1. 31. DOJ, U.S. Attorney’s Office, District of Utah, Press Release, “Utah County Residents and an Accounting Business Charged in $11 Million COVID-Related Tax Fraud Scheme” (Feb. 3, 2023). 32. See IRS Alert May 2023, supra Note 17, at p. 3. F I N C E N A L E R T 6 Case Study: New Jersey Tax Preparer Arrested for Fraudulently Seeking Over $124 Million in COVID-19 Employment Tax Credits A New Jersey tax preparer was arrested on July 31, 2023, on charges related to fraudulently seeking over $124,000,000 from the IRS by filing over 1,000 tax returns falsely claiming COVID19-related employment tax credits. According to court documents, from November 2020 to May 2023, Leon Haynes of Teaneck, New Jersey, allegedly repeatedly exploited a",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 21
+    }
+  },
+  {
+    "content": "November 2020 to May 2023, Leon Haynes of Teaneck, New Jersey, allegedly repeatedly exploited a program created to help small businesses impacted by the COVID-19 pandemic. Acting as a tax preparer, Haynes allegedly prepared and submitted approximately 1,387 false forms to the IRS claiming COVIDrelated tax credits on behalf of himself and clients. The complaint further alleges that Haynes falsely told his clients that the government was giving out COVID-relief money for businesses and that they were eligible for the money simply because they had a business. Allegedly, without consulting with his clients, Haynes then submitted forms to the IRS on behalf of their businesses that grossly overstated the number of employees and the dollar amount of wages paid. Haynes allegedly submitted similarly false forms for three of his own companies. Based on these and other misrepresentations, Haynes’ conduct allegedly sought approximately $124,751,995 in tax refunds on behalf of his companies and",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 22
+    }
+  },
+  {
+    "content": "conduct allegedly sought approximately $124,751,995 in tax refunds on behalf of his companies and numerous other businesses in his clients’ names. The IRS allegedly mailed Haynes multiple tax refund checks totaling $1,007,966 for his own companies and allegedly disbursed a total of $31.6 million in refunds to Haynes’ clients and himself based on the false tax forms that Haynes submitted. The complaint further alleges that Haynes charged many clients a fee of as much as 15 percent of the refund they received. If convicted, Haynes faces a maximum penalty of three years in prison for each count of aiding and assisting in the preparation of a false return and 20 years in prison for mail fraud. CI, Social Security Administration-Office of the Inspector General, and the U.S. Postal Inspection Service are investigating the case.33 Fraudulent Receipt and Use of ERC Funds Individuals who fraudulently file an ERC claim may deposit the credit into a business account that is funded solely by the",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 23
+    }
+  },
+  {
+    "content": "file an ERC claim may deposit the credit into a business account that is funded solely by the ERC, or into an account with limited prior transactions. Some fraudsters may also deposit the ERC into a personal account as opposed to a business account. Once the ERC is deposited, individuals may use the ill-gotten funds to support lavish vacations or purchase luxury goods. Alternatively, fraudsters may attempt to conceal receipt of these funds upon deposit by transferring the funds elsewhere using peer-to-peer (P2P) services, moving the funds into an online banking institution, or withdrawing the funds as cash through an ATM. Other recipients may attempt to deposit an altered check34 which closely resembles an ERC Treasury-issued check.35 33. DOJ, Office of Public Affairs Press Release, “New Jersey Tax Preparer Arrested for Fraudulently Seeking Over $124 Million in COVID-19 Employment Tax Credits” (July 31, 2023). 34. Altered check are checks that have been modified from their original",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 24
+    }
+  },
+  {
+    "content": "Credits” (July 31, 2023). 34. Altered check are checks that have been modified from their original format. In most instances the fraudsters steal checks and alter the name and address (“Altered Checks”). 35. See Identifying the ERC, supra Note 14, at p. 3. See also FinCEN, “Alert on Nationwide Surge in Mail Theft-Related Check Fraud Schemes Targeting the U.S. Mail” (Feb. 27, 2023). F I N C E N A L E R T 7 Financial Red Flag Indicators of ERC Fraud FinCEN, in coordination with CI, has identified the following financial red flag indicators to assist financial institutions in detecting, preventing, and reporting suspicious transactions associated with ERC fraud, many of which overlap with red flags of financial crimes related to Economic Impact Payments authorized under the CARES Act.36 Because no single financial red flag indicator is determinative of illicit or suspicious activity, financial institutions should consider the surrounding facts and circumstances, such as a customer’s",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 25
+    }
+  },
+  {
+    "content": "institutions should consider the surrounding facts and circumstances, such as a customer’s historical financial activity, whether the transactions are in line with prevailing business practices, and whether the customer exhibits multiple red flags, before determining if a transaction is indicative of ERC fraud or is otherwise suspicious. A business account receives more than one ERC check deposit over multiple days. Small business accounts receive an ERC check deposit that is not commensurate with the size of the business, the number of employees, and the volume of transactions.37 A large ERC is deposited into a business account and is subsequently transferred using P2P services or to an online banking institution, or withdrawn as cash at an ATM. Funds may be subsequently transferred from the account into separate accounts or payments may be made to new businesses that a customer has not had transactions with prior to receiving an ERC check deposit. The account receiving an ERC check",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 26
+    }
+  },
+  {
+    "content": "had transactions with prior to receiving an ERC check deposit. The account receiving an ERC check deposit has no deposits other than Treasury-issued checks, or the account has no regular business transactions.38 A customer attempts to deposit an altered Treasury ERC check, or financial institutions are unable to verify the validity of the checks that customers attempt to deposit.39 The ERC check is deposited into a new business account that did not exist in 2020 or 2021. A new business account is created for an established business, but no other business activity occurs in the account except the deposit of the ERC. This may be indicative of identity theft, where the established business was used as a fraudulent front to file for the ERC. A dormant business account suddenly receives an ERC check deposit. An ERC is deposited into a business account with no payroll history. 36. See “Advisory on Financial Crimes Targeting COVID-19 Economic Impact Payments,” supra Note 9, at p. 2. 37. The",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 27
+    }
+  },
+  {
+    "content": "on Financial Crimes Targeting COVID-19 Economic Impact Payments,” supra Note 9, at p. 2. 37. The amount of the credit depends on several factors including the number of employees; the employer’s payroll and gross receipts; and whether the employer paid any sick or family leave wages. For 2020, Eligible Employers can receive a credit of up to $5,000 per employee for the calendar year. For 2021, Eligible Employers can receive a credit of up to $7,000 per employee for each quarter. See Employee Retention Credit – 2020 vs 2021 Comparison Chart, supra Note 5, at p. 1. 38. See Identifying the ERC, supra Note 14, at p. 3. 39. See Altered Checks, supra Note 34, at p. 6. See also Identifying the ERC, supra Note 14, at p. 3. F I N C E N A L E R T 8 A customer reports or provides documents indicating that their ERC was obtained by a thirdparty firm whose credentials cannot be verified or is the subject of adverse media. Reminder of Relevant BSA Obligations and Tools for U.S. Financial",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 28
+    }
+  },
+  {
+    "content": "is the subject of adverse media. Reminder of Relevant BSA Obligations and Tools for U.S. Financial Institutions Suspicious Activity Reporting Other Relevant BSA Reporting USA PATRIOT ACT Section 314(b) Information Sharing Authority Suspicious Activity Reporting A financial institution is required to file a SAR if it knows, suspects, or has reason to suspect a transaction conducted or attempted by, at, or through the financial institution involves funds derived from illegal activity; is intended or conducted to disguise funds derived from illegal activity; is designed to evade regulations promulgated under the BSA; lacks a business or apparent lawful purpose; or involves the use of the financial institution to facilitate criminal activity.40 All statutorily defined financial institutions may voluntarily report suspicious transactions under the existing suspicious activity reporting safe harbor.41 When a financial institution files a SAR, it is required to maintain a copy of the SAR and",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 29
+    }
+  },
+  {
+    "content": "When a financial institution files a SAR, it is required to maintain a copy of the SAR and the original or business record equivalent of any supporting documentation for a period of five years from the date of filing the SAR.42 Financial institutions must provide any requested SAR and all documentation supporting the filing of a SAR upon request by FinCEN or an appropriate law enforcement or supervisory agency.43 When requested to provide supporting documentation, financial institutions should take special care to verify that a requestor of information is, in fact, a representative of FinCEN or an appropriate law enforcement or supervisory agency. A financial institution should incorporate procedures for such verification into its BSA compliance or AML program. These procedures may include, for example, independent employment verification with the requestor’s field office or face-to-face review of the requestor’s credentials. 40. See 31 CFR §§ 1020.320, 1021.320, 1022.320, 1023.320,",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 30
+    }
+  },
+  {
+    "content": "review of the requestor’s credentials. 40. See 31 CFR §§ 1020.320, 1021.320, 1022.320, 1023.320, 1024.320, 1025.320, 1026.320, 1029.320, and 1030.320. 41. See 31 U.S.C. § 5318(g)(3). Financial institutions may report suspicious transactions regardless of amount involved and still take advantage of the safe harbor. 42. See 31 CFR §§ 1020.320(d), 1021.320(d), 1022.320(c), 1023.320(d), 1024.320(c), 1025.320(d), 1026.320(d), 1029.320(d), 1030.320(d). 43. Id. See also FinCEN, “Suspicious Activity Report Supporting Documentation” (June 13, 2007). F I N C E N A L E R T 9 SAR Filing Instructions SARs, and compliance with other BSA requirements, are crucial to identifying and stopping ERC fraud schemes. FinCEN requests that financial institutions indicate a connection between the suspicious activity being reported and the activities highlighted in this Alert by including the key term “FIN-2023-ERC” in SAR field 2 (Filing Institution Note to FinCEN), as well as in the narrative. Financial",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 31
+    }
+  },
+  {
+    "content": "in SAR field 2 (Filing Institution Note to FinCEN), as well as in the narrative. Financial institutions may highlight additional advisory or alert keywords in the narrative, if applicable. Financial institutions should select SAR Field 34(z) (FRAUD-Other) as the associated suspicious activity type and include the term “Employee Retention Credit” in the text box. Financial institutions also should select all other relevant suspicious activity fields, such as those in SAR Fields 36 (Money Laundering) and 38 (Other Suspicious Activities), if applicable. Financial institutions should include all available information relating to the account and locations involved in the reported activity, identifying information related to other entities and persons involved in the depositing or cashing of suspicious checks and the status of their accounts with the institution. Financial institutions also should provide all available information regarding other domestic and foreign financial institutions",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 32
+    }
+  },
+  {
+    "content": "provide all available information regarding other domestic and foreign financial institutions involved in the activity; where appropriate, financial institutions should consider filing a SAR jointly on shared suspicious activity.44 Other Relevant BSA Reporting Requirements Financial institutions and other entities or persons also may have other relevant BSA reporting requirements to provide information in connection with the subject of this alert. These include obligations related to the Currency Transaction Report (CTR),45 Report of Cash Payments Over $10,000 Received in a Trade or Business (Form 8300),46 Report of Foreign Bank and Financial Accounts (FBAR),47 Report of International Transportation of Currency or Monetary Instruments (CMIR),48 Registration of Money Services Business (RMSB),49 and Designation 44. See 31 CFR §§ 1020.320(e)(1)(ii)(A)(2))(i), 1021.320(e)(1)(ii)(A)(2)), 1022.320(d)(1)(ii)(A)(2), 1023.320(e)(1)(ii)(A)(2)(i), 1024.320(d)(1)(ii)(A)(2),",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 33
+    }
+  },
+  {
+    "content": "1022.320(d)(1)(ii)(A)(2), 1023.320(e)(1)(ii)(A)(2)(i), 1024.320(d)(1)(ii)(A)(2), 1025.320(e)(1)(ii)(A)(2), 1026.320(e)(1)(ii)(A)(2)(i), 1029.320(d)(1)(ii)(A)(2), 1030.320(d)(1)(ii)(A) (2). 45. A report of each deposit, withdrawal, exchange of currency, or other payment or transfer, by, through, or to a financial institution that involves a transaction in currency of more than $10,000. Multiple transactions may be aggregated when determining whether the reporting threshold has been met. See 31 CFR §§ 1010.310-313, 1020.310313, 1021.310-313, 1022.310-313, 1023.310-313, 1024.310-313, and 1026.310-313. 46. A report filed by a trade or business that receives currency in excess of $10,000 in one transaction or two or more related transactions. The transactions are required to be reported on a joint FinCEN/Internal Revenue Service form when not otherwise required to be reported on a CTR. See 31 CFR § 1010.330; 31 CFR § 1010.331. A Form 8300 also may be filed voluntarily for any suspicious",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 34
+    }
+  },
+  {
+    "content": "31 CFR § 1010.330; 31 CFR § 1010.331. A Form 8300 also may be filed voluntarily for any suspicious transaction, even if the total amount does not exceed $10,000. 47. A report filed by a U.S. person that has a financial interest in, or signature or other authority over, foreign financial accounts with an aggregate value exceeding $10,000 at any time during the calendar year. See 31 CFR § 1010.350; FinCEN Form 114. 48. A form filed to report the transportation of more than $10,000 in currency or other monetary instruments into or out of the United States. See 31 CFR § 1010.340. 49. A form filed to register a money services business (MSB) with FinCEN, or to renew such a registration. See 31 CFR § 1022.380. F I N C E N A L E R T 10 of Exempt Person (DOEP).50 These standard reporting requirements may not have an obvious connection to illicit finance, but may ultimately prove highly useful to law enforcement. Form 8300 Filing Instructions When filing a Form 8300 involving a suspicious",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 35
+    }
+  },
+  {
+    "content": "to law enforcement. Form 8300 Filing Instructions When filing a Form 8300 involving a suspicious transaction relevant to this alert, FinCEN requests that the filer select Box 1b (“suspicious transaction”) and include the key term “FIN-2023-ERC” in the “Comments” section of the report. Information Sharing Information sharing among financial institutions is critical to identifying, reporting, and preventing Employee Retention Credit Fraud or other illicit financial activity. Financial institutions and associations of financial institutions sharing information under the safe harbor authorized by section 314(b) of the USA PATRIOT Act are reminded that they may share information with one another regarding individuals, entities, organizations, and countries suspected of possible terrorist financing or money laundering.51 FinCEN strongly encourages such voluntary information sharing. Reporting Third Party ERC Schemes to the IRS or the Department of Justice To report tax-related illegal",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 36
+    }
+  },
+  {
+    "content": "Third Party ERC Schemes to the IRS or the Department of Justice To report tax-related illegal activities relating to ERC claims, submit by fax or mail a completed Form 14242, Report Suspected Abusive Tax Promotions or Preparers and any supporting materials to the IRS Lead Development Center in the Office of Promoter Investigations. Mail: Internal Revenue Service Lead Development Center Stop MS5040 24000 Avila Road Laguna Niguel, CA 92677-3405 Fax: 877-477-9135 Additionally, fraudulent activities can be reported to the Department of Justice’s National Center for Disaster Fraud using the NCDF Disaster Complaint Form. 50. A report filed by banks to exempt certain customers from currency transaction reporting requirements. See 31 CFR § 1010.311. 51. See FinCEN, “Section 314(b) Fact Sheet” (Dec. 2020). F I N C E N A L E R T 11 For Further Information FinCEN’s website at https://www.fincen.gov/ contains information on how to register for FinCEN Updates. Questions or comments regarding the",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 37
+    }
+  },
+  {
+    "content": "contains information on how to register for FinCEN Updates. Questions or comments regarding the contents of this Alert should be addressed to the FinCEN Regulatory Support Section at frc@fincen.gov. If you have immediate information to share with law enforcement regarding this, please contact the CI field office nearest you.52 The mission of the Financial Crimes Enforcement Network is to safeguard the financial system from illicit use, combat money laundering and its related crimes including terrorism, and promote national security through the strategic use of financial authorities and the collection, analysis, and dissemination of financial intelligence. 52. For contact information of a CI field office near you, see CI, “2022 Annual Report” (Nov. 3, 2022), pp. 23-43.",
+    "metadata": {
+      "source_file": "FinCEN_ERC_Fraud_Alert_FINAL508.txt",
+      "chunk_index": 38
+    }
+  }
+]

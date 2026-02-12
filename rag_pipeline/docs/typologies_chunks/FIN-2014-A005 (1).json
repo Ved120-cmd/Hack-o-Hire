@@ -1,0 +1,121 @@
+[
+  {
+    "content": "1 FIN-2014-A005 May 28, 2014 Update on U.S. Currency Restrictions in Mexico: Funnel Accounts and TBML 1. See, FinCEN (June, 2010) Advisory FIN-2010-A007: “Newly Released Mexican Regulations Imposing Restrictions on Mexican Banks for Transactions in U.S. Currency.” 2. See, FinCEN (April, 2011) Advisory FIN-2011-A009: “Information on Narcotics and Bulk Currency Corridors” and (July, 2012) Advisory FIN-2012-A006: “Update on U.S. Currency Restrictions in Mexico.” Restrictions on USD cash transactions in Mexico may have led criminal actors to use additional schemes, such as using “funnel accounts” in conjunction with trade-based money laundering, to launder illicit proceeds. The Financial Crimes Enforcement Network (FinCEN) is issuing this update to advise financial institutions on the increased use of funnel accounts as part of trade-based money laundering conducted by criminal actors following the restrictions on U.S. currency transactions in Mexico. This Advisory provides “red flags”",
+    "metadata": {
+      "source_file": "FIN-2014-A005 (1).txt",
+      "chunk_index": 0
+    }
+  },
+  {
+    "content": "the restrictions on U.S. currency transactions in Mexico. This Advisory provides “red flags” that may assist financial institutions identify and report suspicious funnel account activity. Funnel Account: An individual or business account in one geographic area that receives multiple cash deposits, often in amounts below the cash reporting threshold, and from which the funds are withdrawn in a different geographic area with little time elapsing between the deposits and withdrawals. Background In June 2010, the Mexican government announced regulations limiting deposits of U.S. cash in Mexican banks.1 Several months later, the Mexican government expanded the restrictions to include cash deposits made at exchange houses (casas de cambio) and brokerages (casas de bolsa). In 2011 and 2012, FinCEN issued two advisories that detailed the rise of funnel account use (also known as interstate or out-of-state funnel account activity) as a technique employed by individuals seeking to move illicit",
+    "metadata": {
+      "source_file": "FIN-2014-A005 (1).txt",
+      "chunk_index": 1
+    }
+  },
+  {
+    "content": "funnel account activity) as a technique employed by individuals seeking to move illicit proceeds following the currency restrictions.2 Law enforcement information and Suspicious Activity Reports (SARs) now show that Mexicorelated criminal organizations: (i) continue to employ funnel accounts to move illicit proceeds and (ii) are using funnel accounts to finance the purchase of goods as part of TradeBased Money Laundering (TBML) activity. In some instances, multiple funnel accounts have been observed to transfer funds into a single consolidated account from where the funds are subsequently withdrawn. Criminal organizations use wires and checks issued 2 F I N C E N A D V I S O R Y from funnel accounts to move illicit narcotics proceeds to the accounts of businesses offering trade goods and services as part of trade-based money laundering as further described below. 3. Credit unions that do not have a national presence but participate in shared branching may also be vulnerable to this",
+    "metadata": {
+      "source_file": "FIN-2014-A005 (1).txt",
+      "chunk_index": 2
+    }
+  },
+  {
+    "content": "do not have a national presence but participate in shared branching may also be vulnerable to this activity. 4. For additional information on TBML and potential indicators of TBML activity, see FinCEN (February, 2010) Advisory FIN-2010-A001: “Advisory to Financial Institutions on Filing Suspicious Activity Reports regarding TradeBased Money Laundering.” 5. Money brokers or peso brokers are third parties that seek to purchase drug proceeds located in the United States from Mexican cartels at a discounted rate. Once purchased, money brokers take possession of the drug proceeds that are, in turn, frequently sold to Mexican based businesses seeking U.S. dollars to buy goods from businesses in the United States and in other countries. Schemes such as the use of funnel accounts and TBML are a money laundering concern for both the U.S. and Mexican governments. Funnel Accounts and Trade-Based Money Laundering Typical steps of funnel account activity in conjunction with trade-based money",
+    "metadata": {
+      "source_file": "FIN-2014-A005 (1).txt",
+      "chunk_index": 3
+    }
+  },
+  {
+    "content": "Money Laundering Typical steps of funnel account activity in conjunction with trade-based money laundering include: (I) A U.S. or foreign business owner or other individual, colluding with representatives of a criminal organization, opens an account at banks or credit unions whose accounts can readily receive cash deposits in multiple states through their own branches or through shared branches.3 (II) Multiple individuals acting on behalf of representatives of the criminal organization deposit the cash proceeds of narcotics sales into this account at different bank or credit union branches, often in multiple states geographically distant from the branch in which the account was opened or domiciled. The deposits are kept below $10,000 in order for transactors to avoid identification and record keeping requirements. (III) After a number of deposits have been credited to the account, an intermediary will initiate wire transfers (or issue checks) from the funnel account to a U.S. or",
+    "metadata": {
+      "source_file": "FIN-2014-A005 (1).txt",
+      "chunk_index": 4
+    }
+  },
+  {
+    "content": "an intermediary will initiate wire transfers (or issue checks) from the funnel account to a U.S. or foreign-based business for the purchase of goods that are then shipped to foreign countries for sale. (IV) Once the purchased goods arrive at the destination country, they are sold and the sale proceeds, in the destination country’s currency, are transferred to the drug trafficking or money laundering organization to provide the criminal actors with funds that have been laundered through TBML.4 When the goods in this scheme are sold in Mexico, a drug trafficking organization or its intermediary, often termed a “money broker” or “peso broker,”5 will contract with a U.S. or Mexican business owner to open a funnel account at banks or credit unions whose accounts can readily receive cash deposits in multiple states. The peso broker subsequently directs the deposit of narcotics proceeds into the funnel account and makes payments from this account for the purchase of U.S. and foreign goods.",
+    "metadata": {
+      "source_file": "FIN-2014-A005 (1).txt",
+      "chunk_index": 5
+    }
+  },
+  {
+    "content": "the funnel account and makes payments from this account for the purchase of U.S. and foreign goods. These goods are then shipped to Mexican businesses where they are sold for pesos. In essence, the drug trafficking organization has exchanged the U.S. dollar cash proceeds in the United 3 6. Often termed “operating outside the geographic footprint.” 7. This differs from traditional funnel account activity where cash would otherwise be withdrawn from the account and be provided to the drug trafficking or money laundering organization. States for Mexican pesos in Mexico through the use of a funnel account and TBML. The criminal actors can both repatriate and give a plausible source to the proceeds of illicit activity obtained in the United States through apparently legitimate business transactions. Funnel Accounts and Trade-Based Money Laundering Red Flags A funnel account associated with TBML might manifest one or more of the following red flags: 2 2 An account opened in one state",
+    "metadata": {
+      "source_file": "FIN-2014-A005 (1).txt",
+      "chunk_index": 6
+    }
+  },
+  {
+    "content": "with TBML might manifest one or more of the following red flags: 2 2 An account opened in one state (typically along the Southwest border) receives multiple cash deposits of less than $10,000 by unidentified persons at branches outside of the geographic region where the account is domiciled. The accounts receiving the outof-state deposits can be either individual or business accounts. 2 2 In the case of a business account, the deposits take place in a different geographic region from where the business operates.6 For example, the account of a produce company operating locally in Southern California receives small cash deposits, below the currency reporting threshold, at bank branches in Chicago, Indianapolis, and Minneapolis. 2 2 If questioned, the individuals opening or making deposits to funnel accounts may have no detailed knowledge about the stated business activity of the account, the account holder (in the case of a depositor), or the source of the cash. This is because criminal",
+    "metadata": {
+      "source_file": "FIN-2014-A005 (1).txt",
+      "chunk_index": 7
+    }
+  },
+  {
+    "content": "account holder (in the case of a depositor), or the source of the cash. This is because criminal organizations sometimes pay individuals outside their organization, such as students, itinerant workers, or the un/ under-employed to open or carry out funnel account transactions. 2 2 In the case of a business account receiving out-of-state deposits, the debits do not appear to be related to the stated business activity of the account holder. For example, checks drawn on the account of a produce company are made payable to a leather goods business, or funds are wired from the produce company’s account to a textile manufacturer in China.7 2 2 Checks issued from an account that receives out-of-state cash deposits appear to have different handwriting on the payee and amount lines than the signature line. This may indicate that (i) the checks, originally issued to the account holder, have been pre-signed but the payee and amount lines have been left blank, then (ii) the checks were handed",
+    "metadata": {
+      "source_file": "FIN-2014-A005 (1).txt",
+      "chunk_index": 8
+    }
+  },
+  {
+    "content": "pre-signed but the payee and amount lines have been left blank, then (ii) the checks were handed over to a criminal organization, which then (iii) used the checks to pay U.S. or foreign parties by populating the payee and amount fields. 2 2 Wire transfers or checks issued from a funnel account are deposited into, or cleared through, the U.S. correspondent account of a Mexican bank. In addition to exhibiting funnel account activity, in some cases, checks issued from the U.S. account name a Mexican bank as payee and the checks are either deposited into the Mexican bank’s U.S. correspondent account or are cleared through said correspondent account by cash letter. 4 FinCEN Guidance to U.S. Financial Institutions Because some red flags of funnel accounts and TBML are, in appropriate circumstances, legitimate financial activities, financial institutions should evaluate indicators of potential TBML activity in combination with other red flags and the expected transaction activity for the",
+    "metadata": {
+      "source_file": "FIN-2014-A005 (1).txt",
+      "chunk_index": 9
+    }
+  },
+  {
+    "content": "TBML activity in combination with other red flags and the expected transaction activity for the customer implicated before making determinations of suspiciousness. No one activity by itself is a clear indication of trade-based money laundering. Financial institutions are encouraged to use previous FinCEN advisories as a reference when evaluating potential red flags; FinCEN has published advisories expanding on TBML,8 high intensity drug trafficking areas9 and the impact of U.S. currency restrictions in Mexico.10 As a result of the U.S. currency restrictions in Mexico, illicit actors may utilize one or more different methodologies, including funnel accounts, TBML, or movement through other jurisdictions to repatriate illicit proceeds. Additionally, financial institutions should consider and manage the risk associated with receiving deposits from non-customers or unidentified parties. FinCEN continues to evaluate information on money laundering activities involving transnational",
+    "metadata": {
+      "source_file": "FIN-2014-A005 (1).txt",
+      "chunk_index": 10
+    }
+  },
+  {
+    "content": "FinCEN continues to evaluate information on money laundering activities involving transnational criminal organizations operating in Mexico and the United States and will report, as appropriate, on emerging methods and schemes used to launder criminal proceeds. If a financial institution knows, suspects, or has reason to suspect that a transaction conducted or attempted by, at, or through the financial institution involves funds derived from illegal activity, attempts to disguise funds derived from illegal activity, is designed to evade regulations promulgated under the Bank Secrecy Act, or lacks a business or apparent lawful purpose, the financial institution may be required to file a SAR.11 While the transactional activity that U.S. financial institutions may experience as a result of the Mexican restrictions may not be indicative of criminal activity, U.S. financial institutions should consider this activity in conjunction with other information, including transaction volumes and",
+    "metadata": {
+      "source_file": "FIN-2014-A005 (1).txt",
+      "chunk_index": 11
+    }
+  },
+  {
+    "content": "consider this activity in conjunction with other information, including transaction volumes and source(s) of funds, when determining whether to file a SAR. Financial institutions should continue to be alert to the variety of methods that may be used to move funds linked to the laundering of criminal proceeds and to report that information as appropriate. FinCEN requests financial institutions to include “MX Restriction” in both the Narrative and the Suspicious Activity Information12 sections of SARs to indicate a possible connection between the suspicious activity being reported and the enacted U.S. currency restrictions on Mexican financial institutions. 8. See, FinCEN (February, 2010) Advisory FIN-2010-A001: “Advisory to Financial Institutions on Filing Suspicious Activity Reports regarding Trade-Based Money Laundering.” 9. See, FinCEN (April, 2011) Advisory FIN-2011-A009: “Information on Narcotics and Bulk Currency Corridors.” 10. See, FinCEN Advisories FIN-2010-A007 and",
+    "metadata": {
+      "source_file": "FIN-2014-A005 (1).txt",
+      "chunk_index": 12
+    }
+  },
+  {
+    "content": "on Narcotics and Bulk Currency Corridors.” 10. See, FinCEN Advisories FIN-2010-A007 and FIN-2012-A006. 11. See, e.g., 31 CFR § 1020.320. 12. Financial institutions may include any relevant key terms in the “Other” fields of items 29 through 38, as applicable, of Part II (Suspicious Activity Information) of the SAR. 5 In addition, where the use of funnel accounts and or TBML is suspected in the laundering of criminal proceeds, including specific reference to the terms “Funnel Account” and or “TBML” in the Narrative and Suspicious Activity Information sections of SARs is also requested. Financial institutions may include in SARs any or all terms, “MX Restriction,” “Funnel Account” and or “TBML,” as applicable. Questions or comments regarding the contents of this or any other advisories should be addressed to the FinCEN Resource Center at (800) 767-2825 or (703) 905-3591. Financial institutions wanting to report suspicious transactions that may relate to terrorist activity should call",
+    "metadata": {
+      "source_file": "FIN-2014-A005 (1).txt",
+      "chunk_index": 13
+    }
+  },
+  {
+    "content": "wanting to report suspicious transactions that may relate to terrorist activity should call the Financial Institutions Toll-Free Hotline at (866) 556-3974 (7 days a week, 24 hours a day). The purpose of the hotline is to expedite the delivery of this information to law enforcement. Financial institutions should immediately report any imminent threat to local-area law enforcement officials. 6 APPENDIX I Funnel Account Activity and Trade Based Money Laundering Funnel Account Activity Trade Based Money Laundering S S S S Mexico United States of America New York Philidelphia Chicago Mexican Business Drug Cartel U.S. Business Los Angeles Goods The above graph illustrates how illicit proceeds, through funnel accounts (highlighted in green), may fuel the purchase of goods as part of a Trade Based Money Laundering (TBML) scheme (highlighted in red). engage in a TBML scheme. After receiving the funds that have been deposited into the business’ account, a peso broker, acting as an intermediary,",
+    "metadata": {
+      "source_file": "FIN-2014-A005 (1).txt",
+      "chunk_index": 14
+    }
+  },
+  {
+    "content": "that have been deposited into the business’ account, a peso broker, acting as an intermediary, purchases goods in the United States. The peso broker then coordinates the shipment of the purchased merchandise to Mexico where he/ she has partnered with a Mexican business to sell the goods. In exchange for the merchandise purchased by the peso broker (with drug proceeds), the Mexican business provides the cartel with clean pesos. By engaging in this TBML scheme, the Mexican cartel has laundered and repatriated drug proceeds that had been obtained in the United States. In this example, proceeds from the sale of drugs are deposited (in the form of currency) into the bank account of a business (controlled by a Mexican cartel) that operates exclusively in Los Angeles, CA. Deposits in the account are conducted through bank branches located in cities where the business does not operate because these localities often represent the areas where the illicit proceeds are derived from. In this",
+    "metadata": {
+      "source_file": "FIN-2014-A005 (1).txt",
+      "chunk_index": 15
+    }
+  },
+  {
+    "content": "these localities often represent the areas where the illicit proceeds are derived from. In this example, bank branches used to make deposits into the business’ account are located in Chicago, IL; Philadelphia, PA; and New York, NY. The second part of the example illustrates how the Mexican cartel uses the illicit proceeds, deposited through funnel account activity, to",
+    "metadata": {
+      "source_file": "FIN-2014-A005 (1).txt",
+      "chunk_index": 16
+    }
+  }
+]

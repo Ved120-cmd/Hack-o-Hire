@@ -1,0 +1,247 @@
+[
+  {
+    "content": "1 FIN-2022-Alert003 June 28, 2022 FinCEN and the U.S. Department of Commerce’s Bureau of Industry and Security Urge Increased Vigilance for Potential Russian and Belarusian Export Control Evasion Attempts The Financial Crimes Enforcement Network (FinCEN) and the U.S. Department of Commerce’s Bureau of Industry and Security (BIS)1 are issuing a joint alert2 urging financial institutions3 to be vigilant against efforts by individuals or entities to evade BIS export controls implemented in connection with the Russian Federation’s (Russia) further invasion of Ukraine. This joint alert provides financial institutions with an overview of BIS’s current export restrictions; a list of commodities of concern for possible export control evasion; and select transactional and behavioral red flags to assist financial institutions in identifying suspicious transactions relating to possible export control evasion. This alert further reminds financial institutions of their Bank Secrecy Act (BSA)",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 0
+    }
+  },
+  {
+    "content": "control evasion. This alert further reminds financial institutions of their Bank Secrecy Act (BSA) reporting obligations and details how suspected export control evasion activity may also be reported to BIS enforcement authorities. 1. BIS advances U.S. national security, foreign policy, and economic objectives by ensuring an effective export control and treaty compliance system, and by promoting continued U.S. leadership in strategic technologies. See generally, Bureau of Industry and Security | U.S. Department of Commerce. 2. For previous FinCEN alerts related to Russia’s invasion of Ukraine, see “FinCEN Advises Increased Vigilance for Potential Russian Sanctions Evasion Attempts,” (FinCEN Alert on Russian Sanctions Evasion) (March 7, 2022) and “FinCEN Alert on Real Estate, Luxury Goods, and Other High-Value Assets Involving Russian Elites, Oligarchs, and their Family Members,” (March 16, 2022). For further reference, see also FinCEN “Advisory on Kleptocracy and Foreign Public",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 1
+    }
+  },
+  {
+    "content": "16, 2022). For further reference, see also FinCEN “Advisory on Kleptocracy and Foreign Public Corruption,” (April 14, 2022), which includes a discussion of Russian political corruption. 3. See 31 U.S.C. § 5312(a)(2); 31 CFR § 1010.100(t). 4. Information on the numerous actions taken by BIS in response to Russia’s invasion of Ukraine is available here: Resources on Export Controls Implemented in Response to Russia’s Invasion of Ukraine (last updated June 16, 2022). Overview of Recent BIS Actions in Response to the Invasion of Ukraine Since February 24, 2022, BIS has implemented a series of stringent export controls that restrict Russia’s access to specific technologies and other items that it needs to sustain its military activity in Ukraine.4 These controls primarily target Russia’s defense, aerospace, and maritime sectors. They also include other targets such as Russia’s energy production sector as well as luxury goods used by Russian Suspicious Activity Report (SAR) Filing Request:",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 2
+    }
+  },
+  {
+    "content": "sector as well as luxury goods used by Russian Suspicious Activity Report (SAR) Filing Request: FinCEN requests financial institutions reference this alert in SAR field 2 (Filing Institution Note to FinCEN) and the narrative by including the following key term: “FIN-2022-RUSSIABIS”. 2 F I N C E N & B I S J O I N T A L E R T elites. These controls are aligned with export controls implemented by 37 U.S. allies and partners5 and represent the most comprehensive application of Commerce’s export authorities targeting a single country.6 The United States has also applied restrictions to Belarus in response to its substantial enabling of Russia’s war effort.7 These actions are part of a coordinated international endeavor to apply economic pressure on Russia and Belarus to degrade the military capabilities that Russia uses to wage its war, and to restrict Russia’s access to items that can support the country’s defense industrial base and military and intelligence services.8 They also increase",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 3
+    }
+  },
+  {
+    "content": "the country’s defense industrial base and military and intelligence services.8 They also increase the costs on Russian and Belarusian persons who support the government of Russia and its invasion of Ukraine.9 These recent BIS actions also build on export restrictions that the United States previously established following Russia’s occupation of Crimea in 2014,10 and in response to other malign Russian activities. Some of these prior restrictions remain in effect, while others have been expanded in scope through BIS’s recent regulatory actions. These actions have imposed controls on a range of items subject to the Export Administration Regulations (EAR)11 that had not previously required export licenses when destined for Russia or Belarus. The new controls place significant restrictions on (i) U.S. exports, reexports, and in-country transfers to Russia, and (ii) products destined for Russia and manufactured abroad with certain U.S. technology, software, or tooling. BIS imposed similar",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 4
+    }
+  },
+  {
+    "content": "and manufactured abroad with certain U.S. technology, software, or tooling. BIS imposed similar controls on items subject to the EAR and destined for Belarus, including broad in-country transfer controls. With this joint alert, FinCEN is partnering with BIS to assist U.S. financial institutions in identifying customers and transactions that may pose elevated risks of attempted export control evasion. 5. For a list of countries who have committed to implementing substantially similar export controls on Russia and Belarus under their domestic laws, see 15 CFR, Supplement No. 3 to Part 746. 6. See BIS Press Release, “Commerce Implements Sweeping Restrictions on Exports to Russia in Response to Further Invasion of Ukraine,” (February 24, 2022). 7. See BIS Press Release, “Commerce Imposes Sweeping Export Restrictions on Belarus for Enabling Russia’s Further Invasion of Ukraine,” (March 2, 2022). 8. See White House, “Executive Order on Prohibiting Certain Imports, Exports, and New",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 5
+    }
+  },
+  {
+    "content": "2, 2022). 8. See White House, “Executive Order on Prohibiting Certain Imports, Exports, and New Investment with Respect to Continued Russian Federation Aggression,” (March 11, 2022); White House, “FACT SHEET: United States, European Union, and G7 to Announce Further Economic Costs on Russia,” (March 11, 2022); “Joint Statement by the G7 Announcing Further Economic Costs on Russia,” (March 11, 2022); see also, Commerce & BIS, “Russia and Belarus Rule Fact Sheet,” (March 7, 2022); U.S. Department of the Treasury (Treasury) Press Releases (Treasury Press Release), “Treasury Prohibits Transactions with Central Bank of Russia and Imposes Sanctions on Key Sources of Russia’s Wealth,” (February 28, 2022). 9. See BIS Press Release, “Commerce Restricts the Export of Luxury Goods to Russia and Belarus and to Russian and Belarusian Oligarchs and Malign Actors in Latest Response to Aggression Against Ukraine,” (March 11, 2022). 10. For more information see Resources on Russia-Related Export",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 6
+    }
+  },
+  {
+    "content": "Against Ukraine,” (March 11, 2022). 10. For more information see Resources on Russia-Related Export Controls, supra note 4. 11. The EAR are issued by BIS pursuant to laws relating to the control of certain exports, reexports, and activities. For more information, see 15 CFR §§ 730–774. 3 F I N C E N & B I S J O I N T A L E R T Commodities of Concern Based upon historical information and current developments, BIS has identified the following commodities as presenting special concern because of their potential diversion to and end use by Russia and Belarus to further their military and defense capabilities: Item Export Control Classification Number12 Item Export Control Classification Number Aircraft Parts/ Equipment 9A991 Sonar Systems 6A991 Antennas 7A994 Spectrophotometers 3A999 Breathing Systems 8A992 Test Equipment 3B992 Cameras 6A993 Thrusters 8A992 GPS System 7A994 Underwater Communications 5A991 Inertial Measurement Units 7A994 Vacuum Pumps 2B999 Integrated Circuits 3A001,",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 7
+    }
+  },
+  {
+    "content": "Communications 5A991 Inertial Measurement Units 7A994 Vacuum Pumps 2B999 Integrated Circuits 3A001, 3A991, 5A991 Wafer Fabrication Equipment 3B001, 3B991 Oil Field Equipment EAR99 Wafer Substrates 3C00x BIS remains concerned about exports that support the development of maritime technology, microelectronics, and other technologies that can be used to support Russia’s military and defense sector. As such, all of the items listed above require a BIS license prior to export or reexport to Russia or Belarus. Additionally, the use of certain of these items by third countries to create final products that may be subsequently exported to Russia or Belarus is also prohibited. This is not a complete listing of commodities sought by or prohibited for end-users in Russia and Belarus,13 but this list of commodities that present special concern can assist in the risk-based screening of export-related financial transactions.14 12. See generally, International Trade Administration, Export Control",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 8
+    }
+  },
+  {
+    "content": "financial transactions.14 12. See generally, International Trade Administration, Export Control Classification Number (ECCN) and Export Administration Regulation (EAR99). 13. For a full list of items that now require a license if destined for Russia or Belarus, see 15 CFR Part 746, Supp. Nos. 2, 4, and 5, and Part 774, Supp. No. 1. 14. To support risk-based screening of export-related financial transactions, financial institutions may refer to the Consolidated Screening List (CSL) search engine maintained by the U.S. Department of Commerce’s International Trade Administration (ITA), available online here: https://www.trade.gov/consolidated-screening-list. The CSL is a list of parties for which the United States Government maintains restrictions on certain exports, reexports, or transfers of items and includes multiple export screening lists of the Departments of Commerce, State, and Treasury. 4 F I N C E N & B I S J O I N T A L E R T Applying a Risk-Based Approach to Trade Finance A",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 9
+    }
+  },
+  {
+    "content": "4 F I N C E N & B I S J O I N T A L E R T Applying a Risk-Based Approach to Trade Finance A financial institution may have visibility into various aspects of export-related financial activity, including: 1. Its customer (exporter) receives a letter of credit from its customer (the importer), 2. The financial institution issues a line of credit to its customer (exporter) to facilitate the transaction, or 3. The importer’s wire transfer payment for the export is received by the exporter’s financial institution or handled as part of a correspondent banking transaction. Export-Related Financial Activity Potentially Visible to Financial Institutions Financial institutions, particularly banks but also credit card operators and foreign exchange dealers, may be involved in providing financing, processing payments, or performing other services associated with international trade. These services include, but are not limited to, processing payments for exported goods, issuing lines of credit for",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 10
+    }
+  },
+  {
+    "content": "but are not limited to, processing payments for exported goods, issuing lines of credit for exporters, providing or handling the payments supported by letters of credit, processing payments associated with factoring of accounts receivables by an exporter, providing general credit or working capital loans, and issuing or paying insurance on the shipping and delivery of goods to protect the exporter from nonpayment by the buyer. Financial institutions with customers in maritime or export/import industries should rely on the financial institutions’ internal risk assessments to employ appropriate risk mitigation measures consistent with their underlying BSA obligations. This approach to compliance with the BSA may include appropriate due diligence policies and procedures as required by law and regulation, such as, where applicable, FinCEN’s customer due diligence and beneficial ownership requirements.15 Financial institutions directly involved in providing trade finance for exporters also",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 11
+    }
+  },
+  {
+    "content": "Financial institutions directly involved in providing trade finance for exporters also may have access to information relevant to identifying potentially suspicious activity. This may include their customers’ end-use certificates, export documents, or other more extensive documentation associated with letters of credit-based trade financing. Or it may include information about the other parties to the transactions that may be contained in payment transmittal orders they receive or handle as an intermediary institution, such as Society for Worldwide Interbank Financial Telecommunications (SWIFT) messages, which are increasingly associated with open account trade transactions. For other export-related financial activity potentially visible to financial institutions, see the text box above. 15. See, for example, customer identification program requirements established in 31 CFR § 1010.220 as applicable to specific types of financial institutions in 31 CFR § 1020.220 (banks), § 1023.220",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 12
+    }
+  },
+  {
+    "content": "as applicable to specific types of financial institutions in 31 CFR § 1020.220 (banks), § 1023.220 (broker-dealers), § 1024.220 (mutual funds), and § 1026.220 (futures/commodities). See also the beneficial ownership requirements for legal entity customers established in 31 CFR § 1010.230. 5 F I N C E N & B I S J O I N T A L E R T Select Red Flag Indicators of Export Control Evasion Illicit actors use a variety of methods when trying to acquire items controlled under the EAR.16 To evade scrutiny, illicit actors often attempt to procure EAR99 items—a category generally referring to low-tech consumer goods not specified on the Commerce Control List17 that do not require a license for export, re-export, or transfer to most destinations. Illicit actors also will engage complicit shippers (or customs brokers) to obscure either the nature of the goods or their ultimate destinations, similar to efforts with other illicit goods.18 FinCEN and BIS are providing a select list of potential red",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 13
+    }
+  },
+  {
+    "content": "to efforts with other illicit goods.18 FinCEN and BIS are providing a select list of potential red flag indicators of export control evasion that may be relevant to financial institutions and other covered institutions or persons, including flags derived from recent BSA reporting.19 Consideration of these indicators, in conjunction with conducting appropriate risk-based customer and transactional due diligence, will assist in determining whether an identified activity may be connected to export control evasion.20 As no single financial red flag is necessarily indicative of illicit or suspicious activity, all the surrounding facts and circumstances should be considered before determining whether a specific transaction is suspicious or associated with potential export control evasion. Transactional and Behavioral Red Flags: A customer in the maritime industry transports commodities of concern and uses trade corridors known to serve as possible transshipment points21 for exports to",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 14
+    }
+  },
+  {
+    "content": "concern and uses trade corridors known to serve as possible transshipment points21 for exports to Russia and Belarus. 16. See FinCEN “Advisory to Financial Institutions on Filing Suspicious Activity Reports regarding Trade-Based Money Laundering,” (February 18, 2010); see also FinCEN Alert on Russian Sanctions Evasion, supra note 2. 17. All items on the Commerce Control List (CCL) require export licenses when destined for Russia or Belarus. For more information, see BIS’s webpage on the Commerce Control List. 18. For information on common deceptive shipping practices and general approaches to tailor due diligence and sanctions compliance policies and procedures, see U.S. Department of State, U.S. Department of the Treasury’s Office of Foreign Assets Control (OFAC), and the U.S. Coast Guard, “Sanctions Advisory for the Maritime Industry, Energy and Metals Sectors, and Related Communities,” (May 14, 2020). 19. BIS has a general website available with red flags for identifying efforts to",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 15
+    }
+  },
+  {
+    "content": "(May 14, 2020). 19. BIS has a general website available with red flags for identifying efforts to evade export restrictions and other controls. See Commerce Department BIS, Red Flag Indicators. 20. Consistent with these existing regulatory obligations, financial institutions should take reasonable, risk-based steps to identify and limit any exposure they may have to funds and other assets associated with Russian or Belarussian export control evasion. Such reasonable steps should not, however, put into question a financial institution’s ability to maintain or continue appropriate relationships with customers or other financial institutions and should not be used as the basis to engage in wholesale or indiscriminate de-risking of any class of customers or financial institutions. 21. BIS has identified certain common transshipment points through which restricted or controlled exports have been known to pass before reaching destinations in Russia or Belarus. These points include but are",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 16
+    }
+  },
+  {
+    "content": "been known to pass before reaching destinations in Russia or Belarus. These points include but are not limited to: Armenia, Brazil, China, Georgia, India, Israel, Kazakhstan, Kyrgyzstan, Mexico, Nicaragua, Serbia, Singapore, South Africa, Taiwan, Tajikistan, Turkey, United Arab Emirates, and Uzbekistan. In some instances, controlled U.S. items may be legally exported to these and other jurisdictions as inputs for the production of other finished goods. However, further export to Russia or Belarus of those finished products and goods, potentially through additional transshipment points, may be prohibited. The recent export controls and restrictions on Russia and Belarus may lead to changes in historical transshipment patterns, and BIS is actively monitoring relevant information, including BSA reporting, to identify any such changes. As such, the list is not inclusive of all potential transshipment points, but can assist in the risk-based screening of export-related financial",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 17
+    }
+  },
+  {
+    "content": "transshipment points, but can assist in the risk-based screening of export-related financial transactions. 6 F I N C E N & B I S J O I N T A L E R T The nature of a customer’s underlying business (specifically military or government-related work), type of service(s) or product(s) offered, and geographical presence pose additional risks of unintentional involvement in the evasion of export controls for Russia and Belarus. A customer acquires new vessels for no apparent economic or business purpose or for use in shipping corridors involving one or more of the identified transshipment countries. A customer purchases or sells vessels or other properties and goods identified as having been involved with or being blocked property under U.S. or partner country sanctions. Transactions involving entities with little to no web presence. Transactions involving a change in shipments or payments that were previously scheduled to go to Russia or Belarus, or a company located in Russia or Belarus,",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 18
+    }
+  },
+  {
+    "content": "were previously scheduled to go to Russia or Belarus, or a company located in Russia or Belarus, but that are now going to a different country/company. Transactions involving payments being made from entities located in third-party countries not otherwise involved with the transactions and known to be a potential transshipment point for exports to Russia and Belarus. Last-minute changes to transactions associated with an originator or beneficiary located in Russia or Belarus. Parties to transactions with addresses that do not appear consistent with the business or are otherwise problematic (e.g., either the physical address does not exist, or it is residential). Transactions involving consolidated shipments of luxury goods that previously would have been destined for Russia or Belarus, but are now destined for a transshipment country or a country without restrictions on exports/re-exports to Russia or Belarus. Rapid shifts to new purchasers of transactions involving restricted luxury",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 19
+    }
+  },
+  {
+    "content": "to Russia or Belarus. Rapid shifts to new purchasers of transactions involving restricted luxury goods. Transactions involving freight-forwarding firms22 that are also listed as the product’s final end customer, especially items going to traditional Russian transshipment hubs. Transactions associated with atypical shipping routes for a product and destination. Transactions involving entities whose website or business registration states the entities work on “special purpose projects.”23 Transactions involving companies that display a certificate from the Federal Security Service of the Russian Federation (FSB RF), which allows these companies to work on projects classified as a state secret.24 22. A freight forwarder is a person or company that loads, or charters and loads, any form of transport or a person whose business is to receive and forward goods. The goods are often sent in a container for multimodal transport. See generally BIS, Freight Forwarder Guidance. 23. The phrase",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 20
+    }
+  },
+  {
+    "content": "a container for multimodal transport. See generally BIS, Freight Forwarder Guidance. 23. The phrase “special purpose projects” is a Russian designation that typically means for military use. 24. Companies will typically display this certificate on the Russian language version of their website. 7 F I N C E N & B I S J O I N T A L E R T Transactions involving companies that are physically co-located with or have shared ownership with an entity on the BIS Entity List25 or the Department of the Treasury’s Specially Designated Nationals and Blocked Persons List.26 New or existing accounts and transactions by individuals with previous convictions for violating U.S. export control laws, particularly if appearing to involve export and import activities or services. When combined with other derogatory information, large dollar or volume purchases, including through the use of business credit cards, of items designated as EAR99 (or large volume or dollar purchases at wholesale",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 21
+    }
+  },
+  {
+    "content": "credit cards, of items designated as EAR99 (or large volume or dollar purchases at wholesale electrical/industrial merchants, electrical parts and equipment providers, or electronic parts providers), in the United States or abroad, especially if paired with purchases at shipping companies. Companies or individuals with links to Russian state-owned corporations (including shared ownership, as well as branches of, subsidiaries of, or shareholders in such state-owned corporations) involved in export-related transactions or the provision of export-related services.27 Export transactions identified through correspondent banking activities involving nonU.S. parties that have shared owners or addresses with Russian state-owned entities or designated companies. Use of business checking or foreign exchange accounts by U.S.-based merchants involved in the import and export of electronic equipment where transactions are conducted with thirdcountry-based electronics and aerospace firms that also",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 22
+    }
+  },
+  {
+    "content": "where transactions are conducted with thirdcountry-based electronics and aerospace firms that also have offices in Russia or Belarus. Transactions identified through correspondent banking activities connected to Russian petroleum-related firms or firms that resell electronics and other similar items to Russian firms. 25. The BIS Entity List is a list of certain foreign persons—including businesses, research institutions, government and private organizations, individuals, and other types of legal persons—that are subject to specific license requirements for the export, reexport and/or transfer (in-country) of specified items. These persons comprise the Entity List, which is found in Supplement No. 4 to Part 744 of the EAR. The persons on the Entity List are subject to licensing requirements and policies supplemental to those found elsewhere in the EAR. 26. Addresses may be searched via the Consolidated Screening List search engine. See supra note 14. 27. Companies linked to the Russian",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 23
+    }
+  },
+  {
+    "content": "Consolidated Screening List search engine. See supra note 14. 27. Companies linked to the Russian state may have the following designations within their business name: RAO (Rossiyskaya Aktsionernaya Kompaniya), which designates a Russian joint stock company; FGUP/FSUE (Federal’noye Gosudarstvennoye Unitarnoye Predpriyatiye), which designates a Russian Federal State Unitary Enterprise; GK (Gorsudarstvennaya Korporatsiya), which designates a Russian State Corporation; SPRE/NIPP (Nauchno-Issledovatel’skoye Proizvodstvennoye Predpriyatiye), which designates a Russian Scientific Research Production Enterprise; and NPO/GNPO (Gosudarstvennyy Nauchno-Proizvodstvennyy Tsentr), which designates a Russian State Research and Production Center. 8 F I N C E N & B I S J O I N T A L E R T Reminder of Relevant BSA Obligations for U.S. Financial Institutions28 Suspicious Activity and Other BSA Reporting A financial institution is required to file a SAR if it knows, suspects, or has reason to suspect a",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 24
+    }
+  },
+  {
+    "content": "A financial institution is required to file a SAR if it knows, suspects, or has reason to suspect a transaction conducted or attempted by, at, or through the financial institution involves funds derived from illegal activity, or attempts to disguise funds derived from illegal activity; is designed to evade regulations promulgated under the BSA; lacks a business or apparent lawful purpose; or involves the use of the financial institution to facilitate criminal activity, including sanctions or export control evasion.29 All statutorily defined financial institutions may voluntarily report suspicious transactions under the existing suspicious activity reporting safe harbor.30 When a financial institution files a SAR, it is required to maintain a copy of the SAR and the original or business record equivalent of any supporting documentation for a period of five years from the date of filing the SAR.31 Financial institutions must provide any requested SAR and all documentation supporting the",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 25
+    }
+  },
+  {
+    "content": "SAR.31 Financial institutions must provide any requested SAR and all documentation supporting the filing of a SAR upon request by FinCEN or an appropriate law enforcement or supervisory agency.32 When requested to provide supporting documentation, financial institutions should take special care to verify that a requestor of information is, in fact, a representative of FinCEN or an appropriate law enforcement or supervisory agency. A financial institution should incorporate procedures for such verification into its BSA compliance or AML program. These procedures may include, for example, independent employment verification with the requestor’s field office or face-to-face review of the requestor’s credentials. SAR Filing Instructions FinCEN requests that financial institutions reference this alert by including the key term “FIN2022-RUSSIABIS” in SAR field 2 (Filing Institution Note to FinCEN) and the narrative to indicate a connection between the suspicious activity being reported and",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 26
+    }
+  },
+  {
+    "content": "and the narrative to indicate a connection between the suspicious activity being reported and the activities highlighted in this alert. Financial institutions may highlight additional advisory or alert keywords in the narrative, if applicable. FinCEN also requests that financial institutions check box 38(z) (Other Suspicious Activity) and note “Russia Export Restrictions Evasion”. If known, please also indicate in field 45(z) (Other Product Types) the appropriate North American Industry Code(s) (NAICs) for the involved product, and/or the appropriate financial instrument or payment mechanism in field 46. 28. For additional relevant guidance, see Reminder of Relevant BSA Obligations and Tools for U.S. Financial Institutions from FinCEN’s second Russia-related Alert, supra note 2. 29. See 31 CFR §§ 1020.320, 1021.320, 1022.320, 1023.320, 1024.320, 1025.320, 1026.320, 1029.320, and 1030.320. All financial institutions with these SAR filing requirements also may file a SAR regardless of",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 27
+    }
+  },
+  {
+    "content": "All financial institutions with these SAR filing requirements also may file a SAR regardless of the amount involved (if any) and regardless of whether the transaction was completed or only attempted. 30. See 31 U.S.C. § 5318(g)(3). 31. See 31 CFR §§ 1020.320(d), 1021.320(d), 1022.320(c), 1023.320(d), 1024.320(c), 1025.320(d), 1026.320(d), 1029.320(d), 1030.320(d). 32. Id; see also FinCEN, “Suspicious Activity Report Supporting Documentation,” (June 13, 2007). 9 F I N C E N & B I S J O I N T A L E R T Financial institutions wanting to expedite their report of suspicious transactions that may relate to the activity noted in this alert should call the Financial Institutions Toll-Free Hotline at (866) 556-3974 (7 days a week, 24 hours a day).33 Financial institutions should include any and all available information relating to the products or services involved in the suspicious activity, including all available transportation and trade financing documentation, accounts and locations",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 28
+    }
+  },
+  {
+    "content": "including all available transportation and trade financing documentation, accounts and locations involved, identifying information and descriptions of any legal entities or arrangements involved or associated with beneficial owners, and any information about related persons or entities (including transportation companies or services) involved in the activity. Financial institutions also should provide any and all available information regarding other domestic and foreign financial institutions and businesses or persons involved in the activity. Where appropriate, financial institutions should consider filing a SAR jointly on shared suspicious activity.34 Other Relevant BSA Reporting Requirements Financial institutions and other covered institutions or persons also may have other relevant BSA reporting requirements that provide information in connection with the subject of this alert.35 These include obligations related to the Currency Transaction Report (CTR),36 Report of Cash",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 29
+    }
+  },
+  {
+    "content": "These include obligations related to the Currency Transaction Report (CTR),36 Report of Cash Payments Over $10,000 Received in a Trade or Business (Form 8300),37 Report of Foreign Bank and Financial Accounts (FBAR),38 Report of International Transportation of Currency or Monetary Instruments (CMIR),39 Registration of Money Service Business (RMSB),40 and 33. The purpose of the hotline is to expedite the delivery of this information to law enforcement. Financial institutions should immediately report any imminent threat to local-area law enforcement officials. 34. See 31 CFR §§ 1020.320(e)(1)(ii)(A)(2))(i), 1021.320(e)(1)(ii)(A)(2)), 1022.320(d)(1)(ii)(A)(2), 1023.320(e)(1)(ii)(A)(2)(i), 1024.320(d)(1)(ii)(A)(2), 1025.320(e)(1)(ii)(A)(2), 1026.320(e)(1)(ii)(A)(2)(i), 1029.320(d)(1)(ii)(A)(2), 1030.320(d)(1)(ii)(A)(2). 35. BSA reporting refers to legal requirements that financial institutions and certain businesses and persons report certain financial transactions (such as large-dollar",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 30
+    }
+  },
+  {
+    "content": "and certain businesses and persons report certain financial transactions (such as large-dollar cash transactions), suspicious activity, or other information (such as information on a taxpayer’s foreign bank and financial accounts) to FinCEN “that are highly useful in (A) criminal, tax, or regulatory investigations, risk assessments, or proceedings; or (B) intelligence or counterintelligence activities, including analysis, to protect against terrorism;” 31 U.S.C. § 5311(1). 36. A report of each deposit, withdrawal, exchange of currency or other payment or transfer, by, through, or to the reporting financial institution which involves a transaction in currency of more than $10,000, in aggregate per business day. 31 CFR §§ 1010.310-313, 1020.310-313, 1021.310-313, 1022.310-313, 1023.310-313, 1024.310-313, 1026.310-313. 37. A report filed by any U.S. person engaged in a trade or business on the receipt of more than $10,000 in currency in one transaction or two or more related transactions",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 31
+    }
+  },
+  {
+    "content": "the receipt of more than $10,000 in currency in one transaction or two or more related transactions involving the trade or business. Such transactions are required to be reported on joint FinCEN/IRS Form 8300 when not otherwise required to be reported under the CTR requirements. 31 CFR §§ 1010.330, 1010.331 (Clerks of the Court). 38. A U.S. person that has a financial interest in or signature authority over foreign financial accounts must file an FBAR if the aggregate value of the foreign financial accounts exceeds $10,000 at any time during the calendar year, as specified in 31 CFR § 1010.350 and FinCEN Form 114. 39. Each person (i.e., an individual or legal entity), as defined in 31 CFR § 1010.100(mm), that transports, ships, or mails more than $10,000 of currency or other monetary instruments into or out of the United States must file a CMIR. 31 CFR § 1010.340. 40. Report for a business required to register with FinCEN as a money services business, as defined in 31 CFR §",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 32
+    }
+  },
+  {
+    "content": "a business required to register with FinCEN as a money services business, as defined in 31 CFR § 1010.100(ff), or renewing the registration. 31 CFR § 1022.380. 10 F I N C E N & B I S J O I N T A L E R T Designation of Exempt Person (DOEP).41 These standard reporting requirements may not have an obvious connection to Russia-related illicit finance, but may ultimately prove highly useful to law enforcement. Form 8300 Filing Instructions Covered institutions or persons may file a Form 8300 voluntarily for any suspicious transaction, even if the total amount does not exceed $10,000.42 When filing a Form 8300 involving a suspicious transaction relevant to this alert, FinCEN requests that the filer select Box 1b (“suspicious transaction”) and include the key term “FIN-2022-RUSSIABIS” in the “Comments” section of the report. Additional Reporting Options for Suspected Export Control Evasion In addition to filing a SAR, financial institutions may wish to consider reporting suspected export",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 33
+    }
+  },
+  {
+    "content": "In addition to filing a SAR, financial institutions may wish to consider reporting suspected export control evasion activity directly to BIS through its web-based confidential Enforcement Lead/Tip form, located at the following webpage: https://bis.doc.gov/index.php/component/rsform/form/14-reporting-violationsform?task=forms.edit. Alternatively, suspected violations may be reported via email to EELEAD@bis.doc.gov or to the BIS Enforcement Hotline: 800-424-2980. For Further Information Questions or comments regarding the contents of this alert should be sent to the FinCEN Regulatory Support Section at frc@fincen.gov. 41. Report for banks, as defined in 31 CFR § 1010.100(d), to exempt certain customers from currency transaction reporting in accordance with 31 CFR § 1010.311. See 31 CFR § 1020.315. 42. For filing instructions related to Form 8300, see FinCEN/IRS Form 8300 Filing Instructions (Rev. 9-2014).",
+    "metadata": {
+      "source_file": "FinCEN and BIS Joint Alert FINAL.txt",
+      "chunk_index": 34
+    }
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "content": "Bank investigation file number AA67325.\nThis SAR is being filed to summarize suspicious cash deposits and wire\ntransfer activity conducted by John Doe, account #12345678910. John\nDoe has been a bank customer since April 2000. Mr. Doe is a college\nstudent and employed part-time at Quickie Car Wash.\nCash deposits to Mr. Doe’s personal checking account are structured to\npossibly circumvent federal reporting requirements. The deposits are\nfollowed by immediate wire transfers to Aussie Bank in Sydney, Australia\nto a single beneficiary, Jennifer Doe, account #981012345, with an\naddress located in Australia. Specifically the following activity has been\nobserved: cash deposits (dates followed by amounts): 03/15/02 \n16\n$9,950.00; 03/17/02 $9,700.00; 03/18/02 $10,000; total: $29,650. Wire\ntransfers out (dates followed by amounts): 03/16/02 $9,900.00, 03/18/02\n$9,700.00, 03/19/02 $9,900.00. The volume and frequency of the\ndeposits is not consistent with previous banking transactions conducted",
+    "metadata": {
+      "source_file": "sar3.txt",
+      "chunk_index": 0
+    }
+  },
+  {
+    "content": "deposits is not consistent with previous banking transactions conducted\nby Mr. Doe. The amounts of currency do not appear consistent with the\ncustomer’s stated employment. Also, the relationship between the\ncustomer and Jennifer Doe and the purpose for the wire activity is\nunknown.\nTherefore, due to the structured cash deposits by the customer on almost\nconsecutive days into the account, and the immediate wire transfer of the\nfunds out of the account to Jennifer Doe, Aussie bank, account\n#891012345, Sydney Australia, this SAR is being filed. Investigation is\ncontinuing.\nThe bank’s financial intelligence unit in Big City, FL, maintains all records\nrelated to this SAR.",
+    "metadata": {
+      "source_file": "sar3.txt",
+      "chunk_index": 1
+    }
+  }
+]

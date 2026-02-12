@@ -1,0 +1,96 @@
+The information generated from SAR filings plays an important role in identifying potential
+illegal activities such as money laundering and terrorist financing, and assists law enforcement in
+detecting and preventing the flow of illicit funds through our financial system. It is critical that
+the information provided in a SAR filing be as accurate and complete as possible. The SAR
+form should include any information readily available to the filing institution obtained through
+the account opening process and during due diligence efforts.
+In general, a SAR narrative should identify the five essential elements of information – who?
+what? when? where? and why? – of the suspicious activity being reported. The method of
+operation (or how?) is also important and should be included in the narrative.
+
+Who is conducting the suspicious activity?
+While one section of the SAR form calls for specific suspect information,3
+ the narrative should
+be used to further describe the suspect or suspects, including occupation, position or title within
+the business, and the nature of the suspect’s business(es). If more than one individual or
+business is involved in the suspicious activity, identify all suspects and any known relationships
+amongst them in the Narrative Section. While detailed suspect information may not always be
+available (e.g., in situations involving non-account holders), such information should be included
+to the maximum extent possible. Addresses for suspects are important; filing institutions should
+note not only the suspect’s primary street addresses, but also, other known addresses, including
+any post office box numbers and apartment numbers when applicable. Any identification
+numbers associated with the suspect(s) other than those provided earlier are also beneficial, such
+as passport, alien registration, and driver’s license numbers.
+What instruments or mechanisms are being used to facilitate the suspect transaction(s)?
+An illustrative list of instruments or mechanisms that may be used in suspicious activity
+includes, but is not limited to, wire transfers, letters of credit and other trade instruments,
+correspondent accounts, casinos, structuring, shell companies, bonds/notes, stocks, mutual funds,
+insurance policies, travelers checks, bank drafts, money orders, credit/debit cards, stored value
+cards, and/or digital currency business services. 
+In addition, a number of different methods may be employed for initiating the negotiation of
+funds such as the Internet, phone access, mail, night deposit box, remote dial-up, couriers, or
+others. In summarizing the flow of funds, always include the source of the funds (origination)
+that lead to the application for, or recipient use of, the funds (as beneficiary). In documenting the
+movement of funds, identify all account numbers at the financial institution affected by the
+suspicious activity4
+ and when possible, provide any account numbers held at other institutions
+and the names/locations of the other financial institutions, including MSBs and foreign
+institutions involved in the reported activity.
+When did the suspicious activity take place?
+If the activity takes place over a period of time, indicate the date when the suspicious activity
+was first noticed and describe the duration of the activity. Filers will often provide a tabular
+presentation of the suspicious account activities (transactions in and out). While this information
+is useful and should be retained, do not insert objects, tables, or pre-formatted spreadsheets when
+filing a SAR. These items may not convert properly when keyed in or merged into the SAR
+System. Also, in order to better track the flow of funds, individual dates and amounts of
+transactions should be included in the narrative rather than just the aggregated amount.
+Where did the suspicious activity take place?
+Use the Narrative Section to indicate that multiple offices of a single financial institution were
+involved in the suspicious activity and provide the addresses of those locations.
+Specify if the suspected activity or transaction(s) involve a foreign jurisdiction. If so, provide
+the name of the foreign jurisdiction, financial institution, address and any account numbers
+involved in, or affiliated with the suspected activity or transaction(s).
+Why does the filer think the activity is suspicious?
+We suggest that you first describe briefly your industry or business – depository institution,
+casino, mortgage broker, securities broker, insurance, real estate, investment services, money
+remitter, check casher, etc. Then describe, as fully as possible, why the activity or transaction is
+unusual for the customer; consider the types of products and services offered by your industry,
+and the nature and normally expected activities of similar customers. 
+Examples of some common patterns of suspicious activity are:
+• a lack of evidence of legitimate business activity, or any business operations at all,
+undertaken by many of the parties to the transaction(s);
+• unusual financial nexuses and transactions occurring among certain business types (e.g.,
+food importer dealing with an auto parts exporter);
+• transactions that are not commensurate with the stated business type and/or that are
+unusual and unexpected in comparison with the volumes of similar businesses operating
+in the same locale;
+• unusually large numbers and/or volumes of wire transfers and/or repetitive wire transfer
+patterns;
+• unusually complex series of transactions indicative of layering activity involving multiple
+accounts, banks, parties, jurisdictions;
+• suspected shell entities;
+• bulk cash and monetary instrument transactions;
+• unusual mixed deposits of money orders, third party checks, payroll checks, etc., into a
+business account;
+• transactions being conducted in bursts of activities within a short period of time,
+especially in previously dormant accounts;
+• transactions and/or volumes of aggregate activity inconsistent with the expected purpose
+of the account and expected levels and types of account activity conveyed to the financial
+institution by the accountholder at the time of the account opening;
+• beneficiaries maintaining accounts at foreign banks that have been subjects of previous
+SAR filings;
+• parties and businesses that do not meet the standards of routinely initiated due diligence
+and anti-money laundering oversight programs (e.g., unregistered/unlicensed businesses);
+• transactions seemingly designed to, or attempting to avoid reporting and recordkeeping
+requirements; and 
+• correspondent accounts being utilized as “pass-through” points by foreign jurisdictions
+with subsequent outgoing funds to another foreign jurisdiction.5
+How did the suspicious activity occur?
+Use the Narrative Section to describe the “modus operandi” or the method of operation of the
+subject conducting the suspicious activity. In a concise, accurate and logical manner, describe
+how the suspect transaction or pattern of transactions was committed. Provide as completely as
+possible a full picture of the suspicious activity involved. For example, if what appears to be
+structuring of currency deposits is matched with outgoing wire transfers from the accounts, the
+SAR narrative should include information about both the structuring and outbound transfers
+(including dates, destinations, amounts, accounts, frequency, and beneficiaries of the funds
+transfers). 

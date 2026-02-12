@@ -1,3 +1,7 @@
 fitz
 PyMuPDF
 langchain
+sentence-transformers
+torch
+chromadb 
+python-dotenv

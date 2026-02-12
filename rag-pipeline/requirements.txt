@@ -1,11 +1,9 @@
 fitz
 PyMuPDF
 langchain
-<<<<<<< HEAD
 sentence-transformers
 torch
 chromadb 
 python-dotenv
-=======
 langchain-text-splitters
->>>>>>> 2fe7b075650419b5afd94de1b398470fb69c7abc
+

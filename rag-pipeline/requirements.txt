@@ -1,3 +1,4 @@
 fitz
 PyMuPDF
 langchain
+langchain-text-splitters

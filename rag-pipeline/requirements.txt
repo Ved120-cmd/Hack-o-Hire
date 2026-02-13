@@ -9,6 +9,7 @@ langchain
 sentence-transformers
 langchain-huggingface
 langchain-community
+langchain-chroma
 torch
 
 # Vector store

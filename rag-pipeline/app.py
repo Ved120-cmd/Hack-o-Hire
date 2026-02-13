@@ -1,91 +1,57 @@
+from langchain_chroma import Chroma
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.output_parsers import StrOutputParser
+from langchain_community.chat_models import ChatOllama
 import streamlit as st
-import chromadb
-from chromadb.config import Settings
-from sentence_transformers import SentenceTransformer
+from dotenv import load_dotenv
+load_dotenv()
 
-# ==========================================================
-# CONFIGURATION
-# ==========================================================
-CHROMA_DB_PATH = r"/Users/shravnithakur/Desktop/Hack-o-Hire/rag-pipeline/vector_store"
-COLLECTION_NAME = "sar_regulatory_chunks"
-EMBEDDING_MODEL_NAME = "intfloat/e5-base-v2"
-TOP_K = 5
+persist_directory = "chroma_db"
+embeddings = HuggingFaceEmbeddings(
+    model_name = "sentence-transformers/all-MiniLM-L6-v2"
+)
+vectorstore = Chroma(
+    persist_directory = persist_directory,
+    embedding_function = embeddings
+)
 
-# ==========================================================
-# LOAD MODEL
-# ==========================================================
-@st.cache_resource
-def load_model():
-    st.info("Loading embedding model...")
-    model = SentenceTransformer(EMBEDDING_MODEL_NAME, device="cpu")
-    st.success("Model loaded.")
-    return model
+retriever = vectorstore.as_retriever(search_kwargs = {"k":3})
 
-model = load_model()
+# prompt template 
+prompt = ChatPromptTemplate.from_messages(
+    [
+        (
+            "system",
+            "You are a helpful assistant. Answer clearly and concisely."
+        ),
+        (
+            "human",
+            "Context: \n {context} \n\n Question: {question}"
+        )
+    ]
+)
+# streamlit framework
+st.title('RAG Demo')
+input_text = st.text_input("Search the topic you want")
 
-# ==========================================================
-# CONNECT TO CHROMA
-# ==========================================================
-@st.cache_resource
-def get_collection():
-    client = chromadb.PersistentClient(
-        path=CHROMA_DB_PATH,
-        settings=Settings(anonymized_telemetry=False)
-    )
-    collection = client.get_or_create_collection(
-        name=COLLECTION_NAME,
-        metadata={"hnsw:space": "cosine"}
-    )
-    return collection
+# Ollama llm
+llm = ChatOllama(
+    model="gemma3",
+    temperature=1
+)
+output_parser = StrOutputParser()
+chain = prompt | llm | output_parser
 
-collection = get_collection()
+def format_docs(docs):
+    return "\n\n".join(doc.page_content for doc in docs)
 
-# ==========================================================
-# UTILS
-# ==========================================================
-def prepare_text(text: str) -> str:
-    return f"passage: {text.strip()}"
+if input_text:
+    relevant_docs = retriever.invoke(input_text)
+    context = format_docs(relevant_docs)
 
-def retrieve(query: str, top_k: int = TOP_K):
-    query_embedding = model.encode(
-        prepare_text(query),
-        convert_to_numpy=True,
-        normalize_embeddings=True
-    )
-
-    results = collection.query(
-        query_embeddings=query_embedding.tolist(),
-        n_results=top_k,
-        include=["documents", "metadatas"]
-    )
-
-    hits = []
-    for doc, meta in zip(results["documents"][0], results["metadatas"][0]):
-        hits.append({
-            "document": doc,
-            "metadata": meta
-        })
-    return hits
-
-# ==========================================================
-# STREAMLIT UI
-# ==========================================================
-st.title("📄 SARS Regulatory Document Retrieval")
-st.write("Enter a query and get the most relevant chunks from your SARS documents.")
-
-query = st.text_input("Enter your query:", "")
-
-if st.button("Retrieve") and query.strip():
-    with st.spinner("Retrieving..."):
-        results = retrieve(query, top_k=TOP_K)
-
-    if not results:
-        st.warning("No results found. Make sure the collection has embedded data.")
-    else:
-        st.success(f"Top {len(results)} results:")
-        for i, hit in enumerate(results, 1):
-            st.markdown(f"### Result {i}")
-            st.markdown(f"**Source file:** {hit['metadata']['source_file']}")
-            st.markdown(f"**Chunk index:** {hit['metadata']['chunk_index']}")
-            st.markdown(f"**Content:** {hit['document']}")
-            st.divider()
+    response = chain.invoke({
+        "context": context,
+        "question": input_text
+    })
+    st.write(response)

@@ -148,7 +148,7 @@ const SEVERITY_COLORS = {
 };
 
 // ─── GOVERNANCE HEADER ──────────────────────────────────────────────────────
-function GovernanceHeader({ user, sessionTime }) {
+function GovernanceHeader({ user, sessionTime, onLogout }) {
   return (
     <header
       style={{
@@ -299,6 +299,42 @@ function GovernanceHeader({ user, sessionTime }) {
             Purpose: {user.purpose}
           </span>
         </div>
+        <button
+          onClick={onLogout}
+          style={{
+            background: "#FFFFFF",
+            color: "#DC2626",
+            border: "1px solid #FEE2E2",
+            borderRadius: 6,
+            padding: "6px 14px",
+            fontSize: 12,
+            display: "flex",
+            alignItems: "center",
+            gap: 6,
+            cursor: "pointer",
+            fontFamily: "'IBM Plex Sans', system-ui, sans-serif",
+            transition: "all 0.15s",
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.background = "#FEF2F2";
+            e.currentTarget.style.borderColor = "#FCA5A5";
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.background = "#FFFFFF";
+            e.currentTarget.style.borderColor = "#FEE2E2";
+          }}
+        >
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+            <path
+              d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+          Logout
+        </button>
       </div>
     </header>
   );
@@ -1547,6 +1583,78 @@ function IngestionPage({ caseId, navigate }) {
             ))}
           </div>
         </div>
+        
+        {/* Navigation Buttons */}
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            marginTop: 24,
+          }}
+        >
+          <button
+            onClick={() => navigate("cases")}
+            style={{
+              background: "#FFFFFF",
+              color: "#0B3D91",
+              border: "1px solid #BFDBFE",
+              borderRadius: 6,
+              padding: "8px 16px",
+              fontSize: 13,
+              display: "flex",
+              alignItems: "center",
+              gap: 6,
+              cursor: "pointer",
+              fontFamily: "'IBM Plex Sans', system-ui, sans-serif",
+              transition: "all 0.15s",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = "#F8FAFC";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = "#FFFFFF";
+            }}
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M19 12H5M12 19l-7-7 7-7"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+            Back to Cases
+          </button>
+          <button
+            onClick={() => navigate("workbench")}
+            disabled={!acknowledged}
+            style={{
+              background: acknowledged ? "#0B3D91" : "#E2E8F0",
+              color: acknowledged ? "#FFFFFF" : "#94A3B8",
+              border: "none",
+              borderRadius: 6,
+              padding: "8px 20px",
+              fontSize: 13,
+              fontWeight: 600,
+              cursor: acknowledged ? "pointer" : "not-allowed",
+              fontFamily: "'IBM Plex Sans', system-ui, sans-serif",
+              transition: "all 0.15s",
+            }}
+            onMouseEnter={(e) => {
+              if (acknowledged) {
+                e.currentTarget.style.background = "#0A3379";
+              }
+            }}
+            onMouseLeave={(e) => {
+              if (acknowledged) {
+                e.currentTarget.style.background = "#0B3D91";
+              }
+            }}
+          >
+            Continue to Workbench →
+          </button>
+        </div>
       </div>
     </>
   );
@@ -2090,6 +2198,74 @@ function WorkbenchPage({ caseId, navigate }) {
             </div>
           </div>
         )}
+        
+        {/* Navigation Buttons */}
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            marginTop: 24,
+            padding: "0 32px 24px",
+          }}
+        >
+          <button
+            onClick={() => navigate("ingestion")}
+            style={{
+              background: "#FFFFFF",
+              color: "#0B3D91",
+              border: "1px solid #BFDBFE",
+              borderRadius: 6,
+              padding: "8px 16px",
+              fontSize: 13,
+              display: "flex",
+              alignItems: "center",
+              gap: 6,
+              cursor: "pointer",
+              fontFamily: "'IBM Plex Sans', system-ui, sans-serif",
+              transition: "all 0.15s",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = "#F8FAFC";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = "#FFFFFF";
+            }}
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M19 12H5M12 19l-7-7 7-7"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+            Back to Ingestion
+          </button>
+          <button
+            onClick={() => navigate("review")}
+            style={{
+              background: "#0B3D91",
+              color: "#FFFFFF",
+              border: "none",
+              borderRadius: 6,
+              padding: "8px 20px",
+              fontSize: 13,
+              fontWeight: 600,
+              cursor: "pointer",
+              fontFamily: "'IBM Plex Sans', system-ui, sans-serif",
+              transition: "all 0.15s",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = "#0A3379";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = "#0B3D91";
+            }}
+          >
+            Continue to Review →
+          </button>
+        </div>
       </div>
     </>
   );
@@ -2517,6 +2693,73 @@ function ReviewPage({ caseId, navigate }) {
           </div>
         </div>
       )}
+      
+      {/* Navigation Buttons */}
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          padding: "0 32px 24px",
+        }}
+      >
+        <button
+          onClick={() => navigate("workbench")}
+          style={{
+            background: "#FFFFFF",
+            color: "#0B3D91",
+            border: "1px solid #BFDBFE",
+            borderRadius: 6,
+            padding: "8px 16px",
+            fontSize: 13,
+            display: "flex",
+            alignItems: "center",
+            gap: 6,
+            cursor: "pointer",
+            fontFamily: "'IBM Plex Sans', system-ui, sans-serif",
+            transition: "all 0.15s",
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.background = "#F8FAFC";
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.background = "#FFFFFF";
+          }}
+        >
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+            <path
+              d="M19 12H5M12 19l-7-7 7-7"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+          Back to Workbench
+        </button>
+        <button
+          onClick={() => navigate("submission")}
+          style={{
+            background: "#0B3D91",
+            color: "#FFFFFF",
+            border: "none",
+            borderRadius: 6,
+            padding: "8px 20px",
+            fontSize: 13,
+            fontWeight: 600,
+            cursor: "pointer",
+            fontFamily: "'IBM Plex Sans', system-ui, sans-serif",
+            transition: "all 0.15s",
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.background = "#0A3379";
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.background = "#0B3D91";
+          }}
+        >
+          Continue to Submission →
+        </button>
+      </div>
     </>
   );
 }
@@ -2731,19 +2974,87 @@ function SubmissionPage({ caseId, navigate }) {
           ))}
         </div>
 
-        <PrimaryButton
-          disabled={!allDone}
-          onClick={() => setSubmitted(true)}
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            gap: 16,
+          }}
         >
-          Submit SAR to UKFIU →
-        </PrimaryButton>
+          <button
+            onClick={() => navigate("review")}
+            style={{
+              background: "#FFFFFF",
+              color: "#0B3D91",
+              border: "1px solid #BFDBFE",
+              borderRadius: 6,
+              padding: "8px 16px",
+              fontSize: 13,
+              display: "flex",
+              alignItems: "center",
+              gap: 6,
+              cursor: "pointer",
+              fontFamily: "'IBM Plex Sans', system-ui, sans-serif",
+              transition: "all 0.15s",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = "#F8FAFC";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = "#FFFFFF";
+            }}
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M19 12H5M12 19l-7-7 7-7"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+            Back to Review
+          </button>
+
+          <button
+            disabled={!allDone}
+            onClick={() => {
+              setSubmitted(true);
+              navigate("post-submission");
+            }}
+            style={{
+              background: allDone ? "#0B3D91" : "#E2E8F0",
+              color: allDone ? "#FFFFFF" : "#94A3B8",
+              border: "none",
+              borderRadius: 6,
+              padding: "8px 20px",
+              fontSize: 13,
+              fontWeight: 600,
+              cursor: allDone ? "pointer" : "not-allowed",
+              fontFamily: "'IBM Plex Sans', system-ui, sans-serif",
+              transition: "all 0.15s",
+            }}
+            onMouseEnter={(e) => {
+              if (allDone) {
+                e.currentTarget.style.background = "#0A3379";
+              }
+            }}
+            onMouseLeave={(e) => {
+              if (allDone) {
+                e.currentTarget.style.background = "#0B3D91";
+              }
+            }}
+          >
+            Submit SAR to UKFIU →
+          </button>
+        </div>
       </div>
     </>
   );
 }
 
 // ─── POST-SUBMISSION PAGE ────────────────────────────────────────────────────
-function PostSubmissionPage({ caseId }) {
+function PostSubmissionPage({ caseId, navigate }) {
   const timestamp = "2025-02-14T18:03:42Z";
   const refNum = "UKFIU-2025-SAR-047821";
   const auditHash = "sha256:7f83b1657ff1fc53b92dc18148a1d65dfc2d4b1fa3d677284addd200126d9069";
@@ -2969,6 +3280,39 @@ function PostSubmissionPage({ caseId }) {
             ))}
           </div>
         </div>
+        
+        {/* Navigation Buttons */}
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            marginTop: 24,
+          }}
+        >
+          <button
+            onClick={() => navigate("dashboard")}
+            style={{
+              background: "#0B3D91",
+              color: "#FFFFFF",
+              border: "none",
+              borderRadius: 6,
+              padding: "8px 20px",
+              fontSize: 13,
+              fontWeight: 600,
+              cursor: "pointer",
+              fontFamily: "'IBM Plex Sans', system-ui, sans-serif",
+              transition: "all 0.15s",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = "#0A3379";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = "#0B3D91";
+            }}
+          >
+            Return to Dashboard
+          </button>
+        </div>
       </div>
     </>
   );
@@ -3191,6 +3535,73 @@ function CasesPage({ navigate, setActiveCase }) {
               })}
             </tbody>
           </table>
+        </div>
+        
+        {/* Navigation Buttons */}
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            marginTop: 24,
+          }}
+        >
+          <button
+            onClick={() => navigate("dashboard")}
+            style={{
+              background: "#FFFFFF",
+              color: "#0B3D91",
+              border: "1px solid #BFDBFE",
+              borderRadius: 6,
+              padding: "8px 16px",
+              fontSize: 13,
+              display: "flex",
+              alignItems: "center",
+              gap: 6,
+              cursor: "pointer",
+              fontFamily: "'IBM Plex Sans', system-ui, sans-serif",
+              transition: "all 0.15s",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = "#F8FAFC";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = "#FFFFFF";
+            }}
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M19 12H5M12 19l-7-7 7-7"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+            Back to Dashboard
+          </button>
+          <button
+            onClick={() => navigate("ingestion")}
+            style={{
+              background: "#0B3D91",
+              color: "#FFFFFF",
+              border: "none",
+              borderRadius: 6,
+              padding: "8px 20px",
+              fontSize: 13,
+              fontWeight: 600,
+              cursor: "pointer",
+              fontFamily: "'IBM Plex Sans', system-ui, sans-serif",
+              transition: "all 0.15s",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = "#0A3379";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = "#0B3D91";
+            }}
+          >
+            Continue to Ingestion →
+          </button>
         </div>
       </div>
     </>
@@ -3510,6 +3921,12 @@ export default function App() {
     setActiveCaseId(id);
   }, []);
 
+  const logout = useCallback(() => {
+    setAuthenticated(false);
+    setCurrentPage("dashboard");
+    setActiveCaseId(null);
+  }, []);
+
   if (!authenticated) {
     return <LoginPage onLogin={() => setAuthenticated(true)} />;
   }
@@ -3558,7 +3975,7 @@ export default function App() {
         );
       case "post-submission":
         return (
-          <PostSubmissionPage caseId={activeCaseId || "SAR-2025-00142"} />
+          <PostSubmissionPage caseId={activeCaseId || "SAR-2025-00142"} navigate={navigate} />
         );
       default:
         return (
@@ -3569,7 +3986,7 @@ export default function App() {
 
   return (
     <div style={{ fontFamily: "'IBM Plex Sans', system-ui, sans-serif" }}>
-      <GovernanceHeader user={MOCK_USER} sessionTime={sessionTime} />
+      <GovernanceHeader user={MOCK_USER} sessionTime={sessionTime} onLogout={logout} />
       <Sidebar
         currentPage={currentPage}
         navigate={navigate}

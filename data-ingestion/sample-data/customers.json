@@ -1,0 +1,1402 @@
+[
+  {
+    "customer_id": "CUST_90b6633f",
+    "full_name": "Shelly Wilson",
+    "age": 58,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_d05d0980",
+    "full_name": "Isaiah Wise",
+    "age": 30,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_a8a6ccbd",
+    "full_name": "Candace Hernandez",
+    "age": 70,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_2098f747",
+    "full_name": "Jonathan Castillo MD",
+    "age": 27,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_78e518b8",
+    "full_name": "Robert Underwood",
+    "age": 76,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_24346a62",
+    "full_name": "Laura Moreno",
+    "age": 60,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_d54b255d",
+    "full_name": "Karina Reid",
+    "age": 83,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_5947397c",
+    "full_name": "Chad Taylor",
+    "age": 40,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_d8ac3949",
+    "full_name": "Lisa Lopez",
+    "age": 69,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_d9bdee22",
+    "full_name": "Kenneth Hester",
+    "age": 75,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_4a0b5e62",
+    "full_name": "Mary Frank",
+    "age": 57,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_e89682f7",
+    "full_name": "Craig Mason",
+    "age": 79,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_5ded1161",
+    "full_name": "Michael Riley",
+    "age": 45,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_511bc05d",
+    "full_name": "Eric Bailey",
+    "age": 78,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_e2300297",
+    "full_name": "Christopher Ford",
+    "age": 39,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_a9681ece",
+    "full_name": "Samantha Moody",
+    "age": 79,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_6f2c9269",
+    "full_name": "Brian Rivas",
+    "age": 71,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_b7ab5a20",
+    "full_name": "Antonio Carroll",
+    "age": 50,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_655b31ad",
+    "full_name": "Laurie Garcia",
+    "age": 48,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_1c3ca270",
+    "full_name": "Kristy Chang",
+    "age": 72,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_346c003d",
+    "full_name": "Daniel Sutton",
+    "age": 82,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_7631fb54",
+    "full_name": "Jennifer Lopez",
+    "age": 45,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_46d44612",
+    "full_name": "Lori Green",
+    "age": 64,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_1fe348c2",
+    "full_name": "Jason Johnson",
+    "age": 33,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_5d334b85",
+    "full_name": "Michael Carter",
+    "age": 46,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_6468fa09",
+    "full_name": "Bailey Taylor MD",
+    "age": 36,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_f3d9c1e7",
+    "full_name": "Jocelyn Johnson",
+    "age": 71,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_4573fe2c",
+    "full_name": "Melissa Rivers",
+    "age": 64,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_6257283b",
+    "full_name": "John Rowland",
+    "age": 65,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_95c98a0d",
+    "full_name": "Stephanie Ochoa",
+    "age": 42,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_de9f6def",
+    "full_name": "Steve Perez",
+    "age": 27,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_501f9478",
+    "full_name": "Lisa Griffin",
+    "age": 27,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_2a9d5894",
+    "full_name": "Margaret Hughes",
+    "age": 65,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_fbbc4b91",
+    "full_name": "Nancy Oconnell",
+    "age": 71,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_f02a92b8",
+    "full_name": "Jennifer Carr",
+    "age": 52,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_313fc7d9",
+    "full_name": "Mark Green",
+    "age": 78,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c7250055",
+    "full_name": "Jacqueline Clarke",
+    "age": 65,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_de1c45c6",
+    "full_name": "Brandon Ochoa",
+    "age": 77,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_bd073dc7",
+    "full_name": "Mrs. Joyce Mclaughlin MD",
+    "age": 30,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_db0d7f54",
+    "full_name": "Valerie Rhodes",
+    "age": 31,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_9e2bd700",
+    "full_name": "Mary Hammond",
+    "age": 41,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_40057700",
+    "full_name": "James Gonzalez",
+    "age": 44,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_5880de7b",
+    "full_name": "Teresa Watson",
+    "age": 78,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_8a909faf",
+    "full_name": "Aaron Maddox",
+    "age": 45,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_ba84b5a8",
+    "full_name": "Sean Torres",
+    "age": 77,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_8bbcabf5",
+    "full_name": "Benjamin Maldonado",
+    "age": 57,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_eff480e5",
+    "full_name": "David Tran",
+    "age": 29,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_6cb5793b",
+    "full_name": "Tamara Cruz",
+    "age": 31,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_5444933c",
+    "full_name": "Justin Vasquez",
+    "age": 47,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c0bc185d",
+    "full_name": "David Herrera",
+    "age": 64,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_a747544e",
+    "full_name": "Andrea Garcia",
+    "age": 49,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_678fec28",
+    "full_name": "Dustin Kelley",
+    "age": 65,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_b5f99a38",
+    "full_name": "Scott Gordon",
+    "age": 82,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_76522314",
+    "full_name": "Douglas Wagner MD",
+    "age": 35,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_35790bce",
+    "full_name": "Mike Miller",
+    "age": 65,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_79040b97",
+    "full_name": "Adam Hartman",
+    "age": 42,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_18e2656b",
+    "full_name": "Aaron Goodman",
+    "age": 55,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_d673689a",
+    "full_name": "Linda Burgess",
+    "age": 45,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_66a5f71c",
+    "full_name": "Laura Jones",
+    "age": 72,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_3634a072",
+    "full_name": "Brent Wilson",
+    "age": 54,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_0fa29767",
+    "full_name": "Sherry Lester",
+    "age": 61,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_71785794",
+    "full_name": "Katrina Brooks",
+    "age": 81,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_446f17e5",
+    "full_name": "Christopher Simpson",
+    "age": 54,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_ed233f02",
+    "full_name": "John Carr",
+    "age": 68,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_16eb3fbe",
+    "full_name": "Leslie Nolan",
+    "age": 81,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c94f638b",
+    "full_name": "Deborah Weeks",
+    "age": 36,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_ee65acd0",
+    "full_name": "Justin Kennedy",
+    "age": 55,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_8081e54c",
+    "full_name": "Casey Serrano",
+    "age": 78,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_6fb384b0",
+    "full_name": "John Hudson",
+    "age": 41,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_ec99f6f3",
+    "full_name": "Denise Roberts",
+    "age": 53,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_83fc4172",
+    "full_name": "Teresa Smith",
+    "age": 31,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_fb92b7e0",
+    "full_name": "Louis Wilson",
+    "age": 57,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_a3387dfd",
+    "full_name": "Andrew Mcclure",
+    "age": 62,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_ab43f57e",
+    "full_name": "John Miller",
+    "age": 40,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_7f14fce3",
+    "full_name": "Michael Hall",
+    "age": 54,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_e9cc5383",
+    "full_name": "Mark Rosario",
+    "age": 71,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c52d7b23",
+    "full_name": "Jordan Murphy",
+    "age": 57,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_195a47d4",
+    "full_name": "Andrew Gonzalez",
+    "age": 51,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_90258683",
+    "full_name": "Brian Cabrera",
+    "age": 40,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_1438cbdd",
+    "full_name": "Darren West",
+    "age": 42,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_96eb25ad",
+    "full_name": "Roberto Tran",
+    "age": 36,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_4b2624b5",
+    "full_name": "Kristen Morrow",
+    "age": 84,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_b49f1d9f",
+    "full_name": "Barbara Roberts",
+    "age": 59,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_2c94cb84",
+    "full_name": "Jose Herrera",
+    "age": 71,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_8160692a",
+    "full_name": "George Jenkins",
+    "age": 77,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_cd364160",
+    "full_name": "Albert Perez",
+    "age": 44,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_921dbcb0",
+    "full_name": "Angelica Cox",
+    "age": 51,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_0f0fcba3",
+    "full_name": "Miranda Reeves",
+    "age": 74,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c24888ff",
+    "full_name": "Barbara Turner",
+    "age": 80,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_d4364f02",
+    "full_name": "William Hunter",
+    "age": 76,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_a6e0eaaf",
+    "full_name": "Elizabeth Johnson",
+    "age": 57,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_d2dc1f74",
+    "full_name": "Pamela Lee",
+    "age": 43,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_b8905c1f",
+    "full_name": "Brandon Maldonado",
+    "age": 83,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_ea71d8b1",
+    "full_name": "Ralph Evans",
+    "age": 67,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_1ed65af6",
+    "full_name": "Susan Tucker",
+    "age": 74,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_e9359959",
+    "full_name": "Mark Owens",
+    "age": 53,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_f922957d",
+    "full_name": "Brittney Anderson",
+    "age": 58,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_f1fbeaaf",
+    "full_name": "Nicholas Lopez",
+    "age": 31,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_9038c625",
+    "full_name": "Nicholas Walker",
+    "age": 82,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_6a153f5e",
+    "full_name": "Alexander Collins",
+    "age": 51,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_467f4495",
+    "full_name": "Brian Stevens",
+    "age": 35,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_32cc1f84",
+    "full_name": "Cristina Aguilar",
+    "age": 30,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_1ef7ccfd",
+    "full_name": "Christopher Fisher",
+    "age": 33,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_dad870f8",
+    "full_name": "April Freeman",
+    "age": 54,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_b796de64",
+    "full_name": "Diana Serrano",
+    "age": 45,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_a9c33294",
+    "full_name": "Melinda Castaneda",
+    "age": 51,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_cc628f4c",
+    "full_name": "Alice Holt",
+    "age": 49,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_2626dd5c",
+    "full_name": "Jonathan Martinez",
+    "age": 54,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_9ca83462",
+    "full_name": "Cheryl Smith",
+    "age": 85,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_885d5ab1",
+    "full_name": "Tammy Larson",
+    "age": 46,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_051a73b3",
+    "full_name": "Nicholas Fox",
+    "age": 34,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_b8bfbef4",
+    "full_name": "Brian Barnes",
+    "age": 51,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_de14b3ad",
+    "full_name": "Kimberly Cunningham",
+    "age": 37,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_eb9ba23d",
+    "full_name": "Kathryn Fuller",
+    "age": 48,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_3fc40887",
+    "full_name": "Emily Alvarez",
+    "age": 62,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_b6eefb21",
+    "full_name": "Amanda Griffith",
+    "age": 82,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_4a1ffa80",
+    "full_name": "Breanna White",
+    "age": 56,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_64479dc4",
+    "full_name": "Jean Williams",
+    "age": 48,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_d132eb0d",
+    "full_name": "Natalie Sharp",
+    "age": 63,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_14a3101a",
+    "full_name": "Victoria Paul",
+    "age": 51,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_26ba1e44",
+    "full_name": "Carrie Morrison",
+    "age": 38,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_2a541366",
+    "full_name": "Patrick Mcintyre",
+    "age": 45,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_68f537c7",
+    "full_name": "Alexis King",
+    "age": 66,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_29eda6bc",
+    "full_name": "Amanda Cooper",
+    "age": 51,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_93cb011d",
+    "full_name": "Teresa Horton MD",
+    "age": 45,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_81d54d1f",
+    "full_name": "Kevin Rogers",
+    "age": 49,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_b45ae092",
+    "full_name": "William Campbell",
+    "age": 60,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_d2db00ef",
+    "full_name": "Hunter Smith",
+    "age": 36,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_3f4a5e7d",
+    "full_name": "Andrew Cunningham",
+    "age": 72,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_cb04b650",
+    "full_name": "Erin Callahan",
+    "age": 36,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_1a39651f",
+    "full_name": "Barbara Harris",
+    "age": 26,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_a31c2493",
+    "full_name": "Michelle Dunn",
+    "age": 25,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_83e91fee",
+    "full_name": "William Johnson",
+    "age": 48,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_7ef57ace",
+    "full_name": "Brenda Douglas",
+    "age": 33,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_59dbc3f3",
+    "full_name": "Ryan Moore",
+    "age": 25,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_aea01418",
+    "full_name": "Mrs. Robin Gonzales",
+    "age": 27,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_bcdd8102",
+    "full_name": "Kimberly Scott",
+    "age": 55,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_7233c849",
+    "full_name": "Lisa Arnold",
+    "age": 40,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_9f472c2d",
+    "full_name": "Blake Rocha",
+    "age": 74,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_16aa467b",
+    "full_name": "Jason Hernandez",
+    "age": 48,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c021a41b",
+    "full_name": "Stephen Davis",
+    "age": 38,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_4068b691",
+    "full_name": "Ryan Wilson",
+    "age": 56,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_fd353745",
+    "full_name": "Amanda Perez",
+    "age": 47,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_9d10fefd",
+    "full_name": "Matthew Harris",
+    "age": 41,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c6cddd13",
+    "full_name": "Alexander Benton",
+    "age": 48,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_acfaacab",
+    "full_name": "Emily Roach",
+    "age": 78,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_7d214787",
+    "full_name": "Stephen Smith",
+    "age": 36,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_0f1e081b",
+    "full_name": "Kyle Walker",
+    "age": 57,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_d40fc08e",
+    "full_name": "Thomas Charles",
+    "age": 51,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_dfc837f2",
+    "full_name": "John Lawson",
+    "age": 54,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_e843165f",
+    "full_name": "Theresa Carrillo",
+    "age": 28,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_3dd883d8",
+    "full_name": "Vanessa Hurst",
+    "age": 51,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_5f72f321",
+    "full_name": "Carlos King",
+    "age": 55,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_4d9c6113",
+    "full_name": "Joshua Parker",
+    "age": 48,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_43647a48",
+    "full_name": "Michelle Howe",
+    "age": 48,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_bb6011a3",
+    "full_name": "Sydney Huang",
+    "age": 40,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_42e543c5",
+    "full_name": "Melissa Hull",
+    "age": 48,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_e27f8dbe",
+    "full_name": "Colton Dean",
+    "age": 40,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_eee0362b",
+    "full_name": "Kimberly Whitaker",
+    "age": 61,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_df681ca5",
+    "full_name": "Jessica Hamilton",
+    "age": 35,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_f5ef52dc",
+    "full_name": "Angela Hernandez",
+    "age": 67,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_63bfbe26",
+    "full_name": "Frederick Kelley",
+    "age": 85,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_839063b5",
+    "full_name": "Nathaniel Meza",
+    "age": 54,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_2386ebce",
+    "full_name": "Paul Cruz",
+    "age": 80,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_690b9f68",
+    "full_name": "Laura Allen MD",
+    "age": 73,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_a2bad2b1",
+    "full_name": "Dr. Gwendolyn West",
+    "age": 79,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_4c60f8af",
+    "full_name": "Lisa Mccann",
+    "age": 83,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_809a87bb",
+    "full_name": "Zachary Torres",
+    "age": 83,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_29312d3e",
+    "full_name": "Leslie Cabrera",
+    "age": 53,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_cc18e977",
+    "full_name": "Nicole Stevenson",
+    "age": 68,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_7afa137e",
+    "full_name": "Matthew Wood",
+    "age": 49,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_856889e8",
+    "full_name": "Cathy Perez",
+    "age": 25,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_69a73fd2",
+    "full_name": "Jodi Garcia",
+    "age": 84,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_67f2efc6",
+    "full_name": "Paula Armstrong",
+    "age": 33,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_185a9c3e",
+    "full_name": "Rebecca Cooper",
+    "age": 74,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_8fb6dc93",
+    "full_name": "Meagan Willis",
+    "age": 45,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_283e1692",
+    "full_name": "Eileen Rodgers",
+    "age": 72,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_66ef464f",
+    "full_name": "Robert Taylor",
+    "age": 53,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_e948f51b",
+    "full_name": "Garrett Moore",
+    "age": 80,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_b365dd74",
+    "full_name": "Brendan Diaz",
+    "age": 62,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c0bc0d87",
+    "full_name": "Danielle Williams",
+    "age": 81,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_e1176e96",
+    "full_name": "Jennifer Rodgers",
+    "age": 58,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_a9c8d20a",
+    "full_name": "Tyrone Gordon",
+    "age": 40,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_d7524844",
+    "full_name": "Virginia Evans",
+    "age": 84,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_036c2ea5",
+    "full_name": "Austin Sanchez",
+    "age": 42,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_7cf53038",
+    "full_name": "Michelle Curry",
+    "age": 79,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_79b14d8b",
+    "full_name": "Bradley Owens",
+    "age": 77,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_6ea47da1",
+    "full_name": "Jose Williamson",
+    "age": 48,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_968dfcb6",
+    "full_name": "Stephen Mcfarland",
+    "age": 82,
+    "occupation": "Importer/Exporter",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_0b58fdc4",
+    "full_name": "Veronica Bradley",
+    "age": 33,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_7dfd7a85",
+    "full_name": "Teresa Jackson",
+    "age": 32,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_42d5b86e",
+    "full_name": "Paul Greene",
+    "age": 41,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_e6b76236",
+    "full_name": "Aaron King",
+    "age": 41,
+    "occupation": "Consultant",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_37161545",
+    "full_name": "Corey Cox",
+    "age": 68,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_1c5eb34a",
+    "full_name": "Anthony Roach",
+    "age": 59,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_f9c55059",
+    "full_name": "Eric Hernandez",
+    "age": 27,
+    "occupation": "Retired",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_d527d5ed",
+    "full_name": "John Johnson",
+    "age": 54,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_74f900ab",
+    "full_name": "Danielle Le",
+    "age": 68,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_66a02134",
+    "full_name": "Jacqueline Lee",
+    "age": 54,
+    "occupation": "Retail Business Owner",
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_73513d86",
+    "full_name": "Timothy Orozco",
+    "age": 53,
+    "occupation": "IT Professional",
+    "synthetic_flag": true
+  }
+]

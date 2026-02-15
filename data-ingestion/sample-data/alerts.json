@@ -1,0 +1,7234 @@
+[
+  {
+    "alert_id": "ALERT_59ce7f45",
+    "customer_id": "CUST_d05d0980",
+    "alert_type": "cyber_fraud",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10638103,
+      "age": 30,
+      "expected_turnover": 770182
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10638103,
+        "contribution": 106.38103
+      },
+      {
+        "feature": "age",
+        "value": 30,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 770182,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10638103,
+        "contribution": 106.38103
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.356710",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_b406ecbf",
+    "customer_id": "CUST_a8a6ccbd",
+    "alert_type": "trade_based_ml",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10564189,
+      "age": 70,
+      "expected_turnover": 583901
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10564189,
+        "contribution": 105.64189
+      },
+      {
+        "feature": "age",
+        "value": 70,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 583901,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10564189,
+        "contribution": 105.64189
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.357723",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_ad288491",
+    "customer_id": "CUST_2098f747",
+    "alert_type": "trade_based_ml",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10543762,
+      "age": 27,
+      "expected_turnover": 212183
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10543762,
+        "contribution": 105.43762
+      },
+      {
+        "feature": "age",
+        "value": 27,
+        "contribution": -2
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 212183,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10543762,
+        "contribution": 105.43762
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.359073",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_a1797c28",
+    "customer_id": "CUST_78e518b8",
+    "alert_type": "layering",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10308915,
+      "age": 76,
+      "expected_turnover": 454720
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10308915,
+        "contribution": 103.08915
+      },
+      {
+        "feature": "age",
+        "value": 76,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 454720,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10308915,
+        "contribution": 103.08915
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.360072",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_48335b53",
+    "customer_id": "CUST_d54b255d",
+    "alert_type": "sanctions",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10183746,
+      "age": 83,
+      "expected_turnover": 356451
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10183746,
+        "contribution": 101.83746
+      },
+      {
+        "feature": "age",
+        "value": 83,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 356451,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10183746,
+        "contribution": 101.83746
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.362576",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_c2b19746",
+    "customer_id": "CUST_5947397c",
+    "alert_type": "cyber_fraud",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10513559,
+      "age": 40,
+      "expected_turnover": 677726
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10513559,
+        "contribution": 105.13559
+      },
+      {
+        "feature": "age",
+        "value": 40,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 677726,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10513559,
+        "contribution": 105.13559
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.363582",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_044ecc2a",
+    "customer_id": "CUST_d8ac3949",
+    "alert_type": "cyber_fraud",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10536380,
+      "age": 69,
+      "expected_turnover": 525477
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10536380,
+        "contribution": 105.3638
+      },
+      {
+        "feature": "age",
+        "value": 69,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 525477,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10536380,
+        "contribution": 105.3638
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.364590",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_c006b959",
+    "customer_id": "CUST_4a0b5e62",
+    "alert_type": "elder_exploitation",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10264652,
+      "age": 57,
+      "expected_turnover": 285204
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10264652,
+        "contribution": 102.64652
+      },
+      {
+        "feature": "age",
+        "value": 57,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 285204,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10264652,
+        "contribution": 102.64652
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.367100",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_b64495a6",
+    "customer_id": "CUST_e89682f7",
+    "alert_type": "account_takeover",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10515473,
+      "age": 79,
+      "expected_turnover": 624035
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10515473,
+        "contribution": 105.15473
+      },
+      {
+        "feature": "age",
+        "value": 79,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 624035,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10515473,
+        "contribution": 105.15473
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.367647",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_f6bd3817",
+    "customer_id": "CUST_5ded1161",
+    "alert_type": "layering",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10421941,
+      "age": 45,
+      "expected_turnover": 595535
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10421941,
+        "contribution": 104.21941
+      },
+      {
+        "feature": "age",
+        "value": 45,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 595535,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10421941,
+        "contribution": 104.21941
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.369655",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_70a0261e",
+    "customer_id": "CUST_511bc05d",
+    "alert_type": "trade_based_ml",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10550525,
+      "age": 78,
+      "expected_turnover": 468010
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10550525,
+        "contribution": 105.50525
+      },
+      {
+        "feature": "age",
+        "value": 78,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 468010,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10550525,
+        "contribution": 105.50525
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.370654",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_c7ebe166",
+    "customer_id": "CUST_a9681ece",
+    "alert_type": "sanctions",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10602197,
+      "age": 79,
+      "expected_turnover": 616905
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10602197,
+        "contribution": 106.02197
+      },
+      {
+        "feature": "age",
+        "value": 79,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 616905,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10602197,
+        "contribution": 106.02197
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.374653",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_fcfebfc3",
+    "customer_id": "CUST_6f2c9269",
+    "alert_type": "trade_based_ml",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10317638,
+      "age": 71,
+      "expected_turnover": 622462
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10317638,
+        "contribution": 103.17638
+      },
+      {
+        "feature": "age",
+        "value": 71,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 622462,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10317638,
+        "contribution": 103.17638
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.375653",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_daa13670",
+    "customer_id": "CUST_655b31ad",
+    "alert_type": "account_takeover",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10390139,
+      "age": 48,
+      "expected_turnover": 566464
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10390139,
+        "contribution": 103.90139
+      },
+      {
+        "feature": "age",
+        "value": 48,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 566464,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10390139,
+        "contribution": 103.90139
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.378671",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_3b97cecc",
+    "customer_id": "CUST_346c003d",
+    "alert_type": "structuring",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10470117,
+      "age": 82,
+      "expected_turnover": 247138
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10470117,
+        "contribution": 104.70117
+      },
+      {
+        "feature": "age",
+        "value": 82,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 247138,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10470117,
+        "contribution": 104.70117
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.380671",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_caf15834",
+    "customer_id": "CUST_46d44612",
+    "alert_type": "elder_exploitation",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10278483,
+      "age": 64,
+      "expected_turnover": 356464
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10278483,
+        "contribution": 102.78483
+      },
+      {
+        "feature": "age",
+        "value": 64,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 356464,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10278483,
+        "contribution": 102.78483
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.382676",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_44c3fd80",
+    "customer_id": "CUST_1fe348c2",
+    "alert_type": "layering",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10682461,
+      "age": 33,
+      "expected_turnover": 328820
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10682461,
+        "contribution": 106.82461
+      },
+      {
+        "feature": "age",
+        "value": 33,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 328820,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10682461,
+        "contribution": 106.82461
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.383670",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_a8332831",
+    "customer_id": "CUST_5d334b85",
+    "alert_type": "layering",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10331571,
+      "age": 46,
+      "expected_turnover": 268401
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10331571,
+        "contribution": 103.31571
+      },
+      {
+        "feature": "age",
+        "value": 46,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 268401,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10331571,
+        "contribution": 103.31571
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.384669",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_0f8040bd",
+    "customer_id": "CUST_6468fa09",
+    "alert_type": "structuring",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10128909,
+      "age": 36,
+      "expected_turnover": 492814
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10128909,
+        "contribution": 101.28909
+      },
+      {
+        "feature": "age",
+        "value": 36,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 492814,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10128909,
+        "contribution": 101.28909
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.386669",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_01a0f950",
+    "customer_id": "CUST_f3d9c1e7",
+    "alert_type": "elder_exploitation",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10174405,
+      "age": 71,
+      "expected_turnover": 393743
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10174405,
+        "contribution": 101.74405
+      },
+      {
+        "feature": "age",
+        "value": 71,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 393743,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10174405,
+        "contribution": 101.74405
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.387692",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_65ce8f53",
+    "customer_id": "CUST_6257283b",
+    "alert_type": "elder_exploitation",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10372078,
+      "age": 65,
+      "expected_turnover": 672901
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10372078,
+        "contribution": 103.72078
+      },
+      {
+        "feature": "age",
+        "value": 65,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 672901,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10372078,
+        "contribution": 103.72078
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.389093",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_af8910a5",
+    "customer_id": "CUST_95c98a0d",
+    "alert_type": "elder_exploitation",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10307908,
+      "age": 42,
+      "expected_turnover": 379588
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10307908,
+        "contribution": 103.07908
+      },
+      {
+        "feature": "age",
+        "value": 42,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 379588,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10307908,
+        "contribution": 103.07908
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.390086",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_51d87d57",
+    "customer_id": "CUST_de9f6def",
+    "alert_type": "cyber_fraud",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10189671,
+      "age": 27,
+      "expected_turnover": 418689
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10189671,
+        "contribution": 101.89671
+      },
+      {
+        "feature": "age",
+        "value": 27,
+        "contribution": -2
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 418689,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10189671,
+        "contribution": 101.89671
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.391086",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_2e11927c",
+    "customer_id": "CUST_501f9478",
+    "alert_type": "account_takeover",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10394074,
+      "age": 27,
+      "expected_turnover": 734728
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10394074,
+        "contribution": 103.94074
+      },
+      {
+        "feature": "age",
+        "value": 27,
+        "contribution": -2
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 734728,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10394074,
+        "contribution": 103.94074
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.392597",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_73ec2a64",
+    "customer_id": "CUST_fbbc4b91",
+    "alert_type": "cyber_fraud",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10323296,
+      "age": 71,
+      "expected_turnover": 378880
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10323296,
+        "contribution": 103.23296
+      },
+      {
+        "feature": "age",
+        "value": 71,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 378880,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10323296,
+        "contribution": 103.23296
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.394611",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_4005813d",
+    "customer_id": "CUST_f02a92b8",
+    "alert_type": "trade_based_ml",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10345071,
+      "age": 52,
+      "expected_turnover": 784233
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10345071,
+        "contribution": 103.45071
+      },
+      {
+        "feature": "age",
+        "value": 52,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 784233,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10345071,
+        "contribution": 103.45071
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.395611",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_176f38e0",
+    "customer_id": "CUST_313fc7d9",
+    "alert_type": "trade_based_ml",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10359455,
+      "age": 78,
+      "expected_turnover": 363270
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10359455,
+        "contribution": 103.59455
+      },
+      {
+        "feature": "age",
+        "value": 78,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 363270,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10359455,
+        "contribution": 103.59455
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.397123",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_e27a6d35",
+    "customer_id": "CUST_c7250055",
+    "alert_type": "cyber_fraud",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10443392,
+      "age": 65,
+      "expected_turnover": 488493
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10443392,
+        "contribution": 104.43392
+      },
+      {
+        "feature": "age",
+        "value": 65,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 488493,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10443392,
+        "contribution": 104.43392
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.397658",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_8b8d39ff",
+    "customer_id": "CUST_de1c45c6",
+    "alert_type": "structuring",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10206858,
+      "age": 77,
+      "expected_turnover": 529956
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10206858,
+        "contribution": 102.06858
+      },
+      {
+        "feature": "age",
+        "value": 77,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 529956,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10206858,
+        "contribution": 102.06858
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.398674",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_807a100a",
+    "customer_id": "CUST_db0d7f54",
+    "alert_type": "structuring",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10570107,
+      "age": 31,
+      "expected_turnover": 703315
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10570107,
+        "contribution": 105.70107
+      },
+      {
+        "feature": "age",
+        "value": 31,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 703315,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10570107,
+        "contribution": 105.70107
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.401673",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_1de420cd",
+    "customer_id": "CUST_40057700",
+    "alert_type": "layering",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10239232,
+      "age": 44,
+      "expected_turnover": 426791
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10239232,
+        "contribution": 102.39232
+      },
+      {
+        "feature": "age",
+        "value": 44,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 426791,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10239232,
+        "contribution": 102.39232
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.403666",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_d1145870",
+    "customer_id": "CUST_5444933c",
+    "alert_type": "account_takeover",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10265744,
+      "age": 47,
+      "expected_turnover": 231364
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10265744,
+        "contribution": 102.65744
+      },
+      {
+        "feature": "age",
+        "value": 47,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 231364,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10265744,
+        "contribution": 102.65744
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.410152",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_83a3a9f3",
+    "customer_id": "CUST_a747544e",
+    "alert_type": "elder_exploitation",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10443742,
+      "age": 49,
+      "expected_turnover": 716728
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10443742,
+        "contribution": 104.43742
+      },
+      {
+        "feature": "age",
+        "value": 49,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 716728,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10443742,
+        "contribution": 104.43742
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.412663",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_57206082",
+    "customer_id": "CUST_b5f99a38",
+    "alert_type": "cyber_fraud",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10280755,
+      "age": 82,
+      "expected_turnover": 789334
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10280755,
+        "contribution": 102.80755
+      },
+      {
+        "feature": "age",
+        "value": 82,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 789334,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10280755,
+        "contribution": 102.80755
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.414678",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_03a6af97",
+    "customer_id": "CUST_79040b97",
+    "alert_type": "account_takeover",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10600961,
+      "age": 42,
+      "expected_turnover": 574113
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10600961,
+        "contribution": 106.00961
+      },
+      {
+        "feature": "age",
+        "value": 42,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 574113,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10600961,
+        "contribution": 106.00961
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.416678",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_0689f1d9",
+    "customer_id": "CUST_d673689a",
+    "alert_type": "cyber_fraud",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10622724,
+      "age": 45,
+      "expected_turnover": 555287
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10622724,
+        "contribution": 106.22724
+      },
+      {
+        "feature": "age",
+        "value": 45,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 555287,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10622724,
+        "contribution": 106.22724
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.418846",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_5ccd5031",
+    "customer_id": "CUST_3634a072",
+    "alert_type": "elder_exploitation",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10303173,
+      "age": 54,
+      "expected_turnover": 728024
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10303173,
+        "contribution": 103.03173
+      },
+      {
+        "feature": "age",
+        "value": 54,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 728024,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10303173,
+        "contribution": 103.03173
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.421362",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_d183f9c7",
+    "customer_id": "CUST_0fa29767",
+    "alert_type": "layering",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10388290,
+      "age": 61,
+      "expected_turnover": 578258
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10388290,
+        "contribution": 103.8829
+      },
+      {
+        "feature": "age",
+        "value": 61,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 578258,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10388290,
+        "contribution": 103.8829
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.422375",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_f5faa571",
+    "customer_id": "CUST_71785794",
+    "alert_type": "layering",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10402239,
+      "age": 81,
+      "expected_turnover": 722990
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10402239,
+        "contribution": 104.02239
+      },
+      {
+        "feature": "age",
+        "value": 81,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 722990,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10402239,
+        "contribution": 104.02239
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.423488",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_c17ca269",
+    "customer_id": "CUST_446f17e5",
+    "alert_type": "account_takeover",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10384958,
+      "age": 54,
+      "expected_turnover": 486394
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10384958,
+        "contribution": 103.84958
+      },
+      {
+        "feature": "age",
+        "value": 54,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 486394,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10384958,
+        "contribution": 103.84958
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.424388",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_8770b128",
+    "customer_id": "CUST_ed233f02",
+    "alert_type": "structuring",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10544896,
+      "age": 68,
+      "expected_turnover": 501766
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10544896,
+        "contribution": 105.44896
+      },
+      {
+        "feature": "age",
+        "value": 68,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 501766,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10544896,
+        "contribution": 105.44896
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.425388",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_9e35f3c3",
+    "customer_id": "CUST_16eb3fbe",
+    "alert_type": "account_takeover",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10473426,
+      "age": 81,
+      "expected_turnover": 786896
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10473426,
+        "contribution": 104.73426
+      },
+      {
+        "feature": "age",
+        "value": 81,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 786896,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10473426,
+        "contribution": 104.73426
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.426900",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_cd2eefee",
+    "customer_id": "CUST_c94f638b",
+    "alert_type": "elder_exploitation",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10492842,
+      "age": 36,
+      "expected_turnover": 455208
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10492842,
+        "contribution": 104.92842
+      },
+      {
+        "feature": "age",
+        "value": 36,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 455208,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10492842,
+        "contribution": 104.92842
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.427759",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_16b81abe",
+    "customer_id": "CUST_ee65acd0",
+    "alert_type": "account_takeover",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10339914,
+      "age": 55,
+      "expected_turnover": 376719
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10339914,
+        "contribution": 103.39914
+      },
+      {
+        "feature": "age",
+        "value": 55,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 376719,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10339914,
+        "contribution": 103.39914
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.428765",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_c2fe60c3",
+    "customer_id": "CUST_ec99f6f3",
+    "alert_type": "sanctions",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10597268,
+      "age": 53,
+      "expected_turnover": 534098
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10597268,
+        "contribution": 105.97268
+      },
+      {
+        "feature": "age",
+        "value": 53,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 534098,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10597268,
+        "contribution": 105.97268
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.431763",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_c0d69d45",
+    "customer_id": "CUST_fb92b7e0",
+    "alert_type": "sanctions",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10106757,
+      "age": 57,
+      "expected_turnover": 432016
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10106757,
+        "contribution": 101.06757
+      },
+      {
+        "feature": "age",
+        "value": 57,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 432016,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10106757,
+        "contribution": 101.06757
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.433769",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_4a3707ce",
+    "customer_id": "CUST_a3387dfd",
+    "alert_type": "elder_exploitation",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10422175,
+      "age": 62,
+      "expected_turnover": 207846
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10422175,
+        "contribution": 104.22175
+      },
+      {
+        "feature": "age",
+        "value": 62,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 207846,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10422175,
+        "contribution": 104.22175
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.434769",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_cf7b27bf",
+    "customer_id": "CUST_e9cc5383",
+    "alert_type": "cyber_fraud",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10170910,
+      "age": 71,
+      "expected_turnover": 540295
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10170910,
+        "contribution": 101.7091
+      },
+      {
+        "feature": "age",
+        "value": 71,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 540295,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10170910,
+        "contribution": 101.7091
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.437792",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_a591071f",
+    "customer_id": "CUST_c52d7b23",
+    "alert_type": "elder_exploitation",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10537736,
+      "age": 57,
+      "expected_turnover": 458646
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10537736,
+        "contribution": 105.37736
+      },
+      {
+        "feature": "age",
+        "value": 57,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 458646,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10537736,
+        "contribution": 105.37736
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.438804",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_5b70c7e0",
+    "customer_id": "CUST_90258683",
+    "alert_type": "sanctions",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10496582,
+      "age": 40,
+      "expected_turnover": 302817
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10496582,
+        "contribution": 104.96582
+      },
+      {
+        "feature": "age",
+        "value": 40,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 302817,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10496582,
+        "contribution": 104.96582
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.441806",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_a868e16e",
+    "customer_id": "CUST_96eb25ad",
+    "alert_type": "layering",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10396655,
+      "age": 36,
+      "expected_turnover": 315970
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10396655,
+        "contribution": 103.96655
+      },
+      {
+        "feature": "age",
+        "value": 36,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 315970,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10396655,
+        "contribution": 103.96655
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.443798",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_320029c1",
+    "customer_id": "CUST_2c94cb84",
+    "alert_type": "elder_exploitation",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10424129,
+      "age": 71,
+      "expected_turnover": 499177
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10424129,
+        "contribution": 104.24129
+      },
+      {
+        "feature": "age",
+        "value": 71,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 499177,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10424129,
+        "contribution": 104.24129
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.446804",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_260f8129",
+    "customer_id": "CUST_c24888ff",
+    "alert_type": "structuring",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10455015,
+      "age": 80,
+      "expected_turnover": 602871
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10455015,
+        "contribution": 104.55015
+      },
+      {
+        "feature": "age",
+        "value": 80,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 602871,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10455015,
+        "contribution": 104.55015
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.450831",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_a51f7047",
+    "customer_id": "CUST_d4364f02",
+    "alert_type": "layering",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10482248,
+      "age": 76,
+      "expected_turnover": 566754
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10482248,
+        "contribution": 104.82248
+      },
+      {
+        "feature": "age",
+        "value": 76,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 566754,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10482248,
+        "contribution": 104.82248
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.452345",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_00501aa0",
+    "customer_id": "CUST_a6e0eaaf",
+    "alert_type": "layering",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10358536,
+      "age": 57,
+      "expected_turnover": 419549
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10358536,
+        "contribution": 103.58536
+      },
+      {
+        "feature": "age",
+        "value": 57,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 419549,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10358536,
+        "contribution": 103.58536
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.453856",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_8c15ceba",
+    "customer_id": "CUST_d2dc1f74",
+    "alert_type": "sanctions",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10419301,
+      "age": 43,
+      "expected_turnover": 728485
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10419301,
+        "contribution": 104.19301
+      },
+      {
+        "feature": "age",
+        "value": 43,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 728485,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10419301,
+        "contribution": 104.19301
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.454871",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_5a59c74a",
+    "customer_id": "CUST_1ed65af6",
+    "alert_type": "layering",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10505907,
+      "age": 74,
+      "expected_turnover": 331185
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10505907,
+        "contribution": 105.05907
+      },
+      {
+        "feature": "age",
+        "value": 74,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 331185,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10505907,
+        "contribution": 105.05907
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.457382",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_aa578be7",
+    "customer_id": "CUST_e9359959",
+    "alert_type": "account_takeover",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10650286,
+      "age": 53,
+      "expected_turnover": 664727
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10650286,
+        "contribution": 106.50286
+      },
+      {
+        "feature": "age",
+        "value": 53,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 664727,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10650286,
+        "contribution": 106.50286
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.458397",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_4ce3e8c4",
+    "customer_id": "CUST_f922957d",
+    "alert_type": "elder_exploitation",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10279559,
+      "age": 58,
+      "expected_turnover": 295937
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10279559,
+        "contribution": 102.79559
+      },
+      {
+        "feature": "age",
+        "value": 58,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 295937,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10279559,
+        "contribution": 102.79559
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.459396",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_6d06b0aa",
+    "customer_id": "CUST_f1fbeaaf",
+    "alert_type": "layering",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10394892,
+      "age": 31,
+      "expected_turnover": 308508
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10394892,
+        "contribution": 103.94892
+      },
+      {
+        "feature": "age",
+        "value": 31,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 308508,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10394892,
+        "contribution": 103.94892
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.461395",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_df34dcae",
+    "customer_id": "CUST_6a153f5e",
+    "alert_type": "sanctions",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10536223,
+      "age": 51,
+      "expected_turnover": 526996
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10536223,
+        "contribution": 105.36223
+      },
+      {
+        "feature": "age",
+        "value": 51,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 526996,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10536223,
+        "contribution": 105.36223
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.462395",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_3a02c189",
+    "customer_id": "CUST_32cc1f84",
+    "alert_type": "elder_exploitation",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10352465,
+      "age": 30,
+      "expected_turnover": 649510
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10352465,
+        "contribution": 103.52465
+      },
+      {
+        "feature": "age",
+        "value": 30,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 649510,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10352465,
+        "contribution": 103.52465
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.464396",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_ef53ed83",
+    "customer_id": "CUST_1ef7ccfd",
+    "alert_type": "sanctions",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10284221,
+      "age": 33,
+      "expected_turnover": 371524
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10284221,
+        "contribution": 102.84221
+      },
+      {
+        "feature": "age",
+        "value": 33,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 371524,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10284221,
+        "contribution": 102.84221
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.465396",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_48195564",
+    "customer_id": "CUST_dad870f8",
+    "alert_type": "structuring",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10383507,
+      "age": 54,
+      "expected_turnover": 561919
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10383507,
+        "contribution": 103.83507
+      },
+      {
+        "feature": "age",
+        "value": 54,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 561919,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10383507,
+        "contribution": 103.83507
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.467452",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_f14f4036",
+    "customer_id": "CUST_a9c33294",
+    "alert_type": "cyber_fraud",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10481900,
+      "age": 51,
+      "expected_turnover": 583367
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10481900,
+        "contribution": 104.819
+      },
+      {
+        "feature": "age",
+        "value": 51,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 583367,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10481900,
+        "contribution": 104.819
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.468466",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_a92a3de6",
+    "customer_id": "CUST_051a73b3",
+    "alert_type": "cyber_fraud",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10384626,
+      "age": 34,
+      "expected_turnover": 296699
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10384626,
+        "contribution": 103.84626
+      },
+      {
+        "feature": "age",
+        "value": 34,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 296699,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10384626,
+        "contribution": 103.84626
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.474466",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_0945772c",
+    "customer_id": "CUST_b8bfbef4",
+    "alert_type": "elder_exploitation",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10383842,
+      "age": 51,
+      "expected_turnover": 247552
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10383842,
+        "contribution": 103.83842
+      },
+      {
+        "feature": "age",
+        "value": 51,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 247552,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10383842,
+        "contribution": 103.83842
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.475460",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_1c708b58",
+    "customer_id": "CUST_3fc40887",
+    "alert_type": "structuring",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10545767,
+      "age": 62,
+      "expected_turnover": 611476
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10545767,
+        "contribution": 105.45767
+      },
+      {
+        "feature": "age",
+        "value": 62,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 611476,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10545767,
+        "contribution": 105.45767
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.479526",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_9277a74a",
+    "customer_id": "CUST_64479dc4",
+    "alert_type": "trade_based_ml",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10468084,
+      "age": 48,
+      "expected_turnover": 493820
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10468084,
+        "contribution": 104.68084
+      },
+      {
+        "feature": "age",
+        "value": 48,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 493820,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10468084,
+        "contribution": 104.68084
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.482532",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_8b92bb3e",
+    "customer_id": "CUST_d132eb0d",
+    "alert_type": "cyber_fraud",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10337811,
+      "age": 63,
+      "expected_turnover": 760073
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10337811,
+        "contribution": 103.37811
+      },
+      {
+        "feature": "age",
+        "value": 63,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 760073,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10337811,
+        "contribution": 103.37811
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.483527",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_e0929404",
+    "customer_id": "CUST_2a541366",
+    "alert_type": "cyber_fraud",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10412519,
+      "age": 45,
+      "expected_turnover": 328897
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10412519,
+        "contribution": 104.12519
+      },
+      {
+        "feature": "age",
+        "value": 45,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 328897,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10412519,
+        "contribution": 104.12519
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.487041",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_085dbb51",
+    "customer_id": "CUST_93cb011d",
+    "alert_type": "structuring",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10254119,
+      "age": 45,
+      "expected_turnover": 390056
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10254119,
+        "contribution": 102.54119
+      },
+      {
+        "feature": "age",
+        "value": 45,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 390056,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10254119,
+        "contribution": 102.54119
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.489918",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_2969a639",
+    "customer_id": "CUST_d2db00ef",
+    "alert_type": "structuring",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10316859,
+      "age": 36,
+      "expected_turnover": 763978
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10316859,
+        "contribution": 103.16859
+      },
+      {
+        "feature": "age",
+        "value": 36,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 763978,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10316859,
+        "contribution": 103.16859
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.493450",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_f7cedf6c",
+    "customer_id": "CUST_cb04b650",
+    "alert_type": "sanctions",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10254687,
+      "age": 36,
+      "expected_turnover": 305817
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10254687,
+        "contribution": 102.54687
+      },
+      {
+        "feature": "age",
+        "value": 36,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 305817,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10254687,
+        "contribution": 102.54687
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.495450",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_c12a1ee6",
+    "customer_id": "CUST_1a39651f",
+    "alert_type": "cyber_fraud",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10273207,
+      "age": 26,
+      "expected_turnover": 713818
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10273207,
+        "contribution": 102.73207
+      },
+      {
+        "feature": "age",
+        "value": 26,
+        "contribution": -2
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 713818,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10273207,
+        "contribution": 102.73207
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.496962",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_7d1aff5c",
+    "customer_id": "CUST_a31c2493",
+    "alert_type": "account_takeover",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10280952,
+      "age": 25,
+      "expected_turnover": 601774
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10280952,
+        "contribution": 102.80952
+      },
+      {
+        "feature": "age",
+        "value": 25,
+        "contribution": -2
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 601774,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10280952,
+        "contribution": 102.80952
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.497502",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_c77e36d2",
+    "customer_id": "CUST_aea01418",
+    "alert_type": "trade_based_ml",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10507755,
+      "age": 27,
+      "expected_turnover": 776101
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10507755,
+        "contribution": 105.07755
+      },
+      {
+        "feature": "age",
+        "value": 27,
+        "contribution": -2
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 776101,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10507755,
+        "contribution": 105.07755
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.501510",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_eda95eff",
+    "customer_id": "CUST_bcdd8102",
+    "alert_type": "cyber_fraud",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10302337,
+      "age": 55,
+      "expected_turnover": 740371
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10302337,
+        "contribution": 103.02337
+      },
+      {
+        "feature": "age",
+        "value": 55,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 740371,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10302337,
+        "contribution": 103.02337
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.502519",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_a393da5f",
+    "customer_id": "CUST_7233c849",
+    "alert_type": "trade_based_ml",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10223503,
+      "age": 40,
+      "expected_turnover": 259238
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10223503,
+        "contribution": 102.23503
+      },
+      {
+        "feature": "age",
+        "value": 40,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 259238,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10223503,
+        "contribution": 102.23503
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.503516",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_5936d696",
+    "customer_id": "CUST_16aa467b",
+    "alert_type": "cyber_fraud",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10417727,
+      "age": 48,
+      "expected_turnover": 458956
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10417727,
+        "contribution": 104.17727
+      },
+      {
+        "feature": "age",
+        "value": 48,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 458956,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10417727,
+        "contribution": 104.17727
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.505516",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_33fc4b3b",
+    "customer_id": "CUST_4068b691",
+    "alert_type": "trade_based_ml",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10226049,
+      "age": 56,
+      "expected_turnover": 762242
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10226049,
+        "contribution": 102.26049
+      },
+      {
+        "feature": "age",
+        "value": 56,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 762242,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10226049,
+        "contribution": 102.26049
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.507850",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_cfb71299",
+    "customer_id": "CUST_fd353745",
+    "alert_type": "sanctions",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10093115,
+      "age": 47,
+      "expected_turnover": 310514
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10093115,
+        "contribution": 100.93115
+      },
+      {
+        "feature": "age",
+        "value": 47,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 310514,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10093115,
+        "contribution": 100.93115
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.508561",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_b226f38c",
+    "customer_id": "CUST_acfaacab",
+    "alert_type": "cyber_fraud",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10530997,
+      "age": 78,
+      "expected_turnover": 511437
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10530997,
+        "contribution": 105.30997
+      },
+      {
+        "feature": "age",
+        "value": 78,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 511437,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10530997,
+        "contribution": 105.30997
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.512551",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_0c52c579",
+    "customer_id": "CUST_7d214787",
+    "alert_type": "layering",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10124198,
+      "age": 36,
+      "expected_turnover": 732965
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10124198,
+        "contribution": 101.24198
+      },
+      {
+        "feature": "age",
+        "value": 36,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 732965,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10124198,
+        "contribution": 101.24198
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.513551",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_1ab38953",
+    "customer_id": "CUST_0f1e081b",
+    "alert_type": "cyber_fraud",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10325487,
+      "age": 57,
+      "expected_turnover": 641116
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10325487,
+        "contribution": 103.25487
+      },
+      {
+        "feature": "age",
+        "value": 57,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 641116,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10325487,
+        "contribution": 103.25487
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.514560",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_e8c1697a",
+    "customer_id": "CUST_d40fc08e",
+    "alert_type": "elder_exploitation",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10369576,
+      "age": 51,
+      "expected_turnover": 318924
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10369576,
+        "contribution": 103.69576
+      },
+      {
+        "feature": "age",
+        "value": 51,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 318924,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10369576,
+        "contribution": 103.69576
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.515551",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_557c623d",
+    "customer_id": "CUST_3dd883d8",
+    "alert_type": "cyber_fraud",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10161376,
+      "age": 51,
+      "expected_turnover": 220550
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10161376,
+        "contribution": 101.61376
+      },
+      {
+        "feature": "age",
+        "value": 51,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 220550,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10161376,
+        "contribution": 101.61376
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.517598",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_3024f571",
+    "customer_id": "CUST_5f72f321",
+    "alert_type": "account_takeover",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10526962,
+      "age": 55,
+      "expected_turnover": 461746
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10526962,
+        "contribution": 105.26962
+      },
+      {
+        "feature": "age",
+        "value": 55,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 461746,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10526962,
+        "contribution": 105.26962
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.519607",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_bbd00895",
+    "customer_id": "CUST_4d9c6113",
+    "alert_type": "layering",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10404913,
+      "age": 48,
+      "expected_turnover": 784148
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10404913,
+        "contribution": 104.04913
+      },
+      {
+        "feature": "age",
+        "value": 48,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 784148,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10404913,
+        "contribution": 104.04913
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.519607",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_be695aaf",
+    "customer_id": "CUST_42e543c5",
+    "alert_type": "layering",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10454039,
+      "age": 48,
+      "expected_turnover": 449058
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10454039,
+        "contribution": 104.54039
+      },
+      {
+        "feature": "age",
+        "value": 48,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 449058,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10454039,
+        "contribution": 104.54039
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.523657",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_c8e34993",
+    "customer_id": "CUST_e27f8dbe",
+    "alert_type": "cyber_fraud",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10317169,
+      "age": 40,
+      "expected_turnover": 245857
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10317169,
+        "contribution": 103.17169
+      },
+      {
+        "feature": "age",
+        "value": 40,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 245857,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10317169,
+        "contribution": 103.17169
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.524657",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_6eff1cac",
+    "customer_id": "CUST_eee0362b",
+    "alert_type": "layering",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10422114,
+      "age": 61,
+      "expected_turnover": 270861
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10422114,
+        "contribution": 104.22114
+      },
+      {
+        "feature": "age",
+        "value": 61,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 270861,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10422114,
+        "contribution": 104.22114
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.525656",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_7146bebf",
+    "customer_id": "CUST_f5ef52dc",
+    "alert_type": "layering",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10428043,
+      "age": 67,
+      "expected_turnover": 380081
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10428043,
+        "contribution": 104.28043
+      },
+      {
+        "feature": "age",
+        "value": 67,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 380081,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10428043,
+        "contribution": 104.28043
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.527684",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_7f5f0d72",
+    "customer_id": "CUST_63bfbe26",
+    "alert_type": "sanctions",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10456004,
+      "age": 85,
+      "expected_turnover": 638395
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10456004,
+        "contribution": 104.56004
+      },
+      {
+        "feature": "age",
+        "value": 85,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 638395,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10456004,
+        "contribution": 104.56004
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.528064",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_dae26897",
+    "customer_id": "CUST_839063b5",
+    "alert_type": "layering",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10652705,
+      "age": 54,
+      "expected_turnover": 296871
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10652705,
+        "contribution": 106.52705
+      },
+      {
+        "feature": "age",
+        "value": 54,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 296871,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10652705,
+        "contribution": 106.52705
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.529075",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_034f7974",
+    "customer_id": "CUST_a2bad2b1",
+    "alert_type": "elder_exploitation",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10364030,
+      "age": 79,
+      "expected_turnover": 376666
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10364030,
+        "contribution": 103.6403
+      },
+      {
+        "feature": "age",
+        "value": 79,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 376666,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10364030,
+        "contribution": 103.6403
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.532588",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_d30dcae9",
+    "customer_id": "CUST_809a87bb",
+    "alert_type": "structuring",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10169423,
+      "age": 83,
+      "expected_turnover": 464255
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10169423,
+        "contribution": 101.69423
+      },
+      {
+        "feature": "age",
+        "value": 83,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 464255,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10169423,
+        "contribution": 101.69423
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.534595",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_a231cc06",
+    "customer_id": "CUST_29312d3e",
+    "alert_type": "structuring",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10599041,
+      "age": 53,
+      "expected_turnover": 632671
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10599041,
+        "contribution": 105.99041
+      },
+      {
+        "feature": "age",
+        "value": 53,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 632671,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10599041,
+        "contribution": 105.99041
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.535595",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_167e5901",
+    "customer_id": "CUST_cc18e977",
+    "alert_type": "account_takeover",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10465386,
+      "age": 68,
+      "expected_turnover": 490183
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10465386,
+        "contribution": 104.65386
+      },
+      {
+        "feature": "age",
+        "value": 68,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 490183,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10465386,
+        "contribution": 104.65386
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.536602",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_b3ce9318",
+    "customer_id": "CUST_69a73fd2",
+    "alert_type": "account_takeover",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10327050,
+      "age": 84,
+      "expected_turnover": 511700
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10327050,
+        "contribution": 103.2705
+      },
+      {
+        "feature": "age",
+        "value": 84,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 511700,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10327050,
+        "contribution": 103.2705
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.539642",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_19879ea8",
+    "customer_id": "CUST_8fb6dc93",
+    "alert_type": "sanctions",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10656915,
+      "age": 45,
+      "expected_turnover": 303125
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10656915,
+        "contribution": 106.56915
+      },
+      {
+        "feature": "age",
+        "value": 45,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 303125,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10656915,
+        "contribution": 106.56915
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.542640",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_28c86fd7",
+    "customer_id": "CUST_e948f51b",
+    "alert_type": "layering",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10294704,
+      "age": 80,
+      "expected_turnover": 796477
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10294704,
+        "contribution": 102.94704
+      },
+      {
+        "feature": "age",
+        "value": 80,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 796477,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10294704,
+        "contribution": 102.94704
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.547664",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_544c8056",
+    "customer_id": "CUST_b365dd74",
+    "alert_type": "structuring",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10263442,
+      "age": 62,
+      "expected_turnover": 514812
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10263442,
+        "contribution": 102.63442
+      },
+      {
+        "feature": "age",
+        "value": 62,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 514812,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10263442,
+        "contribution": 102.63442
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.549671",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_8f9d0390",
+    "customer_id": "CUST_c0bc0d87",
+    "alert_type": "structuring",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10722004,
+      "age": 81,
+      "expected_turnover": 454573
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10722004,
+        "contribution": 107.22004
+      },
+      {
+        "feature": "age",
+        "value": 81,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 454573,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10722004,
+        "contribution": 107.22004
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.551671",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_e361b245",
+    "customer_id": "CUST_e1176e96",
+    "alert_type": "structuring",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10338734,
+      "age": 58,
+      "expected_turnover": 330334
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10338734,
+        "contribution": 103.38734
+      },
+      {
+        "feature": "age",
+        "value": 58,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 330334,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10338734,
+        "contribution": 103.38734
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.552670",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_ca2bf7d5",
+    "customer_id": "CUST_a9c8d20a",
+    "alert_type": "account_takeover",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10427113,
+      "age": 40,
+      "expected_turnover": 487035
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10427113,
+        "contribution": 104.27113
+      },
+      {
+        "feature": "age",
+        "value": 40,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 487035,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10427113,
+        "contribution": 104.27113
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.555180",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_f7d09f28",
+    "customer_id": "CUST_79b14d8b",
+    "alert_type": "sanctions",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10371524,
+      "age": 77,
+      "expected_turnover": 535978
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10371524,
+        "contribution": 103.71524
+      },
+      {
+        "feature": "age",
+        "value": 77,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 535978,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10371524,
+        "contribution": 103.71524
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.559187",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_979e6635",
+    "customer_id": "CUST_0b58fdc4",
+    "alert_type": "account_takeover",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10646967,
+      "age": 33,
+      "expected_turnover": 731846
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10646967,
+        "contribution": 106.46967
+      },
+      {
+        "feature": "age",
+        "value": 33,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 731846,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10646967,
+        "contribution": 106.46967
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.562690",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_573ffef7",
+    "customer_id": "CUST_42d5b86e",
+    "alert_type": "cyber_fraud",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10362446,
+      "age": 41,
+      "expected_turnover": 753209
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10362446,
+        "contribution": 103.62446
+      },
+      {
+        "feature": "age",
+        "value": 41,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 753209,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10362446,
+        "contribution": 103.62446
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.564698",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_186e4c59",
+    "customer_id": "CUST_e6b76236",
+    "alert_type": "cyber_fraud",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10473314,
+      "age": 41,
+      "expected_turnover": 371153
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10473314,
+        "contribution": 104.73314
+      },
+      {
+        "feature": "age",
+        "value": 41,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 371153,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10473314,
+        "contribution": 104.73314
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.565699",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_5c90d02d",
+    "customer_id": "CUST_1c5eb34a",
+    "alert_type": "account_takeover",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10464844,
+      "age": 59,
+      "expected_turnover": 352462
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10464844,
+        "contribution": 104.64844
+      },
+      {
+        "feature": "age",
+        "value": 59,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 352462,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10464844,
+        "contribution": 104.64844
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.567909",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_97765d00",
+    "customer_id": "CUST_74f900ab",
+    "alert_type": "account_takeover",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10458871,
+      "age": 68,
+      "expected_turnover": 631603
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10458871,
+        "contribution": 104.58871
+      },
+      {
+        "feature": "age",
+        "value": 68,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 631603,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10458871,
+        "contribution": 104.58871
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.570921",
+    "synthetic_flag": true
+  },
+  {
+    "alert_id": "ALERT_e867a3ac",
+    "customer_id": "CUST_73513d86",
+    "alert_type": "cyber_fraud",
+    "risk_score": 100,
+    "model_metadata": {
+      "model_name": "risk_model_v1",
+      "model_version": "1.0.0",
+      "rule_engine_version": "2.1.3"
+    },
+    "feature_values": {
+      "inbound_count_7d": 48,
+      "foreign_txn_count": 1,
+      "total_amount_7d": 10526919,
+      "age": 53,
+      "expected_turnover": 710252
+    },
+    "shap_explanations": [
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      },
+      {
+        "feature": "total_amount_7d",
+        "value": 10526919,
+        "contribution": 105.26919
+      },
+      {
+        "feature": "age",
+        "value": 53,
+        "contribution": 1
+      },
+      {
+        "feature": "expected_turnover",
+        "value": 710252,
+        "contribution": 5
+      }
+    ],
+    "top_risk_drivers": [
+      {
+        "feature": "total_amount_7d",
+        "value": 10526919,
+        "contribution": 105.26919
+      },
+      {
+        "feature": "inbound_count_7d",
+        "value": 48,
+        "contribution": 24.0
+      },
+      {
+        "feature": "foreign_txn_count",
+        "value": 1,
+        "contribution": 10
+      }
+    ],
+    "alert_date": "2026-02-14T13:23:38.572432",
+    "synthetic_flag": true
+  }
+]

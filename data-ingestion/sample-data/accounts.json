@@ -1,0 +1,1002 @@
+[
+  {
+    "account_id": "ACC_11b301b5",
+    "customer_id": "CUST_90b6633f",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_06e02194",
+    "customer_id": "CUST_d05d0980",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_8175fad2",
+    "customer_id": "CUST_a8a6ccbd",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_9923cf2e",
+    "customer_id": "CUST_2098f747",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_ee88472f",
+    "customer_id": "CUST_78e518b8",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_5236ab1d",
+    "customer_id": "CUST_24346a62",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_fd6d74c0",
+    "customer_id": "CUST_d54b255d",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_17f5d2ea",
+    "customer_id": "CUST_5947397c",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_598e96a9",
+    "customer_id": "CUST_d8ac3949",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_c3496cc3",
+    "customer_id": "CUST_d9bdee22",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_af6617c2",
+    "customer_id": "CUST_4a0b5e62",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_b764b998",
+    "customer_id": "CUST_e89682f7",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e44eea65",
+    "customer_id": "CUST_5ded1161",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_7abc9b64",
+    "customer_id": "CUST_511bc05d",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_24a279ed",
+    "customer_id": "CUST_e2300297",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e56866ba",
+    "customer_id": "CUST_a9681ece",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_429305b8",
+    "customer_id": "CUST_6f2c9269",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_4638a8c7",
+    "customer_id": "CUST_b7ab5a20",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_72a9191b",
+    "customer_id": "CUST_655b31ad",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_7b804951",
+    "customer_id": "CUST_1c3ca270",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_01139dee",
+    "customer_id": "CUST_346c003d",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_3a497bc2",
+    "customer_id": "CUST_7631fb54",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_aee0f86a",
+    "customer_id": "CUST_46d44612",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_40b5b58c",
+    "customer_id": "CUST_1fe348c2",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_ab82c16f",
+    "customer_id": "CUST_5d334b85",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_eb5deef8",
+    "customer_id": "CUST_6468fa09",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_a1d48f68",
+    "customer_id": "CUST_f3d9c1e7",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_53c6950b",
+    "customer_id": "CUST_4573fe2c",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_5fabf8a0",
+    "customer_id": "CUST_6257283b",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_dee71d06",
+    "customer_id": "CUST_95c98a0d",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_b428f18d",
+    "customer_id": "CUST_de9f6def",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_a228c525",
+    "customer_id": "CUST_501f9478",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_dfe3c783",
+    "customer_id": "CUST_2a9d5894",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_fa654861",
+    "customer_id": "CUST_fbbc4b91",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_9625cdff",
+    "customer_id": "CUST_f02a92b8",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_1df72c74",
+    "customer_id": "CUST_313fc7d9",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_b448072e",
+    "customer_id": "CUST_c7250055",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_a91b527e",
+    "customer_id": "CUST_de1c45c6",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_410bd008",
+    "customer_id": "CUST_bd073dc7",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_7e07a4ac",
+    "customer_id": "CUST_db0d7f54",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_67283d26",
+    "customer_id": "CUST_9e2bd700",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e1f92fa0",
+    "customer_id": "CUST_40057700",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_5b29bbcc",
+    "customer_id": "CUST_5880de7b",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_c796a145",
+    "customer_id": "CUST_8a909faf",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_9bffe7d6",
+    "customer_id": "CUST_ba84b5a8",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_66dad97c",
+    "customer_id": "CUST_8bbcabf5",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_6bf8a80a",
+    "customer_id": "CUST_eff480e5",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_25e68ada",
+    "customer_id": "CUST_6cb5793b",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_c9f34f23",
+    "customer_id": "CUST_5444933c",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_56b7d971",
+    "customer_id": "CUST_c0bc185d",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_0047d5fe",
+    "customer_id": "CUST_a747544e",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_991eb8ec",
+    "customer_id": "CUST_678fec28",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_71114374",
+    "customer_id": "CUST_b5f99a38",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_bbb1e54d",
+    "customer_id": "CUST_76522314",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_1521474b",
+    "customer_id": "CUST_35790bce",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_023ead46",
+    "customer_id": "CUST_79040b97",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_4843d47e",
+    "customer_id": "CUST_18e2656b",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_72765c70",
+    "customer_id": "CUST_d673689a",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_ff0308e7",
+    "customer_id": "CUST_66a5f71c",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_59ea9427",
+    "customer_id": "CUST_3634a072",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_7007009d",
+    "customer_id": "CUST_0fa29767",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_31bd5821",
+    "customer_id": "CUST_71785794",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_ad1cef00",
+    "customer_id": "CUST_446f17e5",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_0b57a20d",
+    "customer_id": "CUST_ed233f02",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_65de2ceb",
+    "customer_id": "CUST_16eb3fbe",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_eae3b60d",
+    "customer_id": "CUST_c94f638b",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_d91197e0",
+    "customer_id": "CUST_ee65acd0",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_90b41d61",
+    "customer_id": "CUST_8081e54c",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_f5751a8e",
+    "customer_id": "CUST_6fb384b0",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_a6ae1f30",
+    "customer_id": "CUST_ec99f6f3",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_a24526c4",
+    "customer_id": "CUST_83fc4172",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_a6d088c8",
+    "customer_id": "CUST_fb92b7e0",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_01fa831f",
+    "customer_id": "CUST_a3387dfd",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_b0a63d60",
+    "customer_id": "CUST_ab43f57e",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_220a72ae",
+    "customer_id": "CUST_7f14fce3",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_2b549eae",
+    "customer_id": "CUST_e9cc5383",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_bc905b69",
+    "customer_id": "CUST_c52d7b23",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_6443aac6",
+    "customer_id": "CUST_195a47d4",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_1341f180",
+    "customer_id": "CUST_90258683",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_1d272c16",
+    "customer_id": "CUST_1438cbdd",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_281800b8",
+    "customer_id": "CUST_96eb25ad",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_afe19af1",
+    "customer_id": "CUST_4b2624b5",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_78d7338a",
+    "customer_id": "CUST_b49f1d9f",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_7c005a30",
+    "customer_id": "CUST_2c94cb84",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_2c56243f",
+    "customer_id": "CUST_8160692a",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_f4efbc84",
+    "customer_id": "CUST_cd364160",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_807a2dc9",
+    "customer_id": "CUST_921dbcb0",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_046df737",
+    "customer_id": "CUST_0f0fcba3",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_dfaa64d3",
+    "customer_id": "CUST_c24888ff",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_7fca8cbb",
+    "customer_id": "CUST_d4364f02",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_80be2788",
+    "customer_id": "CUST_a6e0eaaf",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_8dc6cced",
+    "customer_id": "CUST_d2dc1f74",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_6f43fea2",
+    "customer_id": "CUST_b8905c1f",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_b5ec194c",
+    "customer_id": "CUST_ea71d8b1",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_4a920c8d",
+    "customer_id": "CUST_1ed65af6",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_b108c3c3",
+    "customer_id": "CUST_e9359959",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_b1f3b437",
+    "customer_id": "CUST_f922957d",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_0d1312da",
+    "customer_id": "CUST_f1fbeaaf",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_ea5ee99d",
+    "customer_id": "CUST_9038c625",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e3d34818",
+    "customer_id": "CUST_6a153f5e",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_3dbbe6fe",
+    "customer_id": "CUST_467f4495",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_acfae71b",
+    "customer_id": "CUST_32cc1f84",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_16de96b9",
+    "customer_id": "CUST_1ef7ccfd",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_d937bf52",
+    "customer_id": "CUST_dad870f8",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_5ac0c729",
+    "customer_id": "CUST_b796de64",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_c91e61ed",
+    "customer_id": "CUST_a9c33294",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_1696858b",
+    "customer_id": "CUST_cc628f4c",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_679eb6d4",
+    "customer_id": "CUST_2626dd5c",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e6a5ee22",
+    "customer_id": "CUST_9ca83462",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_5d324590",
+    "customer_id": "CUST_885d5ab1",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_04d67e33",
+    "customer_id": "CUST_051a73b3",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_cae47f83",
+    "customer_id": "CUST_b8bfbef4",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_f8317055",
+    "customer_id": "CUST_de14b3ad",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_027de5c3",
+    "customer_id": "CUST_eb9ba23d",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_91a77675",
+    "customer_id": "CUST_3fc40887",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_8e0b1713",
+    "customer_id": "CUST_b6eefb21",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_95c562ec",
+    "customer_id": "CUST_4a1ffa80",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_f2b86d5a",
+    "customer_id": "CUST_64479dc4",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_7115bd2b",
+    "customer_id": "CUST_d132eb0d",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_c6c70332",
+    "customer_id": "CUST_14a3101a",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_73726d09",
+    "customer_id": "CUST_26ba1e44",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_7dacdf22",
+    "customer_id": "CUST_2a541366",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_d3a24bb5",
+    "customer_id": "CUST_68f537c7",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_28fcce6d",
+    "customer_id": "CUST_29eda6bc",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_955fbfc4",
+    "customer_id": "CUST_93cb011d",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_7cc4ea9a",
+    "customer_id": "CUST_81d54d1f",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_ee6ea2f5",
+    "customer_id": "CUST_b45ae092",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_de987b02",
+    "customer_id": "CUST_d2db00ef",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_3505c98a",
+    "customer_id": "CUST_3f4a5e7d",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_685d49dd",
+    "customer_id": "CUST_cb04b650",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_f03b0078",
+    "customer_id": "CUST_1a39651f",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_0be19a69",
+    "customer_id": "CUST_a31c2493",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_5b8e7322",
+    "customer_id": "CUST_83e91fee",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_d78a320d",
+    "customer_id": "CUST_7ef57ace",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e6bb7264",
+    "customer_id": "CUST_59dbc3f3",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_31d95402",
+    "customer_id": "CUST_aea01418",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_8bdfa63e",
+    "customer_id": "CUST_bcdd8102",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_8a1087ed",
+    "customer_id": "CUST_7233c849",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_a81be8f5",
+    "customer_id": "CUST_9f472c2d",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_2d83d680",
+    "customer_id": "CUST_16aa467b",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_4aeb9f5b",
+    "customer_id": "CUST_c021a41b",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_d9980148",
+    "customer_id": "CUST_4068b691",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_3cd8f883",
+    "customer_id": "CUST_fd353745",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_7bbbd9f1",
+    "customer_id": "CUST_9d10fefd",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_fce8efed",
+    "customer_id": "CUST_c6cddd13",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_aeaf7f06",
+    "customer_id": "CUST_acfaacab",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_70bfe86c",
+    "customer_id": "CUST_7d214787",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_f3e68bbc",
+    "customer_id": "CUST_0f1e081b",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e5446cef",
+    "customer_id": "CUST_d40fc08e",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_0ce3a960",
+    "customer_id": "CUST_dfc837f2",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e9228b0f",
+    "customer_id": "CUST_e843165f",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_cd4a866f",
+    "customer_id": "CUST_3dd883d8",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_d76e401b",
+    "customer_id": "CUST_5f72f321",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_009f3ec4",
+    "customer_id": "CUST_4d9c6113",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_453d7091",
+    "customer_id": "CUST_43647a48",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_3031f465",
+    "customer_id": "CUST_bb6011a3",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_cc093b55",
+    "customer_id": "CUST_42e543c5",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_2a88bfb9",
+    "customer_id": "CUST_e27f8dbe",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_90b736e3",
+    "customer_id": "CUST_eee0362b",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_1e7d1f68",
+    "customer_id": "CUST_df681ca5",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_66a0787c",
+    "customer_id": "CUST_f5ef52dc",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_a1a716e9",
+    "customer_id": "CUST_63bfbe26",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_482ad5c0",
+    "customer_id": "CUST_839063b5",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_ab93d679",
+    "customer_id": "CUST_2386ebce",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_42ccd404",
+    "customer_id": "CUST_690b9f68",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_bfc282be",
+    "customer_id": "CUST_a2bad2b1",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_ba2254e8",
+    "customer_id": "CUST_4c60f8af",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_897d27b8",
+    "customer_id": "CUST_809a87bb",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_c748a781",
+    "customer_id": "CUST_29312d3e",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_9a713475",
+    "customer_id": "CUST_cc18e977",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_08316163",
+    "customer_id": "CUST_7afa137e",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_551db273",
+    "customer_id": "CUST_856889e8",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_6c04c4a1",
+    "customer_id": "CUST_69a73fd2",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e9e8fcc6",
+    "customer_id": "CUST_67f2efc6",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_86927006",
+    "customer_id": "CUST_185a9c3e",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_c58e75b0",
+    "customer_id": "CUST_8fb6dc93",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_2af368bd",
+    "customer_id": "CUST_283e1692",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_0db2c933",
+    "customer_id": "CUST_66ef464f",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_2fd78270",
+    "customer_id": "CUST_e948f51b",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_4a294790",
+    "customer_id": "CUST_b365dd74",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_ac7a3800",
+    "customer_id": "CUST_c0bc0d87",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_fd2898b8",
+    "customer_id": "CUST_e1176e96",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_7f0ab151",
+    "customer_id": "CUST_a9c8d20a",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_1a0b1a90",
+    "customer_id": "CUST_d7524844",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_b2570a4f",
+    "customer_id": "CUST_036c2ea5",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_0cabd761",
+    "customer_id": "CUST_7cf53038",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_8ddf4a81",
+    "customer_id": "CUST_79b14d8b",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_37c9274a",
+    "customer_id": "CUST_6ea47da1",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_4f0530dc",
+    "customer_id": "CUST_968dfcb6",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_690afa2d",
+    "customer_id": "CUST_0b58fdc4",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_396e7b78",
+    "customer_id": "CUST_7dfd7a85",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_8c4a4a01",
+    "customer_id": "CUST_42d5b86e",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_29968c36",
+    "customer_id": "CUST_e6b76236",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_d4adac92",
+    "customer_id": "CUST_37161545",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_fc47aa47",
+    "customer_id": "CUST_1c5eb34a",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_a32cbbe8",
+    "customer_id": "CUST_f9c55059",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_53f0ab6c",
+    "customer_id": "CUST_d527d5ed",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_80ed5f9a",
+    "customer_id": "CUST_74f900ab",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_b02488dc",
+    "customer_id": "CUST_66a02134",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_18daa29e",
+    "customer_id": "CUST_73513d86",
+    "synthetic_flag": true
+  }
+]

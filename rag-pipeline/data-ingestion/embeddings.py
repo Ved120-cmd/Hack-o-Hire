@@ -10,7 +10,7 @@ from sentence_transformers import SentenceTransformer
 
 EMBEDDING_MODEL_NAME = "intfloat/e5-base-v2"
 
-CHROMA_DB_PATH = r"/Users/shravnithakur/Desktop/Hack-o-Hire/rag-pipeline/vector_store"
+CHROMA_DB_PATH = r"C:\college\Hackathons\BARCLAYS\Hack-o-Hire\rag-pipeline\vector_store"
 
 # Collections for different DBs
 COLLECTIONS = {
@@ -21,9 +21,9 @@ COLLECTIONS = {
 
 # Folder paths for different chunk types
 CHUNKS_FOLDERS = {
-    "guidelines": r"/Users/shravnithakur/Desktop/Hack-o-Hire/rag-pipeline/docs/guidance-chunks",
-    "sars": r"/Users/shravnithakur/Desktop/Hack-o-Hire/rag-pipeline/docs/suspicious-activity-narrative-chunks",
-    "templates": r"/Users/shravnithakur/Desktop/Hack-o-Hire/rag-pipeline/docs/templates-chunks"
+    "guidelines": r"C:\college\Hackathons\BARCLAYS\Hack-o-Hire\rag-pipeline\docs\guidance-chunks",
+    "sars": r"C:\college\Hackathons\BARCLAYS\Hack-o-Hire\rag-pipeline\docs\suspicious-activity-narrative-chunks",
+    "templates": r"C:\college\Hackathons\BARCLAYS\Hack-o-Hire\rag-pipeline\docs\templates-chunks"
 }
 
 BATCH_SIZE = 32

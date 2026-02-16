@@ -69,7 +69,11 @@ prompt = ChatPromptTemplate.from_messages(
 
 # streamlit framework
 st.title('RAG Demo')
-input_text = st.text_input("Search the topic you want")
+input_text = st.text_area(
+    "Paste Case Data Here",
+    height=500
+)
+
 
 # Ollama llm
 llm = ChatOllama(

@@ -5,6 +5,12 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_community.chat_models import ChatOllama
 import streamlit as st
 from dotenv import load_dotenv
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
+from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
+from reportlab.lib import colors
+from reportlab.lib.units import inch
+from io import BytesIO
+
 load_dotenv()
 
 persist_directory = "chroma_db"
@@ -86,15 +92,26 @@ chain = prompt | llm | output_parser
 def format_docs(docs):
     return "\n\n".join(doc.page_content for doc in docs)
 
+def generate_pdf(text):
+    buffer = BytesIO()
+    doc = SimpleDocTemplate(buffer)
+    elements = []
+
+    styles = getSampleStyleSheet()
+    normal_style = styles["Normal"]
+
+    for line in text.split("\n"):
+        elements.append(Paragraph(line, normal_style))
+        elements.append(Spacer(1, 0.2 * inch))
+
+    doc.build(elements)
+    buffer.seek(0)
+    return buffer
+
 if input_text:
 
-    # Retrieve relevant guidance
     guidance_docs = guidance_vs.invoke("")
-
-    # Retrieve template
     template_docs = templates_vs.invoke(input_text)
-
-    # Retrieve similar historical SARs (optional support context)
     sars_docs = sars_vs.invoke(input_text)
 
     guidance = format_docs(guidance_docs)
@@ -107,5 +124,32 @@ if input_text:
         "case_data": input_text + "\n\nSimilar Cases:\n" + similar_cases
     })
 
-    st.subheader("Generated UK SAR Narrative")
-    st.write(response)
+    st.session_state.generated_sar = response
+
+if "generated_sar" in st.session_state:
+
+    st.subheader("Edit SAR Narrative Before Approval")
+
+    edited_text = st.text_area(
+        "Review and Edit",
+        value=st.session_state.generated_sar,
+        height=500
+    )
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        if st.button("Approve SAR"):
+            st.session_state.approved_sar = edited_text
+            st.success("SAR Approved Successfully")
+
+    with col2:
+        if "approved_sar" in st.session_state:
+            pdf_file = generate_pdf(st.session_state.approved_sar)
+
+            st.download_button(
+                label="Download Approved SAR as PDF",
+                data=pdf_file,
+                file_name="UK_SAR_Report.pdf",
+                mime="application/pdf"
+            )

@@ -1,0 +1,31 @@
+[
+    {
+        "content": "Investigation case number: 03-501. Doe’s Auto Sales, commercial checking account #1234567, is being reported for suspicious activity involving structured cash deposits and rapid movement of funds. The business operates as a small used car lot with an inventory of fewer than 10 vehicles at any given time. Account activity historically has been minimal, with several months showing little to no transactional activity. However, during June 2003, a series of structured cash deposits were conducted at two separate branches in Anytown, CA, in a manner consistent with attempts to evade federal currency transaction reporting requirements.\n\nBetween June 3, 2003 and June 12, 2003, six cash deposits of $9,800 each were made on consecutive business days. Deposits occurred on 06/03, 06/04, 06/09, 06/10, 06/11, and 06/12. The deposits were split between two branches: the Happy Valley branch and the Main Office branch. John Doe conducted the deposits on 06/03, 06/09, and 06/11 at the Happy Valley branch, while Jane Doe conducted the deposits on 06/04, 06/10, and 06/12 at the Main Office branch. The source of funds remains unknown.\n\nImmediately following each cash deposit, checks in the identical amount of $9,800 were issued payable to Doe’s Auto Sales and subsequently deposited into an account at XYZ Bank, also located in Anytown, CA. These checks posted on 06/04, 06/05, 06/10, 06/11, 06/12, and 06/13. The rapid movement of funds to another financial institution in amounts just below the $10,000 reporting threshold appears designed to avoid detection and reporting under the Bank Secrecy Act.\n\nA review of historical account activity since its opening in September 2002 revealed no similar patterns of deposits or transaction volume. The sudden spike in structured cash activity is inconsistent with the expected business profile of a small used car dealership with limited inventory. Due to the structured nature of the deposits, use of multiple branches, and immediate transfer of funds to another institution, this activity appears suspicious and indicative of potential layering. The bank will continue to monitor the account for additional suspicious activity and file supplemental SARs as warranted.",
+        "metadata": {
+            "name": "Suspicious-Activity-Narrative",
+            "domain": "Financial Crime / Anti-Money Laundering (AML)",
+            "typology_details": {
+                "Structuring": [
+                    "Six consecutive cash deposits of $9,800",
+                    "Amounts structured just below $10,000 CTR threshold",
+                    "Use of multiple branches to conduct transactions",
+                    "Pattern consistent with evasion of Bank Secrecy Act reporting requirements"
+                ],
+                "Rapid Movement of Funds": [
+                    "Immediate issuance of checks for identical deposit amounts",
+                    "Funds transferred to account at XYZ Bank",
+                    "Movement of funds immediately following deposits"
+                ],
+                "Layering Activity": [
+                    "Structured deposits followed by transfer to external financial institution",
+                    "Unknown disposition of funds after transfer"
+                ],
+                "Unusual / Non-Comensurate Activity": [
+                    "Minimal historical account activity",
+                    "Sudden spike in deposit volume",
+                    "Transaction volume inconsistent with small used car lot business model"
+                ]
+            }
+        }
+    }
+]

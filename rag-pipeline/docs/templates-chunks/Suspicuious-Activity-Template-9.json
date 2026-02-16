@@ -1,0 +1,15 @@
+[
+    {
+        "content": "Subject Overview: The subject entity is a registered charity incorporated in England and Wales (Charity No. [INSERT NUMBER]). The entity maintains [NUMBER] accounts with this institution. Declared charitable objective: [DECLARED CHARITABLE OBJECTIVE]. Historic activity: Historic activity has consisted primarily of small-scale donations and domestic operational expenses.\n\nSuspicious Activity Identified (Timeframe: [START DATE] to [END DATE]): The charity account received multiple large donations totalling approximately £[TOTAL AMOUNT]. A significant proportion of donations originated from overseas donors in [JURISDICTIONS]. Funds were subsequently transferred to beneficiaries in conflict-affected or high-risk regions. Limited documentation has been provided to evidence how funds were deployed in accordance with stated charitable objectives. Transaction volumes materially exceed historical fundraising levels.\n\nRisk Assessment and Grounds for Suspicion: The sudden increase in overseas donations, high-risk geographic transfers, limited transparency regarding fund deployment, and deviation from historical activity give rise to suspicion that the funds may be diverted from legitimate charitable use and/or the account may be facilitating money laundering or terrorist financing. No sufficient explanation has been provided.\n\nLegal Basis: This report is submitted pursuant to Section 330 of the Proceeds of Crime Act 2002.",
+        "metadata": {
+            "name": "Suspicious Activity Narrative Template - Charity Misuse Risk",
+            "domain": "Anti-Money Laundering (AML) / Financial Crime Compliance",
+            "typology_details": {
+                "Charity Misuse Risk": "Sudden increase in donation volume and overseas funding suggests potential misuse of charitable structure.",
+                "Terrorist Financing Exposure": "Transfers to conflict-affected regions elevate risk of diversion to prohibited entities.",
+                "Geographic Risk Indicators": "Cross-border movement of funds to high-risk jurisdictions increases financial crime exposure.",
+                "Business Profile Deviation": "Transaction activity is inconsistent with historical fundraising and operational scale."
+            }
+        }
+    }
+]

@@ -4,26 +4,30 @@ import uuid
 import hashlib
 import datetime
 from typing import List
-
 import chromadb
 from chromadb.config import Settings
 from sentence_transformers import SentenceTransformer
 
-
-# ==========================================================
-# CONFIGURATION
-# ==========================================================
-
 EMBEDDING_MODEL_NAME = "intfloat/e5-base-v2"
 
 CHROMA_DB_PATH = r"/Users/shravnithakur/Desktop/Hack-o-Hire/rag-pipeline/vector_store"
-COLLECTION_NAME = "sar_regulatory_chunks"
 
-CHUNKS_FOLDER = r"/Users/shravnithakur/Desktop/Hack-o-Hire/rag-pipeline/docs/typologies_chunks"
+# Collections for different DBs
+COLLECTIONS = {
+    "guidelines": "sar_guidelines_chunks",
+    "sars": "sar_reports_chunks",
+    "templates": "sar_templates_chunks"
+}
+
+# Folder paths for different chunk types
+CHUNKS_FOLDERS = {
+    "guidelines": r"/Users/shravnithakur/Desktop/Hack-o-Hire/rag-pipeline/docs/guidance-chunks",
+    "sars": r"/Users/shravnithakur/Desktop/Hack-o-Hire/rag-pipeline/docs/suspicious-activity-narrative-chunks",
+    "templates": r"/Users/shravnithakur/Desktop/Hack-o-Hire/rag-pipeline/docs/templates-chunks"
+}
 
 BATCH_SIZE = 32
 UPSERT_BATCH_SIZE = 500
-
 
 # ==========================================================
 # LOAD MODEL
@@ -32,7 +36,6 @@ UPSERT_BATCH_SIZE = 500
 print("Loading embedding model...")
 model = SentenceTransformer(EMBEDDING_MODEL_NAME, device="cpu")
 print("Model loaded.")
-
 
 # ==========================================================
 # INIT PERSISTENT CHROMA CLIENT
@@ -43,11 +46,13 @@ chroma_client = chromadb.PersistentClient(
     settings=Settings(anonymized_telemetry=False)
 )
 
-collection = chroma_client.get_or_create_collection(
-    name=COLLECTION_NAME,
-    metadata={"hnsw:space": "cosine"}
-)
-
+# Create or get collections for each DB
+collections = {}
+for db_name, coll_name in COLLECTIONS.items():
+    collections[db_name] = chroma_client.get_or_create_collection(
+        name=coll_name,
+        metadata={"hnsw:space": "cosine"}
+    )
 
 # ==========================================================
 # HELPERS
@@ -56,13 +61,11 @@ collection = chroma_client.get_or_create_collection(
 def generate_hash(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
-
 def prepare_text(text: str) -> str:
     """
     E5 requires 'passage:' prefix for stored docs.
     """
     return f"passage: {text.strip()}"
-
 
 def load_all_chunks(folder_path: str) -> List[dict]:
 
@@ -91,8 +94,7 @@ def load_all_chunks(folder_path: str) -> List[dict]:
 
     return all_chunks
 
-
-def get_existing_hashes(hashes: List[str]) -> set:
+def get_existing_hashes(collection, hashes: List[str]) -> set:
     """
     Prevent duplicate inserts.
     """
@@ -110,12 +112,11 @@ def get_existing_hashes(hashes: List[str]) -> set:
         if "content_hash" in m
     }
 
-
 # ==========================================================
 # EMBEDDING + STORAGE
 # ==========================================================
 
-def embed_and_store(chunks: List[dict]):
+def embed_and_store(chunks: List[dict], collection):
 
     texts = []
     documents = []
@@ -152,7 +153,7 @@ def embed_and_store(chunks: List[dict]):
         return
 
     # Remove duplicates
-    existing_hashes = get_existing_hashes(hashes)
+    existing_hashes = get_existing_hashes(collection, hashes)
 
     new_texts = []
     new_documents = []
@@ -196,18 +197,16 @@ def embed_and_store(chunks: List[dict]):
 
     print("Stored successfully.")
 
-
 # ==========================================================
 # MAIN
 # ==========================================================
 
 if __name__ == "__main__":
 
-    print("Loading JSON files from folder...")
-    chunks = load_all_chunks(CHUNKS_FOLDER)
+    for db_name, folder_path in CHUNKS_FOLDERS.items():
+        print(f"\nProcessing {db_name.upper()} chunks from folder: {folder_path}")
+        chunks = load_all_chunks(folder_path)
+        print(f"Total chunks found for {db_name}: {len(chunks)}")
+        embed_and_store(chunks, collections[db_name])
 
-    print(f"Total chunks found: {len(chunks)}")
-
-    embed_and_store(chunks)
-
-    print("Done.")
+    print("\nAll DBs processed successfully.")

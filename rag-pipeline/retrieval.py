@@ -11,12 +11,20 @@ persist_directory = "chroma_db"
 embeddings = HuggingFaceEmbeddings(
     model_name = "sentence-transformers/all-MiniLM-L6-v2"
 )
-vectorstore = Chroma(
-    persist_directory = persist_directory,
-    embedding_function = embeddings
-)
+guidance_vs = Chroma(
+    persist_directory="chroma_db/guidelines",
+    embedding_function=embeddings
+).as_retriever(search_kwargs={"k": 500})  
 
-retriever = vectorstore.as_retriever(search_kwargs = {"k":3})
+templates_vs = Chroma(
+    persist_directory="chroma_db/templates",
+    embedding_function=embeddings
+).as_retriever(search_kwargs={"k": 3})
+
+sars_vs = Chroma(
+    persist_directory="chroma_db/sars",
+    embedding_function=embeddings
+).as_retriever(search_kwargs={"k": 3})
 
 # prompt template 
 prompt = ChatPromptTemplate.from_messages(
@@ -47,8 +55,13 @@ def format_docs(docs):
     return "\n\n".join(doc.page_content for doc in docs)
 
 if input_text:
-    relevant_docs = retriever.invoke(input_text)
-    context = format_docs(relevant_docs)
+    guidance_docs = guidance_vs.invoke("") 
+    templates_docs = templates_vs.invoke(input_text)
+    sars_docs = sars_vs.invoke(input_text)
+
+    all_docs = guidance_docs + templates_docs + sars_docs
+
+    context = format_docs(all_docs)
 
     response = chain.invoke({
         "context": context,

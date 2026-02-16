@@ -1,0 +1,35 @@
+[
+    {
+        "content": "Investigation case number: AA67325. This Suspicious Activity Report is being filed to summarize structured cash deposits and subsequent international wire transfer activity conducted by John Doe, personal checking account #12345678910. John Doe has maintained this account since April 2000. At account opening and during periodic reviews, Mr. Doe identified himself as a college student employed part-time at Quickie Car Wash.\n\nA review of account activity in March 2002 revealed a pattern of structured cash deposits followed by immediate outgoing international wire transfers. Specifically, on 03/15/02, 03/17/02, and 03/18/02, cash deposits in the amounts of $9,950.00, $9,700.00, and $10,000.00 respectively were made, totaling $29,650. These deposits were conducted on near-consecutive days and were structured at or just below the $10,000 Currency Transaction Report (CTR) threshold.\n\nFollowing each cash deposit, outgoing wire transfers were initiated to Aussie Bank in Sydney, Australia, to benefit Jennifer Doe, account #981012345, whose listed address is in Australia. The outgoing wires occurred on 03/16/02 ($9,900.00), 03/18/02 ($9,700.00), and 03/19/02 ($9,900.00). The wire amounts closely correspond to the deposited cash amounts and were initiated immediately after the deposits posted to the account.\n\nThe volume, frequency, and dollar amounts of the deposits and wire transfers are inconsistent with Mr. Doe’s stated occupation and expected income as a college student working part-time. Additionally, the relationship between John Doe and the wire beneficiary, Jennifer Doe, as well as the purpose of the recurring international wire activity, remains unknown. A review of historical account activity indicates that this level and pattern of activity deviates from prior transaction behavior.\n\nDue to the structured nature of the cash deposits, the rapid movement of funds through international wire transfers, and the inconsistency with the customer’s profile, this activity appears suspicious and indicative of potential layering. Investigation is ongoing. All records related to this SAR are maintained by the bank’s Financial Intelligence Unit in Big City, Florida.",
+        "metadata": {
+            "name": "Suspicious-Activity-Narrative",
+            "domain": "Financial Crime / Anti-Money Laundering (AML)",
+            "typology_details": {
+                "Structuring": [
+                    "Cash deposits of $9,950 and $9,700 just below $10,000 CTR threshold",
+                    "Deposits conducted on near-consecutive business days",
+                    "Pattern consistent with possible evasion of Currency Transaction Report requirements"
+                ],
+                "Rapid Movement of Funds": [
+                    "Immediate wire transfers following cash deposits",
+                    "Outgoing wires closely matching deposited amounts",
+                    "Funds quickly removed from the account after placement"
+                ],
+                "International Wire Activity": [
+                    "Repeated wire transfers to Aussie Bank, Sydney, Australia",
+                    "Single recurring foreign beneficiary: Jennifer Doe",
+                    "Cross-border transfers inconsistent with customer profile"
+                ],
+                "Unusual / Non-Commensurate Activity": [
+                    "Customer is a college student with part-time employment",
+                    "Deposit amounts inconsistent with stated income",
+                    "Activity deviates from historical account behavior"
+                ],
+                "Layering Activity": [
+                    "Cash placement followed by immediate international wire transfers",
+                    "Foreign beneficiary relationship and purpose unclear"
+                ]
+            }
+        }
+    }
+]

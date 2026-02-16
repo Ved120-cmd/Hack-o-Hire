@@ -1,0 +1,16 @@
+[
+    {
+        "content": "Subject Overview: The subject entity is a private limited company incorporated in England and Wales (Company No. [INSERT COMPANY NUMBER]). The entity maintains [NUMBER] accounts with this institution. The primary operating account ([ACCOUNT NUMBER]) has been active since [DATE]. Declared business activity: [DECLARED BUSINESS ACTIVITY]. Historic activity: [EXPECTED TRANSACTION PROFILE]. Current activity deviation: The recent activity represents a material deviation from the established business profile.\n\nSuspicious Activity Identified (Timeframe: [START DATE] to [END DATE]): The account received multiple incoming third-party transfers totalling approximately £[TOTAL AMOUNT]. The transfers originated from unrelated individuals with no apparent commercial nexus to the subject entity. Funds were subsequently consolidated and transferred in large aggregated amounts to a single overseas beneficiary within [TIMEFRAME]. The overseas beneficiary is registered in [JURISDICTION], a jurisdiction recognised for elevated AML/CFT risk. No invoices, contracts, or trade documentation have been provided to evidence the commercial rationale for the activity.\n\nRisk Assessment and Grounds for Suspicion: The pattern of multiple third-party deposits, rapid aggregation of funds, overseas transfers, and lack of supporting documentation gives rise to suspicion that the funds may constitute criminal property and/or the account may be being utilised to facilitate money laundering activity. Following internal review, no reasonable economic explanation has been established.\n\nLegal Basis: This report is submitted pursuant to Section 330 of the Proceeds of Crime Act 2002.",
+        "metadata": {
+            "name": "Suspicious Activity Narrative Template - Funnel Account",
+            "domain": "Anti-Money Laundering (AML) / Financial Crime Compliance",
+            "typology_details": {
+                "Funnel Account Activity": "Multiple unrelated third-party deposits consolidated into a single account and transferred onward indicate potential funnel account behaviour.",
+                "Layering Through Aggregation": "Aggregation of smaller inbound transfers into larger outbound payments is consistent with layering techniques designed to obscure the source of funds.",
+                "Third-Party Payment Risk": "Use of unrelated third parties to fund the account increases opacity and reduces traceability of origin.",
+                "Geographic Risk Exposure": "Outbound payments to a higher-risk jurisdiction elevate the overall financial crime risk profile.",
+                "Corporate Vehicle Misuse": "The transaction pattern is inconsistent with the declared business activity of [DECLARED BUSINESS ACTIVITY], indicating potential misuse of the corporate structure."
+            }
+        }
+    }
+]

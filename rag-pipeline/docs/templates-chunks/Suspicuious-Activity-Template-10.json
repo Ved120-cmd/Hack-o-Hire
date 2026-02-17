@@ -1,0 +1,16 @@
+[
+    {
+        "content": "Subject Overview: The subject is a corporate customer holding multiple accounts ([NUMBER]) with this institution. The primary account ([ACCOUNT NUMBER]) has been active since [DATE]. Declared business activity: [DECLARED BUSINESS ACTIVITY]. Historic activity: Historic activity has consisted primarily of routine operational transactions consistent with business size and sector.\n\nSuspicious Activity Identified (Timeframe: [START DATE] to [END DATE]): The account experienced multiple unusual transactions, including large value outbound payments to previously unknown beneficiaries, login and transaction activity from atypical IP addresses and geographic locations, and rapid execution of wire transfers without prior instruction from known account signatories. Attempts to verify transactions with the account holders have been unsuccessful. No supporting commercial documentation has been provided for the unusual payments.\n\nRisk Assessment and Grounds for Suspicion: The combination of unusual login activity, unknown beneficiaries, rapid fund movement, and deviation from historical account behavior gives rise to suspicion that the account may be compromised or used to facilitate fraudulent transfers, and/or the funds may constitute criminal property or be used for money laundering. No legitimate explanation has been provided following internal review.\n\nLegal Basis: This report is submitted pursuant to Section 330 of the Proceeds of Crime Act 2002.",
+        "metadata": {
+            "name": "Suspicious Activity Narrative Template - Account Takeover",
+            "domain": "Anti-Money Laundering (AML) / Financial Crime Compliance",
+            "typology_details": {
+                "Account Takeover / Compromised Credentials": "Unauthorized access to accounts and execution of transactions without account holder approval.",
+                "Rapid Movement of Funds": "Funds transferred quickly to multiple beneficiaries, consistent with layering or theft.",
+                "Geographic Risk Exposure": "Transactions initiated from unfamiliar or high-risk jurisdictions.",
+                "Beneficiary Risk": "Payments to newly added or unrelated beneficiaries increase opacity and fraud risk.",
+                "Business Profile Deviation": "Activity is inconsistent with normal transaction patterns and declared business operations."
+            }
+        }
+    }
+]

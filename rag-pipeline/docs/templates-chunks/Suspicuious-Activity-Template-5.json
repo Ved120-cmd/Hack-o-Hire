@@ -1,0 +1,15 @@
+[
+    {
+        "content": "Subject Overview: The subject entity is a limited liability partnership incorporated in England and Wales (Company No. [INSERT COMPANY NUMBER]). The entity maintains [NUMBER] accounts with this institution. Declared business activity: [DECLARED BUSINESS ACTIVITY]. Historic activity: Historic transaction activity has been low volume and consistent with standard operational expenses.\n\nSuspicious Activity Identified (Timeframe: [START DATE] to [END DATE]): The account received a single large inbound payment of £[AMOUNT] from an overseas corporate entity registered in [JURISDICTION]. Within [TIMEFRAME], the majority of funds were dispersed to multiple newly added beneficiaries, including: [ENTITY NAME] – [JURISDICTION], [ENTITY NAME] – [JURISDICTION], [ENTITY NAME] – [JURISDICTION]. The beneficiaries appear to have no direct commercial relationship with the subject entity. No contractual documentation has been provided to support the transaction.\n\nRisk Assessment and Grounds for Suspicion: The combination of high-value international inflow, rapid dispersal, absence of commercial rationale, and deviation from historical account behaviour gives rise to suspicion that the funds may constitute criminal property and/or the account may be being used to facilitate money laundering. No reasonable lawful explanation has been substantiated.\n\nLegal Basis: This report is submitted pursuant to Section 330 of the Proceeds of Crime Act 2002.",
+        "metadata": {
+            "name": "Suspicious Activity Narrative Template - LLP Pass-Through",
+            "domain": "Anti-Money Laundering (AML) / Financial Crime Compliance",
+            "typology_details": {
+                "Pass-Through Account Activity": "Receipt of a large sum followed by near-immediate distribution suggests use of the account as a transit vehicle.",
+                "Layering Through Dispersal": "Funds split among multiple beneficiaries reduce traceability and complicate audit trail reconstruction.",
+                "High-Risk Jurisdiction Exposure": "Cross-border movement of significant value introduces elevated geographic risk.",
+                "Dormant Account Reactivation": "Sudden high-value activity following a period of low usage may indicate account takeover or misuse."
+            }
+        }
+    }
+]

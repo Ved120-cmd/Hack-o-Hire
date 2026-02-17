@@ -1,0 +1,42 @@
+[
+    {
+        "content": "Investigation case number: BM-061101. The Bank of Mainland (BM) filed this Suspicious Activity Report due to unusual cash deposit and wire transfer activity involving two corporate customers, Sky Corporation (account #54321098) and Sea Corporation (account #12345678), both registered in Vermont and sharing a common address. The bank filed multiple Currency Transaction Reports (CTRs) for cash deposits conducted on behalf of the two corporations.\n\nAccount reviews covering the period 02/02/99 through 06/20/01 revealed patterns indicative of potential money laundering. Sky Corporation conducted 284 cash deposits totaling $2,710,000, while Sea Corporation conducted 200 cash deposits totaling $1,900,000. Many deposits were conducted in amounts just under $10,000 across multiple branches, sometimes on the same day, suggesting attempts to evade federal reporting requirements. Transactions were frequently in large, even-dollar amounts.\n\nOutgoing wire transfers were typically conducted the day following cash deposits, with amounts closely matching the prior-day deposits. Wire transfers were remitted to Paul Lafonte, Artsy Bank, account #456781234, Paris, France. Periodic incoming wires were received from Tolinka Inc., a Utah corporation banking with Bank XYZ in Warsaw, Poland, via correspondent banking channels. Bank XYZ was unable to substantiate Tolinka Inc.’s business activity, and the account was subsequently closed without explanation.\n\nCorporate filings indicated retail shoe sales; however, no verifiable business operations could be substantiated. Contact numbers were disconnected and no operating presence was identified. Due to the unusual transactional patterns, lack of business substantiation, and potential money laundering indicators, the bank has decided to terminate the banking relationship. All records related to this SAR are maintained by the bank’s Central Branch Operations Officer in Burlington, Vermont.",
+        "metadata": {
+            "name": "Suspicious-Activity-Narrative",
+            "domain": "Financial Crime / Anti-Money Laundering (AML)",
+            "typology_details": {
+                "Structuring": [
+                    "Multiple same-day deposits under $10,000 across different branches",
+                    "Night deposits conducted at multiple locations",
+                    "Pattern suggestive of evasion of CTR reporting requirements"
+                ],
+                "Layering Activity": [
+                    "Wire transfers conducted the day after cash deposits",
+                    "Wire amounts closely matched prior-day aggregate deposits",
+                    "Funds rapidly moved out via internet-based wire services"
+                ],
+                "International Wire Activity": [
+                    "Outgoing wires to Artsy Bank, Paris, France",
+                    "Incoming wires from Tolinka Inc. via Poland correspondent banking channels",
+                    "Use of foreign correspondent banking relationships"
+                ],
+                "Shell / Front Company Indicators": [
+                    "Companies registered but no verifiable operating business activity",
+                    "Disconnected phone numbers",
+                    "Inability to substantiate ongoing retail shoe business operations",
+                    "Common registered address for two corporations"
+                ],
+                "High-Volume Cash Activity": [
+                    "Sky Corporation: 284 deposits totaling $2,710,000",
+                    "Sea Corporation: 200 deposits totaling $1,900,000",
+                    "Large even-dollar transactions conducted frequently"
+                ],
+                "Correspondent Banking Risk": [
+                    "Funds routed through foreign correspondent accounts",
+                    "Foreign bank unable to verify business legitimacy of Tolinka Inc.",
+                    "Closure of foreign account after inquiry"
+                ]
+            }
+        }
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "content": "Subject Overview: The subject entity is a private limited company incorporated in England and Wales (Company No. [INSERT COMPANY NUMBER]). The entity maintains [NUMBER] accounts with this institution. The primary account ([ACCOUNT NUMBER]) has been active since [DATE]. Declared business activity: [IMPORT / EXPORT / WHOLESALE TRADE]. Historic activity: [EXPECTED TRADE PAYMENTS AND RECEIPTS]. Current activity deviation: The recent activity represents a material deviation from the established business profile.\n\nSuspicious Activity Identified (Timeframe: [START DATE] to [END DATE]): The account processed multiple international trade-related payments totalling approximately £[TOTAL AMOUNT]. Payments were made to overseas suppliers in [JURISDICTIONS], including jurisdictions identified as high-risk. Invoice documentation provided contains discrepancies including repetitive invoice numbering patterns, identical descriptions across multiple shipments, unit pricing materially inconsistent with market value, and lack of shipping or customs documentation. Funds were remitted in full upfront, without standard commercial protections such as letters of credit. No verifiable evidence of goods receipt has been provided.\n\nRisk Assessment and Grounds for Suspicion: The invoice irregularities, lack of supporting trade documentation, and deviation from expected commercial conduct give rise to suspicion that the transactions may represent disguised value transfer and/or the account may be facilitating trade-based money laundering. No reasonable economic explanation has been substantiated.\n\nLegal Basis: This report is submitted pursuant to Section 330 of the Proceeds of Crime Act 2002.",
+        "metadata": {
+            "name": "Suspicious Activity Narrative Template - Trade-Based Money Laundering",
+            "domain": "Anti-Money Laundering (AML) / Financial Crime Compliance",
+            "typology_details": {
+                "Trade-Based Money Laundering (TBML)": "Invoice discrepancies and pricing anomalies suggest possible over- or under-invoicing mechanisms.",
+                "False Documentation": "Repetitive invoice patterns and lack of shipping documentation indicate potential fabrication of trade records.",
+                "Value Transfer Through Trade Channels": "Trade payments may be used to disguise illicit value transfer across borders.",
+                "High-Risk Jurisdiction Exposure": "Cross-border trade with elevated risk jurisdictions increases opacity and beneficial ownership risk.",
+                "Business Profile Inconsistency": "Transaction volumes and geographic exposure are inconsistent with the historical trading footprint of the entity."
+            }
+        }
+    }
+]

@@ -1,0 +1,15 @@
+[
+    {
+        "content": "Subject Overview: The subject is an individual customer identified as a Politically Exposed Person (PEP) due to their position as [PUBLIC OFFICE HELD] in [COUNTRY]. Accounts: [NUMBER] accounts, including primary account ([ACCOUNT NUMBER]) active since [DATE]. Declared source of wealth: [DECLARED SOURCE]. Historic activity: Historic activity has been moderate and consistent with declared income.\n\nSuspicious Activity Identified (Timeframe: [START DATE] to [END DATE]): The account received multiple high-value transfers totalling approximately £[TOTAL AMOUNT] from offshore corporate entities registered in [JURISDICTIONS]. The entities appear to have opaque ownership structures and limited publicly available information. Funds were subsequently invested into high-value assets and/or transferred to additional offshore accounts. The scale and volume of transactions materially exceed previously declared income and asset profile. Enhanced due diligence requests have not produced satisfactory documentation evidencing legitimate source of wealth.\n\nRisk Assessment and Grounds for Suspicion: The combination of PEP status, offshore corporate inflows, opacity of ownership, asset conversion, and lack of satisfactory source of wealth documentation gives rise to suspicion that the funds may represent the proceeds of corruption and/or the account may be facilitating money laundering. Internal review has not identified a reasonable lawful explanation.\n\nLegal Basis: This report is submitted pursuant to Section 330 of the Proceeds of Crime Act 2002.",
+        "metadata": {
+            "name": "Suspicious Activity Narrative Template - PEP Corruption Risk",
+            "domain": "Anti-Money Laundering (AML) / Financial Crime Compliance",
+            "typology_details": {
+                "PEP Corruption Risk": "Receipt of significant funds from opaque offshore structures increases bribery and corruption risk exposure.",
+                "Use of Shell Companies": "Corporate entities with limited transparency suggest possible concealment of beneficial ownership.",
+                "Asset Conversion and Layering": "Movement of funds into high-value assets and offshore accounts is consistent with layering techniques.",
+                "Source of Wealth Inconsistency": "Transaction volume exceeds declared income and established financial profile."
+            }
+        }
+    }
+]

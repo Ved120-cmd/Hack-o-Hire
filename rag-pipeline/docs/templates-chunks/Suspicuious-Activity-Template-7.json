@@ -1,0 +1,16 @@
+[
+    {
+        "content": "Subject Overview: The subject entity is a private limited company incorporated in England and Wales (Company No. [INSERT COMPANY NUMBER]). The entity maintains [NUMBER] accounts with this institution. The primary account ([ACCOUNT NUMBER]) has been active since [DATE]. Declared business activity: [DECLARED BUSINESS ACTIVITY]. Historic activity: [EXPECTED TRANSACTION PROFILE]. Current activity deviation: Recent activity represents a material deviation from the established business profile.\n\nSuspicious Activity Identified (Timeframe: [START DATE] to [END DATE]): The account processed multiple international payments totalling approximately £[TOTAL AMOUNT]. Payments were routed through intermediary banks in multiple jurisdictions before reaching the final beneficiary. The ultimate beneficiary is registered in [JURISDICTION], a country subject to international sanctions and/or elevated geopolitical risk. Transaction references were vague or generic in nature (e.g., “consultancy,” “services,” “goods”). Attempts to obtain detailed contractual documentation have not yielded sufficient clarity regarding the underlying economic purpose.\n\nRisk Assessment and Grounds for Suspicion: The complex routing of funds, geographic sanctions exposure, absence of substantiating documentation, and deviation from historical account behaviour give rise to suspicion that the funds may constitute criminal property and/or the account may be facilitating sanctions evasion and/or money laundering activity. No reasonable lawful explanation has been substantiated.\n\nLegal Basis: This report is submitted pursuant to Section 330 of the Proceeds of Crime Act 2002.",
+        "metadata": {
+            "name": "Suspicious Activity Narrative Template - Sanctions Evasion",
+            "domain": "Anti-Money Laundering (AML) / Financial Crime Compliance",
+            "typology_details": {
+                "Sanctions Evasion Indicators": "Use of intermediary banks and multi-jurisdiction routing may indicate attempts to obscure the final destination of funds.",
+                "Layering Through Complex Payment Chains": "Multiple correspondent banking stages reduce transparency and complicate audit trail reconstruction.",
+                "Vague Commercial Justification": "Generic payment references without supporting documentation indicate potential concealment of true purpose.",
+                "Geographic Sanctions Risk": "Exposure to sanctioned or high-risk jurisdictions elevates financial crime risk.",
+                "Corporate Vehicle Misuse": "The transaction activity is inconsistent with the declared business operations."
+            }
+        }
+    }
+]

@@ -1,0 +1,15 @@
+[
+    {
+        "content": "Subject Overview: The subject is an individual customer holding a personal current account ([ACCOUNT NUMBER]) with this institution since [DATE]. Declared occupation: [DECLARED OCCUPATION]. Historic activity: Historic activity has reflected standard personal expenditure and salary credits. Current activity deviation: Recent activity represents a material deviation from this profile.\n\nSuspicious Activity Identified (Timeframe: [START DATE] to [END DATE]): The account received multiple high-value international wire transfers totalling approximately £[TOTAL AMOUNT]. The transfers originated from corporate entities registered in [JURISDICTIONS]. Shortly following receipt, funds were withdrawn in cash and/or transferred to cryptocurrency exchanges. The transaction values are materially inconsistent with the customer’s declared income level. The customer has not provided documentation evidencing the legitimate origin or purpose of funds.\n\nRisk Assessment and Grounds for Suspicion: The volume of inbound funds, rapid onward movement, inconsistency with declared income, and absence of supporting documentation give rise to suspicion that the funds may represent criminal property and/or the account may be facilitating laundering of illicit proceeds. Internal enquiries have not identified a legitimate economic rationale.\n\nLegal Basis: This report is submitted pursuant to Section 330 of the Proceeds of Crime Act 2002.",
+        "metadata": {
+            "name": "Suspicious Activity Narrative Template - Individual Account",
+            "domain": "Anti-Money Laundering (AML) / Financial Crime Compliance",
+            "typology_details": {
+                "Income Profile Inconsistency": "Transaction volumes significantly exceed the expected financial profile based on declared occupation.",
+                "Rapid Dissipation of Funds": "Immediate withdrawal or transfer following receipt is indicative of layering behaviour.",
+                "Virtual Asset Conversion Risk": "Transfers to cryptocurrency platforms may be indicative of attempts to increase anonymity and reduce traceability.",
+                "International Funds Movement": "Cross-border inflows from corporate entities with no apparent connection to the customer increase money laundering risk."
+            }
+        }
+    }
+]

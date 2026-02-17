@@ -1,0 +1,16 @@
+[
+    {
+        "content": "Subject Overview: The subject entity is a limited company incorporated in England and Wales (Company No. [INSERT COMPANY NUMBER]). The entity maintains [NUMBER] accounts with this institution. The primary account ([ACCOUNT NUMBER]) has been active since [DATE]. Declared business activity: [DECLARED BUSINESS ACTIVITY]. Historic activity: [EXPECTED TRANSACTION PROFILE]. Current activity deviation: The recent activity represents a material deviation from the established business profile.\n\nSuspicious Activity Identified (Timeframe: [START DATE] to [END DATE]): The account received multiple cash deposits totalling approximately £[TOTAL AMOUNT]. Each deposit was conducted below the applicable reporting threshold, with amounts structured within a narrow value range. Deposits were conducted across multiple branch locations without apparent operational rationale. Funds were transferred shortly after receipt (within [TIMEFRAME]) to third-party beneficiaries registered in jurisdictions identified as high-risk by FATF: [ENTITY NAME] [JURISDICTION], [ENTITY NAME] [JURISDICTION], [ENTITY NAME] [JURISDICTION]. No supporting commercial documentation has been provided to substantiate the economic purpose of these transfers.\n\nRisk Assessment and Grounds for Suspicion: The combination of structured cash deposits, geographic risk exposure, rapid onward transfers, and deviation from the established customer profile gives rise to a suspicion that the funds may constitute criminal property and/or the account may be being used to facilitate money laundering activity. Following internal review, no reasonable economic or lawful explanation has been identified.\n\nLegal Basis: This report is submitted pursuant to Section 330 of the Proceeds of Crime Act 2002.",
+        "metadata": {
+            "name": "Suspicious Activity Narrative Template",
+            "domain": "Anti-Money Laundering (AML) / Financial Crime Compliance",
+            "typology_details": {
+                "Structuring / Smurfing": "Repeated cash deposits below reporting thresholds indicate potential deliberate structuring to evade regulatory reporting obligations.",
+                "Placement Stage Activity": "Use of cash deposits suggests potential introduction of illicit funds into the financial system.",
+                "Layering Through Rapid Movement of Funds": "Funds were transferred shortly after deposit, limiting audit trail visibility and consistent with layering behaviour.",
+                "Use of Offshore / High-Risk Jurisdictions": "Transfers to entities registered in FATF-identified high-risk jurisdictions indicate elevated geographic risk and opacity of beneficial ownership.",
+                "Business Profile Inconsistency": "The transaction pattern is inconsistent with the declared nature and expected operations of [DECLARED BUSINESS ACTIVITY], indicating possible misuse of a corporate vehicle."
+            }
+        }
+    }
+]

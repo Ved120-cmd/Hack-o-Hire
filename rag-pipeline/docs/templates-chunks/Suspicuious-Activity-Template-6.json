@@ -1,0 +1,15 @@
+[
+    {
+        "content": "Subject Overview: The subject entity is a money service business (MSB) registered in England and Wales (Company No. [INSERT COMPANY NUMBER]). The entity maintains [NUMBER] accounts with this institution. Declared business activity: Provision of remittance services. Historic activity: Historic activity has consisted of moderate inbound cash deposits and outward remittances consistent with declared customer base.\n\nSuspicious Activity Identified (Timeframe: [START DATE] to [END DATE]): The account received substantial bulk cash deposits totalling approximately £[TOTAL AMOUNT]. Deposits were conducted at multiple branches and frequently below reporting thresholds. Funds were subsequently transferred to beneficiaries located in [JURISDICTIONS], including higher-risk regions. The volume and value of transactions materially exceed the expected turnover declared during onboarding. Enhanced due diligence requests have not yielded sufficient documentation regarding underlying customers or source of funds.\n\nRisk Assessment and Grounds for Suspicion: The combination of bulk structured cash deposits, cross-border remittances, insufficient customer transparency, and deviation from declared turnover gives rise to suspicion that the funds may represent criminal proceeds and/or the entity may be facilitating money laundering through remittance channels. No adequate explanation has been provided.\n\nLegal Basis: This report is submitted pursuant to Section 330 of the Proceeds of Crime Act 2002.",
+        "metadata": {
+            "name": "Suspicious Activity Narrative Template - MSB Bulk Cash Remittance",
+            "domain": "Anti-Money Laundering (AML) / Financial Crime Compliance",
+            "typology_details": {
+                "Informal Value Transfer System (IVTS) Indicators": "High cash volumes and remittance-style transfers suggest possible informal value transfer operations.",
+                "Structuring": "Repeated sub-threshold cash deposits indicate potential deliberate evasion of reporting obligations.",
+                "Placement and Layering": "Bulk cash deposits followed by cross-border transfers align with placement and layering stages of money laundering.",
+                "Regulatory Arbitrage Risk": "Transaction activity exceeds declared business scale, suggesting potential misrepresentation of operational capacity."
+            }
+        }
+    }
+]

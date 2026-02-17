@@ -1,0 +1,178 @@
+# Audit Trail System Configuration
+
+# Database Configuration
+database:
+  url: "postgresql://user:password@localhost:5432/sar_audit"
+  pool_size: 10
+  max_overflow: 20
+  echo: false
+  
+# Audit Settings
+audit:
+  # Enable/disable audit logging
+  enabled: true
+  
+  # Retention period in days (7 years for regulatory compliance)
+  retention_days: 2555
+  
+  # Batch size for bulk operations
+  batch_size: 100
+  
+  # Event types to audit (all by default)
+  tracked_event_types:
+    - environment_captured
+    - case_created
+    - case_updated
+    - case_viewed
+    - alert_added
+    - alert_reviewed
+    - sar_generation_started
+    - sar_reasoning_generated
+    - sar_report_generated
+    - sar_report_reviewed
+    - sar_report_submitted
+    - sar_generation_failed
+    - user_login
+    - user_logout
+    - system_error
+  
+  # Severity levels requiring immediate notification
+  alert_on_severity:
+    - critical
+  
+  # Fields to sanitize in audit logs (PII protection)
+  sanitize_fields:
+    - ssn
+    - account_number
+    - credit_card
+    - password
+    - secret
+    - token
+    - api_key
+
+# Compliance Settings
+compliance:
+  # Regulatory requirements
+  regulatory_bodies:
+    - name: "FinCEN"
+      requirements:
+        - "Bank Secrecy Act (BSA) compliance"
+        - "SAR filing requirements"
+    - name: "OFAC"
+      requirements:
+        - "Sanctions screening"
+  
+  # Retention categories
+  retention_categories:
+    standard: 2555  # 7 years
+    regulatory_filing: 3650  # 10 years
+    high_risk: 5475  # 15 years
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "json"  # json or text
+  file_path: "/var/log/sar_audit/audit.log"
+  max_file_size_mb: 100
+  backup_count: 10
+
+# API Configuration
+api:
+  version: "v1"
+  prefix: "/api/v1"
+  title: "SAR Audit Trail API"
+  description: "Comprehensive audit trail system for SAR report generation"
+  cors_origins:
+    - "*"
+  max_query_limit: 1000
+  default_page_size: 50
+
+# Performance Settings
+performance:
+  # Query optimization
+  enable_query_cache: true
+  cache_ttl_seconds: 300
+  
+  # Connection pooling
+  min_pool_size: 5
+  max_pool_size: 20
+  
+  # Timeout settings
+  connection_timeout_seconds: 30
+  query_timeout_seconds: 60
+
+# Security Settings
+security:
+  # Encryption for sensitive fields
+  encrypt_sensitive_fields: true
+  encryption_algorithm: "AES-256-GCM"
+  
+  # Access control
+  require_authentication: true
+  allowed_roles:
+    - compliance_officer
+    - supervisor
+    - auditor
+    - system_admin
+  
+  # Rate limiting
+  rate_limit:
+    enabled: true
+    max_requests_per_minute: 100
+
+# Alerting Configuration
+alerting:
+  # Enable/disable alerting
+  enabled: true
+  
+  # Alert channels
+  channels:
+    email:
+      enabled: true
+      recipients:
+        - compliance@yourorg.com
+        - security@yourorg.com
+    slack:
+      enabled: false
+      webhook_url: ""
+  
+  # Alert triggers
+  triggers:
+    - event_type: "sar_generation_failed"
+      severity: "critical"
+      action: "send_immediate_alert"
+    - event_type: "system_error"
+      severity: "critical"
+      action: "send_immediate_alert"
+    - multiple_failed_login_attempts:
+        threshold: 5
+        time_window_minutes: 15
+        action: "send_alert"
+
+# Backup and Recovery
+backup:
+  # Automatic backup settings
+  enabled: true
+  schedule: "0 2 * * *"  # Daily at 2 AM
+  retention_days: 90
+  backup_location: "/backup/sar_audit"
+  
+  # Export formats
+  export_formats:
+    - json
+    - csv
+    - parquet
+
+# Monitoring and Health Checks
+monitoring:
+  health_check_interval_seconds: 60
+  metrics_collection_enabled: true
+  metrics_retention_days: 30
+  
+  # Key metrics to track
+  tracked_metrics:
+    - audit_log_creation_rate
+    - query_response_time
+    - error_rate
+    - database_connection_pool_usage
+    - storage_usage

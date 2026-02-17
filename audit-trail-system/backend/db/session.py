@@ -9,6 +9,13 @@ from contextlib import contextmanager
 
 from backend.core.config import settings
 
+from backend.claim_gen.models.claim_models import init_claim_tables
+from backend.db.session import engine
+
+init_claim_tables(engine)
+print("✅ Tables created")
+
+
 # Create engine
 engine = create_engine(
     str(settings.DATABASE_URL),

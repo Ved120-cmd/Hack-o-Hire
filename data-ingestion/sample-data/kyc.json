@@ -1,0 +1,2102 @@
+[
+  {
+    "customer_id": "CUST_95832acc",
+    "expected_monthly_turnover": 102832,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_72f06be2",
+    "expected_monthly_turnover": 143033,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_e81f1cbc",
+    "expected_monthly_turnover": 75031,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_cceb8b20",
+    "expected_monthly_turnover": 78641,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_70116e7a",
+    "expected_monthly_turnover": 129773,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_6b5957c3",
+    "expected_monthly_turnover": 129542,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_9215164c",
+    "expected_monthly_turnover": 108952,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_ff4d9961",
+    "expected_monthly_turnover": 128467,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_ef03007b",
+    "expected_monthly_turnover": 39920,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_d5d4f3de",
+    "expected_monthly_turnover": 34465,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_7e03ecd2",
+    "expected_monthly_turnover": 76294,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_a15a94ab",
+    "expected_monthly_turnover": 107159,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_6e47b304",
+    "expected_monthly_turnover": 91026,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_ba684468",
+    "expected_monthly_turnover": 112892,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_0623519d",
+    "expected_monthly_turnover": 86628,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_aaf066c5",
+    "expected_monthly_turnover": 32731,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_2d7a3dc0",
+    "expected_monthly_turnover": 51760,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_e4a77a51",
+    "expected_monthly_turnover": 49554,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_7c2f0135",
+    "expected_monthly_turnover": 48465,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_0e0f5748",
+    "expected_monthly_turnover": 49635,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_194cb361",
+    "expected_monthly_turnover": 59074,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_ec0cc9f2",
+    "expected_monthly_turnover": 145281,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_72f398df",
+    "expected_monthly_turnover": 84174,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_dbbc0bee",
+    "expected_monthly_turnover": 123207,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_debffbd1",
+    "expected_monthly_turnover": 130735,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_f4bf2d94",
+    "expected_monthly_turnover": 99919,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_342a5b80",
+    "expected_monthly_turnover": 40162,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_30c6356b",
+    "expected_monthly_turnover": 101067,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_f5a6bf5c",
+    "expected_monthly_turnover": 101013,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_0473de4a",
+    "expected_monthly_turnover": 97537,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_bf4c412b",
+    "expected_monthly_turnover": 133682,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_f7a445d4",
+    "expected_monthly_turnover": 41182,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_be9a012e",
+    "expected_monthly_turnover": 64446,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_6041580f",
+    "expected_monthly_turnover": 149555,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_d1f5e2e6",
+    "expected_monthly_turnover": 136669,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_1c7dd1c9",
+    "expected_monthly_turnover": 74054,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_9ae10387",
+    "expected_monthly_turnover": 99920,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_4e9c35c4",
+    "expected_monthly_turnover": 37449,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_9258fd92",
+    "expected_monthly_turnover": 84181,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_d0215c60",
+    "expected_monthly_turnover": 37125,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_71d192af",
+    "expected_monthly_turnover": 111950,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_29968178",
+    "expected_monthly_turnover": 108630,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_9c9468ac",
+    "expected_monthly_turnover": 90528,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_b9252d7d",
+    "expected_monthly_turnover": 104534,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c00d6f43",
+    "expected_monthly_turnover": 31422,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_8837c873",
+    "expected_monthly_turnover": 56594,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_f568b7a1",
+    "expected_monthly_turnover": 49587,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_7d360226",
+    "expected_monthly_turnover": 147107,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_2c3b82d2",
+    "expected_monthly_turnover": 111478,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_d1af57e4",
+    "expected_monthly_turnover": 135774,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_87e42ed0",
+    "expected_monthly_turnover": 66517,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_da258cc2",
+    "expected_monthly_turnover": 73354,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_2a2a5bd1",
+    "expected_monthly_turnover": 46495,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_951cae2f",
+    "expected_monthly_turnover": 31657,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_520e0e96",
+    "expected_monthly_turnover": 119086,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_76678b72",
+    "expected_monthly_turnover": 79931,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_d9d27354",
+    "expected_monthly_turnover": 54453,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_95494428",
+    "expected_monthly_turnover": 99469,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_dc6ba6ab",
+    "expected_monthly_turnover": 146967,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_ec504bc5",
+    "expected_monthly_turnover": 63997,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_fb448e56",
+    "expected_monthly_turnover": 39516,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_4e8781a5",
+    "expected_monthly_turnover": 120808,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_a8b5f051",
+    "expected_monthly_turnover": 130867,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_47c449f8",
+    "expected_monthly_turnover": 71881,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_cf933279",
+    "expected_monthly_turnover": 89328,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_915a2418",
+    "expected_monthly_turnover": 72150,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_90756b4d",
+    "expected_monthly_turnover": 131782,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_012052fa",
+    "expected_monthly_turnover": 68465,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_de9e5207",
+    "expected_monthly_turnover": 57374,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_4e800507",
+    "expected_monthly_turnover": 76488,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_3c3b3736",
+    "expected_monthly_turnover": 38047,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_0a3dd9f2",
+    "expected_monthly_turnover": 84549,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_f9d5db6d",
+    "expected_monthly_turnover": 30528,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c6ba9c97",
+    "expected_monthly_turnover": 87144,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_aef648fb",
+    "expected_monthly_turnover": 91113,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_0163b50f",
+    "expected_monthly_turnover": 104632,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_6659a5ef",
+    "expected_monthly_turnover": 73758,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c6699e98",
+    "expected_monthly_turnover": 75479,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_a62a25ef",
+    "expected_monthly_turnover": 91136,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_3bb91bd1",
+    "expected_monthly_turnover": 111373,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_088dbe79",
+    "expected_monthly_turnover": 141585,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_388474c8",
+    "expected_monthly_turnover": 29763,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_0da43d65",
+    "expected_monthly_turnover": 58945,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_0eddd6e0",
+    "expected_monthly_turnover": 68038,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_044a5901",
+    "expected_monthly_turnover": 47093,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_45f6dafa",
+    "expected_monthly_turnover": 76145,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_6294190c",
+    "expected_monthly_turnover": 80737,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_02b3a96f",
+    "expected_monthly_turnover": 38467,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c0438338",
+    "expected_monthly_turnover": 98553,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_3762034e",
+    "expected_monthly_turnover": 129035,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_36550a7d",
+    "expected_monthly_turnover": 36861,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_2bff9a2d",
+    "expected_monthly_turnover": 63629,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_50315a79",
+    "expected_monthly_turnover": 137137,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_49ec489c",
+    "expected_monthly_turnover": 117067,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_e976f9b1",
+    "expected_monthly_turnover": 112799,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_b8aac7e7",
+    "expected_monthly_turnover": 108992,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_540e7a35",
+    "expected_monthly_turnover": 23501,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_6d0005b6",
+    "expected_monthly_turnover": 85306,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_dbda4009",
+    "expected_monthly_turnover": 137721,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_ed6620ce",
+    "expected_monthly_turnover": 53346,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_151e33e2",
+    "expected_monthly_turnover": 77928,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_6608dafd",
+    "expected_monthly_turnover": 129438,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_0ec4cb4d",
+    "expected_monthly_turnover": 143319,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_ed2fe645",
+    "expected_monthly_turnover": 138788,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_03071850",
+    "expected_monthly_turnover": 119986,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_3dfa4c1b",
+    "expected_monthly_turnover": 68956,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c405eaaa",
+    "expected_monthly_turnover": 137836,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_d25c359c",
+    "expected_monthly_turnover": 71694,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c33a05f6",
+    "expected_monthly_turnover": 23349,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_b2ef732d",
+    "expected_monthly_turnover": 25454,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_7c61cc5e",
+    "expected_monthly_turnover": 70378,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_ebb1463a",
+    "expected_monthly_turnover": 24203,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_9cf1f041",
+    "expected_monthly_turnover": 56810,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_a66d4e75",
+    "expected_monthly_turnover": 63779,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c96f2c22",
+    "expected_monthly_turnover": 105857,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_f83b149a",
+    "expected_monthly_turnover": 119590,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c82b0275",
+    "expected_monthly_turnover": 89200,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_cfda115e",
+    "expected_monthly_turnover": 84415,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_2e2ea879",
+    "expected_monthly_turnover": 124556,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_d6909592",
+    "expected_monthly_turnover": 125792,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_736935c9",
+    "expected_monthly_turnover": 66946,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_61966603",
+    "expected_monthly_turnover": 23836,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_67b2aee2",
+    "expected_monthly_turnover": 97788,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_fcdc23ad",
+    "expected_monthly_turnover": 135578,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_ce474037",
+    "expected_monthly_turnover": 43433,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_0c94feb4",
+    "expected_monthly_turnover": 58714,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_5848f296",
+    "expected_monthly_turnover": 97399,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_55a5fcce",
+    "expected_monthly_turnover": 114547,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_4e529c55",
+    "expected_monthly_turnover": 127377,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_2afe7cf5",
+    "expected_monthly_turnover": 83177,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_356460e9",
+    "expected_monthly_turnover": 129755,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_08d61d21",
+    "expected_monthly_turnover": 107229,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_b74712ac",
+    "expected_monthly_turnover": 37056,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c2e89877",
+    "expected_monthly_turnover": 66121,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_3a3574b0",
+    "expected_monthly_turnover": 67705,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c81b5b90",
+    "expected_monthly_turnover": 120452,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_e21ea979",
+    "expected_monthly_turnover": 103784,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_29a68064",
+    "expected_monthly_turnover": 111202,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_95ad5230",
+    "expected_monthly_turnover": 148032,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_ef218bab",
+    "expected_monthly_turnover": 97750,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_fc6b897d",
+    "expected_monthly_turnover": 114940,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_77c5c248",
+    "expected_monthly_turnover": 40857,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_44c1c174",
+    "expected_monthly_turnover": 74702,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_6feda42e",
+    "expected_monthly_turnover": 143318,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_b0d28af7",
+    "expected_monthly_turnover": 96472,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_2e91a876",
+    "expected_monthly_turnover": 98655,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_18eb6c7a",
+    "expected_monthly_turnover": 77371,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_d7eda9e1",
+    "expected_monthly_turnover": 131771,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_56240b1b",
+    "expected_monthly_turnover": 71222,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_6b244576",
+    "expected_monthly_turnover": 47424,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_1cd681fa",
+    "expected_monthly_turnover": 86815,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_279a62e3",
+    "expected_monthly_turnover": 138457,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_978d91e1",
+    "expected_monthly_turnover": 61762,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_5f9c0f2a",
+    "expected_monthly_turnover": 25636,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_7471bfa8",
+    "expected_monthly_turnover": 82172,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_0f826f07",
+    "expected_monthly_turnover": 79992,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_9dd0bb13",
+    "expected_monthly_turnover": 75872,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_4abe0134",
+    "expected_monthly_turnover": 122234,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_95edcb9c",
+    "expected_monthly_turnover": 102912,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_0ac16c71",
+    "expected_monthly_turnover": 128181,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_8eab6854",
+    "expected_monthly_turnover": 105736,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_7de7275d",
+    "expected_monthly_turnover": 86772,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c6a7511e",
+    "expected_monthly_turnover": 80982,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_7f37d1c1",
+    "expected_monthly_turnover": 109410,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_6ba607ca",
+    "expected_monthly_turnover": 124079,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_36dcedad",
+    "expected_monthly_turnover": 123343,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_a9fd0c13",
+    "expected_monthly_turnover": 45015,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_0d4692bf",
+    "expected_monthly_turnover": 120747,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_05f8b0d0",
+    "expected_monthly_turnover": 148042,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_2346410f",
+    "expected_monthly_turnover": 135410,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_025411a3",
+    "expected_monthly_turnover": 116241,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_441c7ac6",
+    "expected_monthly_turnover": 48590,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_4c125d3b",
+    "expected_monthly_turnover": 58427,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_738bf9b4",
+    "expected_monthly_turnover": 88017,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_f28b1816",
+    "expected_monthly_turnover": 142425,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_4140d20b",
+    "expected_monthly_turnover": 51873,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_1d4e9a51",
+    "expected_monthly_turnover": 48116,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_3f092850",
+    "expected_monthly_turnover": 133328,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_be5de4cb",
+    "expected_monthly_turnover": 37717,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_dc6caeba",
+    "expected_monthly_turnover": 70408,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_0432f827",
+    "expected_monthly_turnover": 84872,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_2326dd8a",
+    "expected_monthly_turnover": 48109,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_9dd0b024",
+    "expected_monthly_turnover": 78736,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_a2fca61b",
+    "expected_monthly_turnover": 52607,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c13e8f98",
+    "expected_monthly_turnover": 101314,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_34b39e3e",
+    "expected_monthly_turnover": 101506,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_91530f41",
+    "expected_monthly_turnover": 139705,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_42e9ae8c",
+    "expected_monthly_turnover": 107322,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_cf6bbcf0",
+    "expected_monthly_turnover": 83769,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_8df992e6",
+    "expected_monthly_turnover": 130661,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_a2139bd9",
+    "expected_monthly_turnover": 130319,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_ae00aed3",
+    "expected_monthly_turnover": 139994,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_53dc8d69",
+    "expected_monthly_turnover": 58548,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_ad5ce4ff",
+    "expected_monthly_turnover": 25824,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_f554c550",
+    "expected_monthly_turnover": 35845,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_d8e00b42",
+    "expected_monthly_turnover": 27743,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_6f2aa272",
+    "expected_monthly_turnover": 91206,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_334b9eb0",
+    "expected_monthly_turnover": 42869,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_116844d6",
+    "expected_monthly_turnover": 52038,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_e7192cc2",
+    "expected_monthly_turnover": 130163,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_f59e5f65",
+    "expected_monthly_turnover": 119186,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_3e85bb46",
+    "expected_monthly_turnover": 44665,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_0737725f",
+    "expected_monthly_turnover": 64500,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_53dabef2",
+    "expected_monthly_turnover": 66966,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_08c1cd99",
+    "expected_monthly_turnover": 54240,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_ff8970ed",
+    "expected_monthly_turnover": 66178,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_31e7b6c8",
+    "expected_monthly_turnover": 38970,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_9d1437c7",
+    "expected_monthly_turnover": 128711,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_389b8640",
+    "expected_monthly_turnover": 51310,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_ca703f14",
+    "expected_monthly_turnover": 52759,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c29f1930",
+    "expected_monthly_turnover": 125379,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_074ddf91",
+    "expected_monthly_turnover": 93177,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_3549cb7f",
+    "expected_monthly_turnover": 95377,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_27cdd21f",
+    "expected_monthly_turnover": 149275,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_0a537500",
+    "expected_monthly_turnover": 24028,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c46985d1",
+    "expected_monthly_turnover": 96078,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_90436da4",
+    "expected_monthly_turnover": 39231,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_ea798bbc",
+    "expected_monthly_turnover": 70692,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_be5a5771",
+    "expected_monthly_turnover": 101680,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_61c54191",
+    "expected_monthly_turnover": 21156,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_9bed7d70",
+    "expected_monthly_turnover": 47451,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_b6107eb6",
+    "expected_monthly_turnover": 100738,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_af43a7bf",
+    "expected_monthly_turnover": 89067,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_f70a4a65",
+    "expected_monthly_turnover": 65609,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_ed254fe2",
+    "expected_monthly_turnover": 63203,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_21a72428",
+    "expected_monthly_turnover": 122207,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c12603e7",
+    "expected_monthly_turnover": 133943,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_7e235b88",
+    "expected_monthly_turnover": 59742,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_7fa1f37e",
+    "expected_monthly_turnover": 26135,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_9789e230",
+    "expected_monthly_turnover": 44859,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_ec6e5973",
+    "expected_monthly_turnover": 124907,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_4bba0721",
+    "expected_monthly_turnover": 55584,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_da63d631",
+    "expected_monthly_turnover": 128837,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_dcdef096",
+    "expected_monthly_turnover": 102051,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_413d75e6",
+    "expected_monthly_turnover": 107443,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_a6fbf010",
+    "expected_monthly_turnover": 145181,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_7bd7f8f6",
+    "expected_monthly_turnover": 108009,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_9012cad4",
+    "expected_monthly_turnover": 127869,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_5440f06d",
+    "expected_monthly_turnover": 49066,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_2bc8fffc",
+    "expected_monthly_turnover": 128096,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_9099e066",
+    "expected_monthly_turnover": 118382,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_2a25fedf",
+    "expected_monthly_turnover": 91267,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_fe2889c8",
+    "expected_monthly_turnover": 92739,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_4f830949",
+    "expected_monthly_turnover": 121529,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_77f2b50e",
+    "expected_monthly_turnover": 22953,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_eba4b912",
+    "expected_monthly_turnover": 31195,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_055807fa",
+    "expected_monthly_turnover": 105782,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_51121236",
+    "expected_monthly_turnover": 140520,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_190d20ce",
+    "expected_monthly_turnover": 65723,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_6820d033",
+    "expected_monthly_turnover": 71480,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_84dba5dc",
+    "expected_monthly_turnover": 88116,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_af108073",
+    "expected_monthly_turnover": 70048,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_9e17e848",
+    "expected_monthly_turnover": 140225,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_4a85e7d5",
+    "expected_monthly_turnover": 77125,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_54dd6355",
+    "expected_monthly_turnover": 64432,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_364e25ce",
+    "expected_monthly_turnover": 57298,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_107708fc",
+    "expected_monthly_turnover": 100897,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_0110a7fa",
+    "expected_monthly_turnover": 22728,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_a87729cd",
+    "expected_monthly_turnover": 113364,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_43344b3d",
+    "expected_monthly_turnover": 26236,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_9e7d960a",
+    "expected_monthly_turnover": 31611,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_2e51faa2",
+    "expected_monthly_turnover": 32037,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_bf92a3ad",
+    "expected_monthly_turnover": 70729,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_6e25b2ee",
+    "expected_monthly_turnover": 70421,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_638f5181",
+    "expected_monthly_turnover": 120441,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c2e39be5",
+    "expected_monthly_turnover": 136004,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_73f4d168",
+    "expected_monthly_turnover": 62836,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_f6db7338",
+    "expected_monthly_turnover": 61743,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c8b03811",
+    "expected_monthly_turnover": 42984,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_738f226f",
+    "expected_monthly_turnover": 54919,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_5b084491",
+    "expected_monthly_turnover": 94459,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_8c6848ae",
+    "expected_monthly_turnover": 130883,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_603c0afc",
+    "expected_monthly_turnover": 149178,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_94d70359",
+    "expected_monthly_turnover": 63660,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_5d3d609e",
+    "expected_monthly_turnover": 114914,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_3e3b8390",
+    "expected_monthly_turnover": 20262,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_591da070",
+    "expected_monthly_turnover": 143043,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_d027d4d1",
+    "expected_monthly_turnover": 21809,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_eb4f873e",
+    "expected_monthly_turnover": 65805,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_cfa53d9a",
+    "expected_monthly_turnover": 115987,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_06311545",
+    "expected_monthly_turnover": 85471,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_54c72891",
+    "expected_monthly_turnover": 66412,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_e9c6bc2d",
+    "expected_monthly_turnover": 54224,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_d37ddee2",
+    "expected_monthly_turnover": 128389,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_151bf0a7",
+    "expected_monthly_turnover": 32678,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_343b2e6c",
+    "expected_monthly_turnover": 34298,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_3a1e4800",
+    "expected_monthly_turnover": 46564,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_4b9c3d41",
+    "expected_monthly_turnover": 120052,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_23f5e82e",
+    "expected_monthly_turnover": 76098,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_ebc258ba",
+    "expected_monthly_turnover": 113089,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_c468107a",
+    "expected_monthly_turnover": 83321,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_f5efbe8b",
+    "expected_monthly_turnover": 59990,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_076451eb",
+    "expected_monthly_turnover": 88642,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_3bb76d8d",
+    "expected_monthly_turnover": 82592,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_256193a9",
+    "expected_monthly_turnover": 94923,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_b062ac99",
+    "expected_monthly_turnover": 86161,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_92952e43",
+    "expected_monthly_turnover": 58684,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_acac5779",
+    "expected_monthly_turnover": 127946,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_131db40c",
+    "expected_monthly_turnover": 104534,
+    "pep_flag": true,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  },
+  {
+    "customer_id": "CUST_b94f4811",
+    "expected_monthly_turnover": 76830,
+    "pep_flag": false,
+    "sanctions_flag": false,
+    "synthetic_flag": true
+  }
+]

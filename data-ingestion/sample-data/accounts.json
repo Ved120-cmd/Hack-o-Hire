@@ -1,0 +1,1802 @@
+[
+  {
+    "account_id": "ACC_111c896b",
+    "customer_id": "CUST_95832acc",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_22cc4c46",
+    "customer_id": "CUST_72f06be2",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_0c626bc2",
+    "customer_id": "CUST_e81f1cbc",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_7bf29cb1",
+    "customer_id": "CUST_cceb8b20",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_ac0d6c4a",
+    "customer_id": "CUST_70116e7a",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_7bdc2d0b",
+    "customer_id": "CUST_6b5957c3",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_9fb0592d",
+    "customer_id": "CUST_9215164c",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_7b76de56",
+    "customer_id": "CUST_ff4d9961",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_d755f26a",
+    "customer_id": "CUST_ef03007b",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_b242b2b5",
+    "customer_id": "CUST_d5d4f3de",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_03a55e52",
+    "customer_id": "CUST_7e03ecd2",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_6d79e47d",
+    "customer_id": "CUST_a15a94ab",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_418a66fd",
+    "customer_id": "CUST_6e47b304",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_b052c9d8",
+    "customer_id": "CUST_ba684468",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_899a42ae",
+    "customer_id": "CUST_0623519d",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_6acd763c",
+    "customer_id": "CUST_aaf066c5",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_30e72ddb",
+    "customer_id": "CUST_2d7a3dc0",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_a1d5b67e",
+    "customer_id": "CUST_e4a77a51",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_fbda4f96",
+    "customer_id": "CUST_7c2f0135",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_c2a52858",
+    "customer_id": "CUST_0e0f5748",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_da83d1b7",
+    "customer_id": "CUST_194cb361",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_7c66542a",
+    "customer_id": "CUST_ec0cc9f2",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_91cb4b9f",
+    "customer_id": "CUST_72f398df",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_290e5340",
+    "customer_id": "CUST_dbbc0bee",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_b92e9acc",
+    "customer_id": "CUST_debffbd1",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_d1e238d9",
+    "customer_id": "CUST_f4bf2d94",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_0d9922be",
+    "customer_id": "CUST_342a5b80",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_b9f7c071",
+    "customer_id": "CUST_30c6356b",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_d924f9bf",
+    "customer_id": "CUST_f5a6bf5c",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_1740def9",
+    "customer_id": "CUST_0473de4a",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_1960d336",
+    "customer_id": "CUST_bf4c412b",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_994c1c6d",
+    "customer_id": "CUST_f7a445d4",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_4056b2d2",
+    "customer_id": "CUST_be9a012e",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_51ae8322",
+    "customer_id": "CUST_6041580f",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_384a2bce",
+    "customer_id": "CUST_d1f5e2e6",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_73e22ffd",
+    "customer_id": "CUST_1c7dd1c9",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_86a72cb3",
+    "customer_id": "CUST_9ae10387",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e8b51e1a",
+    "customer_id": "CUST_4e9c35c4",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_58b6bb53",
+    "customer_id": "CUST_9258fd92",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_a9383b47",
+    "customer_id": "CUST_d0215c60",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_39eeb771",
+    "customer_id": "CUST_71d192af",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_9a4b7a8d",
+    "customer_id": "CUST_29968178",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_6efbb62e",
+    "customer_id": "CUST_9c9468ac",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_5f853b9f",
+    "customer_id": "CUST_b9252d7d",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_76995b86",
+    "customer_id": "CUST_c00d6f43",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_9670b726",
+    "customer_id": "CUST_8837c873",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_b0bf3586",
+    "customer_id": "CUST_f568b7a1",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_9da6127d",
+    "customer_id": "CUST_7d360226",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e73ba30a",
+    "customer_id": "CUST_2c3b82d2",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_62ed2ad4",
+    "customer_id": "CUST_d1af57e4",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_a124f902",
+    "customer_id": "CUST_87e42ed0",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_166fc2fd",
+    "customer_id": "CUST_da258cc2",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_6ecd3e14",
+    "customer_id": "CUST_2a2a5bd1",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_71dc2a11",
+    "customer_id": "CUST_951cae2f",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_3ad1040f",
+    "customer_id": "CUST_520e0e96",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_9dd82645",
+    "customer_id": "CUST_76678b72",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_04846d7e",
+    "customer_id": "CUST_d9d27354",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_490298b9",
+    "customer_id": "CUST_95494428",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_5caed870",
+    "customer_id": "CUST_dc6ba6ab",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_4e95bd82",
+    "customer_id": "CUST_ec504bc5",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_2f787626",
+    "customer_id": "CUST_fb448e56",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_b2f54b4a",
+    "customer_id": "CUST_4e8781a5",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_fa89626c",
+    "customer_id": "CUST_a8b5f051",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_ea59defc",
+    "customer_id": "CUST_47c449f8",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_2ae0b1ce",
+    "customer_id": "CUST_cf933279",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_a873ffb7",
+    "customer_id": "CUST_915a2418",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_b364f21e",
+    "customer_id": "CUST_90756b4d",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_ddb8321a",
+    "customer_id": "CUST_012052fa",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_ec4b7ff3",
+    "customer_id": "CUST_de9e5207",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_7f6a419f",
+    "customer_id": "CUST_4e800507",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_eef917c3",
+    "customer_id": "CUST_3c3b3736",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_ad696af2",
+    "customer_id": "CUST_0a3dd9f2",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_abfdb2b9",
+    "customer_id": "CUST_f9d5db6d",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_1fdf00ee",
+    "customer_id": "CUST_c6ba9c97",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_880d3fc8",
+    "customer_id": "CUST_aef648fb",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_76e38027",
+    "customer_id": "CUST_0163b50f",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_c688da7e",
+    "customer_id": "CUST_6659a5ef",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e84d8b0c",
+    "customer_id": "CUST_c6699e98",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_d263659e",
+    "customer_id": "CUST_a62a25ef",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_57a49727",
+    "customer_id": "CUST_3bb91bd1",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_890c9b68",
+    "customer_id": "CUST_088dbe79",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_134cf9cd",
+    "customer_id": "CUST_388474c8",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_4d68d752",
+    "customer_id": "CUST_0da43d65",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_20429d95",
+    "customer_id": "CUST_0eddd6e0",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_d76ae65a",
+    "customer_id": "CUST_044a5901",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_2dde1fbe",
+    "customer_id": "CUST_45f6dafa",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_997fe2c9",
+    "customer_id": "CUST_6294190c",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e4cb77eb",
+    "customer_id": "CUST_02b3a96f",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_70d2f737",
+    "customer_id": "CUST_c0438338",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_aa9c9195",
+    "customer_id": "CUST_3762034e",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_920a452f",
+    "customer_id": "CUST_36550a7d",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_581f3eba",
+    "customer_id": "CUST_2bff9a2d",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_aaab3521",
+    "customer_id": "CUST_50315a79",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_565cca37",
+    "customer_id": "CUST_49ec489c",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e804d4fa",
+    "customer_id": "CUST_e976f9b1",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_2a40c344",
+    "customer_id": "CUST_b8aac7e7",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_8dea5393",
+    "customer_id": "CUST_540e7a35",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e541b2f3",
+    "customer_id": "CUST_6d0005b6",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_7b71e16a",
+    "customer_id": "CUST_dbda4009",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_7b0a791b",
+    "customer_id": "CUST_ed6620ce",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_c05e015e",
+    "customer_id": "CUST_151e33e2",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_f0779234",
+    "customer_id": "CUST_6608dafd",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_464f5aff",
+    "customer_id": "CUST_0ec4cb4d",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_3f276824",
+    "customer_id": "CUST_ed2fe645",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_a1125a16",
+    "customer_id": "CUST_03071850",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_16ee165f",
+    "customer_id": "CUST_3dfa4c1b",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_ff303189",
+    "customer_id": "CUST_c405eaaa",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e13eeac1",
+    "customer_id": "CUST_d25c359c",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_537ba76f",
+    "customer_id": "CUST_c33a05f6",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_6d12f12f",
+    "customer_id": "CUST_b2ef732d",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_49a92542",
+    "customer_id": "CUST_7c61cc5e",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e1994ad9",
+    "customer_id": "CUST_ebb1463a",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_4d7412c2",
+    "customer_id": "CUST_9cf1f041",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_d8dbeeb8",
+    "customer_id": "CUST_a66d4e75",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_047b4eda",
+    "customer_id": "CUST_c96f2c22",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_0ed96322",
+    "customer_id": "CUST_f83b149a",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_493b56d5",
+    "customer_id": "CUST_c82b0275",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_4c657a87",
+    "customer_id": "CUST_cfda115e",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_b5d7170c",
+    "customer_id": "CUST_2e2ea879",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_eb145145",
+    "customer_id": "CUST_d6909592",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_0c175b48",
+    "customer_id": "CUST_736935c9",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e37734e5",
+    "customer_id": "CUST_61966603",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_f5348910",
+    "customer_id": "CUST_67b2aee2",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_2feb39e6",
+    "customer_id": "CUST_fcdc23ad",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_95d8b280",
+    "customer_id": "CUST_ce474037",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_6bc460be",
+    "customer_id": "CUST_0c94feb4",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_a274c04c",
+    "customer_id": "CUST_5848f296",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_9deeedac",
+    "customer_id": "CUST_55a5fcce",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_d4fadcb3",
+    "customer_id": "CUST_4e529c55",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_7b3b356d",
+    "customer_id": "CUST_2afe7cf5",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_7c0221cf",
+    "customer_id": "CUST_356460e9",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_cb50840f",
+    "customer_id": "CUST_08d61d21",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_4dcd7bd8",
+    "customer_id": "CUST_b74712ac",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_deb7d46b",
+    "customer_id": "CUST_c2e89877",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_0ef39612",
+    "customer_id": "CUST_3a3574b0",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_4ccbd326",
+    "customer_id": "CUST_c81b5b90",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_716b96d5",
+    "customer_id": "CUST_e21ea979",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_b612c3fe",
+    "customer_id": "CUST_29a68064",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_ebcaa529",
+    "customer_id": "CUST_95ad5230",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_3f2ca952",
+    "customer_id": "CUST_ef218bab",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_62fc5ca3",
+    "customer_id": "CUST_fc6b897d",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_d0ada939",
+    "customer_id": "CUST_77c5c248",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_3a50aada",
+    "customer_id": "CUST_44c1c174",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_9989072e",
+    "customer_id": "CUST_6feda42e",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e0f4058c",
+    "customer_id": "CUST_b0d28af7",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e05258c1",
+    "customer_id": "CUST_2e91a876",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_78efdd9c",
+    "customer_id": "CUST_18eb6c7a",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_56882528",
+    "customer_id": "CUST_d7eda9e1",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_9c0befe2",
+    "customer_id": "CUST_56240b1b",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_81af0d5c",
+    "customer_id": "CUST_6b244576",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_a955faec",
+    "customer_id": "CUST_1cd681fa",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_72fc8211",
+    "customer_id": "CUST_279a62e3",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_7243ef4d",
+    "customer_id": "CUST_978d91e1",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_5dd79ed9",
+    "customer_id": "CUST_5f9c0f2a",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_3af6d06f",
+    "customer_id": "CUST_7471bfa8",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_9d778c0f",
+    "customer_id": "CUST_0f826f07",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_acd17e9f",
+    "customer_id": "CUST_9dd0bb13",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_1ee54d7d",
+    "customer_id": "CUST_4abe0134",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_3ca28b5b",
+    "customer_id": "CUST_95edcb9c",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_45e29087",
+    "customer_id": "CUST_0ac16c71",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_f467cbca",
+    "customer_id": "CUST_8eab6854",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_54931dcf",
+    "customer_id": "CUST_7de7275d",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_61018714",
+    "customer_id": "CUST_c6a7511e",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_42c48a66",
+    "customer_id": "CUST_7f37d1c1",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_78dfaf04",
+    "customer_id": "CUST_6ba607ca",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_99725a8e",
+    "customer_id": "CUST_36dcedad",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_2723d404",
+    "customer_id": "CUST_a9fd0c13",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_85fddd79",
+    "customer_id": "CUST_0d4692bf",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_49a7a772",
+    "customer_id": "CUST_05f8b0d0",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_30b05e9a",
+    "customer_id": "CUST_2346410f",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_19dc6553",
+    "customer_id": "CUST_025411a3",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_c2e243fb",
+    "customer_id": "CUST_441c7ac6",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_cd1e22c3",
+    "customer_id": "CUST_4c125d3b",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_361c3bf2",
+    "customer_id": "CUST_738bf9b4",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_93ee92d3",
+    "customer_id": "CUST_f28b1816",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_1b62b088",
+    "customer_id": "CUST_4140d20b",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_4596ecca",
+    "customer_id": "CUST_1d4e9a51",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_631263a1",
+    "customer_id": "CUST_3f092850",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_c6209e82",
+    "customer_id": "CUST_be5de4cb",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_9fb67081",
+    "customer_id": "CUST_dc6caeba",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_a97efee1",
+    "customer_id": "CUST_0432f827",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e666868b",
+    "customer_id": "CUST_2326dd8a",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_de5066a8",
+    "customer_id": "CUST_9dd0b024",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_6ef5acbe",
+    "customer_id": "CUST_a2fca61b",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_646c2f21",
+    "customer_id": "CUST_c13e8f98",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_8f7eef10",
+    "customer_id": "CUST_34b39e3e",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e7ed73e8",
+    "customer_id": "CUST_91530f41",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_c116df3b",
+    "customer_id": "CUST_42e9ae8c",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_955a0ea0",
+    "customer_id": "CUST_cf6bbcf0",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_80c91a69",
+    "customer_id": "CUST_8df992e6",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_6f92a13c",
+    "customer_id": "CUST_a2139bd9",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_794082dd",
+    "customer_id": "CUST_ae00aed3",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e8725018",
+    "customer_id": "CUST_53dc8d69",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e6b5327d",
+    "customer_id": "CUST_ad5ce4ff",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_271a8bc2",
+    "customer_id": "CUST_f554c550",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_243fee1d",
+    "customer_id": "CUST_d8e00b42",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_63185008",
+    "customer_id": "CUST_6f2aa272",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e73fdc03",
+    "customer_id": "CUST_334b9eb0",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_deacea4d",
+    "customer_id": "CUST_116844d6",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_f3dd8e08",
+    "customer_id": "CUST_e7192cc2",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_70716ab1",
+    "customer_id": "CUST_f59e5f65",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_68cc4ae0",
+    "customer_id": "CUST_3e85bb46",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_188091ba",
+    "customer_id": "CUST_0737725f",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_76a962ff",
+    "customer_id": "CUST_53dabef2",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_00b7c12e",
+    "customer_id": "CUST_08c1cd99",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_a0624dfb",
+    "customer_id": "CUST_ff8970ed",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_0473c43a",
+    "customer_id": "CUST_31e7b6c8",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_2e01bb4b",
+    "customer_id": "CUST_9d1437c7",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_a6e02c94",
+    "customer_id": "CUST_389b8640",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_f2ec2b4a",
+    "customer_id": "CUST_ca703f14",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_46a0f3fe",
+    "customer_id": "CUST_c29f1930",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_dfcbfb5d",
+    "customer_id": "CUST_074ddf91",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_425a8b76",
+    "customer_id": "CUST_3549cb7f",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_a604cb7a",
+    "customer_id": "CUST_27cdd21f",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_7f52a719",
+    "customer_id": "CUST_0a537500",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_0f6361f4",
+    "customer_id": "CUST_c46985d1",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_2180eca9",
+    "customer_id": "CUST_90436da4",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_880d0086",
+    "customer_id": "CUST_ea798bbc",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_462c8179",
+    "customer_id": "CUST_be5a5771",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_df7504e2",
+    "customer_id": "CUST_61c54191",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_612f2b0a",
+    "customer_id": "CUST_9bed7d70",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_3f38962d",
+    "customer_id": "CUST_b6107eb6",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_28b9d9a2",
+    "customer_id": "CUST_af43a7bf",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_12826dd1",
+    "customer_id": "CUST_f70a4a65",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_66f5c8d3",
+    "customer_id": "CUST_ed254fe2",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_f543546b",
+    "customer_id": "CUST_21a72428",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_353d0140",
+    "customer_id": "CUST_c12603e7",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_8417e9ac",
+    "customer_id": "CUST_7e235b88",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_3635ee2e",
+    "customer_id": "CUST_7fa1f37e",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_f5aaf76a",
+    "customer_id": "CUST_9789e230",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_82a0346c",
+    "customer_id": "CUST_ec6e5973",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_4d35e4b9",
+    "customer_id": "CUST_4bba0721",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_b10e545f",
+    "customer_id": "CUST_da63d631",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_3baa4849",
+    "customer_id": "CUST_dcdef096",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_545003f2",
+    "customer_id": "CUST_413d75e6",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_9d947ee9",
+    "customer_id": "CUST_a6fbf010",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_d5cf130a",
+    "customer_id": "CUST_7bd7f8f6",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_61586768",
+    "customer_id": "CUST_9012cad4",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_dba0b057",
+    "customer_id": "CUST_5440f06d",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_c7df730f",
+    "customer_id": "CUST_2bc8fffc",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_4b3c5759",
+    "customer_id": "CUST_9099e066",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_d9987f12",
+    "customer_id": "CUST_2a25fedf",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_7457352d",
+    "customer_id": "CUST_fe2889c8",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_8ad1f577",
+    "customer_id": "CUST_4f830949",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_46fa8b2f",
+    "customer_id": "CUST_77f2b50e",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_5b3b635a",
+    "customer_id": "CUST_eba4b912",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_4b56d5a6",
+    "customer_id": "CUST_055807fa",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_5aaaf4fb",
+    "customer_id": "CUST_51121236",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_7dc5a105",
+    "customer_id": "CUST_190d20ce",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_dc4f3ded",
+    "customer_id": "CUST_6820d033",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_eb605af7",
+    "customer_id": "CUST_84dba5dc",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_26dcbdb1",
+    "customer_id": "CUST_af108073",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_ee0f5ef8",
+    "customer_id": "CUST_9e17e848",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_6a6d1dac",
+    "customer_id": "CUST_4a85e7d5",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_efd4ebd6",
+    "customer_id": "CUST_54dd6355",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_fac7e879",
+    "customer_id": "CUST_364e25ce",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_ea3a3d11",
+    "customer_id": "CUST_107708fc",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_d963ab0f",
+    "customer_id": "CUST_0110a7fa",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_2a1d75e7",
+    "customer_id": "CUST_a87729cd",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_4b878207",
+    "customer_id": "CUST_43344b3d",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_2f37257b",
+    "customer_id": "CUST_9e7d960a",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_a2037b97",
+    "customer_id": "CUST_2e51faa2",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_0154c040",
+    "customer_id": "CUST_bf92a3ad",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_84f828d5",
+    "customer_id": "CUST_6e25b2ee",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_d5ac4b5f",
+    "customer_id": "CUST_638f5181",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_4d4b28ea",
+    "customer_id": "CUST_c2e39be5",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_c392e5b7",
+    "customer_id": "CUST_73f4d168",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_47d6af3f",
+    "customer_id": "CUST_f6db7338",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_0034a0ac",
+    "customer_id": "CUST_c8b03811",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e436951e",
+    "customer_id": "CUST_738f226f",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_f2330fce",
+    "customer_id": "CUST_5b084491",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_0530b55a",
+    "customer_id": "CUST_8c6848ae",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_58af9a38",
+    "customer_id": "CUST_603c0afc",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_9f4dcfe4",
+    "customer_id": "CUST_94d70359",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_829d2076",
+    "customer_id": "CUST_5d3d609e",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_d9126816",
+    "customer_id": "CUST_3e3b8390",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_14ccdcee",
+    "customer_id": "CUST_591da070",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_d593c643",
+    "customer_id": "CUST_d027d4d1",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_32f97cd3",
+    "customer_id": "CUST_eb4f873e",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_ce850ed7",
+    "customer_id": "CUST_cfa53d9a",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_7367bb79",
+    "customer_id": "CUST_06311545",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_07db280d",
+    "customer_id": "CUST_54c72891",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_0ae78572",
+    "customer_id": "CUST_e9c6bc2d",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_fdc43fe9",
+    "customer_id": "CUST_d37ddee2",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_2c675794",
+    "customer_id": "CUST_151bf0a7",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_b5c2f7e8",
+    "customer_id": "CUST_343b2e6c",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_ec31f65e",
+    "customer_id": "CUST_3a1e4800",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_92bafb8d",
+    "customer_id": "CUST_4b9c3d41",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_2df5f9c2",
+    "customer_id": "CUST_23f5e82e",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_4f64a0f7",
+    "customer_id": "CUST_ebc258ba",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_50907336",
+    "customer_id": "CUST_c468107a",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_cfea0b88",
+    "customer_id": "CUST_f5efbe8b",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_720eec36",
+    "customer_id": "CUST_076451eb",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_692ad544",
+    "customer_id": "CUST_3bb76d8d",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_e5945cd6",
+    "customer_id": "CUST_256193a9",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_41c8583c",
+    "customer_id": "CUST_b062ac99",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_35e9c6f8",
+    "customer_id": "CUST_92952e43",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_4e2cd612",
+    "customer_id": "CUST_acac5779",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_1186c5fd",
+    "customer_id": "CUST_131db40c",
+    "currency": "GBP",
+    "synthetic_flag": true
+  },
+  {
+    "account_id": "ACC_0220345d",
+    "customer_id": "CUST_b94f4811",
+    "currency": "GBP",
+    "synthetic_flag": true
+  }
+]

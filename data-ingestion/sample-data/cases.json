@@ -1,0 +1,1458 @@
+[
+  {
+    "case_id": "CASE_ef228bff",
+    "alert_id": "ALERT_8d18c0d0",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_07175fe7",
+    "alert_id": "ALERT_95b4e212",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_14c74100",
+    "alert_id": "ALERT_f9396502",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_77292a77",
+    "alert_id": "ALERT_dd28c9ab",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_03049e7f",
+    "alert_id": "ALERT_f2ed0002",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_40b588fa",
+    "alert_id": "ALERT_debfe245",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_a1f2fcbb",
+    "alert_id": "ALERT_f6633821",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_e0cdbf8b",
+    "alert_id": "ALERT_6ff51ec8",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_0e9c3713",
+    "alert_id": "ALERT_abdef8f1",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_2cc952db",
+    "alert_id": "ALERT_d123285b",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_7c5d2b31",
+    "alert_id": "ALERT_afe17a57",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_f97c46aa",
+    "alert_id": "ALERT_29786bfb",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_12e11012",
+    "alert_id": "ALERT_996d48da",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_8d04b239",
+    "alert_id": "ALERT_649557ca",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_b2524b5d",
+    "alert_id": "ALERT_6444240b",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_54ab15ad",
+    "alert_id": "ALERT_1bc808fa",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_19cae8f4",
+    "alert_id": "ALERT_d54cb428",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_7372ed02",
+    "alert_id": "ALERT_c2cfdc1e",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_f72f62a6",
+    "alert_id": "ALERT_4a3a6427",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_71ba0eb6",
+    "alert_id": "ALERT_6b609204",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_4a97e9d0",
+    "alert_id": "ALERT_93caca4e",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_07b15f17",
+    "alert_id": "ALERT_43ca7dec",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_f3518a77",
+    "alert_id": "ALERT_4462e619",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_efa739b1",
+    "alert_id": "ALERT_072bad73",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_57b14794",
+    "alert_id": "ALERT_a3ebfc92",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_7b997eb0",
+    "alert_id": "ALERT_78aa461e",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_51a528f7",
+    "alert_id": "ALERT_bd7c1758",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_0eca1606",
+    "alert_id": "ALERT_de50823f",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_779f64ef",
+    "alert_id": "ALERT_567b1c70",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_53b24bb7",
+    "alert_id": "ALERT_a0979554",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_72151b29",
+    "alert_id": "ALERT_a68d2628",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_d9dba0f6",
+    "alert_id": "ALERT_b0f4ad3c",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_dbe14a4d",
+    "alert_id": "ALERT_1697cb71",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_0b6f9e93",
+    "alert_id": "ALERT_fdf15337",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_4b6c2882",
+    "alert_id": "ALERT_90ae4b36",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_7135f39e",
+    "alert_id": "ALERT_a5043864",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_ff2500aa",
+    "alert_id": "ALERT_ca021e4b",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_dd8020c3",
+    "alert_id": "ALERT_bc3c13d1",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_06bbe4fa",
+    "alert_id": "ALERT_eec32250",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_dff87b7e",
+    "alert_id": "ALERT_ff4029d6",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_5c81d4b0",
+    "alert_id": "ALERT_ccc1b22d",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_edb0b01f",
+    "alert_id": "ALERT_65a2da5d",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_0b53eb32",
+    "alert_id": "ALERT_87b291b3",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_1f2c8106",
+    "alert_id": "ALERT_8395dd2d",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_08484241",
+    "alert_id": "ALERT_a09f28df",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_885d8ea2",
+    "alert_id": "ALERT_97b3cb07",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_79d05239",
+    "alert_id": "ALERT_a4874507",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_56feba3e",
+    "alert_id": "ALERT_bd4ef3b0",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_039f5a23",
+    "alert_id": "ALERT_4572ffed",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_65bde7c4",
+    "alert_id": "ALERT_65379776",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_1a3c3146",
+    "alert_id": "ALERT_9cb76c9b",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_031b0f9e",
+    "alert_id": "ALERT_e45bef5d",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_f278c29e",
+    "alert_id": "ALERT_54ef7914",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_fc15fcdf",
+    "alert_id": "ALERT_54e0082e",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_2beb24f2",
+    "alert_id": "ALERT_7b53501e",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_f33b550e",
+    "alert_id": "ALERT_1a64eb47",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_b956ed5b",
+    "alert_id": "ALERT_db4701d9",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_58b10262",
+    "alert_id": "ALERT_9fde5a41",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_cf507993",
+    "alert_id": "ALERT_1c1ba287",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_0f5a10ef",
+    "alert_id": "ALERT_f053b7a8",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_b979148a",
+    "alert_id": "ALERT_f0977da3",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_7fc8e067",
+    "alert_id": "ALERT_9c7821c2",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_cf547866",
+    "alert_id": "ALERT_b8d7a466",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_62ffae43",
+    "alert_id": "ALERT_5aa46b92",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_61d822d0",
+    "alert_id": "ALERT_34709ae9",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_76a4235b",
+    "alert_id": "ALERT_51952587",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_4365bc53",
+    "alert_id": "ALERT_d7579fa7",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_b487c4c2",
+    "alert_id": "ALERT_0c0e5198",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_efd41a10",
+    "alert_id": "ALERT_678d691c",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_f3357b6b",
+    "alert_id": "ALERT_b99bd3ba",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_88b51541",
+    "alert_id": "ALERT_e39496cc",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_6767306f",
+    "alert_id": "ALERT_03303541",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_954743e9",
+    "alert_id": "ALERT_5a657606",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_89b04c8f",
+    "alert_id": "ALERT_d8392bd4",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_6d60d7d9",
+    "alert_id": "ALERT_8f67990d",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_d18a6043",
+    "alert_id": "ALERT_539dc6c8",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_f1279250",
+    "alert_id": "ALERT_2882363a",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_bf85c4d0",
+    "alert_id": "ALERT_f2e3f1c0",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_fbf7651b",
+    "alert_id": "ALERT_340ba7fb",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_8ca59c8e",
+    "alert_id": "ALERT_acbead00",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_cfde888b",
+    "alert_id": "ALERT_5627125b",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_16f53bad",
+    "alert_id": "ALERT_daf50ecd",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_4c8588eb",
+    "alert_id": "ALERT_d4d5c6f7",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_62bb801d",
+    "alert_id": "ALERT_109cdd0f",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_78af0fa3",
+    "alert_id": "ALERT_9ddc8edd",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_10143771",
+    "alert_id": "ALERT_698d0434",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_508b187d",
+    "alert_id": "ALERT_d8d942e6",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_21dc984a",
+    "alert_id": "ALERT_c3ff1af4",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_095b2f5f",
+    "alert_id": "ALERT_da190427",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_076420db",
+    "alert_id": "ALERT_758f0384",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_ab79a9fe",
+    "alert_id": "ALERT_277ea6b7",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_1c1c9431",
+    "alert_id": "ALERT_5bd3c509",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_ecb12a20",
+    "alert_id": "ALERT_130824ce",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_d0a87747",
+    "alert_id": "ALERT_54af926f",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_0ea10926",
+    "alert_id": "ALERT_b2fe94ed",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_5ac9e8f4",
+    "alert_id": "ALERT_7b1e87ac",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_8cefe555",
+    "alert_id": "ALERT_4960a536",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_95b9401d",
+    "alert_id": "ALERT_8e49f692",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_726ec2fc",
+    "alert_id": "ALERT_1376183e",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_dd57d325",
+    "alert_id": "ALERT_0c699d35",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_6047b89b",
+    "alert_id": "ALERT_c72e0d72",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_1feeb74f",
+    "alert_id": "ALERT_f08fcb5d",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_78f4b095",
+    "alert_id": "ALERT_bcf36338",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_5c702e7b",
+    "alert_id": "ALERT_72de9a8c",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_aee94323",
+    "alert_id": "ALERT_8b4b934c",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_993cd3fc",
+    "alert_id": "ALERT_e4b85929",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_16804038",
+    "alert_id": "ALERT_9fa25f97",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_e542c51a",
+    "alert_id": "ALERT_bb626497",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_789e263b",
+    "alert_id": "ALERT_b2a1bd8e",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_935de420",
+    "alert_id": "ALERT_7811ee50",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_9e5178b7",
+    "alert_id": "ALERT_a534093a",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_6ea38b37",
+    "alert_id": "ALERT_d687cb75",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_a98dfab5",
+    "alert_id": "ALERT_bf6ec489",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_702c0d9f",
+    "alert_id": "ALERT_1a925b7b",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_b5b9ea52",
+    "alert_id": "ALERT_2be7dedf",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_17f45907",
+    "alert_id": "ALERT_2957a7e0",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_153a5cc2",
+    "alert_id": "ALERT_7fe26158",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_44d038a4",
+    "alert_id": "ALERT_cd9ba738",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_1338aaa1",
+    "alert_id": "ALERT_e34dacd6",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_073ad89d",
+    "alert_id": "ALERT_592d7c58",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_6289e147",
+    "alert_id": "ALERT_c7265533",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_c01fdf8b",
+    "alert_id": "ALERT_f4761902",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_d35badb8",
+    "alert_id": "ALERT_f788d219",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_d3f17c10",
+    "alert_id": "ALERT_8dbaf825",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_1c5d1f66",
+    "alert_id": "ALERT_7188b0fd",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_6bca82ff",
+    "alert_id": "ALERT_27c39372",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_005e14af",
+    "alert_id": "ALERT_5537be49",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_ca094d78",
+    "alert_id": "ALERT_668cc9b1",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_456bde77",
+    "alert_id": "ALERT_01e459a2",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_b9f61bce",
+    "alert_id": "ALERT_3c4a350f",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_0e35f1a8",
+    "alert_id": "ALERT_b83e0151",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_c94ccc1d",
+    "alert_id": "ALERT_4fd6beb7",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_933bef89",
+    "alert_id": "ALERT_6a46eb0c",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_b8ffeae1",
+    "alert_id": "ALERT_2a68c75b",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_19a9e1da",
+    "alert_id": "ALERT_ae0f1ad2",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_86e5451c",
+    "alert_id": "ALERT_57ab8d12",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_6e4d959d",
+    "alert_id": "ALERT_55cf5114",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_ff460a14",
+    "alert_id": "ALERT_a509593d",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_755a0f74",
+    "alert_id": "ALERT_64b619fc",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_b7c2ed6b",
+    "alert_id": "ALERT_4cb5f219",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_15a98594",
+    "alert_id": "ALERT_b2876417",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_c057ccd4",
+    "alert_id": "ALERT_2e478da7",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_29590c28",
+    "alert_id": "ALERT_09da27b7",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_ab20c136",
+    "alert_id": "ALERT_4a2c7b6f",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_f1306556",
+    "alert_id": "ALERT_71fe5e4c",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_6252ef8d",
+    "alert_id": "ALERT_9ca0122d",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_5f7cc76b",
+    "alert_id": "ALERT_e55776a9",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_ec865d61",
+    "alert_id": "ALERT_8966a64c",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_ea969d42",
+    "alert_id": "ALERT_520a935f",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_0b0feca4",
+    "alert_id": "ALERT_99ab34c0",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_1a618805",
+    "alert_id": "ALERT_90329416",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_24dc4707",
+    "alert_id": "ALERT_d06abfa5",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_df1d6e49",
+    "alert_id": "ALERT_30c88c76",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_c19b7ed1",
+    "alert_id": "ALERT_3a5f1b42",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_fb42c237",
+    "alert_id": "ALERT_7be4227f",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_0937cd43",
+    "alert_id": "ALERT_6e76da39",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_11a5fa20",
+    "alert_id": "ALERT_468bed88",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_95922453",
+    "alert_id": "ALERT_3ee857e6",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_58e154a9",
+    "alert_id": "ALERT_4d6b6d97",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_74ddfd53",
+    "alert_id": "ALERT_df69a12e",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_8bd7cf69",
+    "alert_id": "ALERT_19adcc25",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_4ac44022",
+    "alert_id": "ALERT_75194724",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_d5583ae7",
+    "alert_id": "ALERT_f9ff02eb",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_5bb66324",
+    "alert_id": "ALERT_39509fb3",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_19bac31f",
+    "alert_id": "ALERT_7d349556",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_4de1216e",
+    "alert_id": "ALERT_39ebdbd7",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_d0e465e6",
+    "alert_id": "ALERT_638c062e",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_32ad8b3e",
+    "alert_id": "ALERT_227ba76e",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_3ff14fd9",
+    "alert_id": "ALERT_de4adcac",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_2f1ff4be",
+    "alert_id": "ALERT_c0e76e38",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_db28809e",
+    "alert_id": "ALERT_31fc40bc",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_c788f910",
+    "alert_id": "ALERT_02ae7213",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_49a854dc",
+    "alert_id": "ALERT_de09bf02",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_71044776",
+    "alert_id": "ALERT_e0e71356",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_aff671bf",
+    "alert_id": "ALERT_f261e757",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_1917d373",
+    "alert_id": "ALERT_c5ed8746",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_bfc190b0",
+    "alert_id": "ALERT_abff9d7e",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_e700356f",
+    "alert_id": "ALERT_d689a4dd",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_0f5066a8",
+    "alert_id": "ALERT_208e77d3",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_4ab56583",
+    "alert_id": "ALERT_d93cce40",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_526400e3",
+    "alert_id": "ALERT_8d50a86d",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_663d2e63",
+    "alert_id": "ALERT_e4553b6b",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_a51e77a3",
+    "alert_id": "ALERT_6b32b50e",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_ee3a8afb",
+    "alert_id": "ALERT_664af6f0",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_894c01f7",
+    "alert_id": "ALERT_768b3948",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_69002a7b",
+    "alert_id": "ALERT_1fdcfad6",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_5ac86b48",
+    "alert_id": "ALERT_2c2a0145",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_53f40a09",
+    "alert_id": "ALERT_104c2b62",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_30d11bd0",
+    "alert_id": "ALERT_a14692f7",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_7a3b6b80",
+    "alert_id": "ALERT_fc23d50a",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_7c6efe2b",
+    "alert_id": "ALERT_931a7eaa",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_e3c28757",
+    "alert_id": "ALERT_3c9ee027",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_1fe1f3f6",
+    "alert_id": "ALERT_f4c07cca",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_7696cbb8",
+    "alert_id": "ALERT_91ecdf1f",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_fd715e8a",
+    "alert_id": "ALERT_0a37830b",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_b092bfbd",
+    "alert_id": "ALERT_4f73bc85",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_dcb978fa",
+    "alert_id": "ALERT_8cd3a220",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_aeff495d",
+    "alert_id": "ALERT_40a82024",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_cfb6748e",
+    "alert_id": "ALERT_ac2da155",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_d03abe99",
+    "alert_id": "ALERT_7ba654ec",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_800014b2",
+    "alert_id": "ALERT_94535fa8",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_333e0303",
+    "alert_id": "ALERT_44c94f5f",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_71556ae6",
+    "alert_id": "ALERT_8800d305",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_3434e60a",
+    "alert_id": "ALERT_2c42cac2",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_f2f1cb33",
+    "alert_id": "ALERT_291a1097",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_2050112c",
+    "alert_id": "ALERT_3fb73366",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_cfb5f7c3",
+    "alert_id": "ALERT_15057217",
+    "assigned_analyst": "UK_Analyst_A",
+    "status": "Under Review",
+    "synthetic_flag": true
+  },
+  {
+    "case_id": "CASE_59d8d23a",
+    "alert_id": "ALERT_3840cc0a",
+    "assigned_analyst": "UK_Analyst_B",
+    "status": "Under Review",
+    "synthetic_flag": true
+  }
+]

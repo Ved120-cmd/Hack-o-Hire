@@ -68,8 +68,8 @@ class RegulatoryConfig:
     
     # Filing number format regex
     # TODO: Replace with actual regulatory format
-    FILING_NUMBER_FORMAT = os.getenv("SAR_FILING_NUMBER_FORMAT", r"^SAR-\d{8}-[A-Z0-9]{8}$")
-    
+    FILING_NUMBER_FORMAT = os.getenv("SAR_FILING_NUMBER_FORMAT", r"^UKFIU-\d{4}-\d{6}$")
+
     # Minimum number of validation checks that must pass
     # Default: 10 (all checks must pass)
     MIN_CHECKS_PASS = int(os.getenv("SAR_MIN_CHECKS_PASS", "10"))
@@ -446,7 +446,7 @@ class OmegaFinalizer:
         # Generate filing number if not provided
         if not filing_number:
             # Format: SAR-YYYYMMDD-CASEID (first 8 chars uppercase)
-            filing_number = f"SAR-{datetime.utcnow().strftime('%Y%m%d')}-{case_id[:8].upper()}"
+            filing_number = f"UKFIU-{datetime.utcnow().year}-{case_id[:6].zfill(6)}"
             logger.info(f"Generated filing number: {filing_number}")
 
         # Create filing record

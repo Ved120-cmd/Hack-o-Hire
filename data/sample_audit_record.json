@@ -1,0 +1,167 @@
+{
+    "case_id": "SAR-A1B2C3D4E5F6",
+    "audit_trail": [
+        {
+            "id": 1,
+            "event_type": "CASE_CREATED",
+            "timestamp": "2024-01-17T10:15:00Z",
+            "user_id": "analyst1",
+            "event_data": {
+                "raw_input_keys": [
+                    "customer",
+                    "kyc",
+                    "accounts",
+                    "alerts"
+                ],
+                "customer_id": "CUST-2024-78432",
+                "alert_count": 3
+            }
+        },
+        {
+            "id": 2,
+            "event_type": "DATA_NORMALIZED",
+            "timestamp": "2024-01-17T10:15:01Z",
+            "user_id": "analyst1",
+            "event_data": {
+                "transaction_count": 50,
+                "aggregates": {
+                    "total_transactions": 50,
+                    "total_credit": 4562500,
+                    "total_debit": 4900000,
+                    "unique_counterparties": 47,
+                    "unique_countries": [
+                        "IN",
+                        "AE",
+                        "VG",
+                        "SG"
+                    ],
+                    "avg_transaction_amount": 189250,
+                    "date_range_days": 7
+                },
+                "evidence_objects": [
+                    {
+                        "evidence_id": "EV-CUST-CUST-2024-78432",
+                        "type": "customer_profile"
+                    },
+                    {
+                        "evidence_id": "EV-TXN-SUMMARY-CUST-2024-78432",
+                        "type": "transaction_summary"
+                    },
+                    {
+                        "evidence_id": "EV-HVT-CUST-2024-78432",
+                        "type": "high_value_transactions"
+                    },
+                    {
+                        "evidence_id": "EV-INTL-CUST-2024-78432",
+                        "type": "international_transactions"
+                    },
+                    {
+                        "evidence_id": "EV-ALERT-ALERT-2024-001",
+                        "type": "alert"
+                    },
+                    {
+                        "evidence_id": "EV-ALERT-ALERT-2024-002",
+                        "type": "alert"
+                    },
+                    {
+                        "evidence_id": "EV-ALERT-ALERT-2024-003",
+                        "type": "alert"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "event_type": "RULES_EVALUATED",
+            "timestamp": "2024-01-17T10:15:02Z",
+            "user_id": "analyst1",
+            "event_data": {
+                "rules_evaluated": 8,
+                "rules_triggered": 6,
+                "triggered_rules": [
+                    "threshold_check",
+                    "velocity_check",
+                    "jurisdiction_check",
+                    "structuring_check",
+                    "layering_check",
+                    "rapid_international_movement",
+                    "professional_facilitation"
+                ],
+                "typologies": [
+                    "structuring",
+                    "layering",
+                    "high_risk_jurisdiction",
+                    "rapid_international_movement",
+                    "professional_facilitation"
+                ],
+                "risk_score": 0.95,
+                "confidence_score": 0.87,
+                "reasoning_artifact": {
+                    "engine_version": "1.0.0",
+                    "thresholds_used": {
+                        "single_txn_amount": 1000000,
+                        "total_inflow_7d": 5000000,
+                        "velocity_count_7d": 30,
+                        "unique_counterparties_7d": 20
+                    }
+                }
+            }
+        },
+        {
+            "id": 4,
+            "event_type": "ML_SCORED",
+            "timestamp": "2024-01-17T10:15:03Z",
+            "user_id": "analyst1",
+            "event_data": {
+                "ml_confidence": 0.92,
+                "risk_category": "High",
+                "feature_importances": {
+                    "total_credit": 0.14,
+                    "unique_counterparties": 0.11,
+                    "rule_trigger_count": 0.13,
+                    "high_risk_kyc_flag": 0.10
+                }
+            }
+        },
+        {
+            "id": 5,
+            "event_type": "RAG_RETRIEVED",
+            "timestamp": "2024-01-17T10:15:04Z",
+            "user_id": "analyst1",
+            "event_data": {
+                "query_text": "Suspicious activity typologies: structuring, layering, rapid_international_movement...",
+                "sources_retrieved": {
+                    "guidelines": 3,
+                    "templates": 1,
+                    "sars": 2
+                }
+            }
+        },
+        {
+            "id": 6,
+            "event_type": "NARRATIVE_GENERATED",
+            "timestamp": "2024-01-17T10:15:10Z",
+            "user_id": "analyst1",
+            "event_data": {
+                "llm_provider": "template_fallback",
+                "is_fallback": true,
+                "narrative_preview": "SUSPICIOUS ACTIVITY REPORT\n\n1. SUBJECT INFORMATION\n   Customer ID: CUST-2024-78432..."
+            }
+        },
+        {
+            "id": 7,
+            "event_type": "ALERT_CREATED",
+            "timestamp": "2024-01-17T10:15:11Z",
+            "user_id": "analyst1",
+            "event_data": {
+                "alert_type": "HIGH_RISK_SAR",
+                "risk_score": 0.95,
+                "typologies": [
+                    "structuring",
+                    "layering",
+                    "rapid_international_movement"
+                ]
+            }
+        }
+    ]
+}

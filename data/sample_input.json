@@ -1,0 +1,105 @@
+{
+  "customer": {
+    "customer_id": "CUST-2024-78432",
+    "name": "Rajesh Kumar Sharma",
+    "date_of_birth": "1985-03-15",
+    "nationality": "IN",
+    "address": "42 MG Road, Andheri West, Mumbai 400058",
+    "phone": "+91-9876543210",
+    "email": "rajesh.sharma@email.com"
+  },
+  "kyc": {
+    "risk_rating": "high",
+    "pep_status": false,
+    "sanctions_match": false,
+    "source_of_funds": "Salary - IT Professional",
+    "occupation": "Software Developer",
+    "annual_income": 800000,
+    "verification_date": "2023-06-15",
+    "id_documents": ["PAN-ABCDE1234F", "AADHAAR-XXXX-XXXX-5678"]
+  },
+  "accounts": [
+    {
+      "account_id": "ACC-001-SAV",
+      "account_type": "savings",
+      "currency": "INR",
+      "opened_date": "2020-01-10",
+      "balance": 5250000,
+      "transactions": [
+        {"transaction_id": "TXN-001", "date": "2024-01-10", "amount": 95000, "currency": "INR", "type": "credit", "counterparty_name": "Amit Verma", "counterparty_account": "ACC-EXT-001", "counterparty_bank": "SBI", "counterparty_country": "IN", "channel": "NEFT", "description": "Business payment"},
+        {"transaction_id": "TXN-002", "date": "2024-01-10", "amount": 98000, "currency": "INR", "type": "credit", "counterparty_name": "Priya Singh", "counterparty_account": "ACC-EXT-002", "counterparty_bank": "HDFC", "counterparty_country": "IN", "channel": "NEFT", "description": "Consulting fee"},
+        {"transaction_id": "TXN-003", "date": "2024-01-10", "amount": 97500, "currency": "INR", "type": "credit", "counterparty_name": "Vikram Patel", "counterparty_account": "ACC-EXT-003", "counterparty_bank": "ICICI", "counterparty_country": "IN", "channel": "IMPS", "description": "Service payment"},
+        {"transaction_id": "TXN-004", "date": "2024-01-11", "amount": 99000, "currency": "INR", "type": "credit", "counterparty_name": "Neha Gupta", "counterparty_account": "ACC-EXT-004", "counterparty_bank": "Axis", "counterparty_country": "IN", "channel": "NEFT", "description": "Refund"},
+        {"transaction_id": "TXN-005", "date": "2024-01-11", "amount": 96500, "currency": "INR", "type": "credit", "counterparty_name": "Suresh Reddy", "counterparty_account": "ACC-EXT-005", "counterparty_bank": "PNB", "counterparty_country": "IN", "channel": "NEFT", "description": "Part payment"},
+        {"transaction_id": "TXN-006", "date": "2024-01-11", "amount": 94000, "currency": "INR", "type": "credit", "counterparty_name": "Anjali Mehta", "counterparty_account": "ACC-EXT-006", "counterparty_bank": "BOB", "counterparty_country": "IN", "channel": "IMPS", "description": "Payment"},
+        {"transaction_id": "TXN-007", "date": "2024-01-12", "amount": 97000, "currency": "INR", "type": "credit", "counterparty_name": "Kiran Desai", "counterparty_account": "ACC-EXT-007", "counterparty_bank": "Kotak", "counterparty_country": "IN", "channel": "NEFT", "description": "Business"},
+        {"transaction_id": "TXN-008", "date": "2024-01-12", "amount": 93000, "currency": "INR", "type": "credit", "counterparty_name": "Ravi Joshi", "counterparty_account": "ACC-EXT-008", "counterparty_bank": "SBI", "counterparty_country": "IN", "channel": "NEFT", "description": "Advance"},
+        {"transaction_id": "TXN-009", "date": "2024-01-12", "amount": 99500, "currency": "INR", "type": "credit", "counterparty_name": "Deepa Nair", "counterparty_account": "ACC-EXT-009", "counterparty_bank": "Federal", "counterparty_country": "IN", "channel": "IMPS", "description": "Payment"},
+        {"transaction_id": "TXN-010", "date": "2024-01-12", "amount": 96000, "currency": "INR", "type": "credit", "counterparty_name": "Manoj Kumar", "counterparty_account": "ACC-EXT-010", "counterparty_bank": "UCO", "counterparty_country": "IN", "channel": "NEFT", "description": "Fees"},
+        {"transaction_id": "TXN-011", "date": "2024-01-13", "amount": 98500, "currency": "INR", "type": "credit", "counterparty_name": "Sunita Rao", "counterparty_account": "ACC-EXT-011", "counterparty_bank": "Canara", "counterparty_country": "IN", "channel": "NEFT", "description": "Service"},
+        {"transaction_id": "TXN-012", "date": "2024-01-13", "amount": 95500, "currency": "INR", "type": "credit", "counterparty_name": "Arun Iyer", "counterparty_account": "ACC-EXT-012", "counterparty_bank": "IOB", "counterparty_country": "IN", "channel": "IMPS", "description": "Payment"},
+        {"transaction_id": "TXN-013", "date": "2024-01-13", "amount": 97500, "currency": "INR", "type": "credit", "counterparty_name": "Lakshmi Venkat", "counterparty_account": "ACC-EXT-013", "counterparty_bank": "SBI", "counterparty_country": "IN", "channel": "NEFT", "description": "Advance"},
+        {"transaction_id": "TXN-014", "date": "2024-01-13", "amount": 94500, "currency": "INR", "type": "credit", "counterparty_name": "Gopal Menon", "counterparty_account": "ACC-EXT-014", "counterparty_bank": "HDFC", "counterparty_country": "IN", "channel": "NEFT", "description": "Fee payment"},
+        {"transaction_id": "TXN-015", "date": "2024-01-13", "amount": 99000, "currency": "INR", "type": "credit", "counterparty_name": "Kavita Deshpande", "counterparty_account": "ACC-EXT-015", "counterparty_bank": "ICICI", "counterparty_country": "IN", "channel": "IMPS", "description": "Credit"},
+        {"transaction_id": "TXN-016", "date": "2024-01-14", "amount": 96500, "currency": "INR", "type": "credit", "counterparty_name": "Ramesh Pillai", "counterparty_account": "ACC-EXT-016", "counterparty_bank": "SBI", "counterparty_country": "IN", "channel": "NEFT", "description": "Payment"},
+        {"transaction_id": "TXN-017", "date": "2024-01-14", "amount": 93500, "currency": "INR", "type": "credit", "counterparty_name": "Divya Sharma", "counterparty_account": "ACC-EXT-017", "counterparty_bank": "Axis", "counterparty_country": "IN", "channel": "NEFT", "description": "Service charge"},
+        {"transaction_id": "TXN-018", "date": "2024-01-14", "amount": 98000, "currency": "INR", "type": "credit", "counterparty_name": "Sanjay Kulkarni", "counterparty_account": "ACC-EXT-018", "counterparty_bank": "PNB", "counterparty_country": "IN", "channel": "IMPS", "description": "Fee"},
+        {"transaction_id": "TXN-019", "date": "2024-01-14", "amount": 97000, "currency": "INR", "type": "credit", "counterparty_name": "Meera Bhatt", "counterparty_account": "ACC-EXT-019", "counterparty_bank": "BOB", "counterparty_country": "IN", "channel": "NEFT", "description": "Consulting"},
+        {"transaction_id": "TXN-020", "date": "2024-01-14", "amount": 95000, "currency": "INR", "type": "credit", "counterparty_name": "Harish Naidu", "counterparty_account": "ACC-EXT-020", "counterparty_bank": "Kotak", "counterparty_country": "IN", "channel": "NEFT", "description": "Payment"},
+        {"transaction_id": "TXN-021", "date": "2024-01-14", "amount": 94000, "currency": "INR", "type": "credit", "counterparty_name": "Pooja Saxena", "counterparty_account": "ACC-EXT-021", "counterparty_bank": "SBI", "counterparty_country": "IN", "channel": "IMPS", "description": "Credit"},
+        {"transaction_id": "TXN-022", "date": "2024-01-15", "amount": 99500, "currency": "INR", "type": "credit", "counterparty_name": "Ashok Malhotra", "counterparty_account": "ACC-EXT-022", "counterparty_bank": "HDFC", "counterparty_country": "IN", "channel": "NEFT", "description": "Payment"},
+        {"transaction_id": "TXN-023", "date": "2024-01-15", "amount": 96000, "currency": "INR", "type": "credit", "counterparty_name": "Smita Wagh", "counterparty_account": "ACC-EXT-023", "counterparty_bank": "ICICI", "counterparty_country": "IN", "channel": "NEFT", "description": "Service"},
+        {"transaction_id": "TXN-024", "date": "2024-01-15", "amount": 92000, "currency": "INR", "type": "credit", "counterparty_name": "Venkat Rao", "counterparty_account": "ACC-EXT-024", "counterparty_bank": "SBI", "counterparty_country": "IN", "channel": "IMPS", "description": "Payment"},
+        {"transaction_id": "TXN-025", "date": "2024-01-15", "amount": 98500, "currency": "INR", "type": "credit", "counterparty_name": "Nilesh Patil", "counterparty_account": "ACC-EXT-025", "counterparty_bank": "Axis", "counterparty_country": "IN", "channel": "NEFT", "description": "Advance"},
+        {"transaction_id": "TXN-026", "date": "2024-01-15", "amount": 97500, "currency": "INR", "type": "credit", "counterparty_name": "Geeta Mishra", "counterparty_account": "ACC-EXT-026", "counterparty_bank": "PNB", "counterparty_country": "IN", "channel": "NEFT", "description": "Credit"},
+        {"transaction_id": "TXN-027", "date": "2024-01-15", "amount": 95500, "currency": "INR", "type": "credit", "counterparty_name": "Sridhar Iyer", "counterparty_account": "ACC-EXT-027", "counterparty_bank": "Federal", "counterparty_country": "IN", "channel": "IMPS", "description": "Fee"},
+        {"transaction_id": "TXN-028", "date": "2024-01-15", "amount": 93500, "currency": "INR", "type": "credit", "counterparty_name": "Rekha Jain", "counterparty_account": "ACC-EXT-028", "counterparty_bank": "SBI", "counterparty_country": "IN", "channel": "NEFT", "description": "Payment"},
+        {"transaction_id": "TXN-029", "date": "2024-01-16", "amount": 99000, "currency": "INR", "type": "credit", "counterparty_name": "Bharath Hegde", "counterparty_account": "ACC-EXT-029", "counterparty_bank": "Canara", "counterparty_country": "IN", "channel": "NEFT", "description": "Service"},
+        {"transaction_id": "TXN-030", "date": "2024-01-16", "amount": 96500, "currency": "INR", "type": "credit", "counterparty_name": "Anita Deshmukh", "counterparty_account": "ACC-EXT-030", "counterparty_bank": "HDFC", "counterparty_country": "IN", "channel": "IMPS", "description": "Payment"},
+        {"transaction_id": "TXN-031", "date": "2024-01-16", "amount": 94500, "currency": "INR", "type": "credit", "counterparty_name": "Murali Krishnan", "counterparty_account": "ACC-EXT-031", "counterparty_bank": "IOB", "counterparty_country": "IN", "channel": "NEFT", "description": "Credit"},
+        {"transaction_id": "TXN-032", "date": "2024-01-16", "amount": 97000, "currency": "INR", "type": "credit", "counterparty_name": "Pallavi Gode", "counterparty_account": "ACC-EXT-032", "counterparty_bank": "SBI", "counterparty_country": "IN", "channel": "NEFT", "description": "Fee"},
+        {"transaction_id": "TXN-033", "date": "2024-01-16", "amount": 98000, "currency": "INR", "type": "credit", "counterparty_name": "Nitin Kamath", "counterparty_account": "ACC-EXT-033", "counterparty_bank": "Kotak", "counterparty_country": "IN", "channel": "IMPS", "description": "Payment"},
+        {"transaction_id": "TXN-034", "date": "2024-01-16", "amount": 95000, "currency": "INR", "type": "credit", "counterparty_name": "Usha Bhagwat", "counterparty_account": "ACC-EXT-034", "counterparty_bank": "ICICI", "counterparty_country": "IN", "channel": "NEFT", "description": "Service"},
+        {"transaction_id": "TXN-035", "date": "2024-01-16", "amount": 92500, "currency": "INR", "type": "credit", "counterparty_name": "Santosh Shetty", "counterparty_account": "ACC-EXT-035", "counterparty_bank": "SBI", "counterparty_country": "IN", "channel": "NEFT", "description": "Advance"},
+        {"transaction_id": "TXN-036", "date": "2024-01-16", "amount": 99500, "currency": "INR", "type": "credit", "counterparty_name": "Jyoti Agarwal", "counterparty_account": "ACC-EXT-036", "counterparty_bank": "Axis", "counterparty_country": "IN", "channel": "IMPS", "description": "Payment"},
+        {"transaction_id": "TXN-037", "date": "2024-01-16", "amount": 96000, "currency": "INR", "type": "credit", "counterparty_name": "Mohan Tiwari", "counterparty_account": "ACC-EXT-037", "counterparty_bank": "PNB", "counterparty_country": "IN", "channel": "NEFT", "description": "Credit"},
+        {"transaction_id": "TXN-038", "date": "2024-01-16", "amount": 93000, "currency": "INR", "type": "credit", "counterparty_name": "Swati Banerjee", "counterparty_account": "ACC-EXT-038", "counterparty_bank": "BOB", "counterparty_country": "IN", "channel": "NEFT", "description": "Fee"},
+        {"transaction_id": "TXN-039", "date": "2024-01-16", "amount": 97500, "currency": "INR", "type": "credit", "counterparty_name": "Dinesh Choudhary", "counterparty_account": "ACC-EXT-039", "counterparty_bank": "HDFC", "counterparty_country": "IN", "channel": "IMPS", "description": "Payment"},
+        {"transaction_id": "TXN-040", "date": "2024-01-16", "amount": 94000, "currency": "INR", "type": "credit", "counterparty_name": "Padma Sundaram", "counterparty_account": "ACC-EXT-040", "counterparty_bank": "SBI", "counterparty_country": "IN", "channel": "NEFT", "description": "Service"},
+        {"transaction_id": "TXN-041", "date": "2024-01-16", "amount": 98500, "currency": "INR", "type": "credit", "counterparty_name": "Ganesh Bhat", "counterparty_account": "ACC-EXT-041", "counterparty_bank": "South Indian", "counterparty_country": "IN", "channel": "NEFT", "description": "Payment"},
+        {"transaction_id": "TXN-042", "date": "2024-01-16", "amount": 95500, "currency": "INR", "type": "credit", "counterparty_name": "Vaishali Mane", "counterparty_account": "ACC-EXT-042", "counterparty_bank": "ICICI", "counterparty_country": "IN", "channel": "IMPS", "description": "Credit"},
+        {"transaction_id": "TXN-043", "date": "2024-01-16", "amount": 91000, "currency": "INR", "type": "credit", "counterparty_name": "Prabhu Natarajan", "counterparty_account": "ACC-EXT-043", "counterparty_bank": "SBI", "counterparty_country": "IN", "channel": "NEFT", "description": "Advance"},
+        {"transaction_id": "TXN-044", "date": "2024-01-16", "amount": 99000, "currency": "INR", "type": "credit", "counterparty_name": "Shobha Kamat", "counterparty_account": "ACC-EXT-044", "counterparty_bank": "Kotak", "counterparty_country": "IN", "channel": "NEFT", "description": "Fee"},
+        {"transaction_id": "TXN-045", "date": "2024-01-16", "amount": 96500, "currency": "INR", "type": "credit", "counterparty_name": "Prakash Hegde", "counterparty_account": "ACC-EXT-045", "counterparty_bank": "Axis", "counterparty_country": "IN", "channel": "IMPS", "description": "Payment"},
+        {"transaction_id": "TXN-046", "date": "2024-01-16", "amount": 93500, "currency": "INR", "type": "credit", "counterparty_name": "Revathi Krishnamurthy", "counterparty_account": "ACC-EXT-046", "counterparty_bank": "SBI", "counterparty_country": "IN", "channel": "NEFT", "description": "Service"},
+        {"transaction_id": "TXN-047", "date": "2024-01-16", "amount": 97000, "currency": "INR", "type": "credit", "counterparty_name": "Sudhir Pandit", "counterparty_account": "ACC-EXT-047", "counterparty_bank": "PNB", "counterparty_country": "IN", "channel": "NEFT", "description": "Credit"},
+        {"transaction_id": "TXN-048", "date": "2024-01-17", "amount": 4500000, "currency": "INR", "type": "debit", "counterparty_name": "Premier Holdings Ltd", "counterparty_account": "ACC-OFFSHORE-001", "counterparty_bank": "HSBC Dubai", "counterparty_country": "AE", "channel": "SWIFT", "description": "Investment transfer"},
+        {"transaction_id": "TXN-049", "date": "2024-01-17", "amount": 250000, "currency": "INR", "type": "debit", "counterparty_name": "Global Ventures BVI", "counterparty_account": "ACC-OFFSHORE-002", "counterparty_bank": "Standard Chartered", "counterparty_country": "VG", "channel": "SWIFT", "description": "Consultancy fee"},
+        {"transaction_id": "TXN-050", "date": "2024-01-17", "amount": 150000, "currency": "INR", "type": "debit", "counterparty_name": "Apex Trade Pte", "counterparty_account": "ACC-OFFSHORE-003", "counterparty_bank": "DBS Singapore", "counterparty_country": "SG", "channel": "SWIFT", "description": "Equipment purchase"}
+      ]
+    }
+  ],
+  "alerts": [
+    {
+      "alert_id": "ALERT-2024-001",
+      "alert_type": "high_velocity_credits",
+      "severity": "high",
+      "description": "47 credit transactions from unique counterparties within 7 days totalling ₹50,00,000+",
+      "generated_at": "2024-01-17T10:00:00Z"
+    },
+    {
+      "alert_id": "ALERT-2024-002",
+      "alert_type": "offshore_transfer",
+      "severity": "critical",
+      "description": "Large funds transferred to offshore jurisdictions (UAE, BVI, Singapore) immediately after consolidation",
+      "generated_at": "2024-01-17T10:05:00Z"
+    },
+    {
+      "alert_id": "ALERT-2024-003",
+      "alert_type": "income_mismatch",
+      "severity": "high",
+      "description": "Transaction volume (₹50L+) is grossly inconsistent with declared annual income of ₹8L",
+      "generated_at": "2024-01-17T10:10:00Z"
+    }
+  ]
+}

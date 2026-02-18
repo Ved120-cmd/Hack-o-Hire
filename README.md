@@ -1,190 +1,92 @@
-# Omega Finalization Stage
+# SAR Narrative Generator with Full Audit Trail
 
-## Overview
+AI-powered Suspicious Activity Report generation system with deterministic rule engine, ML classification, RAG-enhanced narrative generation, and immutable audit trail.
 
-The Omega finalization stage is the final step in the SAR generation pipeline. It takes a validated `ClaimObject` from the Delta stage (claim generation) and produces a finalized SAR report ready for regulatory filing.
-
-## Pipeline Position
+## Architecture
 
 ```
-Alpha (Ingestion) → Beta (KYC Enrichment) → Gamma (Rules Engine)
-→ Delta (Claim Generation) → Omega Finalization (YOU ARE HERE)
+Input JSON → Data Normalizer → Rule Engine (8 rules) → ML Classifier
+    → RAG Retrieval (ChromaDB) → Narrative Generator (LLM/Fallback)
+    → Audit Trail (every step logged)
 ```
 
-## Responsibilities
+## Quick Start
 
-1. **Take ClaimObject** from Delta stage (`claim_gen.generate_claim()`)
-2. **Generate SAR Narrative** via RAG pipeline + LLM (placeholder implementation)
-3. **Log Audit Events** to `audit_logs` table:
-   - `SAR_GENERATION_STARTED`
-   - `SAR_REPORT_GENERATED`
-   - `SAR_REPORT_SUBMITTED` (optional, if filing)
-4. **Update Claim Audit Trail** with Omega stage actions
-5. **Return Finalized Claim** ready for regulatory filing
+### Prerequisites
+- Python 3.11+, Node.js 20+, PostgreSQL 15+
+- (Optional) Docker & Docker Compose, Ollama for LLM
 
-## Integration Points
-
-### INPUT: Delta Stage (Claim Generation)
-
-```python
-from claim_gen.claim_gen import generate_claim
-
-claim = generate_claim(
-    case_id="sar-123",
-    alert_ids=["alert-1"],
-    customer_data={...},
-    pipeline_transforms=[...],
-    rule_results={...},
-    fraud_scores={...},
-    rag_results={...},
-)
+### 1. Environment Setup
+```bash
+cp .env.example .env
+# Edit .env with your database credentials
 ```
 
-### OUTPUT: Finalized Claim + Audit Events
-
-```python
-from backend.omega.omega_finalization import run_omega
-
-omega_result = run_omega(omega_input)
-# Returns:
-# {
-#     "case_id": str,
-#     "claim": Dict[str, Any],      # Finalized ClaimObject
-#     "narrative": str,              # SAR narrative text
-#     "audit_events": List[Dict],    # AuditLog entries created
-# }
+### 2. Backend
+```bash
+pip install -r requirements.txt
+uvicorn backend.api.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
-### AUDIT TRAIL CONNECTION
-
-All SAR events are logged to the `audit_logs` table using your exact `AuditLog` model:
-
-```python
-from backend.query_audit_trail import query_sar_trail
-
-# Query SAR-specific audit trail
-audit_logs = query_sar_trail(case_id)
-
-# Query pattern (from query_audit_trail.py):
-# db.query(AuditLog).filter(
-#     AuditLog.case_id == case_id,
-#     AuditLog.event_type.in_([
-#         AuditEventType.SAR_GENERATION_STARTED,
-#         AuditEventType.SAR_REPORT_GENERATED,
-#         AuditEventType.SAR_REPORT_SUBMITTED,
-#     ])
-# )
+### 3. Frontend
+```bash
+cd frontend
+npm install
+npm run dev
 ```
 
-### RAG PIPELINE CONNECTION (TODO)
-
-The `_generate_sar_narrative()` method is currently a placeholder. Replace it with your actual RAG pipeline + LLM integration:
-
-**Current Placeholder:**
-- Generates basic narrative from claim object fields
-- Uses `claim.regulatory_hooks` for regulatory references
-- Uses `claim.suspicious_patterns` for pattern summaries
-
-**Expected RAG Integration:**
-1. **RAG Retrieval:**
-   - Input: `claim.regulatory_hooks` (from Delta stage)
-   - Input: `claim.suspicious_patterns` (patterns detected)
-   - Output: Regulatory context + SAR templates
-
-2. **LLM Generation:**
-   - Input: RAG context + claim object
-   - Output: SAR narrative text
-   - Metadata: Token usage, model version, temperature
-
-**Integration Point:**
-```python
-# In omega_finalization.py, replace _generate_sar_narrative():
-def _generate_sar_narrative(self, claim: ClaimObject) -> Tuple[str, Dict]:
-    # TODO: Call RAG pipeline
-    rag_context = rag_service.retrieve(
-        regulatory_hooks=claim.regulatory_hooks,
-        patterns=claim.suspicious_patterns,
-    )
-    
-    # TODO: Call LLM
-    narrative = llm_service.generate(
-        prompt=build_prompt(rag_context, claim),
-        model="your-llm-model",
-    )
-    
-    return narrative, llm_metadata
+### 4. Docker (Alternative)
+```bash
+docker-compose up --build
 ```
 
-## Usage Example
+Open http://localhost:5173 → Register → Ingest a case → View results.
 
-See `example_usage.py` for a complete example showing:
-1. Delta stage claim generation
-2. Omega stage finalization
-3. Audit trail querying
+## API Endpoints
 
-## File Structure
+| Method | Path | Description |
+|--------|------|-------------|
+| POST | `/api/v1/auth/register` | Create account |
+| POST | `/api/v1/auth/login` | Get JWT token |
+| POST | `/api/v1/cases/ingest` | Run full pipeline |
+| GET | `/api/v1/cases` | List cases |
+| GET | `/api/v1/cases/{id}` | Case detail |
+| GET | `/api/v1/cases/{id}/narrative` | Get narrative |
+| PUT | `/api/v1/cases/{id}/narrative` | Edit narrative |
+| POST | `/api/v1/cases/{id}/narrative/approve` | Approve |
+| POST | `/api/v1/cases/{id}/narrative/reject` | Reject |
+| GET | `/api/v1/cases/{id}/audit` | Audit trail |
+| GET | `/api/v1/cases/{id}/audit/reconstruct` | Why-chain |
+| GET | `/api/v1/alerts` | List alerts |
+
+## Sample Data
+
+- `data/sample_input.json` – 50-txn structuring/layering scenario
+- `data/sample_output_narrative.md` – Expected SAR output
+- `data/sample_audit_record.json` – Full audit trail example
+
+## Project Structure
 
 ```
-backend/omega/
-├── __init__.py              # Package exports
-├── omega_finalization.py    # Main Omega implementation
-├── example_usage.py         # Usage examples
-└── README.md                # This file
+backend/
+├── api/           # FastAPI routes + main app
+├── core/          # Config, auth, database
+├── models/        # SQLAlchemy ORM models
+├── schemas/       # Pydantic request/response schemas
+└── services/      # Business logic (normalizer, rules, ML, RAG, narrative, audit, orchestrator)
+frontend/
+├── src/
+│   ├── App.jsx    # React SPA (dashboard, ingest, case detail, audit, alerts)
+│   ├── api.js     # API client
+│   └── index.css  # Design system
+data/              # Sample input/output
+scripts/           # RAG ingestion
 ```
 
-## Dependencies
+## Key Design Decisions
 
-- `backend.db.session.SessionLocal` - Database session factory
-- `backend.models.audit_log.AuditLog` - Audit log model
-- `claim_gen.models.claim_schema.ClaimObject` - Claim schema model
-- `claim_gen.claim_gen.generate_claim` - Claim generator function
-
-## Database Schema
-
-Uses your exact `audit_logs` table schema:
-- `event_type`: `SAR_GENERATION_STARTED`, `SAR_REPORT_GENERATED`, `SAR_REPORT_SUBMITTED`
-- `case_id`: Case identifier (indexed)
-- `sar_report_content`: Generated narrative text
-- `sar_report_metadata`: Generation metadata (LLM tokens, etc.)
-- `sar_filing_number`: Filing number (if submitted)
-- `environment_data`: Complete environment snapshot (JSONB)
-
-## Querying Audit Trail
-
-After Omega finalization, query the audit trail:
-
-```python
-from backend.query_audit_trail import query_sar_trail
-
-# Get all SAR events for a case
-audit_logs = query_sar_trail("sar-123")
-
-# Or query by filing number
-from backend.query_audit_trail import query_by_filing_number
-log = query_by_filing_number("SAR-2024-0001")
-```
-
-## Placeholders for Future Integration
-
-1. **RAG Pipeline** (`_generate_sar_narrative()`):
-   - Replace placeholder with actual RAG retrieval service
-   - Use `claim.regulatory_hooks` for context retrieval
-
-2. **LLM Service** (`_generate_sar_narrative()`):
-   - Replace placeholder with actual LLM API call
-   - Capture token usage and model metadata
-
-3. **Model Configuration**:
-   - Currently uses placeholder model names
-   - Replace with actual model versions from config
-
-4. **Error Handling**:
-   - Add retry logic for LLM calls
-   - Add fallback narrative generation
-
-## Notes
-
-- All audit events use your exact `AuditLog` model schema
-- Query patterns match your `query_audit_trail.py` implementation
-- Claim object updates follow your `claim_schema.py` structure
-- Environment data is captured exactly as provided in `omega_input`
+- **Rules before LLM**: Deterministic evaluation precedes LLM calls for explainability
+- **Immutable audit**: Append-only `audit_events` table for regulatory reconstruction
+- **Anti-hallucination**: Strict system prompt constrains LLM to evidence-only generation
+- **Template fallback**: Works without LLM — generates narrative from templates
+- **Versioned narratives**: Each edit creates a new version, preserving history

@@ -1,0 +1,37 @@
+# ============================================================
+# SAR Narrative Generator – Python Dependencies
+# ============================================================
+
+# --- Web Framework ---
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+python-multipart==0.0.9
+
+# --- Auth ---
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# --- Database ---
+sqlalchemy==2.0.35
+psycopg2-binary==2.9.9
+alembic==1.13.0
+
+# --- Data Processing ---
+pandas==2.2.0
+numpy==1.26.4
+pydantic==2.9.0
+pydantic-settings==2.5.0
+
+# --- ML ---
+scikit-learn==1.5.0
+
+# --- RAG / Embeddings ---
+chromadb==0.5.0
+sentence-transformers==3.0.0
+
+# --- LLM Integrations ---
+requests==2.32.0
+anthropic==0.34.0
+
+# --- Utilities ---
+python-dotenv==1.0.1

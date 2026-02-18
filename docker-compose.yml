@@ -1,9 +1,10 @@
 version: '3.8'
 
 services:
+  # ---- PostgreSQL ----
   postgres:
     image: postgres:15-alpine
-    container_name: sar_audit_db
+    container_name: sar_postgres
     environment:
       POSTGRES_USER: ${POSTGRES_USER:-user}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-password}
@@ -20,8 +21,62 @@ services:
     networks:
       - sar_network
 
+  # ---- ChromaDB vector store ----
+  chromadb:
+    image: chromadb/chroma:latest
+    container_name: sar_chromadb
+    ports:
+      - "8100:8000"
+    volumes:
+      - chroma_data:/chroma/chroma
+    environment:
+      ANONYMIZED_TELEMETRY: "false"
+    networks:
+      - sar_network
+
+  # ---- FastAPI Backend ----
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sar_backend
+    ports:
+      - "8000:8000"
+    environment:
+      POSTGRES_HOST: postgres
+      POSTGRES_USER: ${POSTGRES_USER:-user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-password}
+      POSTGRES_DB: ${POSTGRES_DB:-sar_audit}
+      POSTGRES_PORT: 5432
+      CHROMA_DB_PATH: /app/chroma_db
+      LLM_PROVIDER: ${LLM_PROVIDER:-ollama}
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+      JWT_SECRET_KEY: ${JWT_SECRET_KEY:-change-me-in-production}
+      ENVIRONMENT: ${ENVIRONMENT:-development}
+      DEBUG: ${DEBUG:-true}
+      CORS_ORIGINS: "http://localhost:5173,http://localhost:3000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - sar_network
+
+  # ---- React Frontend ----
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: sar_frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    networks:
+      - sar_network
+
 volumes:
   postgres_data:
+  chroma_data:
 
 networks:
   sar_network:

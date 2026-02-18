@@ -1,0 +1,3352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SARAA - UKFIU Compliant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'IBM Plex Sans', system-ui, sans-serif;
+      background: #F8FAFC;
+      overflow-x: hidden;
+    }
+    #root {
+      min-height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- React and Babel -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <!-- Application Code -->
+  <script type="text/babel">
+    const { useState, useEffect, useCallback, createContext, useContext } = React;
+
+    // ─── MOCK DATA ─────────────────────────────────────────────────────────────
+    const MOCK_USER = {
+      id: "ANA-2847",
+      name: "J. Hartwell",
+      role: "Senior Analyst",
+      purpose: "sar_drafting",
+    };
+
+    const MOCK_CASES = [
+      {
+        id: "SAR-2025-00142",
+        customerId: "CUST-****-7821",
+        typology: "Layering via Shell Entities",
+        riskScore: 87,
+        confidence: 91,
+        dataQuality: "HIGH",
+        status: "Human Review Required",
+        updated: "2025-02-14 16:42",
+      },
+      {
+        id: "SAR-2025-00138",
+        customerId: "CUST-****-4402",
+        typology: "Structuring / Smurfing",
+        riskScore: 74,
+        confidence: 83,
+        dataQuality: "MEDIUM",
+        status: "Reasoning Complete",
+        updated: "2025-02-14 11:20",
+      },
+      {
+        id: "SAR-2025-00131",
+        customerId: "CUST-****-9913",
+        typology: "Trade-Based ML (TBML)",
+        riskScore: 92,
+        confidence: 95,
+        dataQuality: "HIGH",
+        status: "Regulator-Ready",
+        updated: "2025-02-13 09:05",
+      },
+      {
+        id: "SAR-2025-00127",
+        customerId: "CUST-****-3307",
+        typology: "High-Risk Jurisdiction Flows",
+        riskScore: 61,
+        confidence: 67,
+        dataQuality: "LOW",
+        status: "Awaiting Ingestion",
+        updated: "2025-02-12 14:33",
+      },
+      {
+        id: "SAR-2025-00119",
+        customerId: "CUST-****-6650",
+        typology: "PEP Exposure + Unusual Patterns",
+        riskScore: 79,
+        confidence: 88,
+        dataQuality: "HIGH",
+        status: "Returned",
+        updated: "2025-02-11 17:18",
+      },
+    ];
+
+    const TRIGGERED_RULES = [
+      {
+        id: "AML-VELOCITY-01",
+        title: "Transaction Velocity Anomaly",
+        severity: "HIGH",
+        description:
+          "42 transactions exceeding £9,000 threshold detected within 72-hour window. Pattern consistent with structured placement activity.",
+        evidenceCount: 8,
+        open: true,
+      },
+      {
+        id: "AML-STRUCT-02",
+        title: "Structuring Indicator",
+        severity: "HIGH",
+        description:
+          "Multiple cash deposits slightly below £10,000 reporting threshold across 6 branches. Temporal clustering identified.",
+        evidenceCount: 12,
+        open: false,
+      },
+      {
+        id: "AML-BEHAV-07",
+        title: "Behavioural Deviation from Customer Profile",
+        severity: "MEDIUM",
+        description:
+          "Transaction volume increased 340% versus 12-month baseline. Account activity inconsistent with declared business purpose.",
+        evidenceCount: 5,
+        open: false,
+      },
+    ];
+
+    const NARRATIVE_CONTENT = `Subject Overview
+
+The subject entity, a limited company incorporated in England and Wales (Company No. ****2847), maintains three accounts at this institution. The primary account (****7821) has been active since March 2019, with declared business activity in commercial property consultancy.
+
+Suspicious Activity Identified
+
+Between 14 November 2024 and 24 January 2025, the account received forty-two (42) structured cash deposits totalling £387,450. Each deposit was made below the £10,000 reporting threshold, with amounts ranging from £8,200 to £9,850. Deposits were made across six branch locations, with no discernible operational justification.
+
+Transaction analysis reveals that deposited funds were transferred within 24–72 hours to three third-party beneficiaries registered in jurisdictions flagged as high-risk by FATF: [ENTITY-A] in Cyprus, [ENTITY-B] in the UAE, and [ENTITY-C] in the British Virgin Islands.
+
+Risk Assessment
+
+The combination of structuring behaviour, rapid layering through offshore entities, and the significant deviation from the customer's declared business profile gives rise to a suspicion that the funds may represent the proceeds of criminal conduct, or may be intended for use in unlawful activity.
+
+This report is submitted in accordance with the Proceeds of Crime Act 2002 (POCA), Section 330.`;
+
+    // ─── SESSION TIMER ──────────────────────────────────────────────────────────
+    function useSessionTimer(initialSeconds = 1800) {
+      const [seconds, setSeconds] = useState(initialSeconds);
+      useEffect(() => {
+        const t = setInterval(() => setSeconds((s) => (s > 0 ? s - 1 : 0)), 1000);
+        return () => clearInterval(t);
+      }, []);
+      const m = String(Math.floor(seconds / 60)).padStart(2, "0");
+      const s = String(seconds % 60).padStart(2, "0");
+      return `${m}:${s}`;
+    }
+
+    // ─── COLOUR HELPERS ─────────────────────────────────────────────────────────
+    const STATUS_COLORS = {
+      "Awaiting Ingestion": { bg: "#FFF8E6", text: "#92600A", dot: "#F59E0B" },
+      "Reasoning Complete": { bg: "#EFF6FF", text: "#1D4ED8", dot: "#3B82F6" },
+      "Human Review Required": { bg: "#FFF1F2", text: "#9F1239", dot: "#F43F5E" },
+      "Regulator-Ready": { bg: "#F0FDF4", text: "#166534", dot: "#22C55E" },
+      Returned: { bg: "#F5F3FF", text: "#5B21B6", dot: "#8B5CF6" },
+    };
+
+    const QUALITY_COLORS = {
+      HIGH: { bg: "#F0FDF4", text: "#166534" },
+      MEDIUM: { bg: "#FFF8E6", text: "#92600A" },
+      LOW: { bg: "#FFF1F2", text: "#9F1239" },
+    };
+
+    const SEVERITY_COLORS = {
+      HIGH: { bg: "#FFF1F2", text: "#9F1239", border: "#FECDD3" },
+      MEDIUM: { bg: "#FFF8E6", text: "#92600A", border: "#FDE68A" },
+      LOW: { bg: "#F0FDF4", text: "#166534", border: "#BBF7D0" },
+    };
+
+    // ─── GOVERNANCE HEADER ──────────────────────────────────────────────────────
+    function GovernanceHeader({ user, sessionTime, onLogout }) {
+      return (
+        <header
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            right: 0,
+            height: 56,
+            background: "#FFFFFF",
+            borderBottom: "1px solid #E2E8F0",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            padding: "0 24px",
+            zIndex: 1000,
+            fontFamily: "'IBM Plex Sans', system-ui, sans-serif",
+          }}
+        >
+          {/* Left: Brand */}
+          <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+              <div
+                style={{
+                  width: 32,
+                  height: 32,
+                  background: "#0B3D91",
+                  borderRadius: 4,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </div>
+              <span
+                style={{
+                  fontWeight: 700,
+                  fontSize: 15,
+                  color: "#0B3D91",
+                  letterSpacing: "-0.01em",
+                }}
+              >
+                SARAA
+              </span>
+            </div>
+            <div
+              style={{
+                width: 1,
+                height: 28,
+                background: "#E2E8F0",
+                margin: "0 4px",
+              }}
+            />
+            <div style={{ display: "flex", gap: 8 }}>
+              {[
+                "On-Prem Deployment",
+                "UK Data Residency",
+                "Approved LLM: GOV-GPT-V1",
+              ].map((tag) => (
+                <span
+                  key={tag}
+                  style={{
+                    fontSize: 11,
+                    fontWeight: 500,
+                    color: "#0B3D91",
+                    background: "#E6F0FF",
+                    border: "1px solid #BFDBFE",
+                    borderRadius: 4,
+                    padding: "2px 8px",
+                    letterSpacing: "0.01em",
+                  }}
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* Right: User info */}
+          <div style={{ display: "flex", alignItems: "center", gap: 20 }}>
+            <div style={{ textAlign: "right" }}>
+              <div style={{ fontSize: 11, color: "#64748B", marginBottom: 1 }}>
+                Session expires
+              </div>
+              <div
+                style={{
+                  fontSize: 13,
+                  fontWeight: 600,
+                  color: sessionTime < "05:00" ? "#DC2626" : "#0B3D91",
+                  fontVariantNumeric: "tabular-nums",
+                }}
+              >
+                {sessionTime}
+              </div>
+            </div>
+            <div
+              style={{
+                width: 1,
+                height: 28,
+                background: "#E2E8F0",
+                margin: "0 4px",
+              }}
+            />
+            <div>
+              <div style={{ fontSize: 12, fontWeight: 600, color: "#0F172A" }}>
+                {user.name}
+              </div>
+              <div style={{ fontSize: 11, color: "#64748B" }}>
+                {user.id} · {user.role}
+              </div>
+            </div>
+            <span
+              style={{
+                fontSize: 11,
+                fontWeight: 500,
+                color: "#166534",
+                background: "#F0FDF4",
+                border: "1px solid #BBF7D0",
+                borderRadius: 4,
+                padding: "4px 10px",
+              }}
+            >
+              ✓ COMPLIANT
+            </span>
+            <span
+              style={{
+                fontSize: 11,
+                fontWeight: 500,
+                color: "#64748B",
+                background: "#F8FAFC",
+                border: "1px solid #E2E8F0",
+                borderRadius: 4,
+                padding: "4px 10px",
+              }}
+            >
+              Purpose: {user.purpose}
+            </span>
+            <button
+              onClick={onLogout}
+              style={{
+                background: "#FFFFFF",
+                color: "#DC2626",
+                border: "1px solid #FEE2E2",
+                borderRadius: 6,
+                padding: "6px 14px",
+                fontSize: 12,
+                fontWeight: 500,
+                display: "flex",
+                alignItems: "center",
+                gap: 6,
+                cursor: "pointer",
+                transition: "all 0.2s",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.background = "#FEF2F2";
+                e.currentTarget.style.borderColor = "#FCA5A5";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.background = "#FFFFFF";
+                e.currentTarget.style.borderColor = "#FEE2E2";
+              }}
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+              </svg>
+              Logout
+            </button>
+          </div>
+        </header>
+      );
+    }
+
+    // ─── SIDEBAR ────────────────────────────────────────────────────────────────
+    function Sidebar({ currentPage, navigate, activeCaseId }) {
+      const menuItems = [
+        { id: "dashboard", label: "Dashboard", icon: "▦" },
+        { id: "cases", label: "Cases", icon: "📁" },
+        { id: "audit", label: "Audit Bundles", icon: "📦" },
+        { id: "admin", label: "Admin", icon: "⚙" },
+      ];
+
+      const caseSteps = [
+        { id: "ingestion", label: "Data Ingestion" },
+        { id: "workbench", label: "Workbench" },
+        { id: "review", label: "Review" },
+        { id: "submission", label: "Submission" },
+        { id: "post-submission", label: "Confirmed" },
+      ];
+
+      return (
+        <div
+          style={{
+            position: "fixed",
+            left: 0,
+            top: 56,
+            width: 220,
+            height: "calc(100vh - 56px)",
+            background: "#FFFFFF",
+            borderRight: "1px solid #E2E8F0",
+            padding: "20px 0",
+            overflowY: "auto",
+            fontFamily: "'IBM Plex Sans', system-ui, sans-serif",
+          }}
+        >
+          {/* Main Menu */}
+          <div style={{ marginBottom: 24 }}>
+            {menuItems.map((item) => (
+              <button
+                key={item.id}
+                onClick={() => navigate(item.id)}
+                style={{
+                  width: "100%",
+                  padding: "10px 20px",
+                  display: "flex",
+                  alignItems: "center",
+                  gap: 10,
+                  background:
+                    currentPage === item.id ? "#E6F0FF" : "transparent",
+                  color: currentPage === item.id ? "#0B3D91" : "#64748B",
+                  border: "none",
+                  borderLeft:
+                    currentPage === item.id ? "3px solid #0B3D91" : "3px solid transparent",
+                  fontSize: 13,
+                  fontWeight: currentPage === item.id ? 600 : 400,
+                  cursor: "pointer",
+                  textAlign: "left",
+                  transition: "all 0.2s",
+                }}
+                onMouseEnter={(e) => {
+                  if (currentPage !== item.id) {
+                    e.currentTarget.style.background = "#F8FAFC";
+                  }
+                }}
+                onMouseLeave={(e) => {
+                  if (currentPage !== item.id) {
+                    e.currentTarget.style.background = "transparent";
+                  }
+                }}
+              >
+                <span style={{ fontSize: 16 }}>{item.icon}</span>
+                {item.label}
+              </button>
+            ))}
+          </div>
+
+          {/* Case Navigation */}
+          {activeCaseId && (
+            <>
+              <div
+                style={{
+                  padding: "0 20px",
+                  marginBottom: 10,
+                }}
+              >
+                <div
+                  style={{
+                    fontSize: 10,
+                    fontWeight: 700,
+                    color: "#94A3B8",
+                    textTransform: "uppercase",
+                    letterSpacing: "0.06em",
+                    marginBottom: 8,
+                  }}
+                >
+                  Active Case
+                </div>
+                <div
+                  style={{
+                    fontSize: 11,
+                    fontFamily: "'IBM Plex Mono', monospace",
+                    color: "#0B3D91",
+                    background: "#E6F0FF",
+                    padding: "4px 8px",
+                    borderRadius: 4,
+                    fontWeight: 600,
+                  }}
+                >
+                  {activeCaseId}
+                </div>
+              </div>
+              <div style={{ marginTop: 16 }}>
+                {caseSteps.map((step, idx) => (
+                  <button
+                    key={step.id}
+                    onClick={() => navigate(step.id)}
+                    style={{
+                      width: "100%",
+                      padding: "8px 20px",
+                      display: "flex",
+                      alignItems: "center",
+                      gap: 8,
+                      background:
+                        currentPage === step.id ? "#E6F0FF" : "transparent",
+                      color: currentPage === step.id ? "#0B3D91" : "#64748B",
+                      border: "none",
+                      borderLeft:
+                        currentPage === step.id
+                          ? "3px solid #0B3D91"
+                          : "3px solid transparent",
+                      fontSize: 12,
+                      fontWeight: currentPage === step.id ? 600 : 400,
+                      cursor: "pointer",
+                      textAlign: "left",
+                      transition: "all 0.2s",
+                    }}
+                    onMouseEnter={(e) => {
+                      if (currentPage !== step.id) {
+                        e.currentTarget.style.background = "#F8FAFC";
+                      }
+                    }}
+                    onMouseLeave={(e) => {
+                      if (currentPage !== step.id) {
+                        e.currentTarget.style.background = "transparent";
+                      }
+                    }}
+                  >
+                    <span
+                      style={{
+                        fontSize: 10,
+                        fontWeight: 600,
+                        color: currentPage === step.id ? "#0B3D91" : "#CBD5E1",
+                      }}
+                    >
+                      {idx + 1}
+                    </span>
+                    {step.label}
+                  </button>
+                ))}
+              </div>
+            </>
+          )}
+        </div>
+      );
+    }
+
+    // ─── PAGE CONTENT WRAPPER ───────────────────────────────────────────────────
+    function PageContent({ children }) {
+      return (
+        <div
+          style={{
+            marginLeft: 220,
+            marginTop: 56,
+            minHeight: "calc(100vh - 56px)",
+            background: "#F8FAFC",
+          }}
+        >
+          {children}
+        </div>
+      );
+    }
+
+    // ─── PAGE HEADER ────────────────────────────────────────────────────────────
+    function PageHeader({ title, subtitle }) {
+      return (
+        <div
+          style={{
+            background: "#FFFFFF",
+            borderBottom: "1px solid #E2E8F0",
+            padding: "20px 32px",
+          }}
+        >
+          <h1
+            style={{
+              fontSize: 20,
+              fontWeight: 700,
+              color: "#0B3D91",
+              marginBottom: 4,
+            }}
+          >
+            {title}
+          </h1>
+          {subtitle && (
+            <p style={{ fontSize: 13, color: "#64748B" }}>{subtitle}</p>
+          )}
+        </div>
+      );
+    }
+
+    // ─── NAVIGATION BUTTONS ─────────────────────────────────────────────────────
+    function NavigationButtons({ onBack, onNext, nextLabel = "Continue", nextDisabled = false }) {
+      return (
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            gap: 16,
+            padding: "20px 32px",
+            background: "#FFFFFF",
+            borderTop: "1px solid #E2E8F0",
+          }}
+        >
+          {onBack ? (
+            <button
+              onClick={onBack}
+              style={{
+                background: "#FFFFFF",
+                color: "#0B3D91",
+                border: "1px solid #BFDBFE",
+                borderRadius: 6,
+                padding: "8px 16px",
+                fontSize: 13,
+                fontWeight: 500,
+                display: "flex",
+                alignItems: "center",
+                gap: 6,
+                cursor: "pointer",
+                transition: "all 0.2s",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.background = "#F8FAFC";
+                e.currentTarget.style.borderColor = "#93C5FD";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.background = "#FFFFFF";
+                e.currentTarget.style.borderColor = "#BFDBFE";
+              }}
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+              </svg>
+              Back
+            </button>
+          ) : (
+            <div />
+          )}
+          {onNext && (
+            <button
+              onClick={onNext}
+              disabled={nextDisabled}
+              style={{
+                background: nextDisabled ? "#CBD5E1" : "#0B3D91",
+                color: "#FFFFFF",
+                border: "none",
+                borderRadius: 6,
+                padding: "8px 20px",
+                fontSize: 13,
+                fontWeight: 600,
+                display: "flex",
+                alignItems: "center",
+                gap: 6,
+                cursor: nextDisabled ? "not-allowed" : "pointer",
+                transition: "all 0.2s",
+                opacity: nextDisabled ? 0.6 : 1,
+              }}
+              onMouseEnter={(e) => {
+                if (!nextDisabled) {
+                  e.currentTarget.style.background = "#1D4ED8";
+                }
+              }}
+              onMouseLeave={(e) => {
+                if (!nextDisabled) {
+                  e.currentTarget.style.background = "#0B3D91";
+                }
+              }}
+            >
+              {nextLabel}
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          )}
+        </div>
+      );
+    }
+
+    // ─── STATUS BADGE ───────────────────────────────────────────────────────────
+    function StatusBadge({ status }) {
+      const colors = STATUS_COLORS[status] || STATUS_COLORS["Awaiting Ingestion"];
+      return (
+        <span
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: 6,
+            background: colors.bg,
+            color: colors.text,
+            padding: "4px 10px",
+            borderRadius: 4,
+            fontSize: 11,
+            fontWeight: 500,
+          }}
+        >
+          <span
+            style={{
+              width: 6,
+              height: 6,
+              borderRadius: "50%",
+              background: colors.dot,
+            }}
+          />
+          {status}
+        </span>
+      );
+    }
+
+    // ─── DATA QUALITY BADGE ─────────────────────────────────────────────────────
+    function DataQualityBadge({ quality }) {
+      const colors = QUALITY_COLORS[quality] || QUALITY_COLORS.MEDIUM;
+      return (
+        <span
+          style={{
+            background: colors.bg,
+            color: colors.text,
+            padding: "2px 8px",
+            borderRadius: 4,
+            fontSize: 10,
+            fontWeight: 600,
+            fontFamily: "'IBM Plex Mono', monospace",
+            letterSpacing: "0.05em",
+          }}
+        >
+          {quality}
+        </span>
+      );
+    }
+
+    // ─── LOGIN PAGE ─────────────────────────────────────────────────────────────
+    function LoginPage({ onLogin }) {
+      const [userId, setUserId] = useState("");
+      const [password, setPassword] = useState("");
+
+      const handleSubmit = (e) => {
+        e.preventDefault();
+        if (userId === "analyst" && password === "demo2025") {
+          onLogin();
+        } else {
+          alert("Invalid credentials. Use: analyst / demo2025");
+        }
+      };
+
+      return (
+        <div
+          style={{
+            minHeight: "100vh",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            background: "linear-gradient(135deg, #0B3D91 0%, #1D4ED8 100%)",
+            fontFamily: "'IBM Plex Sans', system-ui, sans-serif",
+          }}
+        >
+          <div
+            style={{
+              width: 440,
+              background: "#FFFFFF",
+              borderRadius: 12,
+              padding: 40,
+              boxShadow: "0 20px 60px rgba(0,0,0,0.3)",
+            }}
+          >
+            {/* Logo */}
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: 12,
+                marginBottom: 32,
+                justifyContent: "center",
+              }}
+            >
+              <div
+                style={{
+                  width: 48,
+                  height: 48,
+                  background: "#0B3D91",
+                  borderRadius: 8,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </div>
+              <div>
+                <div
+                  style={{
+                    fontSize: 20,
+                    fontWeight: 700,
+                    color: "#0B3D91",
+                    letterSpacing: "-0.02em",
+                  }}
+                >
+                  SARAA
+                </div>
+                <div
+                  style={{
+                    fontSize: 11,
+                    color: "#64748B",
+                    fontFamily: "'IBM Plex Mono', monospace",
+                    letterSpacing: "0.05em",
+                  }}
+                >
+                  UKFIU COMPLIANT SYSTEM
+                </div>
+              </div>
+            </div>
+
+            {/* Governance Banner */}
+            <div
+              style={{
+                background: "#E6F0FF",
+                border: "1px solid #BFDBFE",
+                borderRadius: 8,
+                padding: 16,
+                marginBottom: 24,
+              }}
+            >
+              <div
+                style={{
+                  fontSize: 11,
+                  fontWeight: 600,
+                  color: "#0B3D91",
+                  marginBottom: 8,
+                }}
+              >
+                🔒 Secure Environment
+              </div>
+              <div style={{ fontSize: 11, color: "#374151", lineHeight: 1.5 }}>
+                On-premises deployment · UK data residency · MFA required ·
+                Session logging enabled
+              </div>
+            </div>
+
+            {/* Login Form */}
+            <form onSubmit={handleSubmit}>
+              <div style={{ marginBottom: 20 }}>
+                <label
+                  style={{
+                    display: "block",
+                    fontSize: 12,
+                    fontWeight: 600,
+                    color: "#374151",
+                    marginBottom: 6,
+                  }}
+                >
+                  Analyst ID
+                </label>
+                <input
+                  type="text"
+                  value={userId}
+                  onChange={(e) => setUserId(e.target.value)}
+                  placeholder="Enter your analyst ID"
+                  style={{
+                    width: "100%",
+                    padding: "10px 12px",
+                    fontSize: 13,
+                    border: "1px solid #CBD5E1",
+                    borderRadius: 6,
+                    fontFamily: "'IBM Plex Mono', monospace",
+                    outline: "none",
+                    transition: "all 0.2s",
+                  }}
+                  onFocus={(e) => {
+                    e.currentTarget.style.borderColor = "#0B3D91";
+                    e.currentTarget.style.boxShadow = "0 0 0 3px rgba(11,61,145,0.1)";
+                  }}
+                  onBlur={(e) => {
+                    e.currentTarget.style.borderColor = "#CBD5E1";
+                    e.currentTarget.style.boxShadow = "none";
+                  }}
+                />
+              </div>
+
+              <div style={{ marginBottom: 24 }}>
+                <label
+                  style={{
+                    display: "block",
+                    fontSize: 12,
+                    fontWeight: 600,
+                    color: "#374151",
+                    marginBottom: 6,
+                  }}
+                >
+                  Password
+                </label>
+                <input
+                  type="password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  placeholder="Enter your password"
+                  style={{
+                    width: "100%",
+                    padding: "10px 12px",
+                    fontSize: 13,
+                    border: "1px solid #CBD5E1",
+                    borderRadius: 6,
+                    fontFamily: "'IBM Plex Mono', monospace",
+                    outline: "none",
+                    transition: "all 0.2s",
+                  }}
+                  onFocus={(e) => {
+                    e.currentTarget.style.borderColor = "#0B3D91";
+                    e.currentTarget.style.boxShadow = "0 0 0 3px rgba(11,61,145,0.1)";
+                  }}
+                  onBlur={(e) => {
+                    e.currentTarget.style.borderColor = "#CBD5E1";
+                    e.currentTarget.style.boxShadow = "none";
+                  }}
+                />
+              </div>
+
+              <button
+                type="submit"
+                style={{
+                  width: "100%",
+                  padding: "12px",
+                  background: "#0B3D91",
+                  color: "#FFFFFF",
+                  border: "none",
+                  borderRadius: 6,
+                  fontSize: 14,
+                  fontWeight: 600,
+                  cursor: "pointer",
+                  transition: "all 0.2s",
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.background = "#1D4ED8";
+                  e.currentTarget.style.transform = "translateY(-1px)";
+                  e.currentTarget.style.boxShadow = "0 4px 12px rgba(11,61,145,0.3)";
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.background = "#0B3D91";
+                  e.currentTarget.style.transform = "translateY(0)";
+                  e.currentTarget.style.boxShadow = "none";
+                }}
+              >
+                Authenticate & Enter
+              </button>
+            </form>
+
+            {/* Demo Credentials */}
+            <div
+              style={{
+                marginTop: 24,
+                padding: 12,
+                background: "#FFF8E6",
+                border: "1px solid #FDE68A",
+                borderRadius: 6,
+              }}
+            >
+              <div
+                style={{
+                  fontSize: 10,
+                  fontWeight: 600,
+                  color: "#92600A",
+                  marginBottom: 4,
+                }}
+              >
+                DEMO CREDENTIALS
+              </div>
+              <div
+                style={{
+                  fontSize: 11,
+                  color: "#374151",
+                  fontFamily: "'IBM Plex Mono', monospace",
+                }}
+              >
+                ID: <strong>analyst</strong> · Password: <strong>demo2025</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    // ─── DASHBOARD PAGE ─────────────────────────────────────────────────────────
+    function DashboardPage({ navigate, setActiveCase }) {
+      const statusGroups = {
+        "Awaiting Ingestion": [],
+        "Reasoning Complete": [],
+        "Human Review Required": [],
+        "Regulator-Ready": [],
+        Returned: [],
+      };
+
+      MOCK_CASES.forEach((c) => {
+        if (statusGroups[c.status]) {
+          statusGroups[c.status].push(c);
+        }
+      });
+
+      const handleCaseClick = (caseItem) => {
+        setActiveCase(caseItem.id);
+        navigate("ingestion");
+      };
+
+      return (
+        <>
+          <PageHeader
+            title="Case Management Dashboard"
+            subtitle="SAR pipeline overview · Active cases · Quality monitoring"
+          />
+          <div style={{ padding: "24px 32px" }}>
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(5, 1fr)",
+                gap: 20,
+              }}
+            >
+              {Object.entries(statusGroups).map(([status, cases]) => (
+                <div key={status}>
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: 8,
+                      marginBottom: 12,
+                    }}
+                  >
+                    <StatusBadge status={status} />
+                    <span
+                      style={{
+                        fontSize: 16,
+                        fontWeight: 700,
+                        color: "#0F172A",
+                      }}
+                    >
+                      {cases.length}
+                    </span>
+                  </div>
+                  <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+                    {cases.map((c) => (
+                      <div
+                        key={c.id}
+                        onClick={() => handleCaseClick(c)}
+                        style={{
+                          background: "#FFFFFF",
+                          border: "1px solid #E2E8F0",
+                          borderRadius: 8,
+                          padding: 16,
+                          cursor: "pointer",
+                          transition: "all 0.2s",
+                        }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.borderColor = "#BFDBFE";
+                          e.currentTarget.style.boxShadow = "0 4px 12px rgba(11,61,145,0.1)";
+                          e.currentTarget.style.transform = "translateY(-2px)";
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.borderColor = "#E2E8F0";
+                          e.currentTarget.style.boxShadow = "none";
+                          e.currentTarget.style.transform = "translateY(0)";
+                        }}
+                      >
+                        <div
+                          style={{
+                            fontSize: 11,
+                            fontWeight: 600,
+                            color: "#0B3D91",
+                            fontFamily: "'IBM Plex Mono', monospace",
+                            marginBottom: 6,
+                          }}
+                        >
+                          {c.id}
+                        </div>
+                        <div
+                          style={{
+                            fontSize: 12,
+                            color: "#0F172A",
+                            fontWeight: 500,
+                            marginBottom: 8,
+                            lineHeight: 1.4,
+                          }}
+                        >
+                          {c.typology}
+                        </div>
+                        <div
+                          style={{
+                            display: "flex",
+                            justifyContent: "space-between",
+                            alignItems: "center",
+                            marginBottom: 8,
+                          }}
+                        >
+                          <span style={{ fontSize: 10, color: "#64748B" }}>
+                            Risk Score
+                          </span>
+                          <span
+                            style={{
+                              fontSize: 14,
+                              fontWeight: 700,
+                              color:
+                                c.riskScore >= 80
+                                  ? "#DC2626"
+                                  : c.riskScore >= 60
+                                  ? "#F59E0B"
+                                  : "#0B3D91",
+                            }}
+                          >
+                            {c.riskScore}
+                          </span>
+                        </div>
+                        <div
+                          style={{
+                            display: "flex",
+                            justifyContent: "space-between",
+                            alignItems: "center",
+                            paddingTop: 8,
+                            borderTop: "1px solid #F1F5F9",
+                          }}
+                        >
+                          <DataQualityBadge quality={c.dataQuality} />
+                          <span style={{ fontSize: 10, color: "#94A3B8" }}>
+                            {c.updated}
+                          </span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </>
+      );
+    }
+
+    // ─── CASES PAGE ─────────────────────────────────────────────────────────────
+    function CasesPage({ navigate, setActiveCase }) {
+      const handleCaseClick = (caseItem) => {
+        setActiveCase(caseItem.id);
+        navigate("ingestion");
+      };
+
+      return (
+        <>
+          <PageHeader
+            title="All Cases"
+            subtitle="Complete case list · Search and filter"
+          />
+          <div style={{ padding: "24px 32px" }}>
+            <div
+              style={{
+                background: "#FFFFFF",
+                border: "1px solid #E2E8F0",
+                borderRadius: 8,
+                overflow: "hidden",
+              }}
+            >
+              <table style={{ width: "100%", borderCollapse: "collapse" }}>
+                <thead>
+                  <tr
+                    style={{
+                      background: "#F8FAFC",
+                      borderBottom: "1px solid #E2E8F0",
+                    }}
+                  >
+                    {["Case ID", "Customer", "Typology", "Risk", "Confidence", "Quality", "Status", "Updated"].map(
+                      (h) => (
+                        <th
+                          key={h}
+                          style={{
+                            padding: "12px 16px",
+                            textAlign: "left",
+                            fontSize: 11,
+                            fontWeight: 700,
+                            color: "#64748B",
+                            textTransform: "uppercase",
+                            letterSpacing: "0.05em",
+                          }}
+                        >
+                          {h}
+                        </th>
+                      )
+                    )}
+                  </tr>
+                </thead>
+                <tbody>
+                  {MOCK_CASES.map((c, idx) => (
+                    <tr
+                      key={c.id}
+                      onClick={() => handleCaseClick(c)}
+                      style={{
+                        borderBottom:
+                          idx < MOCK_CASES.length - 1
+                            ? "1px solid #F1F5F9"
+                            : "none",
+                        cursor: "pointer",
+                        transition: "background 0.2s",
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.background = "#F8FAFC";
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.background = "#FFFFFF";
+                      }}
+                    >
+                      <td
+                        style={{
+                          padding: "12px 16px",
+                          fontSize: 12,
+                          fontWeight: 600,
+                          color: "#0B3D91",
+                          fontFamily: "'IBM Plex Mono', monospace",
+                        }}
+                      >
+                        {c.id}
+                      </td>
+                      <td
+                        style={{
+                          padding: "12px 16px",
+                          fontSize: 12,
+                          color: "#64748B",
+                          fontFamily: "'IBM Plex Mono', monospace",
+                        }}
+                      >
+                        {c.customerId}
+                      </td>
+                      <td
+                        style={{
+                          padding: "12px 16px",
+                          fontSize: 12,
+                          color: "#0F172A",
+                        }}
+                      >
+                        {c.typology}
+                      </td>
+                      <td
+                        style={{
+                          padding: "12px 16px",
+                          fontSize: 13,
+                          fontWeight: 700,
+                          color:
+                            c.riskScore >= 80
+                              ? "#DC2626"
+                              : c.riskScore >= 60
+                              ? "#F59E0B"
+                              : "#0B3D91",
+                        }}
+                      >
+                        {c.riskScore}
+                      </td>
+                      <td
+                        style={{
+                          padding: "12px 16px",
+                          fontSize: 12,
+                          color: "#64748B",
+                        }}
+                      >
+                        {c.confidence}%
+                      </td>
+                      <td style={{ padding: "12px 16px" }}>
+                        <DataQualityBadge quality={c.dataQuality} />
+                      </td>
+                      <td style={{ padding: "12px 16px" }}>
+                        <StatusBadge status={c.status} />
+                      </td>
+                      <td
+                        style={{
+                          padding: "12px 16px",
+                          fontSize: 11,
+                          color: "#94A3B8",
+                        }}
+                      >
+                        {c.updated}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <NavigationButtons
+            onBack={() => navigate("dashboard")}
+            onNext={() => {
+              setActiveCase(MOCK_CASES[0].id);
+              navigate("ingestion");
+            }}
+            nextLabel="Open First Case"
+          />
+        </>
+      );
+    }
+
+    // ─── INGESTION PAGE ─────────────────────────────────────────────────────────
+    function IngestionPage({ caseId, navigate }) {
+      const [acknowledgedIssues, setAcknowledgedIssues] = useState(new Set());
+
+      const issues = [
+        {
+          id: "kyc-1",
+          type: "KYC Gap",
+          severity: "MEDIUM",
+          description: "Beneficial owner address missing for 1 entity",
+        },
+        {
+          id: "tx-1",
+          type: "Chain Break",
+          severity: "HIGH",
+          description: "3 transactions missing correspondent bank IDs",
+        },
+        {
+          id: "dup-1",
+          type: "Duplicate Alert",
+          severity: "LOW",
+          description: "Alert SAR-2025-00138 shares 4 transactions",
+        },
+      ];
+
+      const handleAcknowledge = (issueId) => {
+        setAcknowledgedIssues((prev) => new Set([...prev, issueId]));
+      };
+
+      const allAcknowledged = issues.every((i) => acknowledgedIssues.has(i.id));
+
+      return (
+        <>
+          <PageHeader
+            title="Data Ingestion & Trust Layer"
+            subtitle={`Case ${caseId} · Pre-reasoning quality validation`}
+          />
+          <div style={{ padding: "24px 32px" }}>
+            {/* Confidence Gauges */}
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(4, 1fr)",
+                gap: 20,
+                marginBottom: 24,
+              }}
+            >
+              {[
+                { label: "KYC Confidence", value: 87 },
+                { label: "Transaction Chain", value: 74 },
+                { label: "Alert Integrity", value: 91 },
+                { label: "Overall Trust", value: 83 },
+              ].map((gauge) => (
+                <div
+                  key={gauge.label}
+                  style={{
+                    background: "#FFFFFF",
+                    border: "1px solid #E2E8F0",
+                    borderRadius: 8,
+                    padding: 20,
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                  }}
+                >
+                  <ConfidenceGauge label={gauge.label} value={gauge.value} />
+                </div>
+              ))}
+            </div>
+
+            {/* Issues Panel */}
+            <div
+              style={{
+                background: "#FFFFFF",
+                border: "1px solid #E2E8F0",
+                borderRadius: 8,
+                overflow: "hidden",
+              }}
+            >
+              <div
+                style={{
+                  padding: "16px 20px",
+                  background: "#F8FAFC",
+                  borderBottom: "1px solid #E2E8F0",
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                }}
+              >
+                <h3
+                  style={{
+                    fontSize: 14,
+                    fontWeight: 700,
+                    color: "#0F172A",
+                  }}
+                >
+                  Flagged Issues
+                </h3>
+                <span
+                  style={{
+                    fontSize: 12,
+                    color: allAcknowledged ? "#166534" : "#64748B",
+                    fontWeight: 600,
+                  }}
+                >
+                  {acknowledgedIssues.size} of {issues.length} acknowledged
+                </span>
+              </div>
+              <div style={{ padding: 20 }}>
+                {issues.map((issue) => {
+                  const isAcknowledged = acknowledgedIssues.has(issue.id);
+                  const severityColors = SEVERITY_COLORS[issue.severity];
+                  return (
+                    <div
+                      key={issue.id}
+                      style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        padding: 16,
+                        background: isAcknowledged
+                          ? "#F0FDF4"
+                          : severityColors.bg,
+                        border: `1px solid ${
+                          isAcknowledged ? "#BBF7D0" : severityColors.border
+                        }`,
+                        borderRadius: 6,
+                        marginBottom: 12,
+                      }}
+                    >
+                      <div style={{ flex: 1 }}>
+                        <div
+                          style={{
+                            display: "flex",
+                            alignItems: "center",
+                            gap: 8,
+                            marginBottom: 4,
+                          }}
+                        >
+                          <span
+                            style={{
+                              fontSize: 10,
+                              fontWeight: 600,
+                              color: isAcknowledged
+                                ? "#166534"
+                                : severityColors.text,
+                              textTransform: "uppercase",
+                              letterSpacing: "0.05em",
+                            }}
+                          >
+                            {issue.type}
+                          </span>
+                          <span
+                            style={{
+                              fontSize: 9,
+                              fontWeight: 600,
+                              color: isAcknowledged
+                                ? "#166534"
+                                : severityColors.text,
+                              background: isAcknowledged
+                                ? "#BBF7D0"
+                                : "rgba(255,255,255,0.5)",
+                              padding: "2px 6px",
+                              borderRadius: 3,
+                            }}
+                          >
+                            {issue.severity}
+                          </span>
+                        </div>
+                        <div style={{ fontSize: 12, color: "#374151" }}>
+                          {issue.description}
+                        </div>
+                      </div>
+                      <button
+                        onClick={() => handleAcknowledge(issue.id)}
+                        disabled={isAcknowledged}
+                        style={{
+                          padding: "6px 14px",
+                          fontSize: 11,
+                          fontWeight: 600,
+                          background: isAcknowledged ? "transparent" : "#FFFFFF",
+                          color: isAcknowledged ? "#166534" : "#0B3D91",
+                          border: isAcknowledged
+                            ? "1px solid transparent"
+                            : "1px solid #BFDBFE",
+                          borderRadius: 4,
+                          cursor: isAcknowledged ? "default" : "pointer",
+                          transition: "all 0.2s",
+                        }}
+                      >
+                        {isAcknowledged ? "✓ Acknowledged" : "Acknowledge"}
+                      </button>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+          <NavigationButtons
+            onBack={() => navigate("cases")}
+            onNext={() => navigate("workbench")}
+            nextLabel="Proceed to Workbench"
+            nextDisabled={!allAcknowledged}
+          />
+        </>
+      );
+    }
+
+    // ─── CONFIDENCE GAUGE ───────────────────────────────────────────────────────
+    function ConfidenceGauge({ label, value }) {
+      const size = 90;
+      const r = (size - 12) / 2;
+      const circ = 2 * Math.PI * r;
+      const dash = (value / 100) * circ;
+      const color = value >= 80 ? "#0B3D91" : value >= 60 ? "#F59E0B" : "#DC2626";
+
+      return (
+        <div style={{ textAlign: "center" }}>
+          <svg
+            width={size}
+            height={size}
+            style={{ transform: "rotate(-90deg)", marginBottom: 8 }}
+          >
+            <circle
+              cx={size / 2}
+              cy={size / 2}
+              r={r}
+              fill="none"
+              stroke="#E6F0FF"
+              strokeWidth={8}
+            />
+            <circle
+              cx={size / 2}
+              cy={size / 2}
+              r={r}
+              fill="none"
+              stroke={color}
+              strokeWidth={8}
+              strokeDasharray={`${dash} ${circ - dash}`}
+              strokeLinecap="round"
+            />
+          </svg>
+          <div style={{ fontSize: 18, fontWeight: 700, color, marginBottom: 4 }}>
+            {value}%
+          </div>
+          <div style={{ fontSize: 11, color: "#64748B" }}>{label}</div>
+        </div>
+      );
+    }
+
+    // ─── WORKBENCH PAGE ─────────────────────────────────────────────────────────
+    function WorkbenchPage({ caseId, navigate }) {
+      const [openRules, setOpenRules] = useState(new Set(["AML-VELOCITY-01"]));
+
+      const toggleRule = (ruleId) => {
+        setOpenRules((prev) => {
+          const next = new Set(prev);
+          if (next.has(ruleId)) {
+            next.delete(ruleId);
+          } else {
+            next.add(ruleId);
+          }
+          return next;
+        });
+      };
+
+      return (
+        <>
+          <PageHeader
+            title="Investigation Workbench"
+            subtitle={`Case ${caseId} · Deterministic reasoning & narrative generation`}
+          />
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "380px 1fr",
+              height: "calc(100vh - 56px - 72px - 72px)",
+              overflow: "hidden",
+            }}
+          >
+            {/* Left: Reasoning Panel */}
+            <div
+              style={{
+                background: "#FFFFFF",
+                borderRight: "1px solid #E2E8F0",
+                overflowY: "auto",
+                padding: 20,
+              }}
+            >
+              <h3
+                style={{
+                  fontSize: 13,
+                  fontWeight: 700,
+                  color: "#0F172A",
+                  marginBottom: 16,
+                  textTransform: "uppercase",
+                  letterSpacing: "0.05em",
+                }}
+              >
+                Triggered Rules
+              </h3>
+              <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+                {TRIGGERED_RULES.map((rule) => {
+                  const isOpen = openRules.has(rule.id);
+                  const severityColors = SEVERITY_COLORS[rule.severity];
+                  return (
+                    <div
+                      key={rule.id}
+                      style={{
+                        border: `1px solid ${severityColors.border}`,
+                        borderRadius: 6,
+                        overflow: "hidden",
+                      }}
+                    >
+                      <button
+                        onClick={() => toggleRule(rule.id)}
+                        style={{
+                          width: "100%",
+                          padding: 12,
+                          background: severityColors.bg,
+                          border: "none",
+                          display: "flex",
+                          justifyContent: "space-between",
+                          alignItems: "center",
+                          cursor: "pointer",
+                          transition: "background 0.2s",
+                        }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.background = severityColors.bg;
+                          e.currentTarget.style.opacity = "0.8";
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.opacity = "1";
+                        }}
+                      >
+                        <div style={{ textAlign: "left", flex: 1 }}>
+                          <div
+                            style={{
+                              fontSize: 11,
+                              fontWeight: 600,
+                              color: severityColors.text,
+                              fontFamily: "'IBM Plex Mono', monospace",
+                              marginBottom: 3,
+                            }}
+                          >
+                            {rule.id}
+                          </div>
+                          <div
+                            style={{
+                              fontSize: 12,
+                              fontWeight: 600,
+                              color: "#0F172A",
+                            }}
+                          >
+                            {rule.title}
+                          </div>
+                        </div>
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke={severityColors.text}
+                          style={{
+                            transform: isOpen ? "rotate(180deg)" : "rotate(0deg)",
+                            transition: "transform 0.2s",
+                          }}
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M19 9l-7 7-7-7"
+                          />
+                        </svg>
+                      </button>
+                      {isOpen && (
+                        <div
+                          style={{
+                            padding: 12,
+                            background: "#FFFFFF",
+                            borderTop: `1px solid ${severityColors.border}`,
+                          }}
+                        >
+                          <div
+                            style={{
+                              fontSize: 12,
+                              color: "#374151",
+                              lineHeight: 1.5,
+                              marginBottom: 8,
+                            }}
+                          >
+                            {rule.description}
+                          </div>
+                          <div
+                            style={{
+                              display: "flex",
+                              justifyContent: "space-between",
+                              fontSize: 11,
+                              color: "#64748B",
+                            }}
+                          >
+                            <span>Evidence Count</span>
+                            <span style={{ fontWeight: 600, color: "#0B3D91" }}>
+                              {rule.evidenceCount}
+                            </span>
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Right: Narrative Editor */}
+            <div
+              style={{
+                background: "#F8FAFC",
+                overflowY: "auto",
+                padding: 32,
+              }}
+            >
+              <div
+                style={{
+                  background: "#FFFFFF",
+                  border: "1px solid #E2E8F0",
+                  borderRadius: 8,
+                  padding: 32,
+                  maxWidth: 800,
+                  margin: "0 auto",
+                }}
+              >
+                <h2
+                  style={{
+                    fontSize: 18,
+                    fontWeight: 700,
+                    color: "#0B3D91",
+                    marginBottom: 24,
+                    borderBottom: "2px solid #BFDBFE",
+                    paddingBottom: 12,
+                  }}
+                >
+                  SAR Narrative — Draft v1.0
+                </h2>
+                <div
+                  style={{
+                    fontSize: 13,
+                    lineHeight: 1.8,
+                    color: "#0F172A",
+                    whiteSpace: "pre-line",
+                  }}
+                >
+                  {NARRATIVE_CONTENT}
+                </div>
+              </div>
+            </div>
+          </div>
+          <NavigationButtons
+            onBack={() => navigate("ingestion")}
+            onNext={() => navigate("review")}
+            nextLabel="Continue to Review"
+          />
+        </>
+      );
+    }
+
+    // ─── REVIEW PAGE ────────────────────────────────────────────────────────────
+    function ReviewPage({ caseId, navigate }) {
+      const [editableContent, setEditableContent] = useState(NARRATIVE_CONTENT);
+      const [edits, setEdits] = useState([]);
+      const [showEditModal, setShowEditModal] = useState(false);
+      const [selectedText, setSelectedText] = useState("");
+      const [editReason, setEditReason] = useState("");
+      const [editDescription, setEditDescription] = useState("");
+      const [replacementText, setReplacementText] = useState("");
+
+      const handleTextSelection = () => {
+        const selection = window.getSelection();
+        const text = selection.toString();
+        if (text.length > 0) {
+          setSelectedText(text);
+          setReplacementText(text);
+          setShowEditModal(true);
+        }
+      };
+
+      const handleApplyEdit = () => {
+        if (!editReason || !replacementText) {
+          alert("Please provide a reason and replacement text");
+          return;
+        }
+
+        const newEdit = {
+          id: Date.now(),
+          original: selectedText,
+          replacement: replacementText,
+          reason: editReason,
+          description: editDescription,
+          timestamp: new Date().toLocaleString(),
+          analyst: "ANA-2847",
+        };
+
+        setEdits([...edits, newEdit]);
+        
+        // Apply the edit to the content
+        setEditableContent(editableContent.replace(selectedText, replacementText));
+        
+        // Reset modal
+        setShowEditModal(false);
+        setSelectedText("");
+        setReplacementText("");
+        setEditReason("");
+        setEditDescription("");
+      };
+
+      const renderContentWithChanges = () => {
+        let content = NARRATIVE_CONTENT;
+        edits.forEach((edit) => {
+          content = content.replace(
+            edit.original,
+            `<span style="background: #FEE2E2; text-decoration: line-through; color: #991B1B;">${edit.original}</span><span style="background: #DBEAFE; color: #1E40AF; font-weight: 600;"> ${edit.replacement}</span>`
+          );
+        });
+        return { __html: content.replace(/\n\n/g, '<br/><br/>') };
+      };
+
+      return (
+        <>
+          <PageHeader
+            title="Human Review & Editing"
+            subtitle={`Case ${caseId} · Version control · Track changes`}
+          />
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "1fr 1fr",
+              height: "calc(100vh - 56px - 72px - 72px)",
+              overflow: "hidden",
+            }}
+          >
+            {/* Left: Editable Content */}
+            <div
+              style={{
+                background: "#FFFFFF",
+                borderRight: "1px solid #E2E8F0",
+                overflowY: "auto",
+                padding: 32,
+              }}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                  marginBottom: 20,
+                  paddingBottom: 16,
+                  borderBottom: "2px solid #E2E8F0",
+                }}
+              >
+                <div>
+                  <h3 style={{ fontSize: 14, fontWeight: 700, color: "#0B3D91" }}>
+                    📝 Editor Panel
+                  </h3>
+                  <p style={{ fontSize: 11, color: "#64748B", marginTop: 4 }}>
+                    Select text to propose edits
+                  </p>
+                </div>
+                <div
+                  style={{
+                    fontSize: 11,
+                    color: "#0B3D91",
+                    background: "#E6F0FF",
+                    padding: "4px 10px",
+                    borderRadius: 4,
+                    fontWeight: 600,
+                  }}
+                >
+                  {edits.length} Edit{edits.length !== 1 ? "s" : ""} Made
+                </div>
+              </div>
+
+              <div
+                onMouseUp={handleTextSelection}
+                style={{
+                  fontSize: 13,
+                  lineHeight: 1.8,
+                  color: "#0F172A",
+                  whiteSpace: "pre-line",
+                  cursor: "text",
+                  userSelect: "text",
+                }}
+              >
+                {editableContent}
+              </div>
+
+              {/* Edit History */}
+              {edits.length > 0 && (
+                <div
+                  style={{
+                    marginTop: 32,
+                    paddingTop: 24,
+                    borderTop: "2px solid #E2E8F0",
+                  }}
+                >
+                  <h4
+                    style={{
+                      fontSize: 12,
+                      fontWeight: 700,
+                      color: "#0F172A",
+                      marginBottom: 12,
+                      textTransform: "uppercase",
+                      letterSpacing: "0.05em",
+                    }}
+                  >
+                    Edit History
+                  </h4>
+                  <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+                    {edits.map((edit) => (
+                      <div
+                        key={edit.id}
+                        style={{
+                          background: "#F8FAFC",
+                          border: "1px solid #E2E8F0",
+                          borderRadius: 6,
+                          padding: 12,
+                        }}
+                      >
+                        <div
+                          style={{
+                            display: "flex",
+                            justifyContent: "space-between",
+                            marginBottom: 8,
+                          }}
+                        >
+                          <span
+                            style={{
+                              fontSize: 10,
+                              fontWeight: 600,
+                              color: "#0B3D91",
+                              background: "#E6F0FF",
+                              padding: "2px 6px",
+                              borderRadius: 3,
+                            }}
+                          >
+                            {edit.reason}
+                          </span>
+                          <span
+                            style={{
+                              fontSize: 10,
+                              color: "#64748B",
+                            }}
+                          >
+                            {edit.timestamp}
+                          </span>
+                        </div>
+                        <div style={{ fontSize: 11, color: "#374151", marginBottom: 6 }}>
+                          <span style={{ color: "#DC2626", textDecoration: "line-through" }}>
+                            {edit.original}
+                          </span>
+                          {" → "}
+                          <span style={{ color: "#0B3D91", fontWeight: 600 }}>
+                            {edit.replacement}
+                          </span>
+                        </div>
+                        {edit.description && (
+                          <div
+                            style={{
+                              fontSize: 10,
+                              color: "#64748B",
+                              fontStyle: "italic",
+                            }}
+                          >
+                            {edit.description}
+                          </div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {/* Right: Preview with Track Changes */}
+            <div
+              style={{
+                background: "#F8FAFC",
+                overflowY: "auto",
+                padding: 32,
+              }}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                  marginBottom: 20,
+                  paddingBottom: 16,
+                  borderBottom: "2px solid #E2E8F0",
+                }}
+              >
+                <div>
+                  <h3 style={{ fontSize: 14, fontWeight: 700, color: "#0B3D91" }}>
+                    👁 Track Changes View
+                  </h3>
+                  <p style={{ fontSize: 11, color: "#64748B", marginTop: 4 }}>
+                    Live preview with all edits highlighted
+                  </p>
+                </div>
+              </div>
+
+              <div
+                style={{
+                  background: "#FFFFFF",
+                  border: "1px solid #E2E8F0",
+                  borderRadius: 8,
+                  padding: 32,
+                }}
+              >
+                <h2
+                  style={{
+                    fontSize: 18,
+                    fontWeight: 700,
+                    color: "#0B3D91",
+                    marginBottom: 24,
+                    borderBottom: "2px solid #BFDBFE",
+                    paddingBottom: 12,
+                  }}
+                >
+                  SAR Narrative — Draft v1.{edits.length}
+                </h2>
+                <div
+                  style={{
+                    fontSize: 13,
+                    lineHeight: 1.8,
+                    color: "#0F172A",
+                  }}
+                  dangerouslySetInnerHTML={renderContentWithChanges()}
+                />
+              </div>
+
+              {edits.length > 0 && (
+                <div
+                  style={{
+                    marginTop: 20,
+                    background: "#E6F0FF",
+                    border: "1px solid #BFDBFE",
+                    borderRadius: 8,
+                    padding: 16,
+                  }}
+                >
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: 8,
+                      fontSize: 11,
+                      color: "#0B3D91",
+                    }}
+                  >
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <strong>Version Control:</strong> All edits are logged with analyst ID, timestamp, and justification for audit compliance.
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Edit Modal */}
+          {showEditModal && (
+            <div
+              style={{
+                position: "fixed",
+                top: 0,
+                left: 0,
+                right: 0,
+                bottom: 0,
+                background: "rgba(0,0,0,0.5)",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                zIndex: 2000,
+              }}
+              onClick={() => setShowEditModal(false)}
+            >
+              <div
+                style={{
+                  background: "#FFFFFF",
+                  borderRadius: 12,
+                  padding: 32,
+                  width: 500,
+                  maxHeight: "80vh",
+                  overflowY: "auto",
+                  boxShadow: "0 20px 60px rgba(0,0,0,0.3)",
+                }}
+                onClick={(e) => e.stopPropagation()}
+              >
+                <h3
+                  style={{
+                    fontSize: 16,
+                    fontWeight: 700,
+                    color: "#0B3D91",
+                    marginBottom: 20,
+                  }}
+                >
+                  Propose Narrative Edit
+                </h3>
+
+                <div
+                  style={{
+                    padding: 12,
+                    background: "#E6F0FF",
+                    border: "1px solid #BFDBFE",
+                    borderRadius: 6,
+                    fontSize: 11,
+                    color: "#0B3D91",
+                    marginBottom: 20,
+                  }}
+                >
+                  All edits are versioned and attributed. A reason for change is mandatory under UKFIU governance policy.
+                </div>
+
+                <div style={{ marginBottom: 16 }}>
+                  <label
+                    style={{
+                      display: "block",
+                      fontSize: 12,
+                      fontWeight: 600,
+                      color: "#374151",
+                      marginBottom: 6,
+                    }}
+                  >
+                    Selected Text
+                  </label>
+                  <div
+                    style={{
+                      padding: 10,
+                      background: "#FEF2F2",
+                      border: "1px solid #FEE2E2",
+                      borderRadius: 6,
+                      fontSize: 12,
+                      color: "#991B1B",
+                      fontFamily: "'IBM Plex Mono', monospace",
+                    }}
+                  >
+                    {selectedText}
+                  </div>
+                </div>
+
+                <div style={{ marginBottom: 16 }}>
+                  <label
+                    style={{
+                      display: "block",
+                      fontSize: 12,
+                      fontWeight: 600,
+                      color: "#374151",
+                      marginBottom: 6,
+                    }}
+                  >
+                    Purpose of Change <span style={{ color: "#DC2626" }}>*</span>
+                  </label>
+                  <select
+                    value={editReason}
+                    onChange={(e) => setEditReason(e.target.value)}
+                    style={{
+                      width: "100%",
+                      padding: "8px 12px",
+                      fontSize: 13,
+                      border: "1px solid #CBD5E1",
+                      borderRadius: 6,
+                      outline: "none",
+                    }}
+                  >
+                    <option value="">— Select reason —</option>
+                    <option value="Clarification">Clarification</option>
+                    <option value="Tone Adjustment">Tone Adjustment</option>
+                    <option value="Regulatory Alignment">Regulatory Alignment</option>
+                    <option value="Additional Context">Additional Context</option>
+                    <option value="Correction">Correction</option>
+                  </select>
+                </div>
+
+                <div style={{ marginBottom: 16 }}>
+                  <label
+                    style={{
+                      display: "block",
+                      fontSize: 12,
+                      fontWeight: 600,
+                      color: "#374151",
+                      marginBottom: 6,
+                    }}
+                  >
+                    Replacement Text <span style={{ color: "#DC2626" }}>*</span>
+                  </label>
+                  <textarea
+                    value={replacementText}
+                    onChange={(e) => setReplacementText(e.target.value)}
+                    rows={3}
+                    style={{
+                      width: "100%",
+                      padding: "8px 12px",
+                      fontSize: 13,
+                      border: "1px solid #CBD5E1",
+                      borderRadius: 6,
+                      outline: "none",
+                      resize: "vertical",
+                      fontFamily: "'IBM Plex Sans', system-ui, sans-serif",
+                    }}
+                  />
+                </div>
+
+                <div style={{ marginBottom: 20 }}>
+                  <label
+                    style={{
+                      display: "block",
+                      fontSize: 12,
+                      fontWeight: 600,
+                      color: "#374151",
+                      marginBottom: 6,
+                    }}
+                  >
+                    Edit Description (Optional)
+                  </label>
+                  <textarea
+                    value={editDescription}
+                    onChange={(e) => setEditDescription(e.target.value)}
+                    placeholder="Briefly describe the nature and rationale for this edit..."
+                    rows={2}
+                    style={{
+                      width: "100%",
+                      padding: "8px 12px",
+                      fontSize: 13,
+                      border: "1px solid #CBD5E1",
+                      borderRadius: 6,
+                      outline: "none",
+                      resize: "vertical",
+                      fontFamily: "'IBM Plex Sans', system-ui, sans-serif",
+                    }}
+                  />
+                </div>
+
+                <div
+                  style={{
+                    display: "flex",
+                    gap: 12,
+                    justifyContent: "flex-end",
+                  }}
+                >
+                  <button
+                    onClick={() => setShowEditModal(false)}
+                    style={{
+                      padding: "8px 16px",
+                      background: "#FFFFFF",
+                      color: "#64748B",
+                      border: "1px solid #CBD5E1",
+                      borderRadius: 6,
+                      fontSize: 13,
+                      fontWeight: 500,
+                      cursor: "pointer",
+                    }}
+                  >
+                    Cancel
+                  </button>
+                  <button
+                    onClick={handleApplyEdit}
+                    style={{
+                      padding: "8px 20px",
+                      background: "#0B3D91",
+                      color: "#FFFFFF",
+                      border: "none",
+                      borderRadius: 6,
+                      fontSize: 13,
+                      fontWeight: 600,
+                      cursor: "pointer",
+                    }}
+                  >
+                    Apply Edit with Track Changes
+                  </button>
+                </div>
+              </div>
+            </div>
+          )}
+
+          <NavigationButtons
+            onBack={() => navigate("workbench")}
+            onNext={() => navigate("submission")}
+            nextLabel="Continue to Submission"
+          />
+        </>
+      );
+    }
+
+    // ─── SUBMISSION PAGE ────────────────────────────────────────────────────────
+    function SubmissionPage({ caseId, navigate }) {
+      const [checkedItems, setCheckedItems] = useState(new Set());
+
+      const checklistItems = [
+        { id: "sections", label: "All mandatory SAR sections complete" },
+        { id: "format", label: "Jurisdictional formatting validated" },
+        { id: "claims", label: "All claims mapped to evidence" },
+        { id: "confidence", label: "No unresolved low-confidence claims" },
+        { id: "review", label: "Human review completed" },
+      ];
+
+      const handleCheck = (itemId) => {
+        setCheckedItems((prev) => {
+          const next = new Set(prev);
+          if (next.has(itemId)) {
+            next.delete(itemId);
+          } else {
+            next.add(itemId);
+          }
+          return next;
+        });
+      };
+
+      const allChecked = checklistItems.every((item) => checkedItems.has(item.id));
+
+      return (
+        <>
+          <PageHeader
+            title="Regulator-Ready Submission Gate"
+            subtitle={`Case ${caseId} · Final validation · Compliance check`}
+          />
+          <div style={{ padding: "24px 32px" }}>
+            <div
+              style={{
+                background: "#FFFFFF",
+                border: "1px solid #E2E8F0",
+                borderRadius: 8,
+                padding: 24,
+                maxWidth: 700,
+                margin: "0 auto 24px",
+              }}
+            >
+              <h3
+                style={{
+                  fontSize: 14,
+                  fontWeight: 700,
+                  color: "#0F172A",
+                  marginBottom: 16,
+                }}
+              >
+                Compliance Checklist
+              </h3>
+              <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+                {checklistItems.map((item) => {
+                  const isChecked = checkedItems.has(item.id);
+                  return (
+                    <label
+                      key={item.id}
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: 12,
+                        padding: 12,
+                        background: isChecked ? "#F0FDF4" : "#F8FAFC",
+                        border: `1px solid ${
+                          isChecked ? "#BBF7D0" : "#E2E8F0"
+                        }`,
+                        borderRadius: 6,
+                        cursor: "pointer",
+                        transition: "all 0.2s",
+                      }}
+                    >
+                      <input
+                        type="checkbox"
+                        checked={isChecked}
+                        onChange={() => handleCheck(item.id)}
+                        style={{
+                          width: 18,
+                          height: 18,
+                          cursor: "pointer",
+                          accentColor: "#0B3D91",
+                        }}
+                      />
+                      <span
+                        style={{
+                          fontSize: 13,
+                          color: isChecked ? "#166534" : "#374151",
+                          fontWeight: isChecked ? 600 : 400,
+                        }}
+                      >
+                        {item.label}
+                      </span>
+                      {isChecked && (
+                        <span
+                          style={{
+                            marginLeft: "auto",
+                            fontSize: 16,
+                            color: "#166534",
+                          }}
+                        >
+                          ✓
+                        </span>
+                      )}
+                    </label>
+                  );
+                })}
+              </div>
+            </div>
+
+            <div
+              style={{
+                background: "#FFFFFF",
+                border: "1px solid #E2E8F0",
+                borderRadius: 8,
+                padding: 24,
+                maxWidth: 700,
+                margin: "0 auto",
+              }}
+            >
+              <h3
+                style={{
+                  fontSize: 14,
+                  fontWeight: 700,
+                  color: "#0F172A",
+                  marginBottom: 16,
+                }}
+              >
+                Export Options
+              </h3>
+              <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+                <button
+                  style={{
+                    padding: "12px 16px",
+                    background: "#F8FAFC",
+                    border: "1px solid #E2E8F0",
+                    borderRadius: 6,
+                    fontSize: 13,
+                    fontWeight: 600,
+                    color: "#0B3D91",
+                    cursor: "pointer",
+                    textAlign: "left",
+                    transition: "all 0.2s",
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.background = "#E6F0FF";
+                    e.currentTarget.style.borderColor = "#BFDBFE";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.background = "#F8FAFC";
+                    e.currentTarget.style.borderColor = "#E2E8F0";
+                  }}
+                >
+                  📄 Download SAR (PDF)
+                </button>
+                <button
+                  style={{
+                    padding: "12px 16px",
+                    background: "#F8FAFC",
+                    border: "1px solid #E2E8F0",
+                    borderRadius: 6,
+                    fontSize: 13,
+                    fontWeight: 600,
+                    color: "#0B3D91",
+                    cursor: "pointer",
+                    textAlign: "left",
+                    transition: "all 0.2s",
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.background = "#E6F0FF";
+                    e.currentTarget.style.borderColor = "#BFDBFE";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.background = "#F8FAFC";
+                    e.currentTarget.style.borderColor = "#E2E8F0";
+                  }}
+                >
+                  📦 Download Full Audit Bundle (ZIP)
+                </button>
+                <button
+                  style={{
+                    padding: "12px 16px",
+                    background: "#F8FAFC",
+                    border: "1px solid #E2E8F0",
+                    borderRadius: 6,
+                    fontSize: 13,
+                    fontWeight: 600,
+                    color: "#0B3D91",
+                    cursor: "pointer",
+                    textAlign: "left",
+                    transition: "all 0.2s",
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.background = "#E6F0FF";
+                    e.currentTarget.style.borderColor = "#BFDBFE";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.background = "#F8FAFC";
+                    e.currentTarget.style.borderColor = "#E2E8F0";
+                  }}
+                >
+                  🔗 Open UKFIU SAR Portal
+                </button>
+              </div>
+            </div>
+          </div>
+          <NavigationButtons
+            onBack={() => navigate("review")}
+            onNext={() => navigate("post-submission")}
+            nextLabel="Submit SAR"
+            nextDisabled={!allChecked}
+          />
+        </>
+      );
+    }
+
+    // ─── POST-SUBMISSION PAGE ───────────────────────────────────────────────────
+    function PostSubmissionPage({ caseId, navigate }) {
+      // Static submission time - set once when case is submitted
+      const submissionTime = "2/16/2025, 4:45:22 PM";
+      
+      return (
+        <>
+          <PageHeader
+            title="Submission Confirmed"
+            subtitle={`Case ${caseId} · SAR successfully submitted to UKFIU`}
+          />
+          <div
+            style={{
+              padding: "80px 32px",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <div
+              style={{
+                maxWidth: 600,
+                textAlign: "center",
+              }}
+            >
+              <div
+                style={{
+                  width: 80,
+                  height: 80,
+                  background: "#F0FDF4",
+                  border: "2px solid #BBF7D0",
+                  borderRadius: "50%",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  margin: "0 auto 24px",
+                }}
+              >
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#166534"
+                  strokeWidth="3"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+              </div>
+
+              <h2
+                style={{
+                  fontSize: 24,
+                  fontWeight: 700,
+                  color: "#0B3D91",
+                  marginBottom: 12,
+                }}
+              >
+                SAR Submitted Successfully
+              </h2>
+              <p
+                style={{
+                  fontSize: 14,
+                  color: "#64748B",
+                  lineHeight: 1.6,
+                  marginBottom: 32,
+                }}
+              >
+                Your Suspicious Activity Report has been successfully submitted to
+                the UKFIU portal. The full audit bundle has been archived for
+                7-year compliance retention.
+              </p>
+
+              <div
+                style={{
+                  background: "#FFFFFF",
+                  border: "1px solid #E2E8F0",
+                  borderRadius: 8,
+                  padding: 24,
+                  marginBottom: 32,
+                  textAlign: "left",
+                }}
+              >
+                <div
+                  style={{
+                    display: "grid",
+                    gridTemplateColumns: "1fr 1fr",
+                    gap: 16,
+                  }}
+                >
+                  <div>
+                    <div
+                      style={{
+                        fontSize: 11,
+                        color: "#64748B",
+                        marginBottom: 4,
+                      }}
+                    >
+                      Case ID
+                    </div>
+                    <div
+                      style={{
+                        fontSize: 13,
+                        fontWeight: 600,
+                        color: "#0B3D91",
+                        fontFamily: "'IBM Plex Mono', monospace",
+                      }}
+                    >
+                      {caseId}
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      style={{
+                        fontSize: 11,
+                        color: "#64748B",
+                        marginBottom: 4,
+                      }}
+                    >
+                      Submission Time
+                    </div>
+                    <div
+                      style={{
+                        fontSize: 13,
+                        fontWeight: 600,
+                        color: "#0F172A",
+                      }}
+                    >
+                      {submissionTime}
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      style={{
+                        fontSize: 11,
+                        color: "#64748B",
+                        marginBottom: 4,
+                      }}
+                    >
+                      Reference Number
+                    </div>
+                    <div
+                      style={{
+                        fontSize: 13,
+                        fontWeight: 600,
+                        color: "#0F172A",
+                        fontFamily: "'IBM Plex Mono', monospace",
+                      }}
+                    >
+                      UKFIU-2025-07142
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      style={{
+                        fontSize: 11,
+                        color: "#64748B",
+                        marginBottom: 4,
+                      }}
+                    >
+                      Audit Hash
+                    </div>
+                    <div
+                      style={{
+                        fontSize: 11,
+                        fontWeight: 600,
+                        color: "#0F172A",
+                        fontFamily: "'IBM Plex Mono', monospace",
+                      }}
+                    >
+                      SHA256:a7f3...
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                style={{
+                  background: "#E6F0FF",
+                  border: "1px solid #BFDBFE",
+                  borderRadius: 8,
+                  padding: 16,
+                  fontSize: 12,
+                  color: "#0B3D91",
+                  lineHeight: 1.6,
+                  marginBottom: 24,
+                }}
+              >
+                ⚠️ Once submitted, SARs cannot be retrieved from the UKFIU portal.
+                Your local audit bundle is the authoritative record for internal
+                compliance and supervision.
+              </div>
+
+              <button
+                onClick={() => navigate("dashboard")}
+                style={{
+                  padding: "12px 24px",
+                  background: "#0B3D91",
+                  color: "#FFFFFF",
+                  border: "none",
+                  borderRadius: 6,
+                  fontSize: 14,
+                  fontWeight: 600,
+                  cursor: "pointer",
+                  transition: "all 0.2s",
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.background = "#1D4ED8";
+                  e.currentTarget.style.transform = "translateY(-2px)";
+                  e.currentTarget.style.boxShadow = "0 4px 12px rgba(11,61,145,0.3)";
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.background = "#0B3D91";
+                  e.currentTarget.style.transform = "translateY(0)";
+                  e.currentTarget.style.boxShadow = "none";
+                }}
+              >
+                Return to Dashboard
+              </button>
+            </div>
+          </div>
+        </>
+      );
+    }
+
+    // ─── AUDIT PAGE ─────────────────────────────────────────────────────────────
+    function AuditPage() {
+      const [selectedCase, setSelectedCase] = useState(null);
+
+      const auditBundles = [
+        {
+          caseId: "SAR-2025-00142",
+          typology: "Layering via Shell Entities",
+          status: "Regulator-Ready",
+          bundleHash: "SHA256:9fae2d88c0a4c71e8f0b2e21ad7e4a9c",
+          created: "2025-02-14 17:45:22",
+          finalReport: "2.4 MB · PDF + XML",
+          envProfile: "ENV-ONPREM-01 · GOV-GPT-V1",
+          evidence: "47 objects · Hashed",
+          reasoning: "RA-7781 · 8 rules · 3 typologies",
+          claims: "23 claims · 87% avg confidence",
+          traceability: "42 sentences · Validated",
+          edits: "3 versions · 1 analyst",
+          retention: "WORM · Locked · Expires 2032-02-14"
+        },
+        {
+          caseId: "SAR-2025-00138",
+          typology: "Structuring / Smurfing",
+          status: "Reasoning Complete",
+          bundleHash: "SHA256:7bc3a91de8f2b4c6a9e1d5f7c8a2b3e4",
+          created: "2025-02-14 14:20:11",
+          finalReport: "1.8 MB · PDF",
+          envProfile: "ENV-ONPREM-01 · GOV-GPT-V1",
+          evidence: "34 objects · Hashed",
+          reasoning: "RA-7652 · 6 rules · 2 typologies",
+          claims: "18 claims · 83% avg confidence",
+          traceability: "0 sentences · Pending",
+          edits: "0 versions · 0 analysts",
+          retention: "WORM · Not locked"
+        },
+        {
+          caseId: "SAR-2025-00131",
+          typology: "Trade-Based ML (TBML)",
+          status: "Submitted",
+          bundleHash: "SHA256:a1f5e8d9c2b7a6e3f4d8c9b2a7e6f5d4",
+          created: "2025-02-13 16:30:45",
+          finalReport: "3.1 MB · PDF + XML",
+          envProfile: "ENV-ONPREM-01 · GOV-GPT-V1",
+          evidence: "62 objects · Hashed",
+          reasoning: "RA-7443 · 11 rules · 4 typologies",
+          claims: "31 claims · 92% avg confidence",
+          traceability: "58 sentences · Validated",
+          edits: "5 versions · 2 analysts",
+          retention: "WORM · Locked · Expires 2032-02-13"
+        }
+      ];
+
+      const currentBundle = selectedCase ? auditBundles.find(b => b.caseId === selectedCase) : null;
+
+      return (
+        <>
+          <PageHeader
+            title="Audit Bundles"
+            subtitle="Comprehensive regulator-ready bundles per case · WORM-compliant storage · 7-year retention"
+          />
+          <div style={{ padding: "24px 32px" }}>
+            <div
+              style={{
+                background: "#E6F0FF",
+                border: "1px solid #BFDBFE",
+                borderRadius: 8,
+                padding: 16,
+                fontSize: 12,
+                color: "#0B3D91",
+                lineHeight: 1.6,
+                marginBottom: 24,
+              }}
+            >
+              <strong>🔒 Audit Bundle Architecture:</strong> Each case generates one immutable audit bundle containing the final SAR, environment profile, evidence graph with cryptographic hashes, reasoning artifacts, claim objects, narrative traceability map, versioned edit history, and WORM-compliant retention metadata. These bundles ensure complete legal defensibility and eliminate the "black-box" problem.
+            </div>
+
+            {!selectedCase ? (
+              // List View: Show all cases
+              <>
+                <div style={{ fontSize: 13, fontWeight: 600, color: "#0F172A", marginBottom: 16 }}>
+                  Available Audit Bundles ({auditBundles.length})
+                </div>
+                <div
+                  style={{
+                    background: "#FFFFFF",
+                    border: "1px solid #E2E8F0",
+                    borderRadius: 8,
+                    overflow: "hidden",
+                  }}
+                >
+                  {auditBundles.map((bundle, idx) => (
+                    <div
+                      key={bundle.caseId}
+                      onClick={() => setSelectedCase(bundle.caseId)}
+                      style={{
+                        padding: "20px 24px",
+                        borderBottom: idx < auditBundles.length - 1 ? "1px solid #F1F5F9" : "none",
+                        cursor: "pointer",
+                        transition: "background 0.2s",
+                        display: "flex",
+                        justifyContent: "space-between",
+                        alignItems: "center"
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.background = "#F8FAFC";
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.background = "#FFFFFF";
+                      }}
+                    >
+                      <div style={{ flex: 1 }}>
+                        <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 8 }}>
+                          <div
+                            style={{
+                              fontSize: 13,
+                              fontWeight: 700,
+                              color: "#0B3D91",
+                              fontFamily: "'IBM Plex Mono', monospace",
+                            }}
+                          >
+                            {bundle.caseId}
+                          </div>
+                          <div
+                            style={{
+                              padding: "3px 8px",
+                              background: bundle.status === "Regulator-Ready" || bundle.status === "Submitted" ? "#F0FDF4" : "#FFF8E6",
+                              color: bundle.status === "Regulator-Ready" || bundle.status === "Submitted" ? "#166534" : "#92600A",
+                              borderRadius: 4,
+                              fontSize: 10,
+                              fontWeight: 600
+                            }}
+                          >
+                            {bundle.status}
+                          </div>
+                        </div>
+                        <div style={{ fontSize: 12, color: "#374151", marginBottom: 6 }}>
+                          {bundle.typology}
+                        </div>
+                        <div style={{ display: "flex", gap: 16, fontSize: 11, color: "#64748B" }}>
+                          <span>📦 Created: {bundle.created}</span>
+                          <span>📄 {bundle.finalReport}</span>
+                          <span>🔒 {bundle.retention.split(" · ")[0]}</span>
+                        </div>
+                      </div>
+                      <div
+                        style={{
+                          display: "flex",
+                          alignItems: "center",
+                          color: "#0B3D91",
+                          fontSize: 12,
+                          fontWeight: 600,
+                          gap: 6
+                        }}
+                      >
+                        View Bundle
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                        </svg>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </>
+            ) : (
+              // Detail View: Show selected case bundle
+              <>
+                <button
+                  onClick={() => setSelectedCase(null)}
+                  style={{
+                    padding: "8px 16px",
+                    background: "#FFFFFF",
+                    color: "#0B3D91",
+                    border: "1px solid #BFDBFE",
+                    borderRadius: 6,
+                    fontSize: 13,
+                    fontWeight: 500,
+                    display: "flex",
+                    alignItems: "center",
+                    gap: 6,
+                    cursor: "pointer",
+                    marginBottom: 24,
+                    transition: "all 0.2s"
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.background = "#F8FAFC";
+                    e.currentTarget.style.borderColor = "#93C5FD";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.background = "#FFFFFF";
+                    e.currentTarget.style.borderColor = "#BFDBFE";
+                  }}
+                >
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                  </svg>
+                  Back to Bundle List
+                </button>
+
+                <div
+                  style={{
+                    background: "#FFFFFF",
+                    border: "1px solid #E2E8F0",
+                    borderRadius: 8,
+                    padding: 24,
+                    marginBottom: 24
+                  }}
+                >
+                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 20 }}>
+                    <div>
+                      <div style={{ fontSize: 18, fontWeight: 700, color: "#0F172A", marginBottom: 4 }}>
+                        Audit Bundle: {currentBundle.caseId}
+                      </div>
+                      <div style={{ fontSize: 13, color: "#374151", marginBottom: 8 }}>
+                        {currentBundle.typology}
+                      </div>
+                      <div style={{ fontSize: 12, color: "#64748B" }}>
+                        Created: {currentBundle.created}
+                      </div>
+                    </div>
+                    <div style={{
+                      padding: "6px 12px",
+                      background: currentBundle.status === "Regulator-Ready" || currentBundle.status === "Submitted" ? "#F0FDF4" : "#FFF8E6",
+                      color: currentBundle.status === "Regulator-Ready" || currentBundle.status === "Submitted" ? "#166534" : "#92600A",
+                      borderRadius: 4,
+                      fontSize: 11,
+                      fontWeight: 600
+                    }}>
+                      {currentBundle.status}
+                    </div>
+                  </div>
+
+                  <div style={{ 
+                    padding: 16,
+                    background: "#F8FAFC",
+                    borderRadius: 6,
+                    marginBottom: 20,
+                    fontFamily: "'IBM Plex Mono', monospace"
+                  }}>
+                    <div style={{ fontSize: 11, color: "#64748B", marginBottom: 4 }}>Bundle Hash (Immutable)</div>
+                    <div style={{ fontSize: 12, fontWeight: 600, color: "#0B3D91" }}>
+                      {currentBundle.bundleHash}
+                    </div>
+                  </div>
+
+                  <div style={{ fontSize: 12, fontWeight: 700, color: "#0F172A", marginBottom: 16, textTransform: "uppercase", letterSpacing: "0.05em" }}>
+                    Bundle Contents
+                  </div>
+
+                  <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: 16 }}>
+                    {[
+                      { title: "Final SAR Report", icon: "📄", detail: currentBundle.finalReport },
+                      { title: "Environment Profile", icon: "⚙️", detail: currentBundle.envProfile },
+                      { title: "Evidence Graph & Lineage", icon: "🔗", detail: currentBundle.evidence },
+                      { title: "Reasoning Artifact", icon: "🧠", detail: currentBundle.reasoning },
+                      { title: "Claim Objects", icon: "✓", detail: currentBundle.claims },
+                      { title: "Narrative Traceability", icon: "🗺️", detail: currentBundle.traceability },
+                      { title: "Edit History (HITL)", icon: "📝", detail: currentBundle.edits },
+                      { title: "Retention Metadata", icon: "🔒", detail: currentBundle.retention }
+                    ].map((component, idx) => (
+                      <div
+                        key={idx}
+                        style={{
+                          background: "#F8FAFC",
+                          border: "1px solid #E2E8F0",
+                          borderRadius: 8,
+                          padding: 16
+                        }}
+                      >
+                        <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 8 }}>
+                          <span style={{ fontSize: 18 }}>{component.icon}</span>
+                          <div style={{ fontSize: 13, fontWeight: 700, color: "#0F172A" }}>
+                            {component.title}
+                          </div>
+                        </div>
+                        <div style={{ fontSize: 11, color: "#64748B" }}>
+                          {component.detail}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                <div style={{ display: "flex", gap: 12 }}>
+                  <button
+                    style={{
+                      padding: "12px 24px",
+                      background: "#0B3D91",
+                      color: "#FFFFFF",
+                      border: "none",
+                      borderRadius: 6,
+                      fontSize: 14,
+                      fontWeight: 600,
+                      cursor: "pointer",
+                      transition: "all 0.2s"
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.background = "#1D4ED8";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.background = "#0B3D91";
+                    }}
+                  >
+                    📦 Download Complete Bundle (ZIP)
+                  </button>
+                  <button
+                    style={{
+                      padding: "12px 24px",
+                      background: "#FFFFFF",
+                      color: "#0B3D91",
+                      border: "1px solid #0B3D91",
+                      borderRadius: 6,
+                      fontSize: 14,
+                      fontWeight: 600,
+                      cursor: "pointer",
+                      transition: "all 0.2s"
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.background = "#F8FAFC";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.background = "#FFFFFF";
+                    }}
+                  >
+                    📄 Export Bundle Manifest
+                  </button>
+                  <button
+                    style={{
+                      padding: "12px 24px",
+                      background: "#FFFFFF",
+                      color: "#0B3D91",
+                      border: "1px solid #E2E8F0",
+                      borderRadius: 6,
+                      fontSize: 14,
+                      fontWeight: 600,
+                      cursor: "pointer",
+                      transition: "all 0.2s"
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.background = "#F8FAFC";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.background = "#FFFFFF";
+                    }}
+                  >
+                    📋 View Audit Log
+                  </button>
+                </div>
+              </>
+            )}
+          </div>
+        </>
+      );
+    }
+
+    // ─── ADMIN PAGE ─────────────────────────────────────────────────────────────
+    function AdminPage() {
+      return (
+        <>
+          <PageHeader
+            title="Administration"
+            subtitle="System configuration · Role management · Policy settings"
+          />
+          <div style={{ padding: "24px 32px" }}>
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(3, 1fr)",
+                gap: 20,
+                marginBottom: 24,
+              }}
+            >
+              {[
+                { label: "Active Users", value: "14", sub: "3 roles configured" },
+                { label: "Policy Version", value: "v2.1", sub: "Rev: 2025-Q1" },
+                {
+                  label: "Model Approval",
+                  value: "GOV-GPT-V1",
+                  sub: "Approved · Valid",
+                },
+              ].map((card) => (
+                <div
+                  key={card.label}
+                  style={{
+                    background: "#FFFFFF",
+                    border: "1px solid #E2E8F0",
+                    borderRadius: 8,
+                    padding: 20,
+                  }}
+                >
+                  <div style={{ fontSize: 11, color: "#64748B", marginBottom: 6 }}>
+                    {card.label}
+                  </div>
+                  <div
+                    style={{
+                      fontSize: 20,
+                      fontWeight: 700,
+                      color: "#0B3D91",
+                      marginBottom: 4,
+                    }}
+                  >
+                    {card.value}
+                  </div>
+                  <div style={{ fontSize: 11, color: "#94A3B8" }}>{card.sub}</div>
+                </div>
+              ))}
+            </div>
+
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "1fr 1fr",
+                gap: 20,
+              }}
+            >
+              {/* User Roles */}
+              <div
+                style={{
+                  background: "#FFFFFF",
+                  border: "1px solid #E2E8F0",
+                  borderRadius: 8,
+                  overflow: "hidden",
+                }}
+              >
+                <div
+                  style={{
+                    padding: "12px 20px",
+                    background: "#F8FAFC",
+                    borderBottom: "1px solid #E2E8F0",
+                    fontSize: 12,
+                    fontWeight: 700,
+                    color: "#374151",
+                    textTransform: "uppercase",
+                    letterSpacing: "0.06em",
+                  }}
+                >
+                  User Roles
+                </div>
+                {[
+                  { role: "Analyst", users: 8, perms: "Draft, Ingest, Workbench" },
+                  {
+                    role: "Reviewer",
+                    users: 4,
+                    perms: "Review, Approve, Request Edit",
+                  },
+                  {
+                    role: "Supervisor",
+                    users: 2,
+                    perms: "All + Final Approval",
+                  },
+                ].map((r, i) => (
+                  <div
+                    key={r.role}
+                    style={{
+                      padding: "12px 20px",
+                      borderBottom: i < 2 ? "1px solid #F1F5F9" : "none",
+                    }}
+                  >
+                    <div
+                      style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                        marginBottom: 3,
+                      }}
+                    >
+                      <span
+                        style={{ fontSize: 13, fontWeight: 600, color: "#0F172A" }}
+                      >
+                        {r.role}
+                      </span>
+                      <span style={{ fontSize: 11, color: "#64748B" }}>
+                        {r.users} users
+                      </span>
+                    </div>
+                    <div style={{ fontSize: 11, color: "#94A3B8" }}>
+                      {r.perms}
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              {/* System Config */}
+              <div
+                style={{
+                  background: "#FFFFFF",
+                  border: "1px solid #E2E8F0",
+                  borderRadius: 8,
+                  overflow: "hidden",
+                }}
+              >
+                <div
+                  style={{
+                    padding: "12px 20px",
+                    background: "#F8FAFC",
+                    borderBottom: "1px solid #E2E8F0",
+                    fontSize: 12,
+                    fontWeight: 700,
+                    color: "#374151",
+                    textTransform: "uppercase",
+                    letterSpacing: "0.06em",
+                  }}
+                >
+                  System Configuration
+                </div>
+                {[
+                  { k: "Deployment Mode", v: "On-Premises" },
+                  { k: "Data Residency", v: "UK Only" },
+                  { k: "Encryption", v: "AES-256 at rest + transit" },
+                  { k: "Session Timeout", v: "30 minutes" },
+                  { k: "Audit Retention", v: "7 years (POCA compliance)" },
+                  { k: "LLM Approved", v: "GOV-GPT-V1" },
+                ].map((item) => (
+                  <div
+                    key={item.k}
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      padding: "9px 20px",
+                      borderBottom: "1px solid #F1F5F9",
+                      fontSize: 12,
+                    }}
+                  >
+                    <span style={{ color: "#64748B" }}>{item.k}</span>
+                    <span style={{ fontWeight: 600, color: "#0F172A" }}>
+                      {item.v}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </>
+      );
+    }
+
+    // ─── ROOT APPLICATION ────────────────────────────────────────────────────────
+    function App() {
+      const [authenticated, setAuthenticated] = useState(false);
+      const [currentPage, setCurrentPage] = useState("dashboard");
+      const [activeCaseId, setActiveCaseId] = useState(null);
+      const sessionTime = useSessionTimer(1800);
+
+      const navigate = useCallback((page) => {
+        setCurrentPage(page);
+        window.scrollTo(0, 0);
+      }, []);
+
+      const setActiveCase = useCallback((id) => {
+        setActiveCaseId(id);
+      }, []);
+
+      const logout = useCallback(() => {
+        setAuthenticated(false);
+        setCurrentPage("dashboard");
+        setActiveCaseId(null);
+      }, []);
+
+      // Only show login when not authenticated
+      if (!authenticated) {
+        return <LoginPage onLogin={() => setAuthenticated(true)} />;
+      }
+
+      // Render the appropriate page based on currentPage state
+      const renderPage = () => {
+        switch (currentPage) {
+          case "dashboard":
+            return (
+              <DashboardPage navigate={navigate} setActiveCase={setActiveCase} />
+            );
+          case "cases":
+            return (
+              <CasesPage navigate={navigate} setActiveCase={setActiveCase} />
+            );
+          case "audit":
+            return <AuditPage />;
+          case "admin":
+            return <AdminPage />;
+          case "ingestion":
+            return (
+              <IngestionPage
+                caseId={activeCaseId || "SAR-2025-00142"}
+                navigate={navigate}
+              />
+            );
+          case "workbench":
+            return (
+              <WorkbenchPage
+                caseId={activeCaseId || "SAR-2025-00142"}
+                navigate={navigate}
+              />
+            );
+          case "review":
+            return (
+              <ReviewPage
+                caseId={activeCaseId || "SAR-2025-00142"}
+                navigate={navigate}
+              />
+            );
+          case "submission":
+            return (
+              <SubmissionPage
+                caseId={activeCaseId || "SAR-2025-00142"}
+                navigate={navigate}
+              />
+            );
+          case "post-submission":
+            return (
+              <PostSubmissionPage caseId={activeCaseId || "SAR-2025-00142"} navigate={navigate} />
+            );
+          default:
+            return (
+              <DashboardPage navigate={navigate} setActiveCase={setActiveCase} />
+            );
+        }
+      };
+
+      return (
+        <div style={{ fontFamily: "'IBM Plex Sans', system-ui, sans-serif" }}>
+          <GovernanceHeader
+            user={MOCK_USER}
+            sessionTime={sessionTime}
+            onLogout={logout}
+          />
+          <Sidebar
+            currentPage={currentPage}
+            navigate={navigate}
+            activeCaseId={
+              ["ingestion", "workbench", "review", "submission", "post-submission"].includes(
+                currentPage
+              )
+                ? activeCaseId
+                : null
+            }
+          />
+          <PageContent>{renderPage()}</PageContent>
+        </div>
+      );
+    }
+
+    // ─── RENDER APP ─────────────────────────────────────────────────────────────
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<App />);
+  </script>
+</body>
+</html>
